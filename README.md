@@ -49,6 +49,8 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 1.png">
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 2.png">
 
-### Docentes:
-
+### Docentes del curso:
+- Umberto Lewis De la Cruz Rodriguez
+- Moises Stevend Meza Rodriguez
+  
 ### Referencias:
