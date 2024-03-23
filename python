@@ -1,0 +1,2 @@
+.gitattributes
+*.py linguist-detectable=false
