@@ -20,7 +20,8 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - [Resultados]
 - [Análisis de resultados]
 - [Conclusiones]
-- [Integrantes]
+- [Integrantes](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/e5a27426-1235-4263-99bc-ee82b777686e)
+
 - [Docentes del curso]
 - [Referencias]
 
