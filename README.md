@@ -12,7 +12,7 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - Harold Alonso Alemán Ramírez - harold.aleman@upch.pe
 
 ## Tabla de contenidos
-- [Resumen](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/8705cbdb-ddaa-479b-9129-f6dae7295b1f)
+- [Resumen](https://github.com/sofiacespedes22/ISB_2024_G8/tree/ae545ebc3c58bef4db97d63788a1c85c71ce8828/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO)
 - [Tipo de bioseñal trabajada](https://github.com/sofiacespedes22/ISB_2024_G8/tree/09f852d57f4bb3979d630271b06b71f81f6b575c/3.SOFTWARE)
 - [Introducción](https://github.com/sofiacespedes22/ISB_2024_G8/tree/72572d72a08903e9d41c50a9e9f397388879c74b/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO/2.1.INTRODUCCION)
 - [Estado del arte](https://github.com/sofiacespedes22/ISB_2024_G8/tree/09f852d57f4bb3979d630271b06b71f81f6b575c/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO/2.2.ESTADO%20DEL%20ARTE)
