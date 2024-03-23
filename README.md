@@ -12,7 +12,7 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - Harold Alonso Alemán Ramírez - harold.aleman@upch.pe
 
 ## Tabla de contenidos
-- [Resumen]
+- [Resumen](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/8705cbdb-ddaa-479b-9129-f6dae7295b1f)
 - [Tipo de bioseñal trabajada]
 - [Introducción]
 - [Estado del arte]
