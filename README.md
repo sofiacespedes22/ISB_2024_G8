@@ -1,5 +1,8 @@
 # ISB_2024_G8
+
 Bienvenidos al repositorio para el proyecto del curso de "Introducción a Señales Biomédicas" del Grupo 8. 
+
+![https://es.pngtree.com/freebackground/blue-electrocardiogram-medical-banner-background_1053126.html]
 
 Proyecto del curso: Análisis de señales de electrocardiograma (ECG) para la detección de arritmias.
 
@@ -10,6 +13,10 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
 - Chris Margory Viviano Salvatierra -chris.viviano@upch.pe
 - Harold Alonso Alemán Ramírez - harold.aleman@upch.pe
+
+## Docentes del curso:
+- Umberto Lewis De la Cruz Rodriguez
+- Moises Stevend Meza Rodriguez
 
 ## Tabla de contenidos
 - [Resumen](https://github.com/sofiacespedes22/ISB_2024_G8/tree/ae545ebc3c58bef4db97d63788a1c85c71ce8828/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO)
@@ -29,7 +36,3 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 #### Sobre nosotros
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 1.png">
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 2.png">
-
-### Docentes del curso:
-- Umberto Lewis De la Cruz Rodriguez
-- Moises Stevend Meza Rodriguez
