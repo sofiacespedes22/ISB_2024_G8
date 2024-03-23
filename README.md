@@ -15,7 +15,8 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - [Resumen](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/8705cbdb-ddaa-479b-9129-f6dae7295b1f)
 - [Tipo de bioseñal trabajada](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/64534deb-309e-4c42-8035-9acd3dda7b69)
 - [Introducción](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/7661a130-a2f2-402e-8e56-5ef65100c9bb)
-- [Estado del arte]
+- [Estado del arte](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/6aa903ee-1472-4d65-a505-e372191ba670)
+
 - [Metodología]
 - [Resultados]
 - [Análisis de resultados]
