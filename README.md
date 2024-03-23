@@ -23,3 +23,26 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - [Integrantes]
 - [Docentes del curso]
 - [Referencias]
+
+
+### Resumen:
+
+### Tipo de bioseñal trabajada:
+
+### Introducción:
+
+### Estado del arte:
+
+### Metodología:
+
+### Resultados:
+
+### Análisis de resultados:
+
+### Conclusiones:
+
+### Integrantes:
+
+### Docentes:
+
+### Referencias:
