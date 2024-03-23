@@ -5,7 +5,13 @@ Proyecto del curso: Análisis de señales de electrocardiograma (ECG) para la de
 
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección de arritmias en pacientes pediátricos.
 
-### Tabla de contenidos
+## Integrantes
+- Sofia Camila Céspedes Trece - sofia.cespedes@upch.pe
+- Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
+- Chris Margory Viviano Salvatierra -chris.viviano@upch.pe
+- Harold Alonso Alemán Ramírez - harold.aleman@upch.pe
+
+## Tabla de contenidos
 - [Resumen]
 - [Tipo de bioseñal trabajada]
 - [Introducción]
