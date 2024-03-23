@@ -7,7 +7,9 @@ Bienvenidos al repositorio para el proyecto del curso de "Introducción a Señal
 Proyecto del curso: Análisis de señales de electrocardiograma (ECG) para la detección de arritmias.
 
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección de arritmias en pacientes pediátricos.
+
 <image src ="4.IMAGENES/WhatsApp Image 2024-03-22 at 10.43.46 PM.jpeg">
+  
 ## Integrantes
 - Sofia Camila Céspedes Trece - sofia.cespedes@upch.pe
 - Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
