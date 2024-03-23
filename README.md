@@ -1,5 +1,5 @@
 # ISB_2024_G8
-Bienvenidos al repositorio para el proyecto del curso de "Introducción a Señales Biomédicas" del Grupo 7. 
+Bienvenidos al repositorio para el proyecto del curso de "Introducción a Señales Biomédicas" del Grupo 8. 
 
 Proyecto del curso: Análisis de señales de electrocardiograma (ECG) para la detección de arritmias.
 
