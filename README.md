@@ -44,6 +44,8 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 ### Integrantes:
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores.png"> 
+  
+#### Sobre nosotros
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 1.png">
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 2.png">
 
