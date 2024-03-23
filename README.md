@@ -21,7 +21,7 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - [Análisis de resultados](https://github.com/sofiacespedes22/ISB_2024_G8/tree/09f852d57f4bb3979d630271b06b71f81f6b575c/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO/2.4.RESULTADOS%20Y%20DISCUSION)
 - [Conclusiones](https://github.com/sofiacespedes22/ISB_2024_G8/tree/09f852d57f4bb3979d630271b06b71f81f6b575c/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO/2.4.RESULTADOS%20Y%20DISCUSION)
 - [Integrantes]()
-- [Referencias]([https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/21a600c1-bdee-42d8-aba4-083e109a1fd1](https://github.com/sofiacespedes22/ISB_2024_G8/tree/09f852d57f4bb3979d630271b06b71f81f6b575c/5.REFERENCIAS)
+- [Referencias](https://github.com/sofiacespedes22/ISB_2024_G8/tree/bd1a03e4fc114359a6b63da0ed126e7745ccfaad/1.MIEMBROS%20DEL%20EQUIPO)
 
 ### Conócenos un poco mas:
 <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores.png"> 
