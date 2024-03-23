@@ -21,7 +21,8 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - [Análisis de resultados](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/6b97f4cb-ce2d-478e-b3eb-69eabd6023bd)
 - [Conclusiones](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/9528a207-3414-4165-9975-98ba0137cdbb)
 - [Integrantes](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/e5a27426-1235-4263-99bc-ee82b777686e)
-- [Docentes del curso]
+- [Docentes del curso](https://github.com/sofiacespedes22/ISB_2024_G7/assets/164541825/696eec93-1039-40c3-a204-a4147e4da2b1)
+
 - [Referencias]
 
 
