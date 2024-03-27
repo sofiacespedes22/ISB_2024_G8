@@ -11,7 +11,7 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 ## Integrantes
 - Sofia Camila Céspedes Trece - sofia.cespedes@upch.pe
 - Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
-- Chris Margory Viviano Salvatierra -chris.viviano@upch.pe
+- Chris Margory Viviano Salvatierra - chris.viviano@upch.pe
 - Harold Alonso Alemán Ramírez - harold.aleman@upch.pe
 
 ## Docentes del curso:
