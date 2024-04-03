@@ -2,9 +2,9 @@
 
 **Bienvenidos al repositorio para el proyecto del curso de "Introducción a Señales Biomédicas" del Grupo 8.** 
 
-**Proyecto del curso**: Análisis de señales de electrocardiograma (ECG) para la detección de arritmias.
+**Proyecto del curso**: Desarrollo de un algoritmo para la detección de arritmias en adultos mayores a partir de la comparación de 2 clasificadores usando señales ECG 
 
-Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección de arritmias en pacientes pediátricos.
+Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
 
 <image src ="4.IMAGENES/WhatsApp Image 2024-03-22 at 10.43.46 PM.jpeg">
   
