@@ -138,6 +138,7 @@ Luego de dichas pruebas iniciales, se realizó la comparación de las señales g
 
 ### Señal cuadrada
 <div align="center">
+   
 | Arduino IDE | Osciloscopio | 
 | ------------ | ------------ | 
 | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/16d56625-1f72-4d93-8402-b55ecfc70aec"> | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e6bf875-2d0d-4e15-9270-9b9c87d6fe26"> | 
