@@ -61,7 +61,6 @@
 Antes de comenzar con la práctica de laboratorio, se configuró el generador de señales y el osciloscopio. El generador de señales fue configurado inicialmente para proporcionar una señal sinusoidal de 1 kHz de frecuencia, con 3V de amplitud y 0V de offset. Tras la configuración, se conectó el cable BNC entre los puertos del canal 1 tanto del generador de ondas como del osciloscopio, como se observa en la Figura 1.
 
 <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0561535c-8e5e-4988-8c1d-482a538f316a"> 
-</div>
 <image src ="|https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8a071497-cdd1-4dbc-bbfc-a00e4cfc48b5">
 <p align="center"><i>Figura 1. Configuración del generador de ondas para el ploteo de señales</i></p>
 
@@ -70,7 +69,7 @@ Antes de comenzar con la práctica de laboratorio, se configuró el generador de
 A partir del uso de los cursores y controles de posición vertical, horizontal y disparo se ajustó la visualización de la señal sinusoidal, considerando la escala en la que se encontraba la sonda. Se mostró las medidas de amplitud y periodo de la señal con el uso de estos cursores, como se observa en la Figura 2.
 
 </div>
-
+<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a873926-4777-4f71-a4b3-c66556a9b1cf">
 <p align="center"><i>Figura 2. Señal sinusoidal visualizada en el osciloscopio para el ploteo de señales</i></p>
 <a name="conec2"></a>
 ### 2. Conexión del arduino nano 33 IoT 
