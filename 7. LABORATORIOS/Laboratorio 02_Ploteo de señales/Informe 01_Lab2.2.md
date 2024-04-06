@@ -72,10 +72,12 @@ A partir del uso de los cursores y controles de posición vertical, horizontal y
 <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a873926-4777-4f71-a4b3-c66556a9b1cf">
 <p align="center"><i>Figura 2. Señal sinusoidal visualizada en el osciloscopio para el ploteo de señales</i></p>
 <a name="conec2"></a>
+   
 ### 2. Conexión del arduino nano 33 IoT 
 <div align="justify">
 Se realizó la conexión del Arduino nano 33 IoT conectado al protoboard junto a un condensador formando un filtro RC con el cable BNC para evaluar la señal sinusoidal enviada desde el generador de señales, observado en la Figura 3. 
-</div>
+
+<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f0490da-5c96-4ae8-99a6-f0bac5c4c7b2">
 <p align="center"><i>Figura 3. Conexión Arduino nano 33 IoT y cable BNC para el ploteo de señales</i></p>
 <div align="justify">
 De manera paralela, se modificó el código en Arduino SAMD adjuntado por los docentes para que permita leer el puerto por el cual esta conectado al generador y la visualización de la gráfica generada. El código modificado se encuentra adjuntado en la carpeta “Código”. A continuación, se visualiza los parámetros considerados para el ploteo de las señales que se compararán en la siguiente sección (ver Tabla 1).
@@ -99,7 +101,10 @@ En el presente informe, se generaron diferentes tipos de señales (sinusoidal, c
 
 Primero, se realizó una prueba para determinar el efecto del ruido generado en la señal a partir de su visualización en el ploteo en Arduino. El primer resultado se evidencia en la Figura 4a, la cual muestra lo que se capturó cuando se apagó el generador de señales, en la que el Arduino solo pudo detectar el ruido ambiental presente. Posteriormente, al encender el generador de señales y utilizar un circuito que incluye un filtro RC, se logró modificar la señal de manera significativa, como se ilustra en la Figura 4b. Al remover el capacitor del circuito, como se muestra en la Figura 5, la señal adquirió una forma más cercana a una onda sinusoidal. Sin embargo, se observa una cantidad considerable de ruido en los bordes de la señal.
 </div>
+<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43">
 <p align="center"><i>Figura 4. Señal obtenida para la prueba preliminar</i></p>
+   
+<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f0490da-5c96-4ae8-99a6-f0bac5c4c7b2">
 <p align="center"><i>Figura 5. Señal obtenida de onda recortada (sin capacitor)</i></p>
 
 <div align="justify">
