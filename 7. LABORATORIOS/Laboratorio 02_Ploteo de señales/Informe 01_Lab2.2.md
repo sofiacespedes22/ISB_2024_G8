@@ -174,7 +174,7 @@ Podemos observar, a partir de la comparación, que existen diferencias significa
 <a name="error"></a>
 ### Fuentes de error
 - **Ruido**:
-  - Interferencia eléctrica: Los componentes cercanos pueden generar interferencia eléctrica en los microcontroladores, especialmente en entornos con muchos componentes. Esto puede introducir ruido en las mediciones [1].
+  - Interferencia eléctrica: Los componentes cercanos pueden generar interferencia eléctrica en los microcontroladores, especialmente en entornos con muchos componentes. Esto puede introducir ruido en las mediciones <sup>[1](https://www.watlow.com/es-es/blog/posts/guide-to-electrical-noise)</sup>.
   - Condiciones ambientales: Factores ambientales como la temperatura, la humedad y la interferencia electromagnética pueden afectar la calidad de las mediciones [2].
   - Ruido generado por la medición por contacto entre el cable y el punto del osciloscopio: Durante la medición, el contacto entre el cable y el punto del osciloscopio pudo haber introducido ruido en la señal, especialmente debido a movimientos o interferencias físicas en este punto de contacto. Esto puede causar fluctuaciones en la señal medida y afectar la precisión de las mediciones [3].
 - **Valor del condensador**: El valor del condensador, al ser un valor grande de 470 uF, actúa como un filtro pasa altas junto con la resistencia de pull-up del Arduino, formando así un filtro RC. Sin embargo, debido a su gran tamaño, este filtro tiende a atenuar las frecuencias bajas que estamos evaluando, dejando únicamente la señal de ruido como resultado observable.
