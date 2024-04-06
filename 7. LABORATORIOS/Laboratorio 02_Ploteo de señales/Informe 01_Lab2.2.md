@@ -41,7 +41,7 @@
 | - | Punta de osciloscopio con conector BNC (Male) | 1 | <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/dd841cab-94c3-40ba-b2f6-3f165949aa44"> |
 | - | Par de cables M-M | 1 | <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ba69efad-205a-4ae4-a563-0e8fd357f851"> |
 | - | Condensador | 1 | <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2648872d-9dde-41ce-a7b8-81f828d5d3e6"> |
-| - | Protoboard | 1 | <image src ="|https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8a071497-cdd1-4dbc-bbfc-a00e4cfc48b5">
+| - | Protoboard | 1 | <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8a071497-cdd1-4dbc-bbfc-a00e4cfc48b5">
 
 </div>
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados para el ploteo de señales</i></p>
