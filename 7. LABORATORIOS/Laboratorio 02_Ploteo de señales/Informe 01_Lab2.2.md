@@ -60,6 +60,8 @@
 
 Antes de comenzar con la práctica de laboratorio, se configuró el generador de señales y el osciloscopio. El generador de señales fue configurado inicialmente para proporcionar una señal sinusoidal de 1 kHz de frecuencia, con 3V de amplitud y 0V de offset. Tras la configuración, se conectó el cable BNC entre los puertos del canal 1 tanto del generador de ondas como del osciloscopio, como se observa en la Figura 1.
 
+<image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0561535c-8e5e-4988-8c1d-482a538f316a"> 
+
 </div>
 <image src ="|https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8a071497-cdd1-4dbc-bbfc-a00e4cfc48b5">
 <p align="center"><i>Figura 1. Configuración del generador de ondas para el ploteo de señales</i></p>
