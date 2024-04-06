@@ -183,8 +183,13 @@ Podemos observar, a partir de la comparación, que existen diferencias significa
 
 ## Referencias bibliográficas
 [1]“Una guía para el ruido eléctrico | Watlow”. Global Supplier of Industrial Electric Thermal Solutions | Watlow. https://www.watlow.com/es-es/blog/posts/guide-to-electrical-noise
+
 [2]“Las interferencias electromagnéticas - Cables RCT”. Cables RCT - Fabricante de cables eléctricos de baja tensión - Cables RCT. Disponible: https://www.cablesrct.com/blog-cables-rct-es/2681-las-interferencias-electromagneticas#:~:text=Una%20interferencia%20electromagnética%20
+
 [3] S. Raeker. “Lucha contra el impacto ambiental en la industria de los componentes electrónicos”. DigiKey. Disponible: https://www.digikey.com/es/articles/combating-environmental-impact-in-the-electronics-components-industry
+
 [4] CALIDAD DEL SERVICIO DE ENERGÍA ELÉCTRICA. MANIZALES: Cent. Publicaciones Univ. Nac. Colomb. Sede Manizales, 2006.
+
 [5] G. Ellis, "Chapter 5 - The z-Domain," in Control System Design Guide (Fourth Edition), G. Ellis, Ed. Butterworth-Heinemann, 2012, pp. 73-96. [Online]. Available: https://doi.org/10.1016/B978-0-12-385920-4.00005-9
+
 [6] G. Ellis, "Chapter 5 - The z-Domain," in Control System Design Guide (Fourth Edition), G. Ellis, Ed. Butterworth-Heinemann, 2012, pp. 73-96. [Online]. Available: https://doi.org/10.1016/B978-0-12-385920-4.00005-9
