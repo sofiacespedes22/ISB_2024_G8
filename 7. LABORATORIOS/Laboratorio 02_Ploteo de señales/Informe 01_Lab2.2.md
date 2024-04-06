@@ -27,7 +27,7 @@
   
 | Modelo | Descripción | Cantidad | Imagen |
 | ------------- | ------------- | ------------- | -------------- |
-| AFG1022 | Generador de señales | 1 | <image src ="1.MIEMBROS DEL EQUIPO/Colaboradores.png"> |
+| AFG1022 | Generador de señales | 1 | <image src =![Texto alternativo](7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg)> |
 | TBS 1000C Series | Osciloscopio digital | 1 | <image src ="https://postimg.cc/qhSt0qq1"> |
 | SAMD | Arduino 33 IoT | 1 | <image src="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |
 | - | Cable BNC M-M | 1 | <image src="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |
