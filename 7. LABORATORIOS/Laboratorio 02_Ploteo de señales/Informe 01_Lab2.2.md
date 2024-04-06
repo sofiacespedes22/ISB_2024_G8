@@ -138,10 +138,10 @@ Luego de dichas pruebas iniciales, se realizó la comparación de las señales g
 
 ### Señal cuadrada
 <div align="center">
-   
+
 | Arduino IDE | Osciloscopio | 
 | ------------ | ------------ | 
-| <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/16d56625-1f72-4d93-8402-b55ecfc70aec"> | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e6bf875-2d0d-4e15-9270-9b9c87d6fe26"> | 
+| <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/18fc6a55-4988-4a21-9f29-ad54eb8a82bf"> | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e6bf875-2d0d-4e15-9270-9b9c87d6fe26"> | 
 
 </div>
 <p align="center"><i>Figura 7. Señal cuadrada - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
@@ -173,11 +173,11 @@ Podemos observar, a partir de la comparación, que existen diferencias significa
 <a name="error"></a>
 ### Fuentes de error
 - **Ruido**:
-  - Interferencia eléctrica: Los componentes cercanos pueden generar interferencia eléctrica en los microcontroladores, especialmente en entornos con muchos componentes. Esto puede introducir ruido en las mediciones <sup>[1](https://www.watlow.com/es-es/blog/posts/guide-to-electrical-noise)</sup>.
-  - Condiciones ambientales: Factores ambientales como la temperatura, la humedad y la interferencia electromagnética pueden afectar la calidad de las mediciones <sup>[2](https://www.cablesrct.com/blog-cables-rct-es/2681-las-interferencias-electromagneticas#:~:text=Una%20interferencia%20electromagnética%20)</sup>.
-  - Ruido generado por la medición por contacto entre el cable y el punto del osciloscopio: Durante la medición, el contacto entre el cable y el punto del osciloscopio pudo haber introducido ruido en la señal, especialmente debido a movimientos o interferencias físicas en este punto de contacto. Esto puede causar fluctuaciones en la señal medida y afectar la precisión de las mediciones <sup>[3](https://www.digikey.com/es/articles/combating-environmental-impact-in-the-electronics-components-industry)</sup>.
-- **Valor del condensador**: El valor del condensador, al ser un valor grande de 470 uF, actúa como un filtro pasa altas junto con la resistencia de pull-up del Arduino, formando así un filtro RC. Sin embargo, debido a su gran tamaño, este filtro tiende a atenuar las frecuencias bajas que estamos evaluando, dejando únicamente la señal de ruido como resultado observable.
-- **Frecuencias de muestreo**: La frecuencia de muestro es un parámetro esencial al momento de generar una señal por el generador de señales ya que una inadecuada podría generar ruido en la evaluación de la señal. Si la frecuencia de muestreo es demasiado baja en comparación con la frecuencia de la señal original, puede producirse aliasing, lo que distorsiona la representación de la señal <sup>[4](http://dx.doi.org/10.13140/2.1.1678.3688)</sup><sup>[5](https://doi.org/10.1016/B978-0-12-385920-4.00005-9)</sup>. Además, una frecuencia de muestreo insuficiente puede provocar la pérdida de información de la señal, lo que afecta la precisión de las mediciones. Por ello es importante elegir una frecuencia de muestreo apropiada pues brinda estabilidad y precisión de las mediciones, permitiendo una reconstrucción de la onda original.
+  - Interferencia eléctrica: Los componentes cercanos pueden generar interferencia eléctrica en los microcontroladores, especialmente en entornos con muchos componentes. Esto puede introducir ruido en las mediciones <sup>[1](https://www.watlow.com/es-es/blog/posts/guide-to-electrical-noise)</sup><sup>[2](https://www.cablesrct.com/blog-cables-rct-es/2681-las-interferencias-electromagneticas#:~:text=Una%20interferencia%20electromagnética%20)</sup>.
+  - Condiciones ambientales: Factores ambientales como la temperatura, la humedad y la interferencia electromagnética pueden afectar la calidad de las mediciones <sup>[3](https://www.digikey.com/es/articles/combating-environmental-impact-in-the-electronics-components-industry)</sup>.
+  - Ruido generado por la medición por contacto entre el cable y el punto del osciloscopio: Durante la medición, el contacto entre el cable y el punto del osciloscopio pudo haber introducido ruido en la señal, especialmente debido a movimientos o interferencias físicas en este punto de contacto. Esto puede causar fluctuaciones en la señal medida y afectar la precisión de las mediciones <sup>[4](http://dx.doi.org/10.13140/2.1.1678.3688)</sup><sup>[5](https://doi.org/10.1016/B978-0-12-385920-4.00005-9)</sup>.
+- **Valor del condensador**: El valor del condensador, al ser un valor grande de 470 uF, actúa como un filtro pasa altas junto con la resistencia de pull-up del Arduino, formando así un filtro RC <sup>[5](http://132.248.52.100:8080/xmlui/handle/132.248.52.100/14284)</sup>. Sin embargo, debido a su gran tamaño, este filtro tiende a atenuar las frecuencias bajas que estamos evaluando, dejando únicamente la señal de ruido como resultado observable.
+- **Frecuencias de muestreo**: La frecuencia de muestro es un parámetro esencial al momento de generar una señal por el generador de señales ya que una inadecuada podría generar ruido en la evaluación de la señal. Si la frecuencia de muestreo es demasiado baja en comparación con la frecuencia de la señal original, puede producirse aliasing, lo que distorsiona la representación de la señal <sup>[6](https://doi.org/10.1016/B978-0-12-385920-4.00005-9)</sup>. Además, una frecuencia de muestreo insuficiente puede provocar la pérdida de información de la señal, lo que afecta la precisión de las mediciones. Por ello es importante elegir una frecuencia de muestreo apropiada pues brinda estabilidad y precisión de las mediciones, permitiendo una reconstrucción de la onda original.
 
 <a name="referencias"></a>
 
@@ -187,3 +187,4 @@ Podemos observar, a partir de la comparación, que existen diferencias significa
 [3] S. Raeker. “Lucha contra el impacto ambiental en la industria de los componentes electrónicos”. DigiKey. Disponible: https://www.digikey.com/es/articles/combating-environmental-impact-in-the-electronics-components-industry
 [4] CALIDAD DEL SERVICIO DE ENERGÍA ELÉCTRICA. MANIZALES: Cent. Publicaciones Univ. Nac. Colomb. Sede Manizales, 2006.
 [5] G. Ellis, "Chapter 5 - The z-Domain," in Control System Design Guide (Fourth Edition), G. Ellis, Ed. Butterworth-Heinemann, 2012, pp. 73-96. [Online]. Available: https://doi.org/10.1016/B978-0-12-385920-4.00005-9
+[6] G. Ellis, "Chapter 5 - The z-Domain," in Control System Design Guide (Fourth Edition), G. Ellis, Ed. Butterworth-Heinemann, 2012, pp. 73-96. [Online]. Available: https://doi.org/10.1016/B978-0-12-385920-4.00005-9
