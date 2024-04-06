@@ -5,8 +5,15 @@
 3. [Materiales y Equipos](#materiales)
 4. [Entregables](#entregables)
 5. [Metodología](#metodologia)
+   [Configuración inicial de los equipos](#conec1)
+   [Conexión del arduino nano 33 IoT](#conec2)
 7. [Resultados y discusión](#resultados)
-8. [Referencias bibliográficas](#referencias)
+   6.1 [Señal sinusoidal](#sinusoidal)
+   6.2 [Señal cuadrada](#cuadrada)
+   6.3 [Señal rampa](#rampa)
+   6.4 [Señal pulso](#pulso)
+   6.5 [Fuentes de error](#error)
+9. [Referencias bibliográficas](#referencias)
 
 <a name="lista"></a>
 ## Lista de participantes
@@ -36,6 +43,7 @@
 | - | Protoboard | 1 | <image src ="|https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8a071497-cdd1-4dbc-bbfc-a00e4cfc48b5"> 
 
 </div>
+<p align="center"><i>Tabla 1. Materiales y equipos utilizados para el ploteo de señales</i></p>
 
 <a name="entregables"></a>
 ## Entregables
@@ -45,6 +53,7 @@
 
 <a name="metodologia"></a>
 ## Metodología
+<a name="conec1"></a>
 ### 1. Configuración inicial de los equipos
 <div align="justify">
 
@@ -61,8 +70,8 @@ A partir del uso de los cursores y controles de posición vertical, horizontal y
 </div>
 
 <p align="center"><i>Figura 2. Señal sinusoidal visualizada en el osciloscopio para el ploteo de señales</i></p>
-
-### 2. Conexión del arduino 33 IoT 
+<a name="conec2"></a>
+### 2. Conexión del arduino nano 33 IoT 
 <div align="justify">
 Se realizó la conexión del Arduino nano 33 IoT conectado al protoboard junto a un condensador formando un filtro RC con el cable BNC para evaluar la señal sinusoidal enviada desde el generador de señales, observado en la Figura 3. 
 </div>
@@ -80,14 +89,41 @@ De manera paralela, se modificó el código en Arduino SAMD adjuntado por los do
 | Capacitor    | 100 µF  | 
 
 </div>
-<p align="center"><i>Tabla 1. Parámetros considerados para el ploteo de señales</i></p>
+<p align="center"><i>Tabla 2. Parámetros considerados para el ploteo de señales</i></p>
 
 <a name="resultados"></a>
 ## Resultados y discusión
 <div align="justify">
-Para esta primera parte de los resultados, se presenta en la Figura 1. la cual se obtuvo a que se apagó el generador de señales por lo que lo único que se podía leer en el arduino era el ruido generado. Sin embargo, luego al prender el generador de señales y mediante el circuito empleado, que consiste de un filtro RC, se pudo obtener un comportamiento en la señal como lo mostrado en la Figura 2. Y en el caso de la Figura 3. se extrajo el capacitor y esto ocasionó que la señal muestre un comportamiento de la onda sinusoidal; sin embargo los bordes como se puede ver señalan una presencia alta de ruido.
+En el presente informe, se generaron diferentes tipos de señales (sinusoidal, cuadrada, rampa y pulso) considerando los parámetros de frecuencia y voltaje observados en la Tabla 2 y fueron visualizadas en el ploteo de Arduino SAMD y en el osciloscopio. 
+
+Primero, se realizó una prueba para determinar el efecto del ruido generado en la señal a partir de su visualización en el ploteo en Arduino. El primer resultado se evidencia en la Figura 4a, la cual muestra lo que se capturó cuando se apagó el generador de señales, en la que el Arduino solo pudo detectar el ruido ambiental presente. Posteriormente, al encender el generador de señales y utilizar un circuito que incluye un filtro RC, se logró modificar la señal de manera significativa, como se ilustra en la Figura 4b. Al remover el capacitor del circuito, como se muestra en la Figura 5, la señal adquirió una forma más cercana a una onda sinusoidal. Sin embargo, se observa una cantidad considerable de ruido en los bordes de la señal.
 </div>
+<p align="center"><i>Figura 4. Señal obtenida para la prueba preliminar</i></p>
+<p align="center"><i>Figura 5. Señal obtenida de onda recortada (sin capacitor)</i></p>
+
+<div align="justify">
+Luego de dichas pruebas iniciales, se realizó la comparación de las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio para los cuatro tipos de señales: sinusoidales, cuadradas, rampas y pulsos. Asimismo, evaluó el comportamiento del filtro RC junto a la señal obtenida, por lo que se ploteo en el Arduino IDE las 4 señales provenientes del generador.
+</div>
+<a name="sinusoidal"></a>
+### Señal sinusoidal
+<p align="center"><i>Figura 6. Señal sinusoidal - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
+<a name="cuadrada"></a>
+### Señal cuadrada
+<p align="center"><i>Figura 7. Señal cuadrada - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
+<a name="rampa"></a>
+### Señal rampa
+<p align="center"><i>Figura 8. Señal rampa - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
+<a name="pulso"></a>
+### Señal pulso
+<p align="center"><i>Figura 9. Señal pulso - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
+
+<div align="justify">
+Podemos observar a partir de la comparación que existen diferencias significativas entre las señales graficadas pues si bien las graficadas en el Arduino IDE presenta las formas deseadas, no llegan a ser las requeridas. A continuación, hemos considerado las siguientes fuentes de error como motivos de las diferencias evidenciadas: 
+</div>
+
+<a name="error"></a>
+### Fuentes de error
+
 <a name="referencias"></a>
 
-## Fuentes de error
 ## Referencias bibliográficas
