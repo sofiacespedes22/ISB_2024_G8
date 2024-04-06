@@ -25,7 +25,7 @@
 ## Materiales y Equipos
 | Modelo | Descripción | Cantidad | Imagen |
 | ------------- | ------------- | ------------- | -------------- |
-| AFG1022 | Generador de señales | 1 | <img width="200" height="150" <image src ="7.LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |  
+| AFG1022 | Generador de señales | 1 | <image src ="7.LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |  
 
 <a name="entregables"></a>
 ## Entregables
