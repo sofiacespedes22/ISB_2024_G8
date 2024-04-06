@@ -27,7 +27,7 @@
   
 | Modelo | Descripción | Cantidad | Imagen |
 | ------------- | ------------- | ------------- | -------------- |
-| AFG1022 | Generador de señales | 1 | <image src="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Generador de señales.jpeg"> |
+| AFG1022 | Generador de señales | 1 | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f77e565c-b14c-4dd4-9bf5-9d63af9b054d"> |
 | TBS 1000C Series | Osciloscopio digital | 1 | <image src ="https://postimg.cc/qhSt0qq1"> |
 | SAMD | Arduino 33 IoT | 1 | <image src="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |
 | - | Cable BNC M-M | 1 | <image src="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |
@@ -46,7 +46,7 @@
 
 <a name="metodologia"></a>
 ## Metodología
-### Configuración inicial de los equipos
+### 1. Configuración inicial de los equipos
 <div align="justify">
 
 Antes de comenzar con la práctica de laboratorio, se configuró el generador de señales y el osciloscopio. El generador de señales fue configurado inicialmente para proporcionar una señal sinusoidal de 1 kHz de frecuencia, con 3V de amplitud y 0V de offset. Tras la configuración, se conectó el cable BNC entre los puertos del canal 1 tanto del generador de ondas como del osciloscopio, como se observa en la Figura 1.
@@ -63,7 +63,7 @@ A partir del uso de los cursores y controles de posición vertical, horizontal y
 
 <p align="center"><i>Figura 2. Señal sinusoidal visualizada en el osciloscopio para el ploteo de señales</i></p>
 
-### Conexión del arduino 33 IoT 
+### 2. Conexión del arduino 33 IoT 
 <div align="justify">
 Se realizó la conexión del Arduino nano 33 IoT conectado al protoboard junto a un condensador formando un filtro RC con el cable BNC para evaluar la señal sinusoidal enviada desde el generador de señales, observado en la Figura 3. 
 </div>
