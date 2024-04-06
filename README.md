@@ -6,9 +6,11 @@
 
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
 
+<p align="center">  
+<image src ="4.IMAGENES/WhatsApp Image 2024-03-22 at 10.43.46 PM.jpeg"> 
+</p>
+<p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
-<image src ="4.IMAGENES/WhatsApp Image 2024-03-22 at 10.43.46 PM.jpeg">
-Figura 1. Electrocardiograma
 ## Integrantes
 - Sofia Camila Céspedes Trece - sofia.cespedes@upch.pe
 - Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
@@ -20,6 +22,7 @@ Figura 1. Electrocardiograma
 - Moises Stevend Meza Rodriguez
 
 ## Tabla de contenidos
+- [Laboratorios](https://github.com/sofiacespedes22/ISB_2024_G8/tree/ae545ebc3c58bef4db97d63788a1c85c71ce8828/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO)
 - [Resumen](https://github.com/sofiacespedes22/ISB_2024_G8/tree/ae545ebc3c58bef4db97d63788a1c85c71ce8828/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO)
 - [Tipo de bioseñal trabajada](https://github.com/sofiacespedes22/ISB_2024_G8/tree/09f852d57f4bb3979d630271b06b71f81f6b575c/3.SOFTWARE)
 - [Introducción](https://github.com/sofiacespedes22/ISB_2024_G8/tree/72572d72a08903e9d41c50a9e9f397388879c74b/2.DOCUMENTACI%C3%93N%20DEL%20PROYECTO/2.1.INTRODUCCION)
