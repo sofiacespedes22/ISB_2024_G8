@@ -1,4 +1,4 @@
-# Informe 01 de Laboratorio - Ploteo de señales en Arduino
+# LABORATORIO N°2 - ADQUISICIÓN DE SEÑALES Y GRAFICACIÓN EN ARDUINO
 ## Tabla de contenidos
 1. [Lista de participantes](#lista)
 2. [Objetivos](#objetivos)
