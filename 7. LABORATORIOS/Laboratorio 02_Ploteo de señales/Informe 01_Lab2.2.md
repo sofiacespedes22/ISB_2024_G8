@@ -23,6 +23,10 @@
    
 <a name="materiales"></a>
 ## Materiales y Equipos
+| Equipo/Materiales | Cant | Imágenes |
+| ------------- | ------------- | ------------- |
+| Modelo | Descripción | | |
+| ------------- | ------------- | ------------- | ------------- |
 
 <a name="entregables"></a>
 ## Entregables
