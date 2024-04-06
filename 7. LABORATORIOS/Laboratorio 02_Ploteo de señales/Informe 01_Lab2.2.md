@@ -111,7 +111,7 @@ Primero, se realizó una prueba para determinar el efecto del ruido generado en 
 
 | (a) | (b) | 
 | ------------ | ------------ | 
-| <image width="500" height="250" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43"> | <image width="500" height="250" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/df220ad8-b001-4888-82f2-220e2a1aebe3"> | 
+| <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43"> | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/df220ad8-b001-4888-82f2-220e2a1aebe3"> | 
 
 </div>
 <p align="center"><i>Figura 4. Señal obtenida para la prueba preliminar</i></p>
@@ -131,18 +131,16 @@ Luego de dichas pruebas iniciales, se realizó la comparación de las señales g
 
 | Arduino IDE | Osciloscopio | 
 | ------------ | ------------ | 
-|     |     | 
-
+|  <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/13020895-14d3-438b-a9d5-94a796b466c7"> | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c881f0b5-907b-4ece-8c13-ca5993d1807e"> | 
 </div>
 <p align="center"><i>Figura 6. Señal sinusoidal - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
 <a name="cuadrada"></a>
 
 ### Señal cuadrada
 <div align="center">
-
 | Arduino IDE | Osciloscopio | 
 | ------------ | ------------ | 
-|     |     | 
+| <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/16d56625-1f72-4d93-8402-b55ecfc70aec">  |  <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e6bf875-2d0d-4e15-9270-9b9c87d6fe26">  | 
 
 </div>
 <p align="center"><i>Figura 7. Señal cuadrada - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
@@ -153,8 +151,7 @@ Luego de dichas pruebas iniciales, se realizó la comparación de las señales g
 
 | Arduino IDE | Osciloscopio | 
 | ------------ | ------------ | 
-|     |     | 
-
+| <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/81ff90d0-ef88-4ce6-b85e-22c0f99607a2"> | <image width="500" height="200" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8195df3e-7476-44f4-8a10-da68e06fb99c"> | 
 </div>
 <p align="center"><i>Figura 8. Señal rampa - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
 <a name="pulso"></a>
