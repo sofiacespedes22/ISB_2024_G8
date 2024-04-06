@@ -111,14 +111,14 @@ Primero, se realizó una prueba para determinar el efecto del ruido generado en 
 
 | (a) | (b) | 
 | ------------ | ------------ | 
-| <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43"> | <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/df220ad8-b001-4888-82f2-220e2a1aebe3"> | 
+| <image width="500" height="250" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43"> | <image width="500" height="250" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/df220ad8-b001-4888-82f2-220e2a1aebe3"> | 
 
 </div>
 <p align="center"><i>Figura 4. Señal obtenida para la prueba preliminar</i></p>
 
+
 <p align="center">   
-
-
+<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ca1d045e-d375-419a-8072-37d10e8784fc">
 <p align="center"><i>Figura 5. Señal obtenida de onda recortada (sin capacitor)</i></p>
 
 <div align="justify">
