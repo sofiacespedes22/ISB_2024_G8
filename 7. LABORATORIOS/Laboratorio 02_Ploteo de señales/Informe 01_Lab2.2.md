@@ -25,7 +25,14 @@
 ## Materiales y Equipos
 | Modelo | Descripción | Cantidad | Imagen |
 | ------------- | ------------- | ------------- | -------------- |
-| AFG1022 | Generador de señales | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> |  
+| AFG1022 | Generador de señales | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Generador de señales.jpeg"> |  
+| TBS 1000C Series | Osciloscopio digital | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
+| SAMD | Arduino 33 IoT | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
+| - | Cable BNC M-M | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
+| - | Punta de osciloscopio con conector BNC (Male) | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
+| - | Par de cables M-M | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
+| - | Condensador | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
+| - | Protoboard | 1 | <image src ="7. LABORATORIOS/Laboratorio 02_Ploteo de señales/Imagenes/Osciloscopio.jpeg"> | 
 
 <a name="entregables"></a>
 ## Entregables
