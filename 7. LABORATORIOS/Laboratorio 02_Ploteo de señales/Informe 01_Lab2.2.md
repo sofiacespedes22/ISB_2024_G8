@@ -10,7 +10,11 @@
 
 <a name="lista"></a>
 ## Lista de participantes
-
+- Sofia Camila Céspedes Trece - 71738148
+- Nicole Stefany Acuña Malpartida - 71400976
+- Chris Margory Viviano Salvatierra - 75138288
+- Harold Alonso Alemán Ramírez - 71386429
+  
 <a name="objetivos"></a>
 ## Objetivos
 1. Adquirir señales conocidas como señal cuadrada, triangular, senoidal, rampa, etc.
