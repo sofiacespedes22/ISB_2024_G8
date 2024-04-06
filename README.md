@@ -6,8 +6,9 @@
 
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
 
+
 <image src ="4.IMAGENES/WhatsApp Image 2024-03-22 at 10.43.46 PM.jpeg">
-  
+Figura 1. Electrocardiograma
 ## Integrantes
 - Sofia Camila Céspedes Trece - sofia.cespedes@upch.pe
 - Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
