@@ -38,6 +38,7 @@
 ## Entregables
 - Plotear al menos 3 señales en Arduino IDE provenientes del generador de señales.
 - Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio.
+- Graficar en Arduino cloud.
 
 <a name="metodologia"></a>
 ## Metodología
