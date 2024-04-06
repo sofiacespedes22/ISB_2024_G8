@@ -60,8 +60,9 @@
 
 Antes de comenzar con la práctica de laboratorio, se configuró el generador de señales y el osciloscopio. El generador de señales fue configurado inicialmente para proporcionar una señal sinusoidal de 1 kHz de frecuencia, con 3V de amplitud y 0V de offset. Tras la configuración, se conectó el cable BNC entre los puertos del canal 1 tanto del generador de ondas como del osciloscopio, como se observa en la Figura 1.
 
+<p align="center">  
 <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0561535c-8e5e-4988-8c1d-482a538f316a"> 
-<image src ="|https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8a071497-cdd1-4dbc-bbfc-a00e4cfc48b5">
+</p>
 <p align="center"><i>Figura 1. Configuración del generador de ondas para el ploteo de señales</i></p>
 
 <div align="justify">
@@ -69,15 +70,19 @@ Antes de comenzar con la práctica de laboratorio, se configuró el generador de
 A partir del uso de los cursores y controles de posición vertical, horizontal y disparo se ajustó la visualización de la señal sinusoidal, considerando la escala en la que se encontraba la sonda. Se mostró las medidas de amplitud y periodo de la señal con el uso de estos cursores, como se observa en la Figura 2.
 
 </div>
+<p align="center">   
 <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a873926-4777-4f71-a4b3-c66556a9b1cf">
+</p>
 <p align="center"><i>Figura 2. Señal sinusoidal visualizada en el osciloscopio para el ploteo de señales</i></p>
 <a name="conec2"></a>
    
 ### 2. Conexión del arduino nano 33 IoT 
 <div align="justify">
 Se realizó la conexión del Arduino nano 33 IoT conectado al protoboard junto a un condensador formando un filtro RC con el cable BNC para evaluar la señal sinusoidal enviada desde el generador de señales, observado en la Figura 3. 
-
+   
+<p align="center"> 
 <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f0490da-5c96-4ae8-99a6-f0bac5c4c7b2">
+</p>
 <p align="center"><i>Figura 3. Conexión Arduino nano 33 IoT y cable BNC para el ploteo de señales</i></p>
 <div align="justify">
 De manera paralela, se modificó el código en Arduino SAMD adjuntado por los docentes para que permita leer el puerto por el cual esta conectado al generador y la visualización de la gráfica generada. El código modificado se encuentra adjuntado en la carpeta “Código”. A continuación, se visualiza los parámetros considerados para el ploteo de las señales que se compararán en la siguiente sección (ver Tabla 1).
@@ -101,34 +106,85 @@ En el presente informe, se generaron diferentes tipos de señales (sinusoidal, c
 
 Primero, se realizó una prueba para determinar el efecto del ruido generado en la señal a partir de su visualización en el ploteo en Arduino. El primer resultado se evidencia en la Figura 4a, la cual muestra lo que se capturó cuando se apagó el generador de señales, en la que el Arduino solo pudo detectar el ruido ambiental presente. Posteriormente, al encender el generador de señales y utilizar un circuito que incluye un filtro RC, se logró modificar la señal de manera significativa, como se ilustra en la Figura 4b. Al remover el capacitor del circuito, como se muestra en la Figura 5, la señal adquirió una forma más cercana a una onda sinusoidal. Sin embargo, se observa una cantidad considerable de ruido en los bordes de la señal.
 </div>
-<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43">
+
+<div align="center">
+
+| (a) | (b) | 
+| ------------ | ------------ | 
+|     |     | 
+
+</div>
 <p align="center"><i>Figura 4. Señal obtenida para la prueba preliminar</i></p>
+
+<p align="center">   
+<image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/45044a5e-2595-4701-a666-084410e6ff43">
+</p>
    
+<p align="center"> 
 <image width="500" height="350" src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f0490da-5c96-4ae8-99a6-f0bac5c4c7b2">
+</p>
 <p align="center"><i>Figura 5. Señal obtenida de onda recortada (sin capacitor)</i></p>
 
 <div align="justify">
 Luego de dichas pruebas iniciales, se realizó la comparación de las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio para los cuatro tipos de señales: sinusoidales, cuadradas, rampas y pulsos. Asimismo, evaluó el comportamiento del filtro RC junto a la señal obtenida, por lo que se ploteo en el Arduino IDE las 4 señales provenientes del generador.
 </div>
 <a name="sinusoidal"></a>
+
 ### Señal sinusoidal
+<div align="center">
+
+| Arduino IDE | Osciloscopio | 
+| ------------ | ------------ | 
+|     |     | 
+
+</div>
 <p align="center"><i>Figura 6. Señal sinusoidal - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
 <a name="cuadrada"></a>
+
 ### Señal cuadrada
+<div align="center">
+
+| Arduino IDE | Osciloscopio | 
+| ------------ | ------------ | 
+|     |     | 
+
+</div>
 <p align="center"><i>Figura 7. Señal cuadrada - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
 <a name="rampa"></a>
+
 ### Señal rampa
+<div align="center">
+
+| Arduino IDE | Osciloscopio | 
+| ------------ | ------------ | 
+|     |     | 
+
+</div>
 <p align="center"><i>Figura 8. Señal rampa - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
 <a name="pulso"></a>
+
 ### Señal pulso
+<div align="center">
+
+| Arduino IDE | Osciloscopio | 
+| ------------ | ------------ | 
+|     |     | 
+
+</div>
 <p align="center"><i>Figura 9. Señal pulso - Voltaje: 1.5V , Frecuencia: 3Hz</i></p>
 
 <div align="justify">
-Podemos observar a partir de la comparación que existen diferencias significativas entre las señales graficadas pues si bien las graficadas en el Arduino IDE presenta las formas deseadas, no llegan a ser las requeridas. A continuación, hemos considerado las siguientes fuentes de error como motivos de las diferencias evidenciadas: 
+Podemos observar, a partir de la comparación, que existen diferencias significativas entre las señales graficadas pues si bien las graficadas en el Arduino IDE presenta las formas deseadas, no llegan a ser las requeridas. A continuación, hemos considerado las siguientes fuentes de error como motivos de las diferencias evidenciadas: 
 </div>
 
 <a name="error"></a>
 ### Fuentes de error
+- **Ruido**:
+  - Interferencia eléctrica: Los componentes cercanos pueden generar interferencia eléctrica en los microcontroladores, especialmente en entornos con muchos componentes. Esto puede introducir ruido en las mediciones [1].
+  - Condiciones ambientales: Factores ambientales como la temperatura, la humedad y la interferencia electromagnética pueden afectar la calidad de las mediciones [2].
+  - Ruido generado por la medición por contacto entre el cable y el punto del osciloscopio: Durante la medición, el contacto entre el cable y el punto del osciloscopio pudo haber introducido ruido en la señal, especialmente debido a movimientos o interferencias físicas en este punto de contacto. Esto puede causar fluctuaciones en la señal medida y afectar la precisión de las mediciones [3].
+- **Valor del condensador**: El valor del condensador, al ser un valor grande de 470 uF, actúa como un filtro pasa altas junto con la resistencia de pull-up del Arduino, formando así un filtro RC. Sin embargo, debido a su gran tamaño, este filtro tiende a atenuar las frecuencias bajas que estamos evaluando, dejando únicamente la señal de ruido como resultado observable.
+- **Frecuencias de muestreo**: La frecuencia de muestro es un parámetro esencial al momento de generar una señal por el generador de señales ya que una inadecuada podría generar ruido en la evaluación de la señal. Si la frecuencia de muestreo es demasiado baja en comparación con la frecuencia de la señal original, puede producirse aliasing, lo que distorsiona la representación de la señal [4][5]. Además, una frecuencia de muestreo insuficiente puede provocar la pérdida de información de la señal, lo que afecta la precisión de las mediciones. Por ello es importante elegir una frecuencia de muestreo apropiada pues brinda estabilidad y precisión de las mediciones, permitiendo una reconstrucción de la onda original.
 
 <a name="referencias"></a>
 
