@@ -1,18 +1,18 @@
-# LABORATORIO N°3 - Uso de BiTalino para EMG y ECG
+# LABORATORIO N°3 - Uso de BiTalino para EMG 
 ## Tabla de contenidos
 1. [Lista de participantes](#lista)
 2. [Objetivos](#objetivos)
 3. [Materiales y Equipos](#materiales)
 4. [Entregables](#entregables)
 5. [Metodología](#metodologia)
-   - [Configuración inicial de los equipos](#conec1)
-   - [Conexión del arduino nano 33 IoT](#conec2)
+   - [Conexión de BITalino](#m1)
+   - [Protocolo de adquisición](#m2)
 6. [Resultados y discusión](#resultados)
-   - [Señal sinusoidal](#sinusoidal)
-   - [Señal cuadrada](#cuadrada)
-   - [Señal rampa](#rampa)
-   - [Señal pulso](#pulso)
-   - [Fuentes de error](#error)
+   - [](#r1)
+   - [Señal cuadrada](#r2)
+   - [Señal rampa](#r3)
+   - [Señal pulso](#r4)
+   - [Fuentes de error](#r5)
 7. [Referencias bibliográficas](#referencias)
 
 <a name="lista"></a>
