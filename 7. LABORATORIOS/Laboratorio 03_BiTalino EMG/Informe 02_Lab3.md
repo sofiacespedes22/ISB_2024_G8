@@ -120,6 +120,7 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
 Se observa las señales ploteadas en OpenSignal.
 
 <p align="center">
+   
 |  **Señal**  | **FFT** |
 |:-----------:|:-------:|
 |<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2794caaa-005b-4cd5-902a-05df6796f78f">|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d34aa95-b92d-453c-ac36-86e495ce6472">|
