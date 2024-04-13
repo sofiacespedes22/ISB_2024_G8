@@ -36,3 +36,6 @@
 |:------------:|:---------------:|:------------:|
 |(R)EVOLUTION|Kit BITalino|1|
 |-|Laptop o PC|1|
+
+<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e0c15345-d85e-43a9-abcf-18cea0a8ed91>
+
