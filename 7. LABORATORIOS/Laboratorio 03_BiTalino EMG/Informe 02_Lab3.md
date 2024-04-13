@@ -65,9 +65,10 @@ Para el primer y segundo protocolo, el electrodo de referencia fue colocado en e
    
 |**Actividad muscular del bíceps braquial (brazo)**|**Abductor corto del pulgar**|**Músculo trapecio descendente (superior)**|
 |:------------------------------------------------:|:---------------------------:|:-----------------------------------------:|
-| <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/689819fb-0cc4-48cd-99c5-81426bf539b8"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/24667bbc-350a-44de-9169-9667bb646216"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/37658266-2abe-4464-b72e-dec40ea73bbf"> | 
+| <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/689819fb-0cc4-48cd-99c5-81426bf539b8"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/24667bbc-350a-44de-9169-9667bb646216"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/caf6bed1-0514-4964-908e-9117d88cb320"> | 
 <p align="center"><i>Tabla 2. Representación de posicionamiento de los electrodos según el protocolo </i></p>
 </div>
+
 
 ## Resultados y discusión
 ### 1. Actividad muscular del bíceps braquial (brazo) - Prueba 01
