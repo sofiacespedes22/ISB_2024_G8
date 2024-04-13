@@ -12,13 +12,10 @@
    - [Actividad muscular del del abductor corto del pulgar - Prueba 02](#d2)
    - [Actividad muscular del músculo trapecio descendente (superior) - Prueba 03](#d3)
 7. [Ploteo de las señales en python](#ploteado)
-   - [Músculo bícep braquial](#a1)
-   - [Músculo abductor corto del pulgar](#a2)
-   - [Músculo trapecio descendente](#a3)   
-9. [Archivo de la señal ploteada en Python y de los datos de la señal](#phyton)
+8. [Archivo de la señal ploteada en Python y de los datos de la señal](#phyton)
    - [Señales ploteadas en python](#r3)
    - [Datos de la señal ploteada](#r4)
-10. [Referencias bibliográficas](#referencias)
+9. [Referencias bibliográficas](#referencias)
 
 <a name="lista"></a>
 ## Lista de participantes
@@ -120,38 +117,15 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
 
 <a name="ploteado"></a>
 ## Ploteo de las señales en python
-<a name="a1"></a>
-### 1. Músculo bíceps braquial
-Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en las tres tomas realizadas. La toma en reposo
+Se observa las señales ploteadas en OpenSignal.
 
 <p align="center">
-   
 |  **Señal**  | **FFT** |
 |:-----------:|:-------:|
-|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
-<p align="center"><i>Tabla 6. Señales adquiridas en las tres tomas: reposo, sin oposición y con oposición graficado en OpenSignal del bíceps</i></p>
+|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2794caaa-005b-4cd5-902a-05df6796f78f">|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d34aa95-b92d-453c-ac36-86e495ce6472">|
+<p align="center"><i>Tabla 6. Señales adquiridas</i></p>
 </div>
 
-<a name="a2"></a>
-### Músculo abductor corto del pulgar
-<p align="center">
-   
-|  **Señal**  | **FFT** |
-|:-----------:|:-------:|
-|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
-<p align="center"><i>Tabla 7. Señales adquiridas en las tres tomas: reposo, sin oposición y con oposición graficado en OpenSignal del pulgar</i></p>
-</div>
-
-<a name="a3"></a>
-### Músculo trapecio descendente
-<p align="center">
-   
-|  **Señal**  | **FFT** |
-|:-----------:|:-------:|
-|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
-<p align="center"><i>Tabla 8. Señales adquiridas en las tres tomas: reposo, sin oposición y con oposición graficado en OpenSignal del trapecio</i></p>
-</div>
-   
 <a name="phyton"></a>
 ## Archivo de la señal ploteada en Python y de los datos de la señal
 <a name="r3"></a>
