@@ -78,10 +78,9 @@ Se adquirieron las señales a partir de las tomas en reposo y contracción del b
    
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
-| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src=""> | <video src=""> | 
+| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src=""> | 
 <p align="center"><i>Tabla 3. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </div>
-
 
 
 ### 2. Actividad muscular del del abductor corto del pulgar - Prueba 02
