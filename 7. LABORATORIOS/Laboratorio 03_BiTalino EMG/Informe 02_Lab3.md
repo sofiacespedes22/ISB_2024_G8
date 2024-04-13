@@ -155,9 +155,9 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 <a name="phyton"></a>
 ## Archivo de la señal ploteada en Python y de los datos de la señal
 <a name="r3"></a>
-###  - Señales ploteadas en python
+  - [Señales ploteadas en python]
 <a name="r4"></a>
-###  - Datos de la señal ploteada
+  - [Datos de la señal ploteada]
    
 ## Referencias bibliográficas
 [1] “BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS”. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
