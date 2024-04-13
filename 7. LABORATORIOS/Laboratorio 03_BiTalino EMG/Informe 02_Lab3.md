@@ -101,7 +101,7 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
    
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
-| <video src=""> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4e5bf39c-6620-40d5-887f-9a256c63b886"> | <video src=""> | 
+| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6071749c-f009-46f8-b410-ed545bd8a189"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4e5bf39c-6620-40d5-887f-9a256c63b886"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/26b2369c-66b6-4e82-9e29-05ee2071da29"> | 
 <p align="center"><i>Tabla 5. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo trapecio descendente.
 </i></p>
 </div>
