@@ -62,6 +62,7 @@ Para la adquisición de las señales EMG, se siguió el procedimiento de la guí
 Para el primer y segundo protocolo, el electrodo de referencia fue colocado en el codo, pues representa un punto neutro, mientras que los otros dos electrodos fueron colocados a lo largo de las fibra muscular a 2 cm de distancia entre ellos. Para el tercer protocolo, el electrodo de referencia se coloco detrás de la oreja como punto neutro, mientras que los otros dos electrodos a lo largo del trapecio para su correcta medición. La representación de estas conexiones se visualiza en la siguiente tabla:
 
 <p align="center">
+   
 |  **Actividad muscular del bíceps braquial (brazo)** | **Abductor corto del pulgar** | **Músculo trapecio descendente (superior)** |
 | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/689819fb-0cc4-48cd-99c5-81426bf539b8"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/24667bbc-350a-44de-9169-9667bb646216"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/37658266-2abe-4464-b72e-dec40ea73bbf"> | 
 <p align="center"><i>Tabla 2. Representación de posicionamiento de los electrodos según el protocolo </i></p>
@@ -72,6 +73,7 @@ Para el primer y segundo protocolo, el electrodo de referencia fue colocado en e
 Se adquirieron las señales a partir de las tomas en reposo y contracción del bíceps braquial considerando la conexión a tierra (electrodo de referencia) en el codo, pues ayuda a reducir la interferencia eléctrica o el ruido que puede ser captado por los electrodos. Se observó la diferencia significativa entre la señal EMG del músculo sin oposición que con oposición debido al incremento de fuerza resultante. Esta toma permite futuras aplicaciones en el área de la rehabilitación biomecánica. Los videos de las tres tomas se observan a continuación:
 
 <p align="center">
+   
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
 | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src=""> | <video src=""> | 
@@ -84,6 +86,7 @@ Se adquirieron las señales a partir de las tomas en reposo y contracción del b
 Para la segunda adquisición, se realizaron tomas en reposo y contracción del abductor corto del pulgar considerando la conexión a tierra (electrodo de referencia) nuevamente en el codo, pues en este caso permite una fácil colocación de los electrodos sin interferir con el movimiento natural durante la realización de las pruebas. Al igual que para el bíceps braquial, la funcionalidad de esta prueba radica en futuras aplicaciones en cuanto a la rehabilitación de este músculo. Los videos de las tres tomas se observan a continuación:
 
 <p align="center">
+   
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
 | <video src=""> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6d053c5d-6a04-499d-b3aa-1950be9d9ed4"> | <video src=""> | 
@@ -95,6 +98,7 @@ Para la segunda adquisición, se realizaron tomas en reposo y contracción del a
 Por último, se adquirieron las señales EMG a partir de la toma en reposo y contracción del músculo trapecio descendente considerando la conexión a tierra (electrodo de referencia) sobre el hueso mastoideo pues representa lugar ideal para colocar un electrodo de referencia porque es relativamente inerte en términos de actividad electromiográfica. Las aplicaciones que tiene este tipo de tomas radican en determinar dolor muscular en los hombros, dolores de cabeza o lesiones por esfuerzo en la zona. Los videos de las tres tomas se observan a continuación:
 
 <p align="center">
+   
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
 | <video src=""> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4e5bf39c-6620-40d5-887f-9a256c63b886"> | <video src=""> | 
