@@ -34,7 +34,7 @@
 
 |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
 |:------------:|:---------------:|:------------:|:----------:|
-|(R)EVOLUTION|Kit BITalino|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2260fd35-ff97-48d7-858f-9c976473c64f">|
+|(R)EVOLUTION|Kit BITalino|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c8d4e3ed-4054-4c4d-9820-0c1dbd5ddd6f">|
 |-|Laptop o PC|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/571d6d42-97c0-461c-8767-a4e8cb3a9318">|
 
 <video src=>
