@@ -32,10 +32,10 @@
 ## Materiales y Equipos
 <div align="center">
 
-|  **Modelo**  | **Descripción** | **Cantidad** |
-|:------------:|:---------------:|:------------:|
-|(R)EVOLUTION|Kit BITalino|1|
-|-|Laptop o PC|1|
+|  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
+|:------------:|:---------------:|:------------:|:----------:|
+|(R)EVOLUTION|Kit BITalino|1|<image width="200" height="150" src=https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2260fd35-ff97-48d7-858f-9c976473c64f">|
+|-|Laptop o PC|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/571d6d42-97c0-461c-8767-a4e8cb3a9318">|
 
-<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e0c15345-d85e-43a9-abcf-18cea0a8ed91">
+<video src=>
 
