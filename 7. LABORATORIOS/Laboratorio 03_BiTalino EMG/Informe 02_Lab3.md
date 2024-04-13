@@ -78,10 +78,9 @@ Se adquirieron las señales a partir de las tomas en reposo y contracción del b
    
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
-| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src=""> | 
+| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c6ee57ea-5082-471e-9d0c-e25412fc6944"> | 
 <p align="center"><i>Tabla 3. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </div>
-
 
 ### 2. Actividad muscular del del abductor corto del pulgar - Prueba 02
 Para la segunda adquisición, se realizaron tomas en reposo y contracción del abductor corto del pulgar considerando la conexión a tierra (electrodo de referencia) nuevamente en el codo, pues en este caso permite una fácil colocación de los electrodos sin interferir con el movimiento natural durante la realización de las pruebas. Al igual que para el bíceps braquial, la funcionalidad de esta prueba radica en futuras aplicaciones en cuanto a la rehabilitación de este músculo. Los videos de las tres tomas se observan a continuación:
@@ -90,7 +89,7 @@ Para la segunda adquisición, se realizaron tomas en reposo y contracción del a
    
 |  **En reposo** | **Sin oposición** | **Con oposición** |
 |:--------------:|:-----------------:|:-----------------:|
-| <video src=""> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6d053c5d-6a04-499d-b3aa-1950be9d9ed4"> | <video src=""> | 
+| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1b429514-5569-4729-b74f-6aaf23c959f9"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6d053c5d-6a04-499d-b3aa-1950be9d9ed4"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/bdcb3a51-93c2-49ba-846b-992fbc81f4ab"> | 
 <p align="center"><i>Tabla 4. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo abductor corto del pulgar.
 </i></p>
 </div>
@@ -106,6 +105,9 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
 <p align="center"><i>Tabla 5. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo trapecio descendente.
 </i></p>
 </div>
+
+## Ploteo de las señales en python
+###
 
 
 ## Referencias bibliográficas
