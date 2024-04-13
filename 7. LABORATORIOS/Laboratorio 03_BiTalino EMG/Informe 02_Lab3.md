@@ -31,3 +31,7 @@
 <a name="materiales"></a>
 ## Materiales y Equipos
 <div align="center">
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+|(R)EVOLUTION|Kit BITalino|1|
+|-|Laptop o PC|1|
