@@ -88,7 +88,7 @@ Se adquirieron las señales a partir de las tomas en reposo y contracción del b
    
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c6ee57ea-5082-471e-9d0c-e25412fc6944"> | 
+| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/9afa171d-6c99-4a46-9587-c2937de8ea78"> | 
 <p align="center"><i>Tabla 3. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </div>
 
@@ -126,9 +126,9 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 
 <p align="center">
    
-|  **En reposo**  | **Sin oposición** | **Con oposición** |
-|:---------------:|:-----------------:|:-----------------:|
-|<image width="200" height="150" src="">|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
+|  **Señal**  | **FFT** |
+|:-----------:|:-------:|
+|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
 <p align="center"><i>Tabla 6. Señales adquiridas en las tres tomas: reposo, sin oposición y con oposición graficado en OpenSignal del bíceps</i></p>
 </div>
 
@@ -136,9 +136,9 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 ### Músculo abductor corto del pulgar
 <p align="center">
    
-|  **En reposo**  | **Sin oposición** | **Con oposición** |
-|:---------------:|:-----------------:|:-----------------:|
-|<image width="200" height="150" src="">|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
+|  **Señal**  | **FFT** |
+|:-----------:|:-------:|
+|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
 <p align="center"><i>Tabla 7. Señales adquiridas en las tres tomas: reposo, sin oposición y con oposición graficado en OpenSignal del pulgar</i></p>
 </div>
 
@@ -146,9 +146,9 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 ### Músculo trapecio descendente
 <p align="center">
    
-|  **En reposo**  | **Sin oposición** | **Con oposición** |
-|:---------------:|:-----------------:|:-----------------:|
-|<image width="200" height="150" src="">|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
+|  **Señal**  | **FFT** |
+|:-----------:|:-------:|
+|<image width="200" height="150" src="">|<image width="200" height="150" src="">|
 <p align="center"><i>Tabla 8. Señales adquiridas en las tres tomas: reposo, sin oposición y con oposición graficado en OpenSignal del trapecio</i></p>
 </div>
    
