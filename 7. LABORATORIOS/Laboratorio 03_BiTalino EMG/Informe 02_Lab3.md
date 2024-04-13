@@ -24,9 +24,9 @@
   
 <a name="objetivos"></a>
 ## Objetivos
-1. Adquirir señales biomédicas de EMG y ECG.
+1. Adquirir señales biomédicas de EMG.
 2. Hacer una correcta configuración de BiTalino.
-3. Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolutiondigital.
+3. Extraer la información de las señales EMG del software OpenSignals (r)evolutiondigital.
    
 <a name="materiales"></a>
 ## Materiales y Equipos
@@ -76,8 +76,8 @@ Se adquirieron las señales a partir de las tomas en reposo y contracción del b
 
 <p align="center">
    
-|  **En reposo** | **Sin oposición** | **Con oposición** |
-|:--------------:|:-----------------:|:-----------------:|
+|  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
+|:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c6ee57ea-5082-471e-9d0c-e25412fc6944"> | 
 <p align="center"><i>Tabla 3. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </div>
@@ -87,8 +87,8 @@ Para la segunda adquisición, se realizaron tomas en reposo y contracción del a
 
 <p align="center">
    
-|  **En reposo** | **Sin oposición** | **Con oposición** |
-|:--------------:|:-----------------:|:-----------------:|
+|  **Abductor corto del pulgar en reposo** | **Abductor corto del pulgar sin oposición** | **Abductor corto del pulgar con oposición** |
+|:----------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|
 | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1b429514-5569-4729-b74f-6aaf23c959f9"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6d053c5d-6a04-499d-b3aa-1950be9d9ed4"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/bdcb3a51-93c2-49ba-846b-992fbc81f4ab"> | 
 <p align="center"><i>Tabla 4. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo abductor corto del pulgar.
 </i></p>
@@ -99,8 +99,8 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
 
 <p align="center">
    
-|  **En reposo** | **Sin oposición** | **Con oposición** |
-|:--------------:|:-----------------:|:-----------------:|
+|  **Músculo trapecio descendente en reposo** | **Músculo trapecio descendente sin oposición** | **Músculo trapecio descendente con oposición** |
+|:-------------------------------------------:|:----------------------------------------------:|:----------------------------------------------:|
 | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6071749c-f009-46f8-b410-ed545bd8a189"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4e5bf39c-6620-40d5-887f-9a256c63b886"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/26b2369c-66b6-4e82-9e29-05ee2071da29"> | 
 <p align="center"><i>Tabla 5. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo trapecio descendente.
 </i></p>
