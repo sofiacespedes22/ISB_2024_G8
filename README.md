@@ -5,7 +5,7 @@ _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, per
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
 
 <p align="center">  
-<video src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7afb77bb-bea3-410a-9ff8-fcd9a0b31f63"> 
+<image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b127d17a-f956-476d-9281-47ab93999567"> 
 </p>
 <p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
@@ -52,10 +52,19 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 <a name="integrantes"></a>
 ## Integrantes
-- Sofia Camila Céspedes Trece - sofia.cespedes@upch.pe
-- Nicole Stefany Acuña Malpartida - nicole.acuna@upch.pe
-- Chris Margory Viviano Salvatierra - chris.viviano@upch.pe
-- Harold Alonso Alemán Ramírez - harold.aleman@upch.pe
+- Sofia Camila Céspedes Trece - 
+- Nicole Stefany Acuña Malpartida - 
+- Chris Margory Viviano Salvatierra - 
+- Harold Alonso Alemán Ramírez - 
+<p align="center">
+   
+|**CAMILA CESPEDES TRECE SOFIA**|**CHRIS MARGORY VIVIANO SALVATIERRA**|**NICOLE STEFANY ACUÑA MALPARTIDA**|**HAROLD ALONSO ALEMÁN RAMIREZ**|
+|:-----------------------------:|:-----------------------------------:|:---------------------------------:|:------------------------------:|
+|sofia.cespedes@upch.pe|chris.viviano@upch.pe|nicole.acuna@upch.pe|harold.aleman@upch.pe|
+|Estudiante de último año de la carrera de Ingeniería Biomédica PUCP-UPCH. Apasionada por los materiales, la nanotecnología y la Ingeniería de Tejidos y Materiales. Actualmente es investigora en el grupo de modificación de materiales (Mod-MAT PUCP).|Estudiante de sépitmo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, con interés la Ingeniería de Tejidos y Materiales. Actualmente forma parte del Grupo de Investigación,Innovación y Desarrollo de Ingeniería Clínica (GIIDIC)| Estudiante de noveno ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, interesada en la aplicación de la ingeniería biomédica en entornos clínicos. Actualmente trabajando en un proyecto de investigación junto con al Grupo de Ciencia de Materiales y Energía Renovables (MatEr).|Estudiante de la carrera de Ingeniería Biomédica PUCP-UPCH. Actualmente realizando pasantías en el Instituto Nacional del Niño y en simulación médica en la UPCH. Además cuenta con una empresa que se dedica a utilizar tecnología para optimizar procesos agropecuarios.
+|<image src=""> | <image src=""> | <image src=""> | <image src=""> | 
+<p align="center"></i></p>
+</div>
 
 <a name="docentes"></a>
 ## Docentes del curso:
