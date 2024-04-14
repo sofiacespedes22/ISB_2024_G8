@@ -134,6 +134,7 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 <p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 </div>
 
+
 <a name="a2"></a>
 ### Músculo abductor corto del pulgar
 <p align="center">
@@ -146,6 +147,7 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 <p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 </div>
 
+
 <a name="a3"></a>
 ### Músculo trapecio descendente
 <p align="center">
@@ -157,6 +159,7 @@ Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en
 | **Con oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3684ef21-30c5-4a83-a992-8e614fd4fd8f">|
 <p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 </div>
+
 
 <a name="phyton"></a>
 ## Archivo de la señal ploteada en Python y de los datos de la señal
