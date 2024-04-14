@@ -119,10 +119,6 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
 
 <a name="ploteado"></a>
 ## Ploteo de las señales en python
-Se observa las señales ploteadas en OpenSignal.
-
-<a name="ploteado"></a>
-## Ploteo de las señales en python
 <a name="a1"></a>
 ### 1. Músculo bíceps braquial
 Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en las tres tomas realizadas. La toma en reposo
