@@ -52,10 +52,6 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 <a name="integrantes"></a>
 ## Integrantes
-- Sofia Camila Céspedes Trece - 
-- Nicole Stefany Acuña Malpartida - 
-- Chris Margory Viviano Salvatierra - 
-- Harold Alonso Alemán Ramírez - 
 <p align="center">
    
 |**CAMILA CESPEDES TRECE SOFIA**|**CHRIS MARGORY VIVIANO SALVATIERRA**|**NICOLE STEFANY ACUÑA MALPARTIDA**|**HAROLD ALONSO ALEMÁN RAMIREZ**|
@@ -73,12 +69,5 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - Venancio Huerta, Julissa - julissa.venancio@upch.pe
 - Cáceres del Aguila, Jose Alonso - jose.caceres.d@upch.pe
 
-### Conócenos un poco mas:
-<image src ="1.MIEMBROS DEL EQUIPO/Colaboradores.png"> 
-  
-#### Sobre nosotros
-<image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 1.png">
-<image src ="1.MIEMBROS DEL EQUIPO/Colaboradores - 2.png">
-
-<a name="referecnias"></a>
+<a name="referencias"></a>
 ## Referencias
