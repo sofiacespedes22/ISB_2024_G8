@@ -34,7 +34,9 @@ La captura y análisis de estas señales biomédicas se han transformado radical
 
 ### ¿Cómo se adquiere y procesa las señales del electrocardiograma (ECG)?
 La adquisición y procesamiento de señales de electrocardiograma (ECG) implica colocar electrodos en el paciente para capturar las señales eléctricas del corazón, las cuales se amplifican y filtran para eliminar ruidos e interferencias. Estas señales son luego digitalizadas para permitir un análisis computarizado. En el procesamiento, se utilizan algoritmos para identificar y analizar componentes clave de la señal, como las ondas P, QRS y T, que son críticos para diagnosticar condiciones cardíacas. Este proceso integral es esencial en la práctica médica moderna, permitiendo monitorear la salud cardiovascular y detectar anomalías con precisión y eficiencia.
-
+<p align="center">  
+<image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b127d17a-f956-476d-9281-47ab93999567"> 
+</p>
 <p align="center"><i>Figura 1. Señal biomédica de un electrocardiograma (ECG) </i></p>
 
 </div>
