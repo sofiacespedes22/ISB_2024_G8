@@ -1,1 +1,0 @@
-# Miembros del equipo
