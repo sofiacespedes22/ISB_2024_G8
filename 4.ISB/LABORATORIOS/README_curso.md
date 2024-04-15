@@ -1,4 +1,5 @@
 # Introducción a Señales Biomédicas
+Somos un equipo de estudiantes de Ingeniería Biomédica de las universidades PUCP y UPCH. Durante el semestre 2024-1 trabajaremos en un proyecto de adquisición y procesamiento de señales de ECG para pacientes con arritmia.
 ## Tabla de contenidos
 1. [Descripción del curso](#descripcion)
 2. [Contexto del Proyecto](#contexto)
