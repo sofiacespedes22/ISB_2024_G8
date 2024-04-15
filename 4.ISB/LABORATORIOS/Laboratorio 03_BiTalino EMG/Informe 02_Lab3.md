@@ -12,6 +12,9 @@
    - [Actividad muscular del del abductor corto del pulgar - Prueba 02](#d2)
    - [Actividad muscular del músculo trapecio descendente (superior) - Prueba 03](#d3)
 7. [Ploteo de las señales en python](#ploteado)
+   - [Músculo bícep braquial](#a1)
+   - [Músculo abductor corto del pulgar](#a2)
+   - [Músculo trapecio descendente](#a3)
 8. [Archivo de la señal ploteada en Python y de los datos de la señal](#phyton)
    - [Señales ploteadas en python](#r3)
    - [Datos de la señal ploteada](#r4)
@@ -116,15 +119,47 @@ Por último, se adquirieron las señales EMG a partir de la toma en reposo y con
 
 <a name="ploteado"></a>
 ## Ploteo de las señales en python
-Se observa las señales ploteadas en OpenSignal.
+<a name="a1"></a>
+### 1. Músculo bíceps braquial
+Se observa las señales ploteadas en OpenSignal del músculo bíceps braquial en las tres tomas realizadas. La toma en reposo
 
 <p align="center">
-   
-|  **Señal**  | **FFT** |
-|:-----------:|:-------:|
-|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2794caaa-005b-4cd5-902a-05df6796f78f">|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d34aa95-b92d-453c-ac36-86e495ce6472">|
-<p align="center"><i>Tabla 6. Señales adquiridas</i></p>
+
+
+| **Posición** | **Señal y FFT** |
+|:------------:|:---------------:|
+| **En reposo**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/26848c36-3aa7-4650-a415-68facd5099dc">|
+| **Sin oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0a5bcecf-0923-4aa1-ab85-5f01b6ec4e50">|
+| **Con oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f60cf9e5-eefe-4e4f-9214-8731e8355ca0">|
+<p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 </div>
+
+
+<a name="a2"></a>
+### Músculo abductor corto del pulgar
+<p align="center">
+
+| **Posición** | **Señal y FFT** |
+|:------------:|:---------------:|
+| **En reposo**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e96274cd-fb87-4d43-a979-3529c5978078">|
+| **Sin oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/af073b00-3f88-4e3a-bb94-85ff13b5ef59">|
+| **Con oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/74b98b83-5753-491f-b423-6b233ad3d404">|
+<p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+</div>
+
+
+<a name="a3"></a>
+### Músculo trapecio descendente
+<p align="center">
+
+| **Posición** | **Señal y FFT** |
+|:------------:|:---------------:|
+| **En reposo**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/141da4a9-e6a1-4cb2-bdb7-ee85c59913aa">|
+| **Sin oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ded1f4fb-bbac-4df7-8610-b5af67fa82a0">|
+| **Con oposición**|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3684ef21-30c5-4a83-a992-8e614fd4fd8f">|
+<p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+</div>
+
 
 <a name="phyton"></a>
 ## Archivo de la señal ploteada en Python y de los datos de la señal
