@@ -24,7 +24,7 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - [Referencias](#referencias)
 
 <a name="intro"></a>
-## Introdrucción
+## Introducción
 
 <a name="problematica"></a>
 ## Problemática
