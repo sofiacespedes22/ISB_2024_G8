@@ -64,10 +64,19 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 <a name="docentes"></a>
 ## Docentes del curso:
-- De la Cruz Rodriguez, Lewis - umbert.de.la.cruz@upch.pe
-- Meza Rodriguez, Moises - moises.meza@upch.pe
-- Venancio Huerta, Julissa - julissa.venancio@upch.pe
-- Cáceres del Aguila, Jose Alonso - jose.caceres.d@upch.pe
+
+<a name="profesores"></a>
+### Profesores
+- Umbert Lewis De La Cruz Rodriguez [umbert.de.la.cruz@upch.pe]
+- Moisés Stevend Meza Rodriguez [moises.meza@upch.pe]
+
+<a name="jp"></a>
+
+### Jefes de Prácticas
+- Julissa Elvira Venancio Huerta [julissa.venancio@upch.pe]
+- Jose Alonso Cáceres del Aguila [jose.caceres.d@upch.com]
+
+
 
 <a name="referencias"></a>
 ## Referencias
