@@ -10,18 +10,20 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 <p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
 ## Tabla de contenidos
-- [Introducción](#intro)
-- [Problemática](#problematica)
-- [Estado del arte](#estado)
-- [Objetivos](#objetivos)
-- [Materiales](#materiales)
-- [Metodología](#metodologia)
-- [Resultados](#resultados)
-- [Análisis de resultados](#analisis)
-- [Conclusiones](#conclusiones)
-- [Integrantes](#integrantes)
-- [Docentes del curso](#docentes)
-- [Referencias](#referencias)
+1. [Introducción](#intro)
+2. [Problemática](#problematica)
+3. [Estado del arte](#estado)
+4. [Objetivos](#objetivos)
+5. [Materiales](#materiales)
+6. [Metodología](#metodologia)
+7. [Resultados](#resultados)
+8. [Análisis de resultados](#analisis)
+9. [Conclusiones](#conclusiones)
+10. [Integrantes](#integrantes)
+11. [Docentes del curso](#docentes)
+    - [Profesores](#profesores)
+    - [Jefes de práctica](#jp)
+13. [Referencias](#referencias)
 
 <a name="intro"></a>
 ## Introducción
