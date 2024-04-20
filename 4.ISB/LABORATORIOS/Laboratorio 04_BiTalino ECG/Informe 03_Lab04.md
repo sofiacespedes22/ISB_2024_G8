@@ -69,7 +69,7 @@ El electrocardiograma (ECG) es una herramienta diagnóstica esencial que registr
 La metodología seguida para la adquisición y procesamiento de las señales ECG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #2 ELECTROCARDIOGRAPHY (ECG) Exploring Cardiac Signals at the Skin Surface"[1]. 
 
 <a name="materiales"></a>
-### Materiales y Equipos
+### 1. Materiales y Equipos
 <div align="center">
 	
 |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
@@ -80,12 +80,10 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 </div>
 
 <a name="adquisicion"></a>
-### Adquisición de datos
-Para la adquisición de datos, el sujeto de prueba fue un hombre de 22 años con las siguientes características:
-
+### 2. Adquisición de datos
 
 <a name="procesamiento"></a>
-### Procesamiento de las señales
+### 3. Procesamiento de las señales
 
 <a name="resultados"></a>
 ## Resultados
