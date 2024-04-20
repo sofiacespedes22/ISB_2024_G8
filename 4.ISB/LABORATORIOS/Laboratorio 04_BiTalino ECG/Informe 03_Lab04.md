@@ -76,17 +76,18 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 |:------------:|:---------------:|:------------:|:----------:|
 |(R)EVOLUTION|**Kit BITalino**:Kit electrónico formada por varios módulos individuales utilizados para la recolección de datos boiomédicos. Se pueden adquirir señales como EMG,ECG o EEG.|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c8d4e3ed-4054-4c4d-9820-0c1dbd5ddd6f">|
 |-|**Laptop o PC**:Se descargará el software de análisis para procesar las señales|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
-|Fluke|**Prosim4**: Simulador de signos vitales diseñado para comprobar y verificar el funcionamiento básico de varios parámetros fisiológicos, como la respiració, presión arterial, entre otros.|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7d81b06d-ceca-416e-8d00-661a3e788a3b">|
+|Fluke|**Prosim4**: Simulador de signos vitales diseñado para comprobar y verificar el funcionamiento básico de varios parámetros fisiológicos, como la respiració, presión arterial, entre otros.|1|<image width="100" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/376ac065-9d63-4bc6-b7d6-21d9b7afe0f4">|
 |-|**Electrodos**: Registran la actividad eléctrica de los músculos durante la contracción y relajamiento muscular|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/21dab0fa-801d-4dd1-b0c9-3b29bf3be7fb">|
 <p align="center"><i>Tabla 1. Materiales y equipos </i></p>
 </div>
+
 
 <a name="adquisicion"></a>
 ### 2. Procedimiento
 Para la adquisición de datos, el sujeto de prueba fue un hombre de 22 años con las siguientes características:
 <div align="center">
 	
-|  **Nombre**  | **Edad** | **Edad** | **Peso** | **Frecuencia de actividad física** | **Condición** |
+|  **Nombre**  | **Edad** | **Peso** | **Sexo** | **Frecuencia de actividad física** | **Condición** |
 |:------------:|:--------:|:--------:|:--------:|:----------------------------------:|:-------------:|
 |Harold Alemán|22|72 kg|Masculino|Regular|Sano|
 <p align="center"><i>Tabla 2. Características del sujeto de prueba elegido </i></p>
@@ -102,7 +103,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 	
 |  **Colocación de electrodos para la derivación I**  | **Colocación de electrodos en el sujeto de prueba** | 
 |:------------:|:--------:|
-|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c0e7d84a-0ebe-4694-8c91-8a3f3033f92f">|
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c0e7d84a-0ebe-4694-8c91-8a3f3033f92f">|
 <p align="center"><i>Tabla 2. Posicionamiento de los electrodos en el sujeto de prueba: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca </i></p>
 </div>
 
