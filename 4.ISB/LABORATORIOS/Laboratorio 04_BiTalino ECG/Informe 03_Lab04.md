@@ -66,10 +66,17 @@ El electrocardiograma (ECG) es una herramienta diagnóstica esencial que registr
 
 <a name="metodologia"></a>
 ## Metodología 
+La metodología seguida para la adquisición y procesamiento de las señales ECG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #2 ELECTROCARDIOGRAPHY (ECG) Exploring Cardiac Signals at the Skin Surface"[1]. 
 
 <a name="materiales"></a>
 ### Materiales y Equipos
-  
+ |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
+|:------------:|:---------------:|:------------:|:----------:|
+|(R)EVOLUTION|Kit BITalino|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c8d4e3ed-4054-4c4d-9820-0c1dbd5ddd6f">|
+|-|Laptop o PC|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/571d6d42-97c0-461c-8767-a4e8cb3a9318">|
+<p align="center"><i>Tabla 1. Materiales y equipos </i></p>
+</div>
+
 <a name="adquisicion"></a>
 ### Adquisición de datos
 
@@ -88,7 +95,7 @@ El electrocardiograma (ECG) es una herramienta diagnóstica esencial que registr
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
-[1] V. Gupta and M. Mittal, “ECG Signal Analysis: Past, Present and Future,” IEEE Xplore, Dec. 01, 2018. https://ieeexplore.ieee.org/document/8704365 (accessed May 03, 2022).
+[1] V. Gupta and M. Mittal, “ECG Signal Analysis: Past, Present and Future,” IEEE Xplore, Dec. 01, 2018. https://ieeexplore.ieee.org/document/8704365
 [2] Mayo Clinic, “Electrocardiogram (ECG or EKG)” www.mayoclinic.org, May 18, 2022. https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983#:~:text=Electrocardiograma-
 [3] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 [4] T. Anbalagan, M. K. Nath, D. Vijayalakshmi, and A. Anbalagan, “Analysis of various techniques for ECG signal in healthcare, past, present, and future,” Biomedical Engineering Advances, vol. 6, p. 100089, Nov. 2023, doi: https://doi.org/10.1016/j.bea.2023.100089.
