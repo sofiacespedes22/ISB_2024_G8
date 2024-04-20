@@ -26,11 +26,11 @@
   
 <a name="introduccion"></a>
 ## Introducción
-El electrocardiograma (ECG) representa la actividad eléctrica del corazón, siendo esencialmente una traducción gráfica de este fenómeno. Este proceso implica la detección de ondas P-QRS-T mediante electrodos ubicados en puntos estratégicos del cuerpo del paciente. Incluso pequeñas alteraciones en estas señales pueden ayudar a determinar o detectar una variedad de condiciones y aspectos relacionados con la salud del corazón. <sup>[1](https://ieeexplore.ieee.org/document/8704365)</sup> Este procedimiento no invasivo es útil para:
+El electrocardiograma (ECG) representa la actividad eléctrica del corazón, siendo esencialmente una traducción gráfica de este fenómeno. Este proceso implica la detección de ondas P-QRS-T mediante electrodos ubicados en puntos estratégicos del cuerpo del paciente. Incluso pequeñas alteraciones en estas señales pueden ayudar a determinar o detectar una variedad de condiciones y aspectos relacionados con la salud del corazón <sup>[1](https://ieeexplore.ieee.org/document/8704365)</sup>.Este procedimiento no invasivo es útil para:
 
-- Identificar ritmos cardíacos irregulares, como las arritmias.\
-- Evaluar si las arterias obstruidas o estrechas del corazón, como en la enfermedad de las arterias coronarias, están ocasionando dolor de pecho o un ataque cardíaco.\
-- Determinar antecedentes de ataques cardíacos previos.\
+- Identificar ritmos cardíacos irregulares, como las arritmias.
+- Evaluar si las arterias obstruidas o estrechas del corazón, como en la enfermedad de las arterias coronarias, están ocasionando dolor de pecho o un ataque cardíaco.
+- Determinar antecedentes de ataques cardíacos previos.
 - Evaluar la eficacia de ciertos tratamientos para enfermedades cardíacas, como el funcionamiento de un marcapasos. <sup>[2](https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983#:~:text=Electrocardiograma-)</sup>
 
 Por eso mismo, el análisis temporal de la señal de ECG proporciona información valiosa para el diagnóstico cardiovascular. Partiendo de ese punto, en este laboratorio se explora el uso de la placa de desarrollo BITalino, destacada por su eficacia en la adquisición de señales de ECG gracias a su precisa capacidad para medir la actividad eléctrica del corazón. En este proceso, resulta crucial comprender la técnica adecuada de colocación de electrodos, así como identificar las ubicaciones exactas donde deben ser colocados, junto con los cables de medición (IN+/-) y el cable de referencia (REF). Esta configuración permite una transmisión precisa de la actividad eléctrica captada por los electrodos al dispositivo para su registro y análisis. La versatilidad y precisión del BITalino lo posicionan como una elección óptima tanto para investigaciones médicas como para aplicaciones de monitoreo de la salud cardiovascular. <sup>[3](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>
@@ -39,7 +39,7 @@ A través de esta experiencia práctica, se espera aprender sobre la obtención 
 
 <a name="marco"></a>
 ### Marco teórico
-#### Señal ECG
+#### - Señal ECG
 La morfología de la señal de ECG se caracteriza por varios elementos clave: la onda P, el complejo QRS, la onda T y los intervalos entre ellos.
 
 - La onda P indica la despolarización auricular.
@@ -54,7 +54,7 @@ Estos elementos, junto con los intervalos como el intervalo PR, el período QRS 
 <p align="center"><i>Figura 1. Morfología del ECG: diferentes segmentos de señal de ECG para una persona normal <sup>[4](https://doi.org/10.1016/j.bea.2023.100089)</sup> </i></p>
 </div>
 
-#### Electrocardiograma
+#### - Electrocardiograma
 El electrocardiograma (ECG) es una herramienta diagnóstica esencial que registra la actividad eléctrica del corazón. A través de electrodos colocados estratégicamente en el cuerpo, se capturan las señales eléctricas generadas por cada contracción cardíaca. Estas señales se representan gráficamente como ondas en un papel o pantalla. El ECG proporciona una amplia gama de información, incluyendo la velocidad del ritmo cardíaco, la regularidad de los impulsos eléctricos y la fuerza de la actividad eléctrica en distintas regiones del corazón. Además, permite evaluar la morfología de las ondas cardíacas, lo que puede revelar detalles sobre la estructura y función cardíacas. <sup>[5](https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/)</sup>
 
 
