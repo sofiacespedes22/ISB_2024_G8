@@ -81,6 +81,14 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 
 <a name="adquisicion"></a>
 ### 2. Adquisición de datos
+Para la adquisición de datos, el sujeto de prueba fue un hombre de 22 años con las siguientes características:
+<div align="center">
+	
+|  **Nombre**  | **Edad** | **Edad** | **Peso** | **Frecuencia de actividad física** | **Condición** |
+|:------------:|:--------:|:--------:|:--------:|:----------------------------------:|:-------------:|
+|Harold Alemán|22|-|Masculino|-|Sano|
+<p align="center"><i>Tabla 2. Datos del sujeto de prueba </i></p>
+</div>
 
 <a name="procesamiento"></a>
 ### 3. Procesamiento de las señales
