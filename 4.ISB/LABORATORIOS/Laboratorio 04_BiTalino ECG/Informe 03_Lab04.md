@@ -103,7 +103,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 	
 |  **Colocación de electrodos para la derivación I**  | **Colocación de electrodos en el sujeto de prueba** | 
 |:------------:|:--------:|
-|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c0e7d84a-0ebe-4694-8c91-8a3f3033f92f">|
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image width="100" height="200"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c0e7d84a-0ebe-4694-8c91-8a3f3033f92f">|
 <p align="center"><i>Tabla 2. Posicionamiento de los electrodos en el sujeto de prueba: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca </i></p>
 </div>
 
@@ -123,7 +123,7 @@ Adicionalmente, se realizó la adquisición de datos del estado de un paciente q
 - **Stop**
 </div>
 <p align="center">
-<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7d2b5dac-75aa-47ce-9c79-9dfa98554684">
+<image width="100" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7d2b5dac-75aa-47ce-9c79-9dfa98554684">
 <p align="center"><i>Figura 2. Configuración del Prosim4 para la obtención de señales en cuatro etapas que conducen al paro cardíaco</i></p>
 </div>
 
