@@ -39,7 +39,7 @@ A través de esta experiencia práctica, se espera aprender sobre la obtención 
 
 <a name="marco"></a>
 ### Marco teórico
-#### - Señal ECG
+#### a. Señal ECG
 La morfología de la señal de ECG se caracteriza por varios elementos clave: la onda P, el complejo QRS, la onda T y los intervalos entre ellos.
 
 - La onda P indica la despolarización auricular.
@@ -54,7 +54,7 @@ Estos elementos, junto con los intervalos como el intervalo PR, el período QRS 
 <p align="center"><i>Figura 1. Morfología del ECG: diferentes segmentos de señal de ECG para una persona normal <sup>[4](https://doi.org/10.1016/j.bea.2023.100089)</sup> </i></p>
 </div>
 
-#### - Electrocardiograma
+#### b. Electrocardiograma
 El electrocardiograma (ECG) es una herramienta diagnóstica esencial que registra la actividad eléctrica del corazón. A través de electrodos colocados estratégicamente en el cuerpo, se capturan las señales eléctricas generadas por cada contracción cardíaca. Estas señales se representan gráficamente como ondas en un papel o pantalla. El ECG proporciona una amplia gama de información, incluyendo la velocidad del ritmo cardíaco, la regularidad de los impulsos eléctricos y la fuerza de la actividad eléctrica en distintas regiones del corazón. Además, permite evaluar la morfología de las ondas cardíacas, lo que puede revelar detalles sobre la estructura y función cardíacas. <sup>[5](https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/)</sup>
 
 
