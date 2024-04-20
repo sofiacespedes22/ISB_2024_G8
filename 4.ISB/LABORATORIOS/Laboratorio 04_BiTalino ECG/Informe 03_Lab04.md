@@ -98,7 +98,11 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 <a name="referencias"></a>
 ## Referencias bibliográficas
 [1] V. Gupta and M. Mittal, “ECG Signal Analysis: Past, Present and Future,” IEEE Xplore, Dec. 01, 2018. https://ieeexplore.ieee.org/document/8704365
+
 [2] Mayo Clinic, “Electrocardiogram (ECG or EKG)” www.mayoclinic.org, May 18, 2022. https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983#:~:text=Electrocardiograma-
+
 [3] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+
 [4] T. Anbalagan, M. K. Nath, D. Vijayalakshmi, and A. Anbalagan, “Analysis of various techniques for ECG signal in healthcare, past, present, and future,” Biomedical Engineering Advances, vol. 6, p. 100089, Nov. 2023, doi: https://doi.org/10.1016/j.bea.2023.100089.
+
 [5] MedlinePlus, “Electrocardiograma” medlineplus.gov, Feb. 28, 2023. https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/
