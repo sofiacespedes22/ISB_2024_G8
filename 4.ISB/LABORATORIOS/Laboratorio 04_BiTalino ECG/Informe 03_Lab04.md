@@ -50,8 +50,8 @@ Estos elementos, junto con los intervalos como el intervalo PR, el período QRS 
 
 </div>
 <p align="center">
-<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c90c0996-9e1f-4b7f-887d-b750cb7197ab">
-<p align="center"><i>Figura 1. Morfología del ECG: diferentes segmentos de señal de ECG para una persona normal <sup>[4](https://doi.org/10.1016/j.bea.2023.100089</sup> </i></p>
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c90c0996-9e1f-4b7f-887d-b750cb7197ab">
+<p align="center"><i>Figura 1. Morfología del ECG: diferentes segmentos de señal de ECG para una persona normal <sup>[4](https://doi.org/10.1016/j.bea.2023.100089)</sup> </i></p>
 </div>
 
 #### b. Electrocardiograma
