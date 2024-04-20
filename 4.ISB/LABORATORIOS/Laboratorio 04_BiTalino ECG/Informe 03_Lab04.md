@@ -2,8 +2,8 @@
 ## Tabla de contenidos
 1. [Lista de participantes](#lista)
 2. [Introducción](#introduccion)\
-   2.1 [Marco teórico](#marco)\
-3. [Objetivos](#objetivos)\
+   2.1 [Marco teórico](#marco)
+3. [Objetivos](#objetivos)
 4. [Metodología](#metodologia)\
    2.1 [Materiales y equipos](#materiales)\
    2.2 [Adquisición de datos](#adquisicion)\
@@ -26,10 +26,10 @@
   
 <a name="introduccion"></a>
 ## Introducción
-El electrocardiograma (ECG) representa la actividad eléctrica del corazón, siendo esencialmente una traducción gráfica de este fenómeno. Este proceso implica la detección de ondas P-QRS-T mediante electrodos ubicados en puntos estratégicos del cuerpo del paciente. Incluso pequeñas alteraciones en estas señales pueden ayudar a determinar o detectar una variedad de condiciones y aspectos relacionados con la salud del corazón. <sup>[1](https://ieeexplore.ieee.org/document/8704365)</sup> Este procedimiento no invasivo es útil para:\
-a. Identificar ritmos cardíacos irregulares, como las arritmias.\
+El electrocardiograma (ECG) representa la actividad eléctrica del corazón, siendo esencialmente una traducción gráfica de este fenómeno. Este proceso implica la detección de ondas P-QRS-T mediante electrodos ubicados en puntos estratégicos del cuerpo del paciente. Incluso pequeñas alteraciones en estas señales pueden ayudar a determinar o detectar una variedad de condiciones y aspectos relacionados con la salud del corazón. <sup>[1](https://ieeexplore.ieee.org/document/8704365)</sup> Este procedimiento no invasivo es útil para:
+a. Identificar ritmos cardíacos irregulares, como las arritmias.
 b. Evaluar si las arterias obstruidas o estrechas del corazón, como en la enfermedad de las arterias coronarias, están ocasionando dolor de pecho o un ataque cardíaco.\
-c. Determinar antecedentes de ataques cardíacos previos.\
+c. Determinar antecedentes de ataques cardíacos previos.
 d. Evaluar la eficacia de ciertos tratamientos para enfermedades cardíacas, como el funcionamiento de un marcapasos. <sup>[2](https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983#:~:text=Electrocardiograma-)</sup>
 
 Por eso mismo, el análisis temporal de la señal de ECG proporciona información valiosa para el diagnóstico cardiovascular. Partiendo de ese punto, en este laboratorio se explora el uso de la placa de desarrollo BITalino, destacada por su eficacia en la adquisición de señales de ECG gracias a su precisa capacidad para medir la actividad eléctrica del corazón. En este proceso, resulta crucial comprender la técnica adecuada de colocación de electrodos, así como identificar las ubicaciones exactas donde deben ser colocados, junto con los cables de medición (IN+/-) y el cable de referencia (REF). Esta configuración permite una transmisión precisa de la actividad eléctrica captada por los electrodos al dispositivo para su registro y análisis. La versatilidad y precisión del BITalino lo posicionan como una elección óptima tanto para investigaciones médicas como para aplicaciones de monitoreo de la salud cardiovascular. <sup>[3](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>
