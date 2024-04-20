@@ -10,21 +10,23 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 <p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
 ## Tabla de contenidos
-- [Introducción](#intro)
-- [Problemática](#problematica)
-- [Estado del arte](#estado)
-- [Objetivos](#objetivos)
-- [Materiales](#materiales)
-- [Metodología](#metodologia)
-- [Resultados](#resultados)
-- [Análisis de resultados](#analisis)
-- [Conclusiones](#conclusiones)
-- [Integrantes](#integrantes)
-- [Docentes del curso](#docentes)
-- [Referencias](#referencias)
+1. [Introducción](#intro)
+2. [Problemática](#problematica)
+3. [Estado del arte](#estado)
+4. [Objetivos](#objetivos)
+5. [Materiales](#materiales)
+6. [Metodología](#metodologia)
+7. [Resultados](#resultados)
+8. [Análisis de resultados](#analisis)
+9. [Conclusiones](#conclusiones)
+10. [Integrantes](#integrantes)
+11. [Docentes del curso](#docentes)
+    - [Profesores](#profesores)
+    - [Jefes de práctica](#jp)
+13. [Referencias](#referencias)
 
 <a name="intro"></a>
-## Introdrucción
+## Introducción
 
 <a name="problematica"></a>
 ## Problemática
@@ -53,10 +55,10 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 <a name="integrantes"></a>
 ## Integrantes
 <p align="center">
-   
+
 |**CAMILA CESPEDES TRECE SOFIA**|**CHRIS MARGORY VIVIANO SALVATIERRA**|**NICOLE STEFANY ACUÑA MALPARTIDA**|**HAROLD ALONSO ALEMÁN RAMIREZ**|
 |:-----------------------------:|:-----------------------------------:|:---------------------------------:|:------------------------------:|
-|<image src=""> | <image src=""> | <image src=""> | <image src=""> |
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c1777d5e-c6a9-44af-9c63-50191a33c99d"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2e35eae2-2687-4834-ad24-e1687f64e66e"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d8213425-cc5d-4177-a49a-a034dad09d43"> | <image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/991fdbfd-2dc6-4fe9-be24-f5403c0b02b7"> |
 |sofia.cespedes@upch.pe|chris.viviano@upch.pe|nicole.acuna@upch.pe|harold.aleman@upch.pe|
 |Estudiante de último año de la carrera de Ingeniería Biomédica PUCP-UPCH. Apasionada por los materiales, la nanotecnología y la Ingeniería de Tejidos y Materiales. Actualmente es investigora en el grupo de modificación de materiales (Mod-MAT PUCP).|Estudiante de sépitmo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, con interés la Ingeniería de Tejidos y Materiales. Actualmente forma parte del Grupo de Investigación,Innovación y Desarrollo de Ingeniería Clínica (GIIDIC)| Estudiante de noveno ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, interesada en la aplicación de la ingeniería biomédica en entornos clínicos. Actualmente trabajando en un proyecto de investigación junto con al Grupo de Ciencia de Materiales y Energía Renovables (MatEr).|Estudiante de la carrera de Ingeniería Biomédica PUCP-UPCH. Actualmente realizando pasantías en el Instituto Nacional del Niño y en simulación médica en la UPCH. Además cuenta con una empresa que se dedica a utilizar tecnología para optimizar procesos agropecuarios. 
 <p align="center"></i></p>
@@ -64,10 +66,19 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 <a name="docentes"></a>
 ## Docentes del curso:
-- De la Cruz Rodriguez, Lewis - umbert.de.la.cruz@upch.pe
-- Meza Rodriguez, Moises - moises.meza@upch.pe
-- Venancio Huerta, Julissa - julissa.venancio@upch.pe
-- Cáceres del Aguila, Jose Alonso - jose.caceres.d@upch.pe
+
+<a name="profesores"></a>
+### Profesores
+- Umbert Lewis De La Cruz Rodriguez [umbert.de.la.cruz@upch.pe]
+- Moisés Stevend Meza Rodriguez [moises.meza@upch.pe]
+
+<a name="jp"></a>
+
+### Jefes de Prácticas
+- Julissa Elvira Venancio Huerta [julissa.venancio@upch.pe]
+- Jose Alonso Cáceres del Aguila [jose.caceres.d@upch.com]
+
+
 
 <a name="referencias"></a>
 ## Referencias
