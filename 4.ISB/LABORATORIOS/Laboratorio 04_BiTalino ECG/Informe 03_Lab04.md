@@ -70,7 +70,9 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 
 <a name="materiales"></a>
 ### Materiales y Equipos
- |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
+<div align="center">
+	
+|  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
 |:------------:|:---------------:|:------------:|:----------:|
 |(R)EVOLUTION|Kit BITalino|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c8d4e3ed-4054-4c4d-9820-0c1dbd5ddd6f">|
 |-|Laptop o PC|1|<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/571d6d42-97c0-461c-8767-a4e8cb3a9318">|
@@ -79,6 +81,8 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 
 <a name="adquisicion"></a>
 ### Adquisición de datos
+Para la adquisición de datos, el sujeto de prueba fue un hombre de 22 años con las siguientes características:
+
 
 <a name="procesamiento"></a>
 ### Procesamiento de las señales
