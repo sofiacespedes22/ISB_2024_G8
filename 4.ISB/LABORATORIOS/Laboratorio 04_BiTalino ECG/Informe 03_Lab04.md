@@ -1,4 +1,4 @@
-# LABORATORIO N°2 - Adquisición de señales de electrocardiograma (ECG) con BITalino
+# LABORATORIO N°4 - Adquisición de señales de electrocardiograma (ECG) con BITalino
 ## Tabla de contenidos
 1. [Lista de participantes](#lista)
 2. [Introducción](#introduccion)\
