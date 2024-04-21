@@ -13,9 +13,12 @@
    3.2 [Archivos](#)\
    3.2 [Ploteo de la señal en Python](#)\
    3.3 [Señal en Prosim4](#)
-6. [Discusión](#discusion)
-7. [Conclusiones](#conclusiones)
-8. [Referencias bibliográficas](#referencias)
+6. [Archivos de la señal ploteada en Python y de los datos de la señal](#phyton)
+   - [Señales ploteadas en python](#r3)
+   - [Datos de la señal ploteada](#r4)
+7. [Discusión](#discusion)
+8. [Conclusiones](#conclusiones)
+9. [Referencias bibliográficas](#referencias)
 
 <a name="lista"></a>
 ## Lista de participantes
@@ -131,7 +134,8 @@ a. **Estado de reposo**:El sujeto de prueba se quedó en una posición estable y
 b. **Estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos.
 c. **Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
-Adicionalmente, se realizó la adquisición de datos del estado de un paciente que llegaría a paro cardíaco utilizado el Prosim4 por cuatro ciclos con los siguientes parámetros, como se observa en la Figura 2:
+#### Señal ProSim4
+Adicionalmente, se utilizó el Fluke ProSim4, para la adquisición de datos del estado de un paciente que llegaría a paro cardíaco utilizando el Prosim4 por cinco ciclos con los siguientes parámetros, como se observa en la Figura 2:
 - **ECG 80lpm:** 45s
 - **CVP(VI)**: 30s
 - **Taq. vent. 160 lpm**: 30s
@@ -144,39 +148,112 @@ Adicionalmente, se realizó la adquisición de datos del estado de un paciente q
 <p align="center"><i>Figura 2. Configuración del Prosim4 para la obtención de señales en cuatro etapas que conducen al paro cardíaco</i></p>
 </div>
 
+Y para la conexion del PromSim4 para la experiencia de laboratorio, se tomo en consideracion las siguientes entradas en cuanto a los terminales ECG: RL,LL,RA. En el que se utiliza LL como referencia, RA como el electrodo negativo, y LA como el electrodo positivo.
+</div>
+<p align="center">
+<image width="200" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/57604da2-ce4a-4da0-ad2d-e6aad858acf6">
+<p align="center"><i>Figura 3. Colocación de electrodos en el Prosim4</i></p>
+</div>
+
 <a name="procesamiento"></a>
 ### 3. Procesamiento de datos
 Para el procesamiento de las señales adquiridas, se realizó el ploteo en Python para el análisis cuantitativo de segmentos específicos y determinar las características de cada señal ECG, así como los intervalos de duración de cada parámetro. Asimismo, se realizó la transformada rápida de Fourier (FFT) para determinar particularidades de una la señal en mucha mayor medida.
 
 <a name="resultados"></a>
 ## Resultados
-### Resultado 
-
+###  Visualización de señal eléctrica mediante video y OpenSignals
+A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señal eléctrica en OpenSignals
 <div align="center">	
 	
 | **Estados** | **Prueba** |
 |:------------:|:---------------:|
-| **1. Estado basal**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
-| **2. Manteniendo la respiración 10 segundos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
-| **3. Luego de mantener la respiración**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
-| **4. Durante ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
-| **5. Luego de ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
+| **a. Estado basal**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
+| **b. Manteniendo la respiración 10 segundos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
+| **c. Reposo basal (exhalación)**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
+| **d. En actividad física**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
+| **e. Después de actividad física**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
 <p align="center"><i>Tabla 4. Videos obtenidos en los distintos estados </i></p>
 </div>
 
 #### Ploteo de la señales en Python
+Se realizó el ploteo de las señales obtenidas en Python y se calculó los latidos por minuto (lpm) para comparar si los valores se encontraban dentro del rango estándar según cada estado evaluado. Para obtener el valor del lpm, se calculó el intervalo R-R en las señales, que representa la despolarización de los ventrículos, siguiendo la siguiente fórmula:
+LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico de una onda “R” hasta la siguiente onda “R”.
+**a. En reposo**: En el estado de reposo, el usuario presentó un valor del intervalo R-R de 0.68s que equivaldría a 88 latido por minuto (lpm) , lo cual se encuentra dentro del rango de palpitaciones cardíacas estándar de un adulto joven en estado basal <sup>[8](https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/)</sup>. Asimismo, se evidencia un pico máximo del complejo QRS de 700 mV en amplitud, y un pico mínimo de aproximadamente 420 de amplitud.
+</div>
+<p align="center">
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ea90f7b4-ee37-4f43-8d20-f7ed1ea9e5fe">
+<p align="center"><i>Figura 5. Ploteo de la señal en estado de reposo y características ECG</i></p>
+</div>
+	
+**b. Manteniendo la respiración**: En el segundo estado, el sujeto mantuvo la respiración por 10 segundos con lo que se obtuvo el valor del intervalo R-R de 0.75s, lo cual equivale a 80 lpm, que indica menores palpitaciones cardíacas que en estado de reposo. El pico máximo del complejo QRS es de 680 mV en amplitud, y el pico mínimo de aproximadamente 410 de amplitud.
+</div>
+<p align="center">
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7bfc4f4a-89c2-4276-b7c4-0f77ab0f7a5f">
+<p align="center"><i>Figura 6. Ploteo de la señal en estado de manteniendo la respiración y características ECG</i></p>
+</div>
 
+
+**c. Reposo basal (Exhalación)**: En el tercer estado, se registró la señal durante el proceso de exhalación del sujeto tras haber inhalado y mantenido por 10 segundos la respiración. El intervalo R-R obtenido fue de 0.82 s, lo cual equivale a 74 lpm. El pico máximo del complejo QRS es de 610 mV en amplitud, y el pico mínimo de aproximadamente 410 de amplitud.
+</div>
+<p align="center">
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4b1d6814-fd6a-4b54-8f5b-30d31040d763">
+<p align="center"><i>Figura 7. Ploteo de la señal en estado de exhalación tras la respiración y características ECG
+</i></p>
+</div>
+
+**d. En actividad física**: En el cuarto estado, se registró la señal durante la actividad física. El intervalo R-R obtenido fue de 0.48s lo cual equivale a 125 lpm, que indicaría que el sujeto se encuentra en actividad física. Sin embargo, notamos que la señal se encuentra distorsionada debido al ruido ocasionado durante la actividad, por lo que la detección de las características ECG fue desafiante. El pico máximo del complejo QRS fue de 800 mV en amplitud, y el pico mínimo de aproximadamente 200 mV de amplitud.
+</div>
+<p align="center">
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/de4275cb-62e7-4f04-9cc1-4a8d64eafa41">
+<p align="center"><i>Figura 8. Ploteo de la señal en estado de actividad física  y características ECG
+</i></p>
+</div>
+
+**e. Después de la actividad física**: En el último estado, se registró la señal tras haber realizado la actividad física y se obtuvo que el intervalo R-R fue de 0.57s lo cual equivale a 105 lpm, demostrando estado de agitación y palpitaciones cardíacas elevadas pero retomando a los valores estándar. El pico máximo del complejo QRS es de 670 mV en amplitud, y el pico mínimo de aproximadamente 410 de amplitud.
+</div>
+<p align="center">
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/eedcbe8f-0d68-466e-9ab7-a14d02a5b679">
+<p align="center"><i>Figura 9. Ploteo de la señal en estado después de actividad física y características ECG
+</i></p>
+</div>
+
+### Señal del Prosim4 
+A continuación se puede observar los resultados obtenido por el Prosim4 en el OpenSignals, simulando un paro cardiaco, desde el paso 2.
+| **Fases** | **Prosim** |**Señaln en Python** |
+|:---------:|:----------:|:-------------------:|
+| **Fase 1**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64b43f34-7159-4bea-9aa6-3a33dafea32d">|
+| **Fase 2**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fa0956b8-13f3-4da8-a4cb-47df9f65e4bf">|
+| **Fase 3**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e7806ea-e3f2-415b-9acf-186bd40f555c">|
+| **Fase 4**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d3a0737c-a18b-4120-8ec8-80c23ebc1c88">|
+
+<a name="phyton"></a>
+## Archivo de la señal ploteada en Python y de los datos de la señal
+<a name="r3"></a>
+  - [Señales ploteadas en python](y)
+<a name="r4"></a>
+  - [Datos de la señal ploteada]()
+  - 
 <a name="discusion"></a>
 ## Discusión
+El análisis de las señales ECG obtenidas durante el estudio de los diferentes estados fisiológicos del sujeto evaluado permiten observar la variabilidad de la frecuencia cardíaca, características electrocardiográficas y realizar la comparación con valores estándar y anormales. En el estado de reposo, el sujeto presentó un intervalo RR de 0.68 segundos, lo que se traduce en una frecuencia cardíaca de 88 latidos por minuto (lpm). Este valor se sitúa dentro del rango normal para un adulto joven en estado basal y es una señal de una actividad cardíaca saludable <sup>[8](https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/)</sup>.
 
+En el estado de mantención de la respiración, intervalo RR fue de 0.75 segundos, resultando en 80 lpm, indicando una disminución en la frecuencia cardíaca en comparación con el estado de reposo. Al mantener la respiración, los latidos por minuto tienden a ser menores en comparación con el estado de reposo, como se observa según los valores obtenidos. Esto se debe a que el acto de contener la respiración activa el sistema nervioso parasimpático, específicamente el nervio vago, que tiende a reducir la frecuencia cardíaca y puede, en casos extremos, llevar a la bradicardia <sup>[9](https://www.sciencedirect.com/science/article/pii/S1050173820300669)</sup>. El tercer estado, el estado de exhalación, presentó un intervalo RR de 0.82 segundos y 74 lpm, significativamente menor que en el estado de mantención. Esto se debe a que el sistema nervioso parasimpático promueve la relajación al activarse y por ende, disminuye el ritmo cardíaco. Esta variabilidad en el ritmo cardíaco durante el ciclo respiratorio es un signo de buena salud cardíaca y flexibilidad del sistema nervioso autónomo <sup>[9](https://www.sciencedirect.com/science/article/pii/S1050173820300669)</sup>. 
 
+En el cuarto estado, se observa que durante la realización de la actividad física,  el intervalo RR disminuyó a 0.48 segundos, equivalente a 125 lpm. Esta aceleración del ritmo cardíaco es esperada durante la actividad física pues se requiere mayor oxígeno y existe la liberación de adrenalina que incrementa el ritmo <sup>[10](https://www.ahajournals.org/doi/10.1161/circulationaha.107.760405)</sup>, aunque se observó una distorsión en la señal debido al ruido generado por el movimiento y la contracción muscular. Esto resalta la importancia de la correcta colocación de los electrodos para una mejor adquisición. Por último, en el quinto estado, se observa que el intervalo RR incremento a 0.57 segundos, lo que equivale a 105 lpm. Este nivel de frecuencia cardíaca, aunque elevado, indica que el sujeto estaba volviendo a su estado basal tras el ejercicio debido a la reducción del gasto energético y la activación de sistema parasimpático que reduce gradualmente la frecuencia <sup>[11](https://pubmed.ncbi.nlm.nih.gov/24286577/)</sup>. 
 
+En ProSim 4, un simulador de paciente, se generó un array que simula la actividad eléctrica del corazón durante un paro cardíaco <sup>[12](https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf)</sup>. Su función principal es calibrar equipos de electrocardiograma (ECG), proporcionando una señal estándar para ajuste y calibración.
+
+Al conectar el dispositivo Bitalino al ProSim, pudimos visualizar la señal con una notable ausencia de ruido. Esto se debió a la inserción directa de los electrodos en el paciente simulado, garantizando una captura limpia y precisa de la señal. Esta claridad facilitó la interpretación de los datos y la evaluación del rendimiento del equipo de ECG.
+
+La señal simulada por ProSim 4 sigue un patrón de 4 tiempos. Inicialmente, se muestra un estado aparentemente normal, aunque con variaciones periódicas en el complejo QRS. Luego, se observa un ensanchamiento del complejo QRS y arritmias, seguido de arritmias más variadas. Finalmente, se muestra un pulso equipotencial, indicando la ausencia de actividad cardíaca (bpm). Este ciclo de señales proporciona una representación detallada de diversas condiciones cardíacas para propósitos de calibración y entrenamiento médico.
 
 <a name="conclusiones"></a>
 ## Conclusiones
+El ruido proveniente de la respiración y la actividad muscular puede afectar la calidad de las señales de ECG, lo que puede influir en la eficacia de los algoritmos utilizados. Aunque los filtros digitales pueden ayudar a reducir este ruido, es posible que no lo eliminen por completo.El dispositivo Bitalino demostró ser capaz de identificar claramente los diferentes patrones en las señales de ECG, incluyendo los picos del complejo QRS.
 
+Ninguna de las señales mostró patrones gráficos asociados con enfermedades cardíacas, descartando esa posibilidad.El proceso de análisis de las señales en Python se realizó con éxito, permitiendo una evaluación detallada de los datos.
 
-
+Se protegió la identidad de los participantes en el estudio de manera adecuada, garantizando su confidencialidad.La combinación de ProSim y Bitalino ofrece una plataforma efectiva para adquirir y analizar señales de ECG, con potencial aplicación en entornos clínicos e investigativos.
 
 
 <a name="referencias"></a>
@@ -191,6 +268,17 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 
 [5] MedlinePlus, “Electrocardiograma” medlineplus.gov, Feb. 28, 2023. https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/
 
-[6] N. Dugarte Jerez, E. Dugarte Dugarte, and N. Dugarte Dugarte, Electrocardiografía de Alta Resolución Técnicas Aplicadas de Adquisición y Procesamiento, 1st ed. Mendoza – Argentina: Universidad Tecnológica Nacional – Facultad Regional Mendoza, 2018.
+[6] N. Dugarte Jerez, E. Dugarte Dugarte, and N. Dugarte Dugarte, Electrocardiografía de Alta Resolución Técnicas Aplicadas de Adquisición y Procesamiento, 1st ed. Mendoza – Argentina: Universidad Tecnológica Nacional – Facultad Regional Mendoza, 2018.https://www.researchgate.net/publication/324690144_Electrocardiografia_de_Alta_Resolucion_Tecnicas_Aplicadas_de_Adquisicion_y_Procesamiento
 
 [7] G. Goldich, “El electrocardiograma de 12 derivaciones: Parte I: reconocimiento de los hallazgos normales,” Nursing, vol. 32, no. 2, pp. 28–34, Mar. 2015, doi: https://doi.org/10.1016/j.nursi.2015.03.010
+
+[8] Gianinis, H. H., Antunes, B. O., Passarelli, R. C., Souza, H. C., y Gastaldi, A. C., "Effects of dorsal and lateral decubitus on peak expiratory flow in healthy subjects", Brazilian Journal of Physical Therapy, vol. 17, no. 5, pp. 435–441, 2013. https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/
+
+[9] A. A. Manolis et al., "The role of the autonomic nervous system in cardiac arrhythmias: The neuro-cardiac axis, more foe than friend?," Trends in Cardiovascular Medicine, vol. 31, no. 5, pp. 290-302, 2021, doi: 10.1016/j.tcm.2020.04.011. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S1050173820300669
+
+[10] B. Olshansky, H. N. Sabbah, P. J. Hauptman y W. S. Colucci, "Parasympathetic nervous system and heart failure: pathophysiology and potential implications for therapy," Circulation, vol. 118, no. 8, pp. 863–871, 2008, doi: 10.1161/CIRCULATIONAHA.107.760405.
+https://www.ahajournals.org/doi/10.1161/circulationaha.107.760405
+
+[11]D. Y. Zhang y A. S. Anderson, "The sympathetic nervous system and heart failure," Cardiol Clin., vol. 32, no. 1, pp. 33-45, 2014. doi: 10.1016/j.ccl.2013.09.010. [PMID: 24286577; PMCID: PMC5873965]. https://pubmed.ncbi.nlm.nih.gov/24286577/
+
+[12] (s.f.). Biomedical Testing Equipment Solutions | Fluke Biomedical. https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf
