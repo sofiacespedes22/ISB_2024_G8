@@ -221,10 +221,10 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 A continuación se puede observar los resultados obtenido por el Prosim4 en el OpenSignals, simulando un paro cardiaco, desde el Paso 2.
 | **PASOS** | **PROSIM4** |**SEÑALES EN PYTHON** |
 |:---------:|:----------:|:-------------------:|
-| **PASO 2**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33d585dd-18db-4710-b01c-bb2d4f7b8f6f">|<image width="1300" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/637eea01-7ad3-4be7-9b93-edfe39dd9c62">|
-| **PASO 3**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6d6ea8ee-5115-43a8-a6ec-f91e19143652">|<image width="1300" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5b18cbbf-8f37-4c2c-972b-77354fe5b6c9">|
-| **PASO 4**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e66f74e3-f8bb-42c3-a145-2ac599bd4fca">|<image width="1300" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e6267838-f1e4-4aa9-b6c2-ca640a23f8c6">|
-| **PASO 5**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/80e31a5e-f164-4081-be05-2544830dcd98">|<image width="1300" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d21c6428-d73f-4b94-8aab-cba898287634">|
+| **PASO 2**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33d585dd-18db-4710-b01c-bb2d4f7b8f6f">|<image width="1300" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/637eea01-7ad3-4be7-9b93-edfe39dd9c62">|
+| **PASO 3**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6d6ea8ee-5115-43a8-a6ec-f91e19143652">|<image width="1300" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5b18cbbf-8f37-4c2c-972b-77354fe5b6c9">|
+| **PASO 4**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e66f74e3-f8bb-42c3-a145-2ac599bd4fca">|<image width="1300" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e6267838-f1e4-4aa9-b6c2-ca640a23f8c6">|
+| **PASO 5**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/80e31a5e-f164-4081-be05-2544830dcd98">|<image width="1300" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d21c6428-d73f-4b94-8aab-cba898287634">|
 
 
 
