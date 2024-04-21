@@ -130,9 +130,9 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 
 #### Protocolo de adquisición
 Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía en la cual se registraron las señales ECG para el análisis en tres diferentes estados:
-a. **Estado de reposo**:El sujeto de prueba se quedó en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
-b. **Estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos.
-c. **Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
+**a. Estado de reposo**:El sujeto de prueba se quedó en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.\
+**b. Estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos.\
+**c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.\
 
 #### Señal ProSim4
 Adicionalmente, se utilizó el Fluke ProSim4, para la adquisición de datos del estado de un paciente que llegaría a paro cardíaco utilizando el Prosim4 por cinco ciclos con los siguientes parámetros, como se observa en la Figura 2:
