@@ -181,14 +181,14 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 **a. En reposo**: En el estado de reposo, el usuario presentó un valor del intervalo R-R de 0.68s que equivaldría a 88 latido por minuto (lpm) , lo cual se encuentra dentro del rango de palpitaciones cardíacas estándar de un adulto joven en estado basal <sup>[8](https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/)</sup>. Asimismo, se evidencia un pico máximo del complejo QRS de 700 mV en amplitud, y un pico mínimo de aproximadamente 420 de amplitud.
 </div>
 <p align="center">
-<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ea90f7b4-ee37-4f43-8d20-f7ed1ea9e5fe">
+<image width="500" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ea90f7b4-ee37-4f43-8d20-f7ed1ea9e5fe">
 <p align="center"><i>Figura 5. Ploteo de la señal en estado de reposo y características ECG</i></p>
 </div>
 	
 **b. Manteniendo la respiración**: En el segundo estado, el sujeto mantuvo la respiración por 10 segundos con lo que se obtuvo el valor del intervalo R-R de 0.75s, lo cual equivale a 80 lpm, que indica menores palpitaciones cardíacas que en estado de reposo. El pico máximo del complejo QRS es de 680 mV en amplitud, y el pico mínimo de aproximadamente 410 de amplitud.
 </div>
 <p align="center">
-<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7bfc4f4a-89c2-4276-b7c4-0f77ab0f7a5f">
+<image width="500" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7bfc4f4a-89c2-4276-b7c4-0f77ab0f7a5f">
 <p align="center"><i>Figura 6. Ploteo de la señal en estado de manteniendo la respiración y características ECG</i></p>
 </div>
 
@@ -196,7 +196,7 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 **c. Reposo basal (Exhalación)**: En el tercer estado, se registró la señal durante el proceso de exhalación del sujeto tras haber inhalado y mantenido por 10 segundos la respiración. El intervalo R-R obtenido fue de 0.82 s, lo cual equivale a 74 lpm. El pico máximo del complejo QRS es de 610 mV en amplitud, y el pico mínimo de aproximadamente 410 de amplitud.
 </div>
 <p align="center">
-<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4b1d6814-fd6a-4b54-8f5b-30d31040d763">
+<image width="500" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4b1d6814-fd6a-4b54-8f5b-30d31040d763">
 <p align="center"><i>Figura 7. Ploteo de la señal en estado de exhalación tras la respiración y características ECG
 </i></p>
 </div>
@@ -204,7 +204,7 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 **d. En actividad física**: En el cuarto estado, se registró la señal durante la actividad física. El intervalo R-R obtenido fue de 0.48s lo cual equivale a 125 lpm, que indicaría que el sujeto se encuentra en actividad física. Sin embargo, notamos que la señal se encuentra distorsionada debido al ruido ocasionado durante la actividad, por lo que la detección de las características ECG fue desafiante. El pico máximo del complejo QRS fue de 800 mV en amplitud, y el pico mínimo de aproximadamente 200 mV de amplitud.
 </div>
 <p align="center">
-<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/de4275cb-62e7-4f04-9cc1-4a8d64eafa41">
+<image width="500" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/de4275cb-62e7-4f04-9cc1-4a8d64eafa41">
 <p align="center"><i>Figura 8. Ploteo de la señal en estado de actividad física  y características ECG
 </i></p>
 </div>
@@ -212,7 +212,7 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 **e. Después de la actividad física**: En el último estado, se registró la señal tras haber realizado la actividad física y se obtuvo que el intervalo R-R fue de 0.57s lo cual equivale a 105 lpm, demostrando estado de agitación y palpitaciones cardíacas elevadas pero retomando a los valores estándar. El pico máximo del complejo QRS es de 670 mV en amplitud, y el pico mínimo de aproximadamente 410 de amplitud.
 </div>
 <p align="center">
-<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/eedcbe8f-0d68-466e-9ab7-a14d02a5b679">
+<image width="500" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/eedcbe8f-0d68-466e-9ab7-a14d02a5b679">
 <p align="center"><i>Figura 9. Ploteo de la señal en estado después de actividad física y características ECG
 </i></p>
 </div>
@@ -221,10 +221,10 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 A continuación se puede observar los resultados obtenido por el Prosim4 en el OpenSignals, simulando un paro cardiaco, desde el paso 2.
 | **Fases** | **Prosim** |**Señaln en Python** |
 |:---------:|:----------:|:-------------------:|
-| **Fase 1**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64b43f34-7159-4bea-9aa6-3a33dafea32d">|
-| **Fase 2**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fa0956b8-13f3-4da8-a4cb-47df9f65e4bf">|
-| **Fase 3**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e7806ea-e3f2-415b-9acf-186bd40f555c">|
-| **Fase 4**|<video width="300" height="200" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d3a0737c-a18b-4120-8ec8-80c23ebc1c88">|
+| **Fase 1**|<video width="400" height="300" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64b43f34-7159-4bea-9aa6-3a33dafea32d">|
+| **Fase 2**|<video width="400" height="300" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fa0956b8-13f3-4da8-a4cb-47df9f65e4bf">|
+| **Fase 3**|<video width="400" height="300" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e7806ea-e3f2-415b-9acf-186bd40f555c">|
+| **Fase 4**|<video width="400" height="300" src="">|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d3a0737c-a18b-4120-8ec8-80c23ebc1c88">|
 
 <a name="phyton"></a>
 ## Archivo de la señal ploteada en Python y de los datos de la señal
