@@ -103,7 +103,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 	
 |  **Colocación de electrodos para la derivación I**  | **Colocación de electrodos en el sujeto de prueba** | 
 |:------------:|:--------:|
-|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image width="150" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ea54888d-c6fb-41bc-b132-67bac1fd0285">|
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image width="200" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ea54888d-c6fb-41bc-b132-67bac1fd0285">|
 <p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca </i></p>
 </div>
 
@@ -139,11 +139,11 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 	
 | **Estados** | **Prueba** |
 |:------------:|:---------------:|
-| **Estado basal**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
-| **Manteniendo la respiración 10 segundos**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
-| **Luego de mantener la respiración**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
-| **Durante ejercicio**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
-| **Luego de ejercicio**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
+| **Estado basal**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
+| **Manteniendo la respiración 10 segundos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
+| **Luego de mantener la respiración**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
+| **Durante ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
+| **Luego de ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
 <p align="center"><i>Tabla 4. Videos obtenidos en los distintos estados </i></p>
 </div>
 
