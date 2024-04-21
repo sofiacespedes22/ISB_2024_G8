@@ -10,11 +10,11 @@
    4.3 [Procesamiento de las señales](#procesamiento)
 5. [Resultados](#resultados)\
    5.1 [Visualización de señal eléctrica mediante video y OpenSignals](#videos)\
-      -[Ploteo de la señal en Python](#ploteo)\
-   5.2 [Señal en Prosim4](#prosim)\
-6. [Archivos](#archivos)\
+      -[Ploteo de la señal en Python](#ploteo)
+   5.2 [Señal en Prosim4](#prosim)
+6. [Archivos](#archivos)
 7. [Discusión](#discusion)
-8. [Conclusiones](#conclusiones)\
+8. [Conclusiones](#conclusiones)
 9. [Referencias bibliográficas](#referencias)
 
 <a name="lista"></a>
