@@ -75,9 +75,9 @@ La metodología seguida para la adquisición y procesamiento de las señales ECG
 |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
 |:------------:|:---------------:|:------------:|:----------:|
 |(R)EVOLUTION|**Kit BITalino**:Kit electrónico formada por varios módulos individuales utilizados para la recolección de datos boiomédicos. Se pueden adquirir señales como EMG,ECG o EEG.|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c8d4e3ed-4054-4c4d-9820-0c1dbd5ddd6f">|
-|-|**Laptop o PC**:Se descargará el software de análisis para procesar las señales|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
+|-|**Laptop o PC**:Se descargará el software de análisis para procesar las señales|1|<image width="100" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
 |Fluke|**Prosim4**: Simulador de signos vitales diseñado para comprobar y verificar el funcionamiento básico de varios parámetros fisiológicos, como la respiració, presión arterial, entre otros.|1|<image width="100" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/376ac065-9d63-4bc6-b7d6-21d9b7afe0f4">|
-|-|**Electrodos**: Registran la actividad eléctrica de los músculos durante la contracción y relajamiento muscular|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/21dab0fa-801d-4dd1-b0c9-3b29bf3be7fb">|
+|-|**Electrodos**: Registran la actividad eléctrica de los músculos durante la contracción y relajamiento muscular|1|<image width="100" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/21dab0fa-801d-4dd1-b0c9-3b29bf3be7fb">|
 <p align="center"><i>Tabla 1. Materiales y equipos </i></p>
 </div>
 
