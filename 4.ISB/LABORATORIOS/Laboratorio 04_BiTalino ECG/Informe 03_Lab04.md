@@ -129,7 +129,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 
 
 #### Protocolo de adquisición
-Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía en la cual se registraron las señales ECG para el análisis en tres diferentes estados:
+Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía en la cual se registraron las señales ECG para el análisis en tres diferentes estados:\
 **a. Estado de reposo**:El sujeto de prueba se quedó en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.\
 **b. Estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos.\
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.\
@@ -177,7 +177,7 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 
 #### Ploteo de la señales en Python
 Se realizó el ploteo de las señales obtenidas en Python y se calculó los latidos por minuto (lpm) para comparar si los valores se encontraban dentro del rango estándar según cada estado evaluado. Para obtener el valor del lpm, se calculó el intervalo R-R en las señales, que representa la despolarización de los ventrículos, siguiendo la siguiente fórmula:
-LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico de una onda “R” hasta la siguiente onda “R”.
+LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico de una onda “R” hasta la siguiente onda “R”.\
 **a. En reposo**: En el estado de reposo, el usuario presentó un valor del intervalo R-R de 0.68s que equivaldría a 88 latido por minuto (lpm) , lo cual se encuentra dentro del rango de palpitaciones cardíacas estándar de un adulto joven en estado basal <sup>[8](https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/)</sup>. Asimismo, se evidencia un pico máximo del complejo QRS de 700 mV en amplitud, y un pico mínimo de aproximadamente 420 de amplitud.
 </div>
 <p align="center">
@@ -232,7 +232,7 @@ A continuación se puede observar los resultados obtenido por el Prosim4 en el O
   - [Señales ploteadas en python](y)
 <a name="r4"></a>
   - [Datos de la señal ploteada]()
-  - 
+
 <a name="discusion"></a>
 ## Discusión
 El análisis de las señales ECG obtenidas durante el estudio de los diferentes estados fisiológicos del sujeto evaluado permiten observar la variabilidad de la frecuencia cardíaca, características electrocardiográficas y realizar la comparación con valores estándar y anormales. En el estado de reposo, el sujeto presentó un intervalo RR de 0.68 segundos, lo que se traduce en una frecuencia cardíaca de 88 latidos por minuto (lpm). Este valor se sitúa dentro del rango normal para un adulto joven en estado basal y es una señal de una actividad cardíaca saludable <sup>[8](https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/)</sup>.
