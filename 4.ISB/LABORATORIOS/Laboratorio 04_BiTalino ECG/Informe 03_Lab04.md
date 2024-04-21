@@ -94,7 +94,7 @@ Para la adquisición de datos, el sujeto de prueba fue un hombre de 22 años con
 </div>
 
 #### Protocolo de conexión
-En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Luego, se realizó la conexion ECG en la placa del BITalino utilizando el sensor ECG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolar de Einthoven <sup>[3](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 2:
+En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Luego, se realizó la conexion ECG en la placa del BITalino utilizando el sensor ECG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolar de Einthoven <sup>[3](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 3:
 * **IN+** (electrodo positivo/rojo) se coloca en la muñeca izquierda .
 * **IN-** (electrodo negativo/negro) se coloca en la muñeca derecha.
 * **REF** (electrodo de referencia/blanco) se coloca en la cresta ilíaca,debido a que representa una zona de baja interferencia electromagnética.
@@ -104,7 +104,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 |  **Colocación de electrodos para la derivación I**  | **Colocación de electrodos en el sujeto de prueba** | 
 |:------------:|:--------:|
 |<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a393348e-5c2c-40d4-9d7a-012674926f9b">|<image width="150" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ea54888d-c6fb-41bc-b132-67bac1fd0285">|
-<p align="center"><i>Tabla 2. Posicionamiento de los electrodos en el sujeto de prueba: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca </i></p>
+<p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca </i></p>
 </div>
 
 
@@ -133,14 +133,21 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 
 <a name="resultados"></a>
 ## Resultados
-### Resultado a
-|  **Estado Basal** | **Manteniendo la respiración durante 10 segundos** | **Actividad muscular del bíceps braquial con oposición** |
-|:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/78b5ab29-77dc-4d52-bfb3-999ccdad1bd7"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fc9ff355-4f66-4022-84d8-b755d0d1fd17"> | <video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/9afa171d-6c99-4a46-9587-c2937de8ea78"> | 
-<p align="center"><i>Tabla 3. Videos de la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
+### Resultado 
+
+<div align="center">	
+	
+| **Estados** | **Prueba** |
+|:------------:|:---------------:|
+| **Estado basal**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
+| **Manteniendo la respiración 10 segundos**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
+| **Luego de mantener la respiración**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
+| **Durante ejercicio**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
+| **Luego de ejercicio**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
+<p align="center"><i>Tabla 4. Videos obtenidos en los distintos estados </i></p>
 </div>
 
-### b. 
+#### Ploteo de la señales en Python
 
 <a name="discusion"></a>
 ## Discusión
