@@ -151,7 +151,7 @@ Adicionalmente, se utilizó el Fluke ProSim4, para la adquisición de datos del 
 Y para la conexion del PromSim4 para la experiencia de laboratorio, se tomo en consideracion las siguientes entradas en cuanto a los terminales ECG: RL,LL,RA. En el que se utiliza LL como referencia, RA como el electrodo negativo, y LA como el electrodo positivo.
 </div>
 <p align="center">
-<image width="200" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/57604da2-ce4a-4da0-ad2d-e6aad858acf6">
+<image width="250" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/57604da2-ce4a-4da0-ad2d-e6aad858acf6">
 <p align="center"><i>Figura 3. Colocación de electrodos en el Prosim4</i></p>
 </div>
 
@@ -221,10 +221,10 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 A continuación se puede observar los resultados obtenido por el Prosim4 en el OpenSignals, simulando un paro cardiaco, desde el paso 2.
 | **Fases** | **Prosim** |**Señaln en Python** |
 |:---------:|:----------:|:-------------------:|
-| **Fase 1**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33d585dd-18db-4710-b01c-bb2d4f7b8f6f">|<image width="600" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64b43f34-7159-4bea-9aa6-3a33dafea32d">|
-| **Fase 2**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ad9b1adc-ddc1-4474-b16c-ddaecb371a29">|<image width="600" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fa0956b8-13f3-4da8-a4cb-47df9f65e4bf">|
-| **Fase 3**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e66f74e3-f8bb-42c3-a145-2ac599bd4fca">|<image width="600" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e7806ea-e3f2-415b-9acf-186bd40f555c">|
-| **Fase 4**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/80e31a5e-f164-4081-be05-2544830dcd98">|<image width="600" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d3a0737c-a18b-4120-8ec8-80c23ebc1c88">|
+| **Fase 1**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33d585dd-18db-4710-b01c-bb2d4f7b8f6f">|<image width="700" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64b43f34-7159-4bea-9aa6-3a33dafea32d">|
+| **Fase 2**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ad9b1adc-ddc1-4474-b16c-ddaecb371a29">|<image width="700" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fa0956b8-13f3-4da8-a4cb-47df9f65e4bf">|
+| **Fase 3**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e66f74e3-f8bb-42c3-a145-2ac599bd4fca">|<image width="700" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e7806ea-e3f2-415b-9acf-186bd40f555c">|
+| **Fase 4**|<video src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/80e31a5e-f164-4081-be05-2544830dcd98">|<image width="700" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d3a0737c-a18b-4120-8ec8-80c23ebc1c88">|
 
 <a name="phyton"></a>
 ## Archivo de la señal ploteada en Python y de los datos de la señal
