@@ -57,6 +57,23 @@ Estos elementos, junto con los intervalos como el intervalo PR, el período QRS 
 #### b. Electrocardiograma
 El electrocardiograma (ECG) es una herramienta diagnóstica esencial que registra la actividad eléctrica del corazón. A través de electrodos colocados estratégicamente en el cuerpo, se capturan las señales eléctricas generadas por cada contracción cardíaca. Estas señales se representan gráficamente como ondas en un papel o pantalla. El ECG proporciona una amplia gama de información, incluyendo la velocidad del ritmo cardíaco, la regularidad de los impulsos eléctricos y la fuerza de la actividad eléctrica en distintas regiones del corazón. Además, permite evaluar la morfología de las ondas cardíacas, lo que puede revelar detalles sobre la estructura y función cardíacas. <sup>[5](https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/)</sup>
 
+#### c. Derivaciones Polares
+Las derivaciones bipolares del ECG, denotadas como "I", "II" y "III", son fundamentales para visualizar la actividad eléctrica del corazón desde diferentes ángulos en el plano frontal del cuerpo, también conocido como plano coronal.<sup>[6](https://www.researchgate.net/publication/324690144_Electrocardiografia_de_Alta_Resolucion_Tecnicas_Aplicadas_de_Adquisicion_y_Procesamiento)</sup>
+
+* **Derivación I**: Se caracteriza por colocar el electrodo positivo en el brazo izquierdo y el electrodo negativo en el brazo derecho. Esta disposición permite registrar la energía eléctrica que fluye diagonalmente desde la parte superior derecha del cuerpo hacia la parte inferior izquierda. Los complejos QRS tienden a tener una morfología ascendente debido al flujo del vector medio.
+
+* **Derivación II**: Posiciona el electrodo positivo en el pie izquierdo y el electrodo negativo en el brazo derecho. Esta configuración ofrece una visualización directa del vector medio, resultando en complejos QRS más altos y ondas P más prominentes. Por su fiabilidad, la derivación II es preferida en muchas unidades de cuidados intensivos y de telemetría para monitorizar la actividad cardíaca.
+ 
+* **Derivación III**: Ubica el electrodo positivo en el pie izquierdo y el electrodo negativo en el brazo izquierdo. Similar a la derivación I, el flujo del vector medio se aproxima desde la parte inferior derecha, generando complejos QRS con morfología ascendente. Sin embargo, los complejos QRS en la derivación III tienden a ser más altos debido a un ángulo de aproximación más estrecho.<sup>[7](https://www.researchgate.net/publication/324690144_Electrocardiografia_de_Alta_Resolucion_Tecnicas_Aplicadas_de_Adquisicion_y_Procesamiento)</sup>
+
+</div>
+<p align="center">
+<image width="200" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/582f870a-c87d-4ad2-b525-a6340d19cb0b">
+<p align="center"><i>Figura 2.  Derivaciones bipolares estándar del ECG en el plano Frontal <sup>[6](https://doi.org/10.1016/j.bea.2023.100089)</sup> </i></p>
+</div>
+
+	
+Estas derivaciones bipolares son esenciales para comprender la actividad eléctrica del corazón en el plano frontal del cuerpo, lo que facilita el diagnóstico y monitoreo precisos de diversas condiciones cardíacas.
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -139,11 +156,11 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 	
 | **Estados** | **Prueba** |
 |:------------:|:---------------:|
-| **Estado basal**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
-| **Manteniendo la respiración 10 segundos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
-| **Luego de mantener la respiración**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
-| **Durante ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
-| **Luego de ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
+| **1. Estado basal**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/58d0e028-2c7b-4772-898d-24b52509f798">|
+| **2. Manteniendo la respiración 10 segundos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/701703eb-04c7-4c8c-b24e-738c0388a65a">|
+| **3. Luego de mantener la respiración**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b2b35cbd-60f7-488e-a7a0-45d3ad81e607">|
+| **4. Durante ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b604e160-5482-46f5-98a1-a97b4e9866e5">|
+| **5. Luego de ejercicio**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc66813b-bcb5-48ef-9022-612dfcc94d1c">|
 <p align="center"><i>Tabla 4. Videos obtenidos en los distintos estados </i></p>
 </div>
 
@@ -173,3 +190,7 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 [4] T. Anbalagan, M. K. Nath, D. Vijayalakshmi, and A. Anbalagan, “Analysis of various techniques for ECG signal in healthcare, past, present, and future,” Biomedical Engineering Advances, vol. 6, p. 100089, Nov. 2023, doi: https://doi.org/10.1016/j.bea.2023.100089.
 
 [5] MedlinePlus, “Electrocardiograma” medlineplus.gov, Feb. 28, 2023. https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/
+
+[6] N. Dugarte Jerez, E. Dugarte Dugarte, and N. Dugarte Dugarte, Electrocardiografía de Alta Resolución Técnicas Aplicadas de Adquisición y Procesamiento, 1st ed. Mendoza – Argentina: Universidad Tecnológica Nacional – Facultad Regional Mendoza, 2018.
+
+[7] G. Goldich, “El electrocardiograma de 12 derivaciones: Parte I: reconocimiento de los hallazgos normales,” Nursing, vol. 32, no. 2, pp. 28–34, Mar. 2015, doi: https://doi.org/10.1016/j.nursi.2015.03.010
