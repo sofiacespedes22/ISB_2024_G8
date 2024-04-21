@@ -5,19 +5,16 @@
    2.1 [Marco teórico](#marco)
 3. [Objetivos](#objetivos)
 4. [Metodología](#metodologia)\
-   2.1 [Materiales y equipos](#materiales)\
-   2.2 [Adquisición de datos](#adquisicion)\
-   2.3 [Procesamiento de las señales](#procesamiento)
+   4.1 [Materiales y equipos](#materiales)\
+   4.2 [Procedimiento](#adquisicion)\
+   4.3 [Procesamiento de las señales](#procesamiento)
 5. [Resultados](#resultados)\
-   3.1 [Resultados obtenidos](#)\
-   3.2 [Archivos](#)\
-   3.2 [Ploteo de la señal en Python](#)\
-   3.3 [Señal en Prosim4](#)
-6. [Archivos de la señal ploteada en Python y de los datos de la señal](#phyton)
-   - [Señales ploteadas en python](#r3)
-   - [Datos de la señal ploteada](#r4)
+   5.1 [Visualización de señal eléctrica mediante video y OpenSignals](#videos)\
+      -[Ploteo de la señal en Python](#ploteo)\
+   5.2 [Señal en Prosim4](#prosim)\
+6. [Archivos](#archivos)\
 7. [Discusión](#discusion)
-8. [Conclusiones](#conclusiones)
+8. [Conclusiones](#conclusiones)\
 9. [Referencias bibliográficas](#referencias)
 
 <a name="lista"></a>
@@ -161,6 +158,7 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 
 <a name="resultados"></a>
 ## Resultados
+<a name="videos"></a>
 ###  Visualización de señal eléctrica mediante video y OpenSignals
 A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señal eléctrica en OpenSignals
 <div align="center">	
@@ -175,6 +173,7 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 <p align="center"><i>Tabla 4. Videos obtenidos en los distintos estados </i></p>
 </div>
 
+<a name="ploteo"></a>
 #### Ploteo de la señales en Python
 Se realizó el ploteo de las señales obtenidas en Python y se calculó los latidos por minuto (lpm) para comparar si los valores se encontraban dentro del rango estándar según cada estado evaluado. Para obtener el valor del lpm, se calculó el intervalo R-R en las señales, que representa la despolarización de los ventrículos, siguiendo la siguiente fórmula:
 LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico de una onda “R” hasta la siguiente onda “R”.\
@@ -217,6 +216,7 @@ LPM = 60/RR, donde el intervalo RR es medido en segundos y se mide desde el pico
 </i></p>
 </div>
 
+ <a name="prosim"></a>
 ### Señal del Prosim4 
 A continuación se puede observar los resultados obtenido por el Prosim4 en el OpenSignals, simulando un paro cardiaco, desde el Paso 2.
 | **PASOS** | **PROSIM4** |**SEÑALES EN PYTHON** |
@@ -226,15 +226,23 @@ A continuación se puede observar los resultados obtenido por el Prosim4 en el O
 | **PASO 4**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e66f74e3-f8bb-42c3-a145-2ac599bd4fca">|<image width="1300" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e6267838-f1e4-4aa9-b6c2-ca640a23f8c6">|
 | **PASO 5**|<video width="320" height="240" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/80e31a5e-f164-4081-be05-2544830dcd98">|<image width="1300" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d21c6428-d73f-4b94-8aab-cba898287634">|
 
+<a name="archivos"></a>
+## Archivo de las señales ploteadad en Python
+* **Código en Python**
+  - [Código](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/plot.py)
+* **Datos de señales eléctricas ploteadas en Python**
+  - [Estado basal](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/reposo_prueba1.txt)
+  - [Manteniendo la respiración](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/aguantandoresp_prueba2.txt)
+  - [Exhalación](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/Exhalacion_prueba3.txt)
+  - [En actividad física](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/salto_prueba4.1.txt)
 
+* **Datos de señales del ProSim4 ploteadas en Python**
+  - [Paso 2](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/ParoStep1.txt)
+  - [Paso 3](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/ParoStep2.txt)
+  - [Paso 4](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/ParoStep3.txt)
+  - [Paso 5](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2004_BiTalino%20ECG/Archivos/ParoStep4.txt)
 
-<a name="phyton"></a>
-## Archivo de la señal ploteada en Python y de los datos de la señal
-<a name="r3"></a>
-  - [Señales ploteadas en python](y)
-<a name="r4"></a>
-  - [Datos de la señal ploteada]()
-
+   
 <a name="discusion"></a>
 ## Discusión
 El análisis de las señales ECG obtenidas durante el estudio de los diferentes estados fisiológicos del sujeto evaluado permiten observar la variabilidad de la frecuencia cardíaca, características electrocardiográficas y realizar la comparación con valores estándar y anormales. En el estado de reposo, el sujeto presentó un intervalo RR de 0.68 segundos, lo que se traduce en una frecuencia cardíaca de 88 latidos por minuto (lpm). Este valor se sitúa dentro del rango normal para un adulto joven en estado basal y es una señal de una actividad cardíaca saludable <sup>[8](https://www.scielo.br/j/rbfis/a/Jk9rTxSQbTQkVfrjnq3Zspj/)</sup>.
