@@ -74,9 +74,9 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
 
 <a name="objetivos"></a>
 ## Objetivos
-1. 
-2. d
-3. d
+1. Adquirir señales biomédicas de EEG.
+2. Hacer una correcta configuración de BiTalino y Ultracortex Mark IV.
+3. Extraer la información de las señales ECG del software OpenSignals (r)evolution y OpenBCI
    
 <a name="metodologia"></a>
 ## Metodología 
@@ -91,7 +91,8 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
 ||||
 ||||
 ||||
-||||
+|OpenBCI|Ultracortex Mark IV EEG Headset|1|
+|OpenBCI|OpenBCI Cyton 8-channel Board|1|
 <p align="center"><i>Tabla 1. Materiales y equipos </i></p>
 </div>
 
