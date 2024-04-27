@@ -82,7 +82,7 @@ El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que per
 
 
 #### b. Oscilaciones del EEG
-Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia<sup>[7] (https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805/)</sup>:
+Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia <sup>[7] (https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805/)</sup> :
 
 <div align="center">
 	
