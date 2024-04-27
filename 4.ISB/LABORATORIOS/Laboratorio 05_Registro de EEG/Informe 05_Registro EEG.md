@@ -53,7 +53,7 @@ Este procedimiento no invasivo es útil, ya que los resultados que arrojan nos p
 12. Accidente cerebrovascular
 
 #### **c. Aplicaciones** <sup> [1](https://www.mdpi.com/2076-3417/10/21/7453)</sup>
-Los dispositivos EEG pueden proporcionar información valiosa sobre el estado de salud mental de las personas, y contribuir también a la investigación. Entre algunas de las aplicaciones del EEG podemos encontrar:\
+Los dispositivos EEG pueden proporcionar información valiosa sobre el estado de salud mental de las personas, y contribuir también a la investigación. Entre algunas de las aplicaciones del EEG podemos encontrar: 
 * **Interfaces cerebro-computadora (BCI)** : El BCI es una de las aplicaciones comunes del EEG, en donde utilizan los datos obtenidos del EEG en tiempo real, para controlar dispositivos mecánicos y electrónicos. El BCI principlamente se puede usar en 3 ámbitos:
 1. Navegación autónoma de dispoditivos digitales, con orientación a la teleoperación en tiempo real de cuerpos robóticos y monitoreo de sensores.
 2. Como ayuda para personas con discapacidades motoras leves, con el fin de facilitarles sus actividades,  
@@ -82,9 +82,8 @@ El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que per
 
 
 #### b. Oscilaciones del EEG
-<p align="justify">
 Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia<sup>[7] (https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805/)</sup>:
-</p>
+
 <div align="center">
 	
 |  **Tipo de banda**  | **Frecuencia (Hz)** | **Estado del cerebro** |
