@@ -156,7 +156,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 	
 |  **Colocación de electrodos para el registro de señales EEG con el Kit Bitalino**  | **Colocación de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV** | 
 |:------------:|:--------:|
-|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|<image width="200" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e3011564-1b5d-4230-a901-0898b5af9709">|
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e3011564-1b5d-4230-a901-0898b5af9709">|
 <p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
 </div>
 
@@ -188,6 +188,17 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 
 <a name="resultados"></a>
 ## Resultados
+<a name="videos"></a>
+###  Visualización de señal eléctrica mediante video y OpenSignals
+A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señals señales:
+<div align="center">	
+	
+| **Estados** | **Videos** |
+|:------------:|:---------------:|
+| **a. Estado de reposo**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/60a9c0ed-fcfd-4c2f-9139-7b9dd845d8f8">|
+| **b. Estado de ojos cerrado-ojos abiertos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8cc12b02-0daf-4a6d-9831-6299945492e2">|
+| **c. Estado de segundo reposo**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5aba84d2-9a56-4b4f-a673-329ed3819a50">|
+| **d. Estado de preguntas**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/959c0340-0668-4424-9f28-764e0b352842">|
 
 
 <a name="archivos"></a>
