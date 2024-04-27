@@ -199,7 +199,8 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 | **b. Estado de ojos cerrado-ojos abiertos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8cc12b02-0daf-4a6d-9831-6299945492e2">|
 | **c. Estado de segundo reposo**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5aba84d2-9a56-4b4f-a673-329ed3819a50">|
 | **d. Estado de preguntas**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/959c0340-0668-4424-9f28-764e0b352842">|
-
+<p align="center"><i>Tabla 5. Videos obtenidos en los distintos estados </i></p>
+</div>
 
 <a name="archivos"></a>
 ### Archivo de las señales ploteadas en Python
