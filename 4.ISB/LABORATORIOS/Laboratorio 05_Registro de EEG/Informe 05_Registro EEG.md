@@ -116,7 +116,7 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
    
 <a name="metodologia"></a>
 ## Metodología 
-La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface"[ref1]. Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
+La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface"<sup> [11](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf)</sup>. Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
 
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
@@ -137,21 +137,38 @@ La metodología seguida para la adquisición y procesamiento de las señales EEG
 <a name="adquisicion"></a>
 ### 2. Procedimiento
 Para la adquisición de datos, el sujeto de prueba fue una mujer de 22 años con las siguientes características:
+<div align="center">
+	
 |  **Edad**  | **Peso** | **Sexo** | **Condición** |
 |:------------:|:---------------:|:------------:|:----------:|
 |22|58 kg|Femenino|Sano|
-<p align="center"><i>Tabla 2. Condiciones de prueba del sujeto </i></p>
+<p align="center"><i>Tabla 2. Características del sujeto de prueba escogido </i></p>
 </div>
+
 #### Protocolo de conexión
 En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor EEG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolares de acuerdo al sistema internacional 10-20. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 3:
-- FP1 (electrodo positivo/rojo) se coloca en la sección de la frente izquierda .
-- FP2 (electrodo negativo/negro) se coloca en la sección de la frente derecha.
-- REF (electrodo de referencia/blanco) se coloca en el hueso mastoideo, debido a que representa una zona de baja interferencia electromagnética.
+* **FP1** (electrodo positivo/rojo) se coloca en la sección de la frente izquierda .
+* **FP2** (electrodo negativo/negro) se coloca en la sección de la frente derecha.
+* **REF** (electrodo de referencia/blanco) se coloca en el hueso mastoideo, debido a que representa una zona de baja interferencia electromagnética.
+
+  
 <p align="center"><i>Tabla 3. Posicionamiento de electrodos para el registro de las señales EEG con el kit Bitalino </i></p>
 </div>
 
 <p align="center"><i>Tabla 3. Posicionamiento de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV </i></p>
 </div>
+
+
+<div align="center">	
+	
+|  **Colocación de electrodos para el registro de señales EEG con el Kit Bitalino**  | **Colocación de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV** | 
+|:------------:|:--------:|
+|<image src="">|<image width="200" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|
+<p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
+</div>
+
+
+![Colocacion de electrod refe]()
 
 #### Protocolo de adquisición
 Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía y los docentes del curso en la cual se registraron las señales EEG para el análisis en cuatro diferentes estados:
