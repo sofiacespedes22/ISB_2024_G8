@@ -108,7 +108,6 @@ El cerebro se compone de millones de neuronas interconectadas que generan potenc
 #### d. Artefactos
 Si bien el EEG permite registrar la actividad eléctrica cerebral, también registra actividades eléctricas que se originan en lugares distintos del cerebro. Esta actividad registrada se denomina artefacto pues no es de origen cerebral y puede dificultar la interpretación clínica o el posterior análisis cuantitativo. Los artefactos surgen de fuentes fisiológicas, como ritmo cardíaco, actividad muscular o movimiento ocular y extrafisiológicas, como el ruido ambiental o del propio sistema de medición <sup> [11]()</sup> <sup> [12]()</sup> . Por ello, resulta importante considerar protocolos para la adquisición correcta de las señales EEG que permitan disminuir la mayor cantidad de artefactos y un correcto pre-procesamiento de la señal para su análisis posterior. 
 
-
 <a name="objetivos"></a>
 ## Objetivos
 1. Adquirir señales biomédicas de EEG.
@@ -117,7 +116,7 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
    
 <a name="metodologia"></a>
 ## Metodología 
-
+La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface"[ref1]. Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
 
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
@@ -133,13 +132,50 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
 <p align="center"><i>Tabla 1. Materiales y equipos </i></p>
 </div>
 
-
 <a name="adquisicion"></a>
 ### 2. Procedimiento
+Para la adquisición de datos, el sujeto de prueba fue una mujer de 22 años con las siguientes características:
+|  **Edad**  | **Peso** | **Sexo** | **Condición** |
+|:------------:|:---------------:|:------------:|:----------:|
+|22|58 kg|Femenino|Sano|
+<p align="center"><i>Tabla 2. Condiciones de prueba del sujeto </i></p>
+</div>
+#### Protocolo de conexión
+En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor EEG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolares de acuerdo al sistema internacional 10-20. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 3:
+- FP1 (electrodo positivo/rojo) se coloca en la sección de la frente izquierda .
+- FP2 (electrodo negativo/negro) se coloca en la sección de la frente derecha.
+- REF (electrodo de referencia/blanco) se coloca en el hueso mastoideo, debido a que representa una zona de baja interferencia electromagnética.
+<p align="center"><i>Tabla 3. Posicionamiento de electrodos para el registro de las señales EEG con el kit Bitalino </i></p>
+</div>
 
+<p align="center"><i>Tabla 3. Posicionamiento de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV </i></p>
+</div>
+
+#### Protocolo de adquisición
+Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía y los docentes del curso en la cual se registraron las señales EEG para el análisis en cuatro diferentes estados:
+
+a. Estado de reposo: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
+
+b. Estado de ojos cerrado-ojos abiertos: El sujeto mantuvo los ojos cerrados y abiertos completando un ciclo (5 veces cada estado), manteniendo ambas fases durante 5 segundos. Para evitar artefactos, el sujeto se mantuvo calmado y mirando hacia un punto específico. El registro de la señal fue grabado por 50 segundos.
+
+c. Estado de segundo reposo: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
+
+d. Estado de preguntas: Se realizaron una serie de ejercicios matemáticos [ref3] de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
+
+|  **Categoría**  | **Pregunta** | 
+|:------------:|:---------------:|
+|Simple|Hay 3 pájaros en un árbol; Llegan 7 más. ¿Cuántos pájaros hay ahora?|
+|Simple|Jonás tiene 5 manzanas y Mary tiene 4. ¿Cuántas manzanas tienen en total?|
+|Simple|Hanna tiene 9 dólares pero gastó 4. ¿Cuántos dólares le quedan?|
+|Compleja|John anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos obtuvieron en total?|
+|Compleja|El grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 alumnos más que los grupos A y B juntos. ¿Cuál es el número total de estudiantes?|
+|Compleja|Una tienda vendió 21 refrescos por la mañana y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?|
+<p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
+</div>
 
 <a name="procesamiento"></a>
 ### 3. Procesamiento de datos
+Para el procesamiento de las señales adquiridas, se realizó el ploteo en Python para el análisis cuantitativo de segmentos específicos y determinar las características de cada señal EEG, así como los intervalos de duración de cada parámetro. Asimismo, se realizó la transformada rápida de Fourier (FFT) para determinar las frecuencias.
 
 <a name="resultados"></a>
 ## Resultados
