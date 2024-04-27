@@ -151,44 +151,34 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 * **FP2** (electrodo negativo/negro) se coloca en la sección de la frente derecha.
 * **REF** (electrodo de referencia/blanco) se coloca en el hueso mastoideo, debido a que representa una zona de baja interferencia electromagnética.
 
-  
-<p align="center"><i>Tabla 3. Posicionamiento de electrodos para el registro de las señales EEG con el kit Bitalino </i></p>
-</div>
-
-<p align="center"><i>Tabla 3. Posicionamiento de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV </i></p>
-</div>
-
 
 <div align="center">	
 	
 |  **Colocación de electrodos para el registro de señales EEG con el Kit Bitalino**  | **Colocación de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV** | 
 |:------------:|:--------:|
-|<image src="">|<image width="200" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|<image width="200" height="200" src="">|
 <p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
 </div>
-
-
-![Colocacion de electrod refe]()
 
 #### Protocolo de adquisición
 Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía y los docentes del curso en la cual se registraron las señales EEG para el análisis en cuatro diferentes estados:
 
-a. Estado de reposo: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
+**a. Estado de reposo**: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
 
-b. Estado de ojos cerrado-ojos abiertos: El sujeto mantuvo los ojos cerrados y abiertos completando un ciclo (5 veces cada estado), manteniendo ambas fases durante 5 segundos. Para evitar artefactos, el sujeto se mantuvo calmado y mirando hacia un punto específico. El registro de la señal fue grabado por 50 segundos.
+**b. Estado de ojos cerrado-ojos abiertos**: El sujeto mantuvo los ojos cerrados y abiertos completando un ciclo (5 veces cada estado), manteniendo ambas fases durante 5 segundos. Para evitar artefactos, el sujeto se mantuvo calmado y mirando hacia un punto específico. El registro de la señal fue grabado por 50 segundos.
 
-c. Estado de segundo reposo: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
+**c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
 
-d. Estado de preguntas: Se realizaron una serie de ejercicios matemáticos [ref3] de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
+**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos [ref3] de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
 
 |  **Categoría**  | **Pregunta** | 
 |:------------:|:---------------:|
-|Simple|Hay 3 pájaros en un árbol; Llegan 7 más. ¿Cuántos pájaros hay ahora?|
-|Simple|Jonás tiene 5 manzanas y Mary tiene 4. ¿Cuántas manzanas tienen en total?|
-|Simple|Hanna tiene 9 dólares pero gastó 4. ¿Cuántos dólares le quedan?|
-|Compleja|John anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos obtuvieron en total?|
-|Compleja|El grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 alumnos más que los grupos A y B juntos. ¿Cuál es el número total de estudiantes?|
-|Compleja|Una tienda vendió 21 refrescos por la mañana y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?|
+|**Simple**|Hay 3 pájaros en un árbol; Llegan 7 más. ¿Cuántos pájaros hay ahora?|
+|**Simple**|Jonás tiene 5 manzanas y Mary tiene 4. ¿Cuántas manzanas tienen en total?|
+|**Simple**|Hanna tiene 9 dólares pero gastó 4. ¿Cuántos dólares le quedan?|
+|**Compleja**|John anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos obtuvieron en total?|
+|**Compleja**|El grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 alumnos más que los grupos A y B juntos. ¿Cuál es el número total de estudiantes?|
+|**Compleja**|Una tienda vendió 21 refrescos por la mañana y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?|
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
