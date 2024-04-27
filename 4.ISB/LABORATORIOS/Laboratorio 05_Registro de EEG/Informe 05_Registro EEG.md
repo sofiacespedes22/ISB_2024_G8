@@ -55,16 +55,16 @@ Este procedimiento no invasivo es útil, ya que los resultados que arrojan nos p
 #### **c. Aplicaciones**
 Los dispositivos EEG pueden proporcionar información valiosa sobre el estado de salud mental de las personas, y contribuir también a la investigación. Entre algunas de las aplicaciones del EEG podemos encontrar:\
 * **Interfaces cerebro-computadora (BCI)** : El BCI es una de las aplicaciones comunes del EEG, en donde utilizan los datos obtenidos del EEG en tiempo real, para controlar dispositivos mecánicos y electrónicos. El BCI principlamente se puede usar en 3 ámbitos:
-1. Navegación autónoma de dispoditivos digitales, con orientación a la teleoperación en tiempo real de cuerpos robóticos y monitoreo de sensores.
-2. Como ayuda para personas con discapacidades motoras leves, con el fin de facilitarles sus actividades,  
+- Navegación autónoma de dispoditivos digitales, con orientación a la teleoperación en tiempo real de cuerpos robóticos y monitoreo de sensores.
+- Como ayuda para personas con discapacidades motoras leves, con el fin de facilitarles sus actividades,  
 Entre otro de lcomo en el control de aplicaciones móviles, dirigir movimientos de sillas de ruedas eléctricas, sistemas de reconocimiento de voz para personas con discapacidad de habla, etc.
-3. Neurojuegos y entretenimiento.   
+- Neurojuegos y entretenimiento.   
 
 * **Investigación en neurociencia** :
 Para comprender la funcionalidad del sistema nervioso, el EEG es usado como herramienta para aprender sobre el funcionamiento del cerebro cuando experimenta diferentes estados emocionales y como funciona el cerebro en diversos estados mentales. Algunos de los campos en los que se realiza comunmente investigacionesson en:
-1. Neurociencia cognitiva
-2. Neurociencia conductual
-3. Neurofisiología
+- Neurociencia cognitiva
+- Neurociencia conductual
+- Neurofisiología
 
 
 <a name="marco"></a>
@@ -72,19 +72,20 @@ Para comprender la funcionalidad del sistema nervioso, el EEG es usado como herr
 
 #### **a. ¿Qué es una señal EEG?**
 <p align="justify">
-El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal [ref1]. Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción [ref2]. Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales [ref3]. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas [ref4]. 
+El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup>. Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción <sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup>. Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[https://www.mdpi.com/1424-8220/23/14/6434](5)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas <sup>[6]()</sup>. 
  </p>
 
- ![image](https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/1971c8a3-8cf5-4ce0-a9d1-e974308ce70f)
 
-[Ref1] Islam M.K., Rastegarnia A. Recent advances in EEG (non-invasive) based BCI applications. Front. Comput. Neurosci. 2023;17:1151852. doi: 10.3389/fncom.2023.1151852.
-[ref2] Patil A.U., Lin C., Lee S.H., Huang H.W., Wu S.C., Madathil D., Huang C.M. Review of EEG-based neurofeedback as a therapeutic intervention to treat depression. Psychiatry Res. Neuroimaging. 2023;329:111591. doi: 10.1016/j.pscychresns.2023.111591.
-[ref3] Chaddad, A., Wu, Y., Kateb, R., & Bouridane, A. (2023). Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques. Sensors (Basel, Switzerland), 23(14), 6434. https://doi.org/10.3390/s23146434
-[ref4] B. Giesbrecht and J. Garrett, "Electroencephalography," Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/1971c8a3-8cf5-4ce0-a9d1-e974308ce70f">
+<p align="center"><i>Figura 2.  <sup>[2](https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875)</sup> </i></p>
+</div>
+
 
 #### b. Oscilaciones del EEG
 <p align="justify">
-Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia [ref5][ref6]:
+Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia <sup>[7](https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup><sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805/)</sup>:
 </p>
 <div align="center">
 	
@@ -98,19 +99,15 @@ Para la interpretación del EEG, es importante considerar la caracterización qu
 <p align="center"><i>Tabla 1. Materiales y equipos </i></p>
 </div>
 
-[ref5] Herrmann, C. S., Strüber, D., Helfrich, R. F., & Engel, A. K. (2016). EEG oscillations: From correlation to causality. International journal of psychophysiology: official journal of the International Organization of Psychophysiology, 103, 12–21. https://doi.org/10.1016/j.ijpsycho.2015.02.003
-[ref6] Nayak CS, Anilkumar AC. EEG Normal Waveforms. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK539805/
 
 #### c. Activación neural
-El cerebro se compone de millones de neuronas interconectadas que generan potenciales eléctricos. Como se mencionó previamente, esta actividad es detectada a partir del EEG, utilizando electrodos que registran los dipolos eléctricos creados por poblaciones neuronales situadas perpendicularmente a la superficie de la cabeza, principalmente por neuronas piramidales ubicadas entre las capas 3 y 5 de la corteza cerebral. Estas neuronas generan campos eléctricos como resultado de señales electroquímicas transmitidas entre ellas. Cuando generan campos eléctricos al mismo tiempo, estos son lo suficientemente significativos para ser captados por el EEG [ref7].Asimismo, a nivel fisiológico, las señales del EEG provienen de las corrientes iónicas transmembrana en las neuronas piramidales; estas células, se encuentran en todas las áreas de la corteza cerebral: occipital, temporal, parietal y frontal, y están siempre orientadas perpendicularmente a la superficie cortical, con el cuerpo celular dirigido hacia el interior del cerebro y las dendritas apuntando hacia la superficie cortical [ref8].
+El cerebro se compone de millones de neuronas interconectadas que generan potenciales eléctricos. Como se mencionó previamente, esta actividad es detectada a partir del EEG, utilizando electrodos que registran los dipolos eléctricos creados por poblaciones neuronales situadas perpendicularmente a la superficie de la cabeza, principalmente por neuronas piramidales ubicadas entre las capas 3 y 5 de la corteza cerebral. Estas neuronas generan campos eléctricos como resultado de señales electroquímicas transmitidas entre ellas. Cuando generan campos eléctricos al mismo tiempo, estos son lo suficientemente significativos para ser captados por el EEG <sup>[9](https://doi.org/10.1016/j.tins.2017.02.004)</sup>.Asimismo, a nivel fisiológico, las señales del EEG provienen de las corrientes iónicas transmembrana en las neuronas piramidales; estas células, se encuentran en todas las áreas de la corteza cerebral: occipital, temporal, parietal y frontal, y están siempre orientadas perpendicularmente a la superficie cortical, con el cuerpo celular dirigido hacia el interior del cerebro y las dendritas apuntando hacia la superficie cortical <sup>[10](https://onlinelibrary.wiley.com/doi/full/10.1684/epd.2020.1217)</sup>.
 
-[ref7] Cohen, M. X. (2017). Where does EEG come from  and  what  does  it  mean? Trends  in Neurosciences, 40(4), 208-218.https://doi.org/10.1016/j.tins.2017.02.004
-[ref8] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217.
+
 
 #### d. Artefactos
-Si bien el EEG permite registrar la actividad eléctrica cerebral, también registra actividades eléctricas que se originan en lugares distintos del cerebro. Esta actividad registrada se denomina artefacto pues no es de origen cerebral y puede dificultar la interpretación clínica o el posterior análisis cuantitativo. Los artefactos surgen de fuentes fisiológicas, como ritmo cardíaco, actividad muscular o movimiento ocular y extrafisiológicas, como el ruido ambiental o del propio sistema de medición [ref9][ref10]. Por ello, resulta importante considerar protocolos para la adquisición correcta de las señales EEG que permitan disminuir la mayor cantidad de artefactos y un correcto pre-procesamiento de la señal para su análisis posterior. 
-[ref9] Urigüen JA, Garcia-Zapirain B. EEG artifact removal-state-of-the-art and guidelines. J Neural Eng. 2015 Jun. 12 (3):031001.
-[ref10] Zhang C, Tong L, Zeng Y, Jiang J, Bu H, Yan B, et al. Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information. Biomed Res Int. 2015. 2015:720450.
+Si bien el EEG permite registrar la actividad eléctrica cerebral, también registra actividades eléctricas que se originan en lugares distintos del cerebro. Esta actividad registrada se denomina artefacto pues no es de origen cerebral y puede dificultar la interpretación clínica o el posterior análisis cuantitativo. Los artefactos surgen de fuentes fisiológicas, como ritmo cardíaco, actividad muscular o movimiento ocular y extrafisiológicas, como el ruido ambiental o del propio sistema de medición [ref9]<sup>[11]()</sup>[ref10]<sup>[12]()</sup>. Por ello, resulta importante considerar protocolos para la adquisición correcta de las señales EEG que permitan disminuir la mayor cantidad de artefactos y un correcto pre-procesamiento de la señal para su análisis posterior. 
+
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -159,3 +156,16 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
+[1] https://www.mdpi.com/2076-3417/10/21/7453
+[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+[3] Islam M.K., Rastegarnia A. Recent advances in EEG (non-invasive) based BCI applications. Front. Comput. Neurosci. 2023;17:1151852. doi: 10.3389/fncom.2023.1151852.
+[4] Patil A.U., Lin C., Lee S.H., Huang H.W., Wu S.C., Madathil D., Huang C.M. Review of EEG-based neurofeedback as a therapeutic intervention to treat depression. Psychiatry Res. Neuroimaging. 2023;329:111591. doi: 10.1016/j.pscychresns.2023.111591.
+[5] Chaddad, A., Wu, Y., Kateb, R., & Bouridane, A. (2023). Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques. Sensors (Basel, Switzerland), 23(14), 6434. https://doi.org/10.3390/s23146434
+[6] B. Giesbrecht and J. Garrett, "Electroencephalography," Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
+[7] Herrmann, C. S., Strüber, D., Helfrich, R. F., & Engel, A. K. (2016). EEG oscillations: From correlation to causality. International journal of psychophysiology: official journal of the International Organization of Psychophysiology, 103, 12–21. https://doi.org/10.1016/j.ijpsycho.2015.02.003
+[8] Nayak CS, Anilkumar AC. EEG Normal Waveforms. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK539805/
+[9] Cohen, M. X. (2017). Where does EEG come from  and  what  does  it  mean? Trends  in Neurosciences, 40(4), 208-218.https://doi.org/10.1016/j.tins.2017.02.004
+[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217.
+[11] Urigüen JA, Garcia-Zapirain B. EEG artifact removal-state-of-the-art and guidelines. J Neural Eng. 2015 Jun. 12 (3):031001.
+[12] Zhang C, Tong L, Zeng Y, Jiang J, Bu H, Yan B, et al. Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information. Biomed Res Int. 2015. 2015:720450.
+
