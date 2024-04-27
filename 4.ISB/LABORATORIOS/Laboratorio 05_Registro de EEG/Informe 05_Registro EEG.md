@@ -72,7 +72,7 @@ Para comprender la funcionalidad del sistema nervioso, el EEG es usado como herr
 
 #### **a. ¿Qué es una señal EEG?**
 <p align="justify">
-El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup> . Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción<sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup> . Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[5](https://www.mdpi.com/1424-8220/23/14/6434)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas<sup>[6]()</sup>. 
+El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup> . Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción <sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup> . Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[5](https://www.mdpi.com/1424-8220/23/14/6434)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas<sup>[6]()</sup>. 
  </p>
 
 
@@ -213,16 +213,16 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
-[1] https://www.mdpi.com/2076-3417/10/21/7453\
-[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875\
-[3] Islam M.K., Rastegarnia A. Recent advances in EEG (non-invasive) based BCI applications. Front. Comput. Neurosci. 2023;17:1151852. doi: 10.3389/fncom.2023.1151852.\
-[4] Patil A.U., Lin C., Lee S.H., Huang H.W., Wu S.C., Madathil D., Huang C.M. Review of EEG-based neurofeedback as a therapeutic intervention to treat depression. Psychiatry Res. Neuroimaging. 2023;329:111591. doi: 10.1016/j.pscychresns.2023.111591.\
-[5] Chaddad, A., Wu, Y., Kateb, R., & Bouridane, A. (2023). Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques. Sensors (Basel, Switzerland), 23(14), 6434. https://doi.org/10.3390/s23146434\
-[6] B. Giesbrecht and J. Garrett, "Electroencephalography," Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.\
-[7] Herrmann, C. S., Strüber, D., Helfrich, R. F., & Engel, A. K. (2016). EEG oscillations: From correlation to causality. International journal of psychophysiology: official journal of the International Organization of Psychophysiology, 103, 12–21. https://doi.org/10.1016/j.ijpsycho.2015.02.003\
-[8] Nayak CS, Anilkumar AC. EEG Normal Waveforms. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK539805/ \
+[1] https://www.mdpi.com/2076-3417/10/21/7453
+[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+[3] Islam M.K., Rastegarnia A. Recent advances in EEG (non-invasive) based BCI applications. Front. Comput. Neurosci. 2023;17:1151852. doi: 10.3389/fncom.2023.1151852.
+[4] Patil A.U., Lin C., Lee S.H., Huang H.W., Wu S.C., Madathil D., Huang C.M. Review of EEG-based neurofeedback as a therapeutic intervention to treat depression. Psychiatry Res. Neuroimaging. 2023;329:111591. doi: 10.1016/j.pscychresns.2023.111591.
+[5] Chaddad, A., Wu, Y., Kateb, R., & Bouridane, A. (2023). Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques. Sensors (Basel, Switzerland), 23(14), 6434. https://doi.org/10.3390/s23146434
+[6] B. Giesbrecht and J. Garrett, "Electroencephalography," Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
+[7] Herrmann, C. S., Strüber, D., Helfrich, R. F., & Engel, A. K. (2016). EEG oscillations: From correlation to causality. International journal of psychophysiology: official journal of the International Organization of Psychophysiology, 103, 12–21. https://doi.org/10.1016/j.ijpsycho.2015.02.003
+[8] Nayak CS, Anilkumar AC. EEG Normal Waveforms. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK539805 
 [9] Cohen, M. X. (2017). Where does EEG come from  and  what  does  it  mean? Trends  in Neurosciences, 40(4), 208-218.https://doi.org/10.1016/j.tins.2017.02.004 \
-[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217. \
-[11] Urigüen JA, Garcia-Zapirain B. EEG artifact removal-state-of-the-art and guidelines. J Neural Eng. 2015 Jun. 12 (3):031001. \
-[12] Zhang C, Tong L, Zeng Y, Jiang J, Bu H, Yan B, et al. Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information. Biomed Res Int. 2015. 2015:720450. \
+[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217. 
+[11] Urigüen JA, Garcia-Zapirain B. EEG artifact removal-state-of-the-art and guidelines. J Neural Eng. 2015 Jun. 12 (3):031001. 
+[12] Zhang C, Tong L, Zeng Y, Jiang J, Bu H, Yan B, et al. Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information. Biomed Res Int. 2015. 2015:720450. 
 
