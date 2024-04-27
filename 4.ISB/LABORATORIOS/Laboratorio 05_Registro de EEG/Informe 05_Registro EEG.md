@@ -127,10 +127,12 @@ La metodología seguida para la adquisición y procesamiento de las señales EEG
 |(R)EVOLUTION|**Kit BITalino**:Kit electrónico formada por varios módulos individuales utilizados para la recolección de datos boiomédicos. Se pueden adquirir señales como EMG,ECG o EEG.|1|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c8d4e3ed-4054-4c4d-9820-0c1dbd5ddd6f">|
 |-|**Laptop o PC**:Se descargará el software de análisis para procesar las señales|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
 |-|**Electrodos**: Registran la actividad eléctrica de los músculos durante la contracción y relajamiento muscular|3|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/21dab0fa-801d-4dd1-b0c9-3b29bf3be7fb">|
-|OpenBCI|Ultracortex Mark IV EEG Headset|1|
-|OpenBCI|OpenBCI Cyton 8-channel Board|1|
+|OpenBCI|**Ultracortex Mark IV EEG Headset** : Es un casco de encefalografía diseñado para registrar actividad eléctrica del cerebro, utilizada comúnmente en investigaciones relacionadas con la neurociencia, la interfaz cerebro-computadora (BCI) y monitorización de la salud mental|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/62500fc6-f80b-4aed-88de-dfb30c20a060">|
+|OpenBCI|**OpenBCI Cyton 8-channel Board** : Es una placa de adquisición de datos de electroencefalografía (EEG) de ocho canales fabricada por OpenBCI|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8735fad8-29d3-4401-b952-f3df243f17d1">|
 <p align="center"><i>Tabla 1. Materiales y equipos </i></p>
 </div>
+
+
 
 <a name="adquisicion"></a>
 ### 2. Procedimiento
