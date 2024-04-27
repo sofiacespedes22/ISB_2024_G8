@@ -156,7 +156,7 @@ En primer lugar, se realizó la conexión entre el BITalino con el programa Open
 	
 |  **Colocación de electrodos para el registro de señales EEG con el Kit Bitalino**  | **Colocación de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV** | 
 |:------------:|:--------:|
-|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|<image width="450" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e3011564-1b5d-4230-a901-0898b5af9709">|
+|<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|<image width="450" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e3011564-1b5d-4230-a901-0898b5af9709">|
 <p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
 </div>
 
