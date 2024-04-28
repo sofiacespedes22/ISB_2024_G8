@@ -9,7 +9,7 @@
    4.1 [Materiales y equipos](#materiales)\
    4.2 [Procedimiento](#adquisicion)\
    4.3 [Procesamiento de datos](#procesamiento)
-5. [Resultados](#resultados)
+5. [Resultados](#resultados)\
    5.1 [Prueba con Bitalino](#bitalino)\
    5.2 [Prueba con Ultracortex Mark IV](#ultracortex)
 6. [Archivos](#archivos)
@@ -35,7 +35,7 @@ Un electroencefalograma (EEG) es una téncica no invasiva usada en el ámbito de
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b74e6a58-fd60-4514-96f0-81cc09cd571d">
-<p align="center"><i>Figura 1. Actividad cerebral registrada por encefalograma <sup>[2](https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875)</sup> </i></p>
+<p align="center"><i>Figura 1. Actividad cerebral registrada por encefalograma [2] </i></p>
 </div>
 
 
@@ -73,18 +73,18 @@ Para comprender la funcionalidad del sistema nervioso, el EEG es usado como herr
 ### Marco teórico
 
 #### **a. ¿Qué es una señal EEG?**
-El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup> . Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción <sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup> . Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[5](https://www.mdpi.com/1424-8220/23/14/6434)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas<sup>[6](doi: 10.1016/B978-0-12-820480-1.00007-3)</sup>. 
+El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup> . Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción <sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup> . Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[5](https://www.mdpi.com/1424-8220/23/14/6434)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas <sup>[6](https://doi.org/10.1016/B978-0-12-820480-1.00007-3)</sup>. 
 
 
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/1971c8a3-8cf5-4ce0-a9d1-e974308ce70f">
-<p align="center"><i>Figura 2. Ejemplo de una señal EEG para un paciente sano <sup> [2](https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875)</sup> </i></p>
+<p align="center"><i>Figura 2. Ejemplo de una señal EEG para un paciente sano </i></p>
 </div>
 
 
 #### b. Oscilaciones del EEG
-Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia <sup>[7] (https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805)</sup> :
+Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia <sup>[7](https://doi.org/10.1016/j.ijpsycho.2015.02.003.)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805)</sup> :
 
 <div align="center">
 	
@@ -95,7 +95,7 @@ Para la interpretación del EEG, es importante considerar la caracterización qu
 |**Alpha**|8.0 - 12.0|<p align="justify"> El ritmo alfa dominante posterior se observa en EEG normales de personas despiertas, ubicado en la región occipital. Es el ritmo de fondo de EEG en adultos y suele mantenerse estable desde los 3 años hasta la novena década de vida en individuos sanos. Variaciones rápidas de este ritmo pueden ocurrir en personas normales. Su ralentización sugiere disfunción cerebral generalizada. El ritmo alfa está relacionado con la relajación y la inhibición sensorial, aumentando con los ojos cerrados y relajación, y disminuyendo con actividad y ojos abiertos.</p>|
 |**Beta**|13.0 - 30.0|<p align="justify"> El ritmo beta es el ritmo EEG más común en adultos y niños normales. Predomina en las regiones frontal y central de la cabeza y se debilita hacia las áreas posteriores. Se relaciona con el pensamiento activo, la concentración y la planificación de movimientos. También puede activarse cuando se observan movimientos de otras personas.</p>|
 |**Gamma**|>30|<p align="justify"> El ritmo gamma pertenece a la clasificación de ondas de alta frecuencia. Su importancia en diversas funciones cognitivas está bien documentada. Estos ritmos pueden ser útiles para detectar desmielinización y otros problemas de integridad cortical. Se sugiere que los ritmos gamma están relacionados con la integración de percepciones sensoriales y la atención.</p>|
-<p align="center"><i>Tabla 1. Materiales y equipos </i></p>
+<p align="center"><i>Tabla 1. Oscilaciones del EEG </i></p>
 </div>
 
 
@@ -115,7 +115,7 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
    
 <a name="metodologia"></a>
 ## Metodología 
-La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface" <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> . Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
+La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface" <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> . Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20, que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
 
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
@@ -128,9 +128,8 @@ La metodología seguida para la adquisición y procesamiento de las señales EEG
 |-|**Electrodos**: Registran la actividad eléctrica de los músculos durante la contracción y relajamiento muscular|3|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/21dab0fa-801d-4dd1-b0c9-3b29bf3be7fb">|
 |OpenBCI|**Ultracortex Mark IV EEG Headset** : Es un casco de encefalografía diseñado para registrar actividad eléctrica del cerebro, utilizada comúnmente en investigaciones relacionadas con la neurociencia, la interfaz cerebro-computadora (BCI) y monitorización de la salud mental|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/62500fc6-f80b-4aed-88de-dfb30c20a060">|
 |OpenBCI|**OpenBCI Cyton 8-channel Board** : Es una placa de adquisición de datos de electroencefalografía (EEG) de ocho canales fabricada por OpenBCI|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8735fad8-29d3-4401-b952-f3df243f17d1">|
-<p align="center"><i>Tabla 1. Materiales y equipos </i></p>
+<p align="center"><i>Tabla 2. Materiales y equipos </i></p>
 </div>
-
 
 
 <a name="adquisicion"></a>
@@ -141,7 +140,7 @@ Para la adquisición de datos, el sujeto de prueba fue una mujer de 22 años con
 |  **Edad**  | **Peso** | **Sexo** | **Condición** |
 |:------------:|:---------------:|:------------:|:----------:|
 |22|58 kg|Femenino|Sano|
-<p align="center"><i>Tabla 2. Características del sujeto de prueba escogido </i></p>
+<p align="center"><i>Tabla 3. Características del sujeto de prueba escogido </i></p>
 </div>
 
 #### 2.1. Protocolo de conexión
@@ -158,7 +157,7 @@ La Placa BITalino (r)evolution viene con sensores y actuadores ya conectados a e
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d6304c8a-ef2e-459b-bb0a-2514072ec3a2">
-<p align="center"><i>Figura 3. Placa BITalino (r)evolution con sensores y actuadores preconectados. Puertos de sensores para conexión a un cable de electrodos marcados en rojo <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
+<p align="center"><i>Figura 3. Placa BITalino (r)evolution con sensores y actuadores preconectados. Puertos de sensores para conexión a un cable de electrodos marcados en rojo [13] </i></p>
 </div>
 
 Para conectar estos sensores, se requiere un cable de electrodo adecuado, que puede tener 2 o 3 cables conductores. La información sobre qué tipo de cable se necesita para cada sensor se encuentra en la Figura 4.<sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>
@@ -166,7 +165,7 @@ Para conectar estos sensores, se requiere un cable de electrodo adecuado, que pu
 </div>
 <p align="center">
 <image width="350" height="100"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
-<p align="center"><i>Figura 4. Combinaciones de sensores y cable de electrodos. <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
+<p align="center"><i>Figura 4. Combinaciones de sensores y cable de electrodos [13]. </i></p>
 </div>
 
 
@@ -182,7 +181,7 @@ Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor
 |  **Colocación de electrodos para el registro de señales EEG con el Kit Bitalino**  | **Colocación de electrodos para el registro de las señales EEG con el Open BCI Ultracortex Mark IV** | 
 |:------------:|:--------:|
 |<image src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7662c920-4066-4869-8268-9ae4a66a83e5">|<image width="450" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e3011564-1b5d-4230-a901-0898b5af9709">|
-<p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
+<p align="center"><i>Tabla 4. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
 </div>
 
 #### 2.2. Protocolo de adquisición
@@ -194,7 +193,7 @@ Para la adquisición de datos, se realizó el protocolo de adquisición brindado
 
 **c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
 
-**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos [ref3] <sup> [14]()</sup>
+**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup>
  de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
 
 |  **Categoría**  | **Pregunta** | 
@@ -205,11 +204,11 @@ Para la adquisición de datos, se realizó el protocolo de adquisición brindado
 |**Compleja**|<p align="justify"> John anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos obtuvieron en total?</p>|
 |**Compleja**|<p align="justify"> El grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 alumnos más que los grupos A y B juntos. ¿Cuál es el número total de estudiantes?</p>|
 |**Compleja**|<p align="justify"> Una tienda vendió 21 refrescos por la mañana y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?</p>|
-<p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
+<p align="center"><i>Tabla 5. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
 #### 2.3. Ultracortex Mark IV EEG Headset
-Por otra parte, para la conexión del Ultracortex Mark IV se utilizó asimismo el sistema 10-20 <sup> [15]()</sup> para el posicionamiento de los electrodos, como se observa en la Figura X. Asimismo, la adquisición de las señales obtenidas fue registrada en OpenBCI para su posterior análisis. La conexión fue realizada a un sujeto de prueba (mujer, 22 años, condición sana) de un equipo de trabajo distinto al nuestro debido a complicaciones con el manejo del tiempo para el uso. 
+Por otra parte, para la conexión del Ultracortex Mark IV se utilizó asimismo el sistema 10-20 para el posicionamiento de los electrodos, como se observa en la Figura 5. Asimismo, la adquisición de las señales obtenidas fue registrada en OpenBCI para su posterior análisis. La conexión fue realizada a un sujeto de prueba (mujer, 22 años, condición sana) de un equipo de trabajo distinto al nuestro debido a complicaciones con el manejo del tiempo para el uso. 
 
 </div>
 <p align="center">
@@ -243,7 +242,7 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 | <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8cc12b02-0daf-4a6d-9831-6299945492e2">|
 | <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5aba84d2-9a56-4b4f-a673-329ed3819a50">|
 | <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/959c0340-0668-4424-9f28-764e0b352842">|
-<p align="center"><i>Tabla 5. Videos obtenidos en los distintos estados con el Bitalino</i></p>
+<p align="center"><i>Tabla 6. Videos obtenidos en los distintos estados con el Bitalino</i></p>
 </div>
 
 #### 1.2. Ploteo de señales en Python
@@ -343,9 +342,9 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 ## Discusión
 El análisis de las señales EEG obtenidas durante el estudio de los diferentes estados del sujeto evaluado permiten observar la variabilidad de la presencia de las bandas del EEG, características electroencefalográficas y anatómicas del cerebro para realizar una comparación con valores estándar y anormales. 
 
-Según un estudio realizado por [ref1] <sup> [16]()</sup>,  la resolución de problemas complejos requiere un patrón característico de activación y sincronización funcional entre cortices. Estos patrones incluyen un aumento de la activación izquierda (frontal y parietal) asociada a una desactivación de la corteza temporal derecha, así como un aumento de la correlación entre las tres cortices [ref2][ref3]<sup> [17]()</sup> <sup> [18]()</sup>. Durante la resolución de los problemas matemáticos de alta complejidad, se registró una mayor actividad en las bandas de frecuencia theta y gamma en las áreas frontales y parietales izquierdas, las cuales están directamente relacionadas con el razonamiento matemático y el cálculo. Asimismo, se requiere de la activación de la región prefrontal-parietal izquierda, para mantener y manipular múltiple cantidad de información junto con un desacoplamiento funcional de las cortezas parietal-temporal derechas para suprimir el razonamiento dependiente del contexto y centrar más recursos cognitivos en el razonamiento matemático necesario para la resolución de problemas[ref5]<sup> [19]()</sup>. 
+Según un estudio realizado por <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup>, la resolución de problemas complejos requiere un patrón característico de activación y sincronización funcional entre cortices. Estos patrones incluyen un aumento de la activación izquierda (frontal y parietal) asociada a una desactivación de la corteza temporal derecha, así como un aumento de la correlación entre las tres cortices <sup> [15](https://doi.org/10.1146/annurev-neuro-071714-034111)</sup> <sup> [16](https://doi.org/10.1097/00001756-200003200-00004)</sup>. Durante la resolución de los problemas matemáticos de alta complejidad, se registró una mayor actividad en las bandas de frecuencia theta y gamma en las áreas frontales y parietales izquierdas, las cuales están directamente relacionadas con el razonamiento matemático y el cálculo <sup> [17](https://doi.org/10.3389/fnint.2013.00058)</sup>. Asimismo, se requiere de la activación de la región prefrontal-parietal izquierda, para mantener y manipular múltiple cantidad de información junto con un desacoplamiento funcional de las cortezas parietal-temporal derechas para suprimir el razonamiento dependiente del contexto y centrar más recursos cognitivos en el razonamiento matemático necesario para la resolución de problemas <sup> [18](https://doi.org/10.3389/fnhum.2016.00454)</sup> <sup> [19](https://doi.org/10.3758/s13415-019-00703-5)</sup>. 
 
-Por otra parte, la presencia de artefactos influye directamente en el resultado de la señal, como se observa en los picos obtenidos en las señales, pues produce altas impedancias en los electrodos y por ende, altera los resultados [ref6]<sup> [20]()</sup>. Los movimientos oculares afectan las lecturas del EEG y constituyen un artefacto en la detección debido a la estructura dipolar de la retina y su proximidad a los electrodos frontales. Los cambios en la posición del ojo generan fluctuaciones en el potencial eléctrico detectado por los electrodos, que permite que aumente y disminuye, alterando así la señal [ref7]<sup> [21]()</sup>. Asimismo, el parpadeo o conexión eléctrica a otros dispositivos también constituyen artefactos durante la adquisición [ref8] <sup> [22]()</sup>por lo que una práctica de adquisición recomendada es fijar un punto de referencia para que el sujeto de prueba no presente distracciones, así como evitar tener conexiones cercanas a la zona de adquisición. 
+Por otra parte, la presencia de artefactos influye directamente en el resultado de la señal, como se observa en los picos obtenidos en las señales, pues produce altas impedancias en los electrodos y por ende, altera los resultados <sup> [20](https://doi.org/10.3390/s19050987)</sup>. Los movimientos oculares afectan las lecturas del EEG y constituyen un artefacto en la detección debido a la estructura dipolar de la retina y su proximidad a los electrodos frontales. Los cambios en la posición del ojo generan fluctuaciones en el potencial eléctrico detectado por los electrodos, que permite que aumente y disminuye, alterando así la señal <sup> [21](https://doi:10.1016/j.clinph.2006.10.019.)</sup>. Asimismo, el parpadeo o conexión eléctrica a otros dispositivos también constituyen artefactos durante la adquisición <sup> [21](https://doi:10.1016/j.clinph.2006.10.019.)</sup>por lo que una práctica de adquisición recomendada es fijar un punto de referencia para que el sujeto de prueba no presente distracciones, así como evitar tener conexiones cercanas a la zona de adquisición. 
 
 <a name="conclusiones"></a>
 ## Conclusiones
@@ -363,13 +362,13 @@ En conjunto, esto indica que la señal registrada refleja cambios relacionados c
 
 [2] Mayo Clinic, “Electroencefalografía (EEG) - Mayo Clinic,” www.mayoclinic.org, 2022. https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
 
-[3] M. K. Islam and A. Rastegarnia, "Recent advances in EEG (non-invasive) based BCI applications," Front. Comput. Neurosci., vol. 17, 1151852, 2023, doi: 10.3389/fncom.2023.1151852.
+[3] M. K. Islam and A. Rastegarnia, "Recent advances in EEG (non-invasive) based BCI applications," Front. Comput. Neurosci., vol. 17, 1151852, 2023, https://doi.org/10.3389/fncom.2023.1151852
 
-[4] A. U. Patil et al., "Review of EEG-based neurofeedback as a therapeutic intervention to treat depression," Psychiatry Res. Neuroimaging, vol. 329, 111591, 2023, doi: 10.1016/j.pscychresns.2023.111591.
+[4] A. U. Patil et al., "Review of EEG-based neurofeedback as a therapeutic intervention to treat depression," Psychiatry Res. Neuroimaging, vol. 329, 111591, 2023, https://doi.org/10.1016/j.pscychresns.2023.111591
 
 [5] A. Chaddad et al., "Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques," Sensors (Basel, Switzerland), vol. 23, no. 14, pp. 6434, 2023, https://doi.org/10.3390/s23146434.
 
-[6] B. Giesbrecht and J. Garrett, "Electroencephalography," in Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
+[6] B. Giesbrecht and J. Garrett, "Electroencephalography," in Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, https://doi.org/10.1016/B978-0-12-820480-1.00007-3
 
 [7] C. S. Herrmann et al., "EEG oscillations: From correlation to causality," Int. J. Psychophysiol., vol. 103, pp. 12–21, 2016, https://doi.org/10.1016/j.ijpsycho.2015.02.003.
 
@@ -377,7 +376,7 @@ En conjunto, esto indica que la señal registrada refleja cambios relacionados c
 
 [9] M. X. Cohen, "Where does EEG come from and what does it mean?" Trends Neurosci., vol. 40, no. 4, pp. 208-218, 2017, https://doi.org/10.1016/j.tins.2017.02.004
 
-[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217.
+[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, https://doi.org/10.1684/epd.2020.1217
 
 [11] J. A. Urigüen and B. Garcia-Zapirain, "EEG artifact removal-state-of-the-art and guidelines," J. Neural Eng., vol. 12, no. 3, 031001, Jun. 2015, https://doi.org/10.1088/1741-2560/12/3/031001
 
@@ -385,4 +384,18 @@ En conjunto, esto indica que la señal registrada refleja cambios relacionados c
 
 [13] PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt
 
-[14]
+[14] J. Molina del Río, M. A. Guevara, M. Hernández González, et al., "EEG correlation during the solving of simple and complex logical–mathematical problems," Cogn Affect Behav Neurosci, vol. 19, pp. 1036–1046, 2019. https://doi.org/10.3758/s13415-019-00703-5
+
+[15] A. Z. Harris and J. A. Gordon, "Long-range neural synchrony in behavior," Annual Review of Neuroscience, vol. 38, no. 1, pp. 171–194, 2015. https://doi.org/10.1146/annurev-neuro-071714-034111
+
+[16] A. R. Haig, E. Gordon, J. J. Wright, R. A. Meares, and H. Bahramali, "Synchronous cortical gamma-band activity in task-relevant cognition," NeuroReport, vol. 11, no. 4, pp. 669–675, 2000. https://doi.org/10.1097/00001756-200003200-00004
+
+[17] O. J. Ahmed and S. S. Cash, "Finding synchrony in the desynchronized EEG: The history and interpretation of gamma rhythms," Frontiers in Integrative Neuroscience, vol. 7, p. 58, 2013. https://doi.org/10.3389/fnint.2013.00058
+
+[18] S. I. Dimitriadis, Y. Sun, N. V. Thakor, and A. Bezerianos, "Causal interactions between Frontal θ − Parieto-Occipital α2 predict performance on a mental arithmetic task," Frontiers in Human Neuroscience, vol. 10, pp. 1–17, 2016. https://doi.org/10.3389/fnhum.2016.00454
+
+[19] J. Molina, M. A. Guevara, M. Hernández-González, R. M. Hidalgo-Aguirre, M. A. Cruz-Aguilar, and J. C. Hevia, "Cognitive training on the solving of mathematical problems: an EEG study in young men," Act. Psi, vol. 35, no. 130, pp. 131–147, 2021. Available: http://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S2215-35352021000100131&lng=en.
+
+[20] X. Jiang, G. B. Bian, and Z. Tian, "Removal of Artifacts from EEG Signals: A Review," Sensors (Basel, Switzerland), vol. 19, no. 5, p. 987, 2019. https://doi.org/10.3390/s19050987
+
+[21] F. Fatourechi, A. Bashashati, R. K. Ward, and G. E. Birch, "EMG and EOG artifacts in brain computer interface systems: A survey," Clin. Neurophysiol., vol. 118, pp. 480–494, 2007. https://doi:10.1016/j.clinph.2006.10.019.
