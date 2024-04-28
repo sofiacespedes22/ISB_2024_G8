@@ -248,7 +248,7 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 #### 1.2. Ploteo de señales en Python
 Se realizó el ploteo de las señales obtenidas en Python y se calculó la presencia de las bandas de frecuencia de las oscilaciones EEG y comparar las señales obtenidas con valores estándar según cada estado evaluado. Se observa la respuesta en el tiempo de los registros del sujeto de prueba en los cuatro estados. Estos registros muestran el comportamiento general de las señales adquiridas, para las cuales se obtuvo como tendencia cambios en la amplitud del voltaje y en la frecuencia de las oscilaciones al pasar de un estado a otro.
 
-**a. Estado 01 - reposo** : En el primer estado, se observa la presencia de oscilaciones de la banda delta, la cual se presenta en las diferentes fases del sueño, pues se observan oscilaciones mas lentes y con amplitud considerable. Asimismo, se observa la presencia de ondas alfa pues se presentan en un estado de relajación y aumentan con los ojos cerrados. La amplitud que presenta la señal oscilaba entre los 600-700 mV aproximadamente. Los valores obtenidos por el sujeto de prueba coinciden con valores estándar en fase de reposo en cuanto a amplitud y presencia de la banda delta [15] <sup> [15](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-33472021000200201&lng=en.)</sup>.
+**a. Estado 01 - reposo** : En el primer estado, se observa la presencia de oscilaciones de la banda delta, la cual se presenta en las diferentes fases del sueño, pues se observan oscilaciones mas lentes y con amplitud considerable. Asimismo, se observa la presencia de ondas alfa pues se presentan en un estado de relajación y aumentan con los ojos cerrados. La amplitud que presenta la señal oscilaba entre los 600-700 mV aproximadamente. Los valores obtenidos por el sujeto de prueba coinciden con valores estándar en fase de reposo en cuanto a amplitud y presencia de la banda delta <sup> [15](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-33472021000200201&lng=en.)</sup>.
 
 </div>
 <p align="center">
@@ -310,7 +310,7 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 **a. Estado de reposo:**
 </div>
 <p align="center">
-<image width="500" height="350"src="">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/3ae98b4f903f5af0ca94d986653505c7906e8349/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/Imagenes_Cortex/reposo.jpeg">
 <p align="center"><i>Figura 12. Ploteo de la señal en estado de reposo
 </i></p>
 </div>
@@ -318,7 +318,7 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 **b. Estado de ojos cerrados-abiertos:**
 </div>
 <p align="center">
-<image width="500" height="350"src="">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/3ae98b4f903f5af0ca94d986653505c7906e8349/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/Imagenes_Cortex/parpadeo.jpeg">
 <p align="center"><i>Figura 13. Ploteo de la señal en estado parpadeo
 </i></p>
 </div>
@@ -326,7 +326,7 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 **c. Estado de segundo reposo:**
 </div>
 <p align="center">
-<image width="500" height="350"src="">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/3ae98b4f903f5af0ca94d986653505c7906e8349/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/Imagenes_Cortex/reposo2.jpeg">
 <p align="center"><i>Figura 14. Ploteo de la señal en estado de segundo reposo
 </i></p>
 </div>
@@ -334,12 +334,12 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 **d. Estado 04 - ejercicios matemáticos**:
 </div>
 <p align="center">
-<image width="500" height="350"src="">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/3ae98b4f903f5af0ca94d986653505c7906e8349/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/Imagenes_Cortex/preguntas.jpeg">
 <p align="center"><i>Figura 15. Ploteo de la señal en estado de preguntas matemáticas
 </i></p>
 </div>
 	
-La gráfica de EEG ofrece un reflejo detallado de la amplitud y frecuencia de las señales cerebrales en diversas bandas de ondas. Las ondas delta, de baja frecuencia y alta amplitud, se distinguen por oscilaciones lentas y picos prominentes, asociados con el sueño profundo y la relajación. En contraste, las ondas theta, con frecuencia moderada y amplitud media, presentan oscilaciones más rápidas pero igualmente significativas, ligadas a la relajación, meditación y ciertos estados de atención.  Las ondas alpha, caracterizadas por una frecuencia media y baja amplitud, exhiben oscilaciones suaves y consistentes, señales de relajación o focalización de la atención. Mientras tanto, las ondas beta, de alta frecuencia y baja amplitud, se distinguen por oscilaciones rápidas y diminutas, relacionadas con la actividad mental activa, concentración y procesamiento cognitivo [a]. Por último, las ondas gamma, de alta frecuencia y baja amplitud similar a las beta pero en un rango superior, muestran oscilaciones veloces y mínimas, asociadas a la integración sensorial, percepción y conciencia.
+La gráfica de EEG ofrece un reflejo detallado de la amplitud y frecuencia de las señales cerebrales en diversas bandas de ondas. Las ondas delta, de baja frecuencia y alta amplitud, se distinguen por oscilaciones lentas y picos prominentes, asociados con el sueño profundo y la relajación. En contraste, las ondas theta, con frecuencia moderada y amplitud media, presentan oscilaciones más rápidas pero igualmente significativas, ligadas a la relajación, meditación y ciertos estados de atención.  Las ondas alpha, caracterizadas por una frecuencia media y baja amplitud, exhiben oscilaciones suaves y consistentes, señales de relajación o focalización de la atención. Mientras tanto, las ondas beta, de alta frecuencia y baja amplitud, se distinguen por oscilaciones rápidas y diminutas, relacionadas con la actividad mental activa, concentración y procesamiento cognitivo <sup> [16](https://towardsdatascience.com/eeg-101-using-openbci-ultracortex-fbeb0202d0c5)</sup>. Por último, las ondas gamma, de alta frecuencia y baja amplitud similar a las beta pero en un rango superior, muestran oscilaciones veloces y mínimas, asociadas a la integración sensorial, percepción y conciencia.
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
@@ -374,9 +374,9 @@ La gráfica de EEG ofrece un reflejo detallado de la amplitud y frecuencia de la
 ## Discusión
 El análisis de las señales EEG obtenidas durante el estudio de los diferentes estados del sujeto evaluado permiten observar la variabilidad de la presencia de las bandas del EEG, características electroencefalográficas y anatómicas del cerebro para realizar una comparación con valores estándar y anormales. 
 
-Según un estudio realizado por <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup>, la resolución de problemas complejos requiere un patrón característico de activación y sincronización funcional entre cortices. Estos patrones incluyen un aumento de la activación izquierda (frontal y parietal) asociada a una desactivación de la corteza temporal derecha, así como un aumento de la correlación entre las tres cortices <sup> [16](https://doi.org/10.1146/annurev-neuro-071714-034111)</sup> <sup> [17](https://doi.org/10.1097/00001756-200003200-00004)</sup>. Durante la resolución de los problemas matemáticos de alta complejidad, se registró una mayor actividad en las bandas de frecuencia theta y gamma en las áreas frontales y parietales izquierdas, las cuales están directamente relacionadas con el razonamiento matemático y el cálculo <sup> [18](https://doi.org/10.3389/fnint.2013.00058)</sup>. Asimismo, se requiere de la activación de la región prefrontal-parietal izquierda, para mantener y manipular múltiple cantidad de información junto con un desacoplamiento funcional de las cortezas parietal-temporal derechas para suprimir el razonamiento dependiente del contexto y centrar más recursos cognitivos en el razonamiento matemático necesario para la resolución de problemas <sup> [19](https://doi.org/10.3389/fnhum.2016.00454)</sup> <sup> [20](https://doi.org/10.3758/s13415-019-00703-5)</sup>. 
+Según un estudio realizado por <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup>, la resolución de problemas complejos requiere un patrón característico de activación y sincronización funcional entre cortices. Estos patrones incluyen un aumento de la activación izquierda (frontal y parietal) asociada a una desactivación de la corteza temporal derecha, así como un aumento de la correlación entre las tres cortices <sup> [17](https://doi.org/10.1146/annurev-neuro-071714-034111)</sup> <sup> [18](https://doi.org/10.1097/00001756-200003200-00004)</sup>. Durante la resolución de los problemas matemáticos de alta complejidad, se registró una mayor actividad en las bandas de frecuencia theta y gamma en las áreas frontales y parietales izquierdas, las cuales están directamente relacionadas con el razonamiento matemático y el cálculo <sup> [19](https://doi.org/10.3389/fnint.2013.00058)</sup>. Asimismo, se requiere de la activación de la región prefrontal-parietal izquierda, para mantener y manipular múltiple cantidad de información junto con un desacoplamiento funcional de las cortezas parietal-temporal derechas para suprimir el razonamiento dependiente del contexto y centrar más recursos cognitivos en el razonamiento matemático necesario para la resolución de problemas <sup> [20](https://doi.org/10.3389/fnhum.2016.00454)</sup> <sup> [21](https://doi.org/10.3758/s13415-019-00703-5)</sup>. 
 
-Por otra parte, la presencia de artefactos influye directamente en el resultado de la señal, como se observa en los picos obtenidos en las señales, pues produce altas impedancias en los electrodos y por ende, altera los resultados <sup> [21](https://doi.org/10.3390/s19050987)</sup>. Los movimientos oculares afectan las lecturas del EEG y constituyen un artefacto en la detección debido a la estructura dipolar de la retina y su proximidad a los electrodos frontales. Los cambios en la posición del ojo generan fluctuaciones en el potencial eléctrico detectado por los electrodos, que permite que aumente y disminuye, alterando así la señal <sup> [22](https://doi.org/10.1016/j.clinph.2006.10.019)</sup>. Asimismo, el parpadeo o conexión eléctrica a otros dispositivos también constituyen artefactos durante la adquisición <sup> [22](https://doi.org/10.1016/j.clinph.2006.10.019)</sup>por lo que una práctica de adquisición recomendada es fijar un punto de referencia para que el sujeto de prueba no presente distracciones, así como evitar tener conexiones cercanas a la zona de adquisición. 
+Por otra parte, la presencia de artefactos influye directamente en el resultado de la señal, como se observa en los picos obtenidos en las señales, pues produce altas impedancias en los electrodos y por ende, altera los resultados <sup> [22](https://doi.org/10.3390/s19050987)</sup>. Los movimientos oculares afectan las lecturas del EEG y constituyen un artefacto en la detección debido a la estructura dipolar de la retina y su proximidad a los electrodos frontales. Los cambios en la posición del ojo generan fluctuaciones en el potencial eléctrico detectado por los electrodos, que permite que aumente y disminuye, alterando así la señal <sup> [23](https://doi.org/10.1016/j.clinph.2006.10.019)</sup>. Asimismo, el parpadeo o conexión eléctrica a otros dispositivos también constituyen artefactos durante la adquisición <sup> [23](https://doi.org/10.1016/j.clinph.2006.10.019)</sup>por lo que una práctica de adquisición recomendada es fijar un punto de referencia para que el sujeto de prueba no presente distracciones, así como evitar tener conexiones cercanas a la zona de adquisición. 
 
 <a name="conclusiones"></a>
 ## Conclusiones
@@ -420,18 +420,18 @@ En conjunto, esto indica que la señal registrada refleja cambios relacionados c
 
 [15] V. Gaviria García, D. Loaiza López, C. Serna Rojas, S. Ríos Arismendy, E. Montoya Guevara, J. D. Mora Lesmes, et al., "Evaluación de los cambios de la actividad eléctrica cerebral durante anestesia general usando electroencefalografía portable," Rev. colomb. anestesiol., vol. 49, no. 2, e201, 2021. Available: http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-33472021000200201&lng=en.
 
-[16] A. Z. Harris and J. A. Gordon, "Long-range neural synchrony in behavior," Annual Review of Neuroscience, vol. 38, no. 1, pp. 171–194, 2015. https://doi.org/10.1146/annurev-neuro-071714-034111
+[16] Pareek, N. (2022, 4 de septiembre). EEG 101 using OpenBCI Ultracortex. Medium. https://towardsdatascience.com/eeg-101-using-openbci-ultracortex-fbeb0202d0c5
 
-[17] A. R. Haig, E. Gordon, J. J. Wright, R. A. Meares, and H. Bahramali, "Synchronous cortical gamma-band activity in task-relevant cognition," NeuroReport, vol. 11, no. 4, pp. 669–675, 2000. https://doi.org/10.1097/00001756-200003200-00004
+[17] A. Z. Harris and J. A. Gordon, "Long-range neural synchrony in behavior," Annual Review of Neuroscience, vol. 38, no. 1, pp. 171–194, 2015. https://doi.org/10.1146/annurev-neuro-071714-034111
 
-[18] O. J. Ahmed and S. S. Cash, "Finding synchrony in the desynchronized EEG: The history and interpretation of gamma rhythms," Frontiers in Integrative Neuroscience, vol. 7, p. 58, 2013. https://doi.org/10.3389/fnint.2013.00058
+[18] A. R. Haig, E. Gordon, J. J. Wright, R. A. Meares, and H. Bahramali, "Synchronous cortical gamma-band activity in task-relevant cognition," NeuroReport, vol. 11, no. 4, pp. 669–675, 2000. https://doi.org/10.1097/00001756-200003200-00004
 
-[19] S. I. Dimitriadis, Y. Sun, N. V. Thakor, and A. Bezerianos, "Causal interactions between Frontal θ − Parieto-Occipital α2 predict performance on a mental arithmetic task," Frontiers in Human Neuroscience, vol. 10, pp. 1–17, 2016. https://doi.org/10.3389/fnhum.2016.00454
+[19] O. J. Ahmed and S. S. Cash, "Finding synchrony in the desynchronized EEG: The history and interpretation of gamma rhythms," Frontiers in Integrative Neuroscience, vol. 7, p. 58, 2013. https://doi.org/10.3389/fnint.2013.00058
 
-[20] J. Molina, M. A. Guevara, M. Hernández-González, R. M. Hidalgo-Aguirre, M. A. Cruz-Aguilar, and J. C. Hevia, "Cognitive training on the solving of mathematical problems: an EEG study in young men," Act. Psi, vol. 35, no. 130, pp. 131–147, 2021. Available: http://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S2215-35352021000100131&lng=en.
+[20] S. I. Dimitriadis, Y. Sun, N. V. Thakor, and A. Bezerianos, "Causal interactions between Frontal θ − Parieto-Occipital α2 predict performance on a mental arithmetic task," Frontiers in Human Neuroscience, vol. 10, pp. 1–17, 2016. https://doi.org/10.3389/fnhum.2016.00454
 
-[21] X. Jiang, G. B. Bian, and Z. Tian, "Removal of Artifacts from EEG Signals: A Review," Sensors (Basel, Switzerland), vol. 19, no. 5, p. 987, 2019. https://doi.org/10.3390/s19050987
+[21] J. Molina, M. A. Guevara, M. Hernández-González, R. M. Hidalgo-Aguirre, M. A. Cruz-Aguilar, and J. C. Hevia, "Cognitive training on the solving of mathematical problems: an EEG study in young men," Act. Psi, vol. 35, no. 130, pp. 131–147, 2021. Available: http://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S2215-35352021000100131&lng=en.
 
-[22] F. Fatourechi, A. Bashashati, R. K. Ward, and G. E. Birch, "EMG and EOG artifacts in brain computer interface systems: A survey," Clin. Neurophysiol., vol. 118, pp. 480–494, 2007. https://doi.org/10.1016/j.clinph.2006.10.019
+[22] X. Jiang, G. B. Bian, and Z. Tian, "Removal of Artifacts from EEG Signals: A Review," Sensors (Basel, Switzerland), vol. 19, no. 5, p. 987, 2019. https://doi.org/10.3390/s19050987
 
-[a] Pareek, N. (2022, 4 de septiembre). EEG 101 using OpenBCI Ultracortex. Medium. https://towardsdatascience.com/eeg-101-using-openbci-ultracortex-fbeb0202d0c5
+[23] F. Fatourechi, A. Bashashati, R. K. Ward, and G. E. Birch, "EMG and EOG artifacts in brain computer interface systems: A survey," Clin. Neurophysiol., vol. 118, pp. 480–494, 2007. https://doi.org/10.1016/j.clinph.2006.10.019
