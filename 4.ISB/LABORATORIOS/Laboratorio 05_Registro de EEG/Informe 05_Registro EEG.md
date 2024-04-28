@@ -9,11 +9,11 @@
    4.1 [Materiales y equipos](#materiales)\
    4.2 [Procedimiento](#adquisicion)\
    4.3 [Procesamiento de datos](#procesamiento)
-5. [Resultados](#resultados)\
-   5.1 [Archivos](#archivos)
-6. [Discusión](#discusion)
-7. [Conclusiones](#conclusiones)
-8. [Referencias bibliográficas](#referencias)
+5. [Resultados](#resultados)
+6. [Archivos](#archivos)
+7. [Discusión](#discusion)
+8. [Conclusiones](#conclusiones)
+9. [Referencias bibliográficas](#referencias)
 
 
 <a name="lista"></a>
@@ -214,7 +214,13 @@ Por otra parte, para la conexión del Ultracortex Mark IV se utilizó asimismo e
 <p align="center"><i>Figura 5. Posicionamiento de los electrodos según el sistema 10-20.</i></p>
 </div>
 
+Para la prueba con el Ultracortex, estamos mostrando datos y fotos de otro grupo debido a dificultades con el tiempo, a continuación se muestra la foto del sujeto de prueba:
 
+</div>
+<p align="center">
+<image width="250" height="400"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4a1ed420-10cc-4877-acdd-5fb0131de3a4">
+<p align="center"><i>Figura 6. Posicionamiento de los electrodos según el sistema 10-20 en el sujeto de prueba.</i></p>
+</div>
 
 <a name="procesamiento"></a>
 ### 3. Procesamiento de datos
@@ -245,7 +251,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/861f93da-1add-4bce-823b-806163ca2bda">
-<p align="center"><i>Figura 6.  Ploteo de la señal en estado de reposo</i></p>
+<p align="center"><i>Figura 7.  Ploteo de la señal en estado de reposo</i></p>
 </div>
 
 **b. Estado 02 - ojos cerrados y abiertos**: En el segundo estado, se observa la presencia de picos en la amplitud de la señal, los cuales se intensifican debido a que representan el periodo de apertura de ojos por los cinco segundos. Se observa, además, que desde el segundo 05 al segundo 10, exite la mayor amplitud presentada y esto se debe a que el sujeto de prueba fue expuesto ante la intensidad luminosa del medio ambiente o el movimiento ocular, lo cual representa un artefacto en la medición. Asimismo, observamos la presencia de las bandas alfa y beta, debido a que al abrir los ojos y comenzar a enfocarse en el entorno, es común observar un aumento en la actividad beta. 
@@ -253,7 +259,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/149fb3f8-3991-407c-833d-6b5d7db8fd44">
-<p align="center"><i>Figura 7. Ploteo de la señal en estado de ojos cerrados-abiertos </i></p>
+<p align="center"><i>Figura 8. Ploteo de la señal en estado de ojos cerrados-abiertos </i></p>
 </div>
 
 
@@ -262,7 +268,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2f47155e-4f65-47d2-9d77-906e0ccbccba">
-<p align="center"><i>Figura 8. Ploteo de la señal en estado de segundo reposo</i></p>
+<p align="center"><i>Figura 9. Ploteo de la señal en estado de segundo reposo</i></p>
 </div>
 
 **d. Estado 04 - ejercicios matemáticos**: En el cuarto estado, se registró la señal durante la resolución de los ejercicios matemáticos mentales. Se dividió la señal en dos fases: la fase de preguntas simples y la fase de preguntas complejas. En la Figura M, se observa la señal durante la fase de preguntas simples, en las que se observa la presencia de bandas beta, pues esta banda esta más asociada con la actividad mental, la concentración y la resolución de problemas, así como bandas theta debido a que eran ejercicios simples. Asimismo, la amplitud que presenta esta señal seccionada oscila entre los 400 y 700 mV, con picos de intensidad que representan los posibles artefactos durante la medición.
@@ -270,7 +276,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/72a70136-8be4-433d-a5aa-ce5fd6521e14">
-<p align="center"><i>Figura 9. Ploteo de la señal en estado de preguntas matemáticas (preguntas simples)
+<p align="center"><i>Figura 10. Ploteo de la señal en estado de preguntas matemáticas (preguntas simples)
 </i></p>
 </div>
 
@@ -279,7 +285,7 @@ Por otra parte, en la Figura P, observamos la señal durante la fase de pregunta
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/9e373400-74c2-4421-99aa-8684c0fe93a1">
-<p align="center"><i>Figura 9. Ploteo de la señal en estado de preguntas matemáticas (preguntas complejas)
+<p align="center"><i>Figura 11. Ploteo de la señal en estado de preguntas matemáticas (preguntas complejas)
 </i></p>
 </div>
 
@@ -288,7 +294,7 @@ Por otra parte, en la Figura P, observamos la señal durante la fase de pregunta
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
-| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="">|
+| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b7b22991-1d0f-4c92-8b50-488c6bed6455">|
 | <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="">|
 | <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="">|
 | <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="">|
@@ -298,9 +304,27 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 #### 2.2. Ploteo de señales en Python
 
 
+
+
+
+
 <a name="archivos"></a>
-### Archivo de las señales ploteadas en Python
-   
+## Archivo de las señales ploteadas en Python
+* **Código en Python**
+  - [Código]()
+  - 
+* **Datos de señales eléctricas del BiTalino ploteadas en Python**
+  - [Estado de reposo]()
+  - [Estado de ojos cerrado-ojos abiertos]()
+  - [Estado de segundo reposo]()
+  - [Estado de preguntas]()
+
+* **Datos de señales del Ultracortex ploteadas en Python**
+  - [Estado de reposo]()
+  - [Estado de ojos cerrado-ojos abiertos]()
+  - [Estado de segundo reposo]()
+  - [Estado de preguntas]()
+
 <a name="discusion"></a>
 ## Discusión
 
