@@ -312,22 +312,31 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
+### Prueba de BiTalino
+* **Código en Python**
+  - [Código para Estados bases]()
+  - [Código para Estado ojo cerrado-ojo abierto]()
+  - [Código para Estado de preguntas]()
+
+* **Datos de señales del Bitalino ploteadas en Python**
+  - [Estado de reposo]()
+  - [Estado de ojos cerrado-ojos abiertos]()
+  - [Estado de segundo reposo]()
+  - [Estado de preguntas]()
+
+
+### Prueba de Ultracortex
 * **Código en Python**
   - [Código para Estados bases](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/PLOTBCI(base).py)
   - [Código para Estado ojo cerrado-ojo abierto](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/PLOTBCI_abre_cierra.py)
   - [Código para Estado de preguntas](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/PLOTBCI_preguntas.py)
     
-* **Datos de señales eléctricas del BiTalino ploteadas en Python**
+* **Datos de señales eléctricas del Ultracortex ploteadas en Python**
   - [Estado de reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-base.txt)
   - [Estado de ojos cerrado-ojos abiertos](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-abrecierra.txt)
   - [Estado de segundo reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-base2.txt)
   - [Estado de preguntas](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-mate.txt)
 
-* **Datos de señales del Ultracortex ploteadas en Python**
-  - [Estado de reposo]()
-  - [Estado de ojos cerrado-ojos abiertos]()
-  - [Estado de segundo reposo]()
-  - [Estado de preguntas]()
 
 <a name="discusion"></a>
 ## Discusión
