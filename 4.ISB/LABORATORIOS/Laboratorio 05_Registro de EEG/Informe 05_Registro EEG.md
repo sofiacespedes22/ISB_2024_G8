@@ -295,46 +295,48 @@ Por otra parte, en la Figura 11, observamos la señal durante la fase de pregunt
 ### 2.Prueba con Ultracortex Mark IV EEG Headset
 ####  2.1. Visualización de las señales
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
+<div align="center">
+	
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
-| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1a871be1-8505-4283-9a19-00b304ee21f9
-">|
-| <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="">|
-| <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="">|
-| <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5cd1d33f-88a2-4460-8c93-0473fbf844e4
-">|
-<p align="center"><i>Tabla 6. Videos obtenidos en los distintos estados con el Ultracortex</i></p>
+| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1a871be1-8505-4283-9a19-00b304ee21f9">|
+| <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b52bb9c7-ed06-4281-9c48-5cdcd29d4356">|
+| <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/91cc940b-80d4-4e0b-89a0-3cc730dd57e2">|
+| <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5cd1d33f-88a2-4460-8c93-0473fbf844e4">|
+<p align="center"><i>Tabla 7. Videos obtenidos en los distintos estados con el Ultracortex</i></p>
 </div>
 
 #### 2.2. Ploteo de señales en Python
 
 
 
-
-
-
-
-
-
-
-
-
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
+### Prueba de BiTalino
 * **Código en Python**
-  - [Código]()
-  - 
-* **Datos de señales eléctricas del BiTalino ploteadas en Python**
+  - [Código para Estados bases]()
+  - [Código para Estado ojo cerrado-ojo abierto]()
+  - [Código para Estado de preguntas]()
+
+* **Datos de señales del Bitalino ploteadas en Python**
   - [Estado de reposo]()
   - [Estado de ojos cerrado-ojos abiertos]()
   - [Estado de segundo reposo]()
   - [Estado de preguntas]()
 
-* **Datos de señales del Ultracortex ploteadas en Python**
-  - [Estado de reposo]()
-  - [Estado de ojos cerrado-ojos abiertos]()
-  - [Estado de segundo reposo]()
-  - [Estado de preguntas]()
+
+### Prueba de Ultracortex
+* **Código en Python**
+  - [Código para Estados bases](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/PLOTBCI(base).py)
+  - [Código para Estado ojo cerrado-ojo abierto](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/PLOTBCI_abre_cierra.py)
+  - [Código para Estado de preguntas](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/PLOTBCI_preguntas.py)
+    
+* **Datos de señales eléctricas del Ultracortex ploteadas en Python**
+  - [Estado de reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-base.txt)
+  - [Estado de ojos cerrado-ojos abiertos](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-abrecierra.txt)
+  - [Estado de segundo reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-base2.txt)
+  - [Estado de preguntas](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/OpenBCI-RAW-mate.txt)
+
 
 <a name="discusion"></a>
 ## Discusión
