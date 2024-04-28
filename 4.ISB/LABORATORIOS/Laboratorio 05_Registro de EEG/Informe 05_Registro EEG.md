@@ -151,7 +151,7 @@ Una vez realizada la instalación o acceso al programa, encendemos el BITalino c
 Después de seleccionar el dispositivo, se hace clic en el logo de BITalino para acceder a las configuraciones disponibles. En este paso, se elige el canal al que está conectado el sensor y se selecciona el tipo de sensor correspondiente desde el menú desplegable. Para este laboratorio sería el de EEG. Una vez seleccionado el canal y el tipo de sensor, se activa el canal para la adquisición. Finalmente, cuando se esté listo para comenzar con la adquisición de datos, se hace clic en el botón de grabación en la interfaz principal de OpenSignals. Este procedimiento garantiza que el BITalino esté correctamente configurado y listo para capturar los datos necesarios para el experimento en el laboratorio.
 
 ###### Conexión del BITalino (r)evolution con sensores y actuadores
-La Placa BITalino (r)evolution viene con sensores y actuadores ya conectados a ella (ver Figura 10). Los sensores EEG, EDA, ECG y EMG necesitan ser conectados a un cable de electrodo utilizando el puerto del sensor, que está marcado en rojo para facilitar su identificación, en el caso específico para la toma de EEG el puerto al cual se debe conectar los electrodos al bitalino es el **A4** <sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>.
+La Placa BITalino (r)evolution viene con sensores y actuadores ya conectados a ella (ver Figura 10). Los sensores EEG, EDA, ECG y EMG necesitan ser conectados a un cable de electrodo utilizando el puerto del sensor, que está marcado en rojo para facilitar su identificación, en el caso específico para la toma de EEG el puerto al cual se debe conectar los electrodos al puerto **A4** del BiTalino <sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>.
 
 </div>
 <p align="center">
@@ -163,7 +163,7 @@ Para conectar estos sensores, se requiere un cable de electrodo adecuado, que pu
 
 </div>
 <p align="center">
-<image width="300" height="200"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
+<image width="400" height="200"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
 <p align="center"><i>Figura 4. Combinaciones de sensores y cable de electrodos. <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
 </div>
 
