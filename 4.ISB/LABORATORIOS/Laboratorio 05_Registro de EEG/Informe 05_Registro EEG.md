@@ -103,7 +103,7 @@ El cerebro se compone de millones de neuronas interconectadas que generan potenc
 
 
 #### d. Artefactos
-Si bien el EEG permite registrar la actividad eléctrica cerebral, también registra actividades eléctricas que se originan en lugares distintos del cerebro. Esta actividad registrada se denomina artefacto pues no es de origen cerebral y puede dificultar la interpretación clínica o el posterior análisis cuantitativo. Los artefactos surgen de fuentes fisiológicas, como ritmo cardíaco, actividad muscular o movimiento ocular y extrafisiológicas, como el ruido ambiental o del propio sistema de medición <sup> [11]()</sup> <sup> [12]()</sup> . Por ello, resulta importante considerar protocolos para la adquisición correcta de las señales EEG que permitan disminuir la mayor cantidad de artefactos y un correcto pre-procesamiento de la señal para su análisis posterior. 
+Si bien el EEG permite registrar la actividad eléctrica cerebral, también registra actividades eléctricas que se originan en lugares distintos del cerebro. Esta actividad registrada se denomina artefacto pues no es de origen cerebral y puede dificultar la interpretación clínica o el posterior análisis cuantitativo. Los artefactos surgen de fuentes fisiológicas, como ritmo cardíaco, actividad muscular o movimiento ocular y extrafisiológicas, como el ruido ambiental o del propio sistema de medición <sup> [11](https://doi.org/10.1088/1741-2560/12/3/031001)</sup> <sup> [12](https://doi.org/10.1155%2F2015%2F720450)</sup> . Por ello, resulta importante considerar protocolos para la adquisición correcta de las señales EEG que permitan disminuir la mayor cantidad de artefactos y un correcto pre-procesamiento de la señal para su análisis posterior. 
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -309,7 +309,7 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 [8] C. S. Nayak and A. C. Anilkumar, "EEG Normal Waveforms," in StatPearls [Internet], Treasure Island (FL): StatPearls Publishing, updated Jul. 24, 2023, Available: https://www.ncbi.nlm.nih.gov/books/NBK539805.
 [9] M. X. Cohen, "Where does EEG come from and what does it mean?" Trends Neurosci., vol. 40, no. 4, pp. 208-218, 2017, https://doi.org/10.1016/j.tins.2017.02.004
 [10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217.
-[11] J. A. Urigüen and B. Garcia-Zapirain, "EEG artifact removal-state-of-the-art and guidelines," J. Neural Eng., vol. 12, no. 3, 031001, Jun. 2015.
-[12] C. Zhang et al., "Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information," Biomed Res. Int., vol. 2015, 720450, 2015.
+[11] J. A. Urigüen and B. Garcia-Zapirain, "EEG artifact removal-state-of-the-art and guidelines," J. Neural Eng., vol. 12, no. 3, 031001, Jun. 2015, https://doi.org/10.1088/1741-2560/12/3/031001
+[12] C. Zhang et al., "Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information," Biomed Res. Int., vol. 2015, 720450, 2015, https://doi.org/10.1155%2F2015%2F720450
 [13] PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt
 
