@@ -71,7 +71,7 @@ Para comprender la funcionalidad del sistema nervioso, el EEG es usado como herr
 ### Marco teórico
 
 #### **a. ¿Qué es una señal EEG?**
-El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup> . Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción <sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup> . Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[5](https://www.mdpi.com/1424-8220/23/14/6434)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas<sup>[6]()</sup>. 
+El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que permite el registro de la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo que detectan la señal <sup>[3](https://www.frontiersin.org/articles/10.3389/fncom.2023.1151852/full)</sup> . Estas señales brindan información en cuanto a los diferentes mecanismos operativos que presenta el cerebro, permitiendo la identificación de patrones, trastornos neurológicos y explorar diversos procesos cognitivos como la memoria, atención o percepción <sup>[4](https://www.sciencedirect.com/science/article/pii/S092549272300001X)</sup> . Asimismo, el EEG representa un patrón de señal que es obtenida amplificando y registrando el potencial biológico del cerebro en el cuero cabelludo. Este potencial refleja la actividad macroscópica de la superficie cerebral y permite que los electrodos capturen los impulsos eléctricos inherentes y periódicos generados por grupos de células cerebrales <sup>[5](https://www.mdpi.com/1424-8220/23/14/6434)</sup>. Las oscilaciones e voltaje que presentan estas señales revelan cierta actividad cerebral significativa, lo cual se refleja en estados de sueño profundo o en coma, donde las oscilaciones son lentas y las amplitudes elevadas<sup>[6](doi: 10.1016/B978-0-12-820480-1.00007-3)</sup>. 
 
 
 </div>
@@ -82,7 +82,7 @@ El electroencefalograma (EEG) es una técnica de neuroimagen no invasiva que per
 
 
 #### b. Oscilaciones del EEG
-Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia <sup>[7] (https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805/)</sup> :
+Para la interpretación del EEG, es importante considerar la caracterización que presentan las señales en función a su ubicación, amplitud, frecuencia, morfología, continuidad, simetría o reactividad. Sin embargo, el método más utilizado para interpretar es a partir de la frecuencia, estipulando que la señal medida es una mezcla de diferentes frecuencias subyacentes que se consideran reflejo de estados cognitivios, afectivos o de atención. A continuación, se observa una tabla de la clasificación de las ondas cerebrales según la frecuencia <sup>[7] (https://doi.org/10.1016/j.ijpsycho.2015.02.003)</sup> <sup>[8](https://www.ncbi.nlm.nih.gov/books/NBK539805)</sup> :
 
 <div align="center">
 	
@@ -163,7 +163,7 @@ Para conectar estos sensores, se requiere un cable de electrodo adecuado, que pu
 
 </div>
 <p align="center">
-<image width="400" height="200"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
+<image width="350" height="200"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
 <p align="center"><i>Figura 4. Combinaciones de sensores y cable de electrodos. <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
 </div>
 
@@ -230,10 +230,10 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 	
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
-| **a. Estado de reposo**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/60a9c0ed-fcfd-4c2f-9139-7b9dd845d8f8">|
-| **b. Estado de ojos cerrado-ojos abiertos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8cc12b02-0daf-4a6d-9831-6299945492e2">|
-| **c. Estado de segundo reposo**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5aba84d2-9a56-4b4f-a673-329ed3819a50">|
-| **d. Estado de preguntas**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/959c0340-0668-4424-9f28-764e0b352842">|
+| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/60a9c0ed-fcfd-4c2f-9139-7b9dd845d8f8">|
+| <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8cc12b02-0daf-4a6d-9831-6299945492e2">|
+| <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5aba84d2-9a56-4b4f-a673-329ed3819a50">|
+| <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/959c0340-0668-4424-9f28-764e0b352842">|
 <p align="center"><i>Tabla 5. Videos obtenidos en los distintos estados con el Bitalino</i></p>
 </div>
 
@@ -278,10 +278,10 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
-| **a. Estado de reposo**|<video width="300" height="200" src="">|
-| **b. Estado de ojos cerrado-ojos abiertos**|<video width="300" height="200" src="">|
-| **c. Estado de segundo reposo**|<video width="300" height="200" src="">|
-| **d. Estado de preguntas**|<video width="300" height="200" src="">|
+| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="">|
+| <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="">|
+| <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="">|
+| <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="">|
 <p align="center"><i>Tabla 6. Videos obtenidos en los distintos estados con el Ultracortex</i></p>
 </div>
 
@@ -301,15 +301,15 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 ## Referencias bibliográficas
 [1] M. Soufineyestani, D. Dowling, and A. Khan, “Electroencephalography (EEG) Technology Applications and Available Devices,” Applied Sciences, vol. 10, no. 21, p. 7453, Oct. 2020, doi: https://doi.org/10.3390/app10217453.
 [2] Mayo Clinic, “Electroencefalografía (EEG) - Mayo Clinic,” www.mayoclinic.org, 2022. https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
-[3] Islam M.K., Rastegarnia A. Recent advances in EEG (non-invasive) based BCI applications. Front. Comput. Neurosci. 2023;17:1151852. doi: 10.3389/fncom.2023.1151852.
-[4] Patil A.U., Lin C., Lee S.H., Huang H.W., Wu S.C., Madathil D., Huang C.M. Review of EEG-based neurofeedback as a therapeutic intervention to treat depression. Psychiatry Res. Neuroimaging. 2023;329:111591. doi: 10.1016/j.pscychresns.2023.111591.
-[5] Chaddad, A., Wu, Y., Kateb, R., & Bouridane, A. (2023). Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques. Sensors (Basel, Switzerland), 23(14), 6434. https://doi.org/10.3390/s23146434
-[6] B. Giesbrecht and J. Garrett, "Electroencephalography," Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
-[7] Herrmann, C. S., Strüber, D., Helfrich, R. F., & Engel, A. K. (2016). EEG oscillations: From correlation to causality. International journal of psychophysiology: official journal of the International Organization of Psychophysiology, 103, 12–21. https://doi.org/10.1016/j.ijpsycho.2015.02.003
-[8] Nayak CS, Anilkumar AC. EEG Normal Waveforms. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK539805 
-[9] Cohen, M. X. (2017). Where does EEG come from  and  what  does  it  mean? Trends  in Neurosciences, 40(4), 208-218.https://doi.org/10.1016/j.tins.2017.02.004 \
-[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217. 
-[11] Urigüen JA, Garcia-Zapirain B. EEG artifact removal-state-of-the-art and guidelines. J Neural Eng. 2015 Jun. 12 (3):031001. 
-[12] Zhang C, Tong L, Zeng Y, Jiang J, Bu H, Yan B, et al. Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information. Biomed Res Int. 2015. 2015:720450. 
+[3] M. K. Islam and A. Rastegarnia, "Recent advances in EEG (non-invasive) based BCI applications," Front. Comput. Neurosci., vol. 17, 1151852, 2023, doi: 10.3389/fncom.2023.1151852.
+[4] A. U. Patil et al., "Review of EEG-based neurofeedback as a therapeutic intervention to treat depression," Psychiatry Res. Neuroimaging, vol. 329, 111591, 2023, doi: 10.1016/j.pscychresns.2023.111591.
+[5] A. Chaddad et al., "Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques," Sensors (Basel, Switzerland), vol. 23, no. 14, pp. 6434, 2023, https://doi.org/10.3390/s23146434.
+[6] B. Giesbrecht and J. Garrett, "Electroencephalography," in Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
+[7] C. S. Herrmann et al., "EEG oscillations: From correlation to causality," Int. J. Psychophysiol., vol. 103, pp. 12–21, 2016, https://doi.org/10.1016/j.ijpsycho.2015.02.003.
+[8] C. S. Nayak and A. C. Anilkumar, "EEG Normal Waveforms," in StatPearls [Internet], Treasure Island (FL): StatPearls Publishing, updated Jul. 24, 2023, Available: https://www.ncbi.nlm.nih.gov/books/NBK539805.
+[9] M. X. Cohen, "Where does EEG come from and what does it mean?" Trends Neurosci., vol. 40, no. 4, pp. 208-218, 2017, https://doi.org/10.1016/j.tins.2017.02.004
+[10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217.
+[11] J. A. Urigüen and B. Garcia-Zapirain, "EEG artifact removal-state-of-the-art and guidelines," J. Neural Eng., vol. 12, no. 3, 031001, Jun. 2015.
+[12] C. Zhang et al., "Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information," Biomed Res. Int., vol. 2015, 720450, 2015.
 [13] PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt
 
