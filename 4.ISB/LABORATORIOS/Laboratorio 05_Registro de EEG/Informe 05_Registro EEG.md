@@ -294,14 +294,22 @@ Por otra parte, en la Figura P, observamos la señal durante la fase de pregunta
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
-| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b7b22991-1d0f-4c92-8b50-488c6bed6455">|
+| <p align="justify">**a. Estado de reposo**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1a871be1-8505-4283-9a19-00b304ee21f9
+">|
 | <p align="justify">**b. Estado de ojos cerrado-ojos abiertos**</p>|<video width="300" height="200" src="">|
 | <p align="justify">**c. Estado de segundo reposo**</p>|<video width="300" height="200" src="">|
-| <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="">|
+| <p align="justify">**d. Estado de preguntas**</p>|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5cd1d33f-88a2-4460-8c93-0473fbf844e4
+">|
 <p align="center"><i>Tabla 6. Videos obtenidos en los distintos estados con el Ultracortex</i></p>
 </div>
 
 #### 2.2. Ploteo de señales en Python
+
+
+
+
+
+
 
 
 
