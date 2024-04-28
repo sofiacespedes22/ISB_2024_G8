@@ -211,7 +211,7 @@ Por otra parte, para la conexión del Ultracortex Mark IV se utilizó asimismo e
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1572adee-70d4-4bde-9c4e-e38c0ed51ea3">
-<p align="center"><i>Figura 5. Posicionamiento de los electrodos según el sistema 10-20. <sup> []()</sup> </i></p>
+<p align="center"><i>Figura 5. Posicionamiento de los electrodos según el sistema 10-20.</i></p>
 </div>
 
 
@@ -223,9 +223,9 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 <a name="resultados"></a>
 ## Resultados
 <a name="videos"></a>
-### Prueba con Bitalino
-####  a. Visualización de señal eléctrica mediante video y OpenSignals
-A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenSignals
+### 1. Prueba con Bitalino
+####  1.1. Visualización de señal eléctrica mediante video y OpenSignals
+A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenSignals.
 <div align="center">	
 	
 | **Estados** | **Videos** |
@@ -237,11 +237,44 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 <p align="center"><i>Tabla 5. Videos obtenidos en los distintos estados con el Bitalino</i></p>
 </div>
 
-#### b. Ploteo de señales en Python
+#### 1.2. Ploteo de señales en Python
+Se realizó el ploteo de las señales obtenidas en Python y se calculó la presencia de las bandas de frecuencia de las oscilaciones EEG y comparar las señales obtenidas con valores estándar según cada estado evaluado. Se observa la respuesta en el tiempo de los registros del sujeto de prueba en los cuatro estados. Estos registros muestran el comportamiento general de las señales adquiridas, para las cuales se obtuvo como tendencia cambios en la amplitud del voltaje y en la frecuencia de las oscilaciones al pasar de un estado a otro.
+
+**a. Estado 01 - reposo** : En el primer estado, se observa la presencia de oscilaciones de la banda delta, la cual se presenta en las diferentes fases del sueño, pues se observan oscilaciones mas lentes y con amplitud considerable. Asimismo, se observa la presencia de ondas alfa pues se presentan en un estado de relajación y aumentan con los ojos cerrados. La amplitud que presenta la señal oscilaba entre los 600-700 mV aproximadamente. Los valores obtenidos por el sujeto de prueba coinciden con valores estándar en fase de reposo en cuanto a amplitud y presencia de la banda delta.
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/861f93da-1add-4bce-823b-806163ca2bda">
+<p align="center"><i>Figura 6. </i></p>
+</div>
+
+**b. Estado 02 - ojos cerrados y abiertos**: En el segundo estado, se observa la presencia de picos en la amplitud de la señal, los cuales se intensifican debido a que representan el periodo de apertura de ojos por los cinco segundos. Se observa, además, que desde el segundo 05 al segundo 10, exite la mayor amplitud presentada y esto se debe a que el sujeto de prueba fue expuesto ante la intensidad luminosa del medio ambiente o el movimiento ocular, lo cual representa un artefacto en la medición. Asimismo, observamos la presencia de las bandas alfa y beta, debido a que al abrir los ojos y comenzar a enfocarse en el entorno, es común observar un aumento en la actividad beta. 
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/149fb3f8-3991-407c-833d-6b5d7db8fd44">
+<p align="center"><i>Figura 7. </i></p>
+</div>
 
 
-### Prueba con Ultracortex Mark IV EEG Headset
-####  a. Visualización de las señales
+**c. Estado 03 - segundo reposo**: En el tercer estado, el sujeto estuvo en un periodo de reposo tras el primer ejercicio. Se observa que la señal presenta similitudes con el primer estado y la presencia de las bandas alfa, delta y theta pues se encuentra en un estado de relajación, con mayor predominio de las bandas alfa. La amplitud oscilaba entre los 600 y 700 mV.
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2f47155e-4f65-47d2-9d77-906e0ccbccba">
+<p align="center"><i>Figura 8. </i></p>
+</div>
+
+**d. Estado 04 - ejercicios matemáticos**: En el cuarto estado, se registró la señal durante la resolución de los ejercicios matemáticos mentales. Se dividió la señal en dos fases: la fase de preguntas simples y la fase de preguntas complejas. En la Figura M, se observa la señal durante la fase de preguntas simples, en las que se observa la presencia de bandas beta, pues esta banda esta más asociada con la actividad mental, la concentración y la resolución de problemas, así como bandas theta debido a que eran ejercicios simples. Asimismo, la amplitud que presenta esta señal seccionada oscila entre los 400 y 700 mV, con picos de intensidad que representan los posibles artefactos durante la medición.
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/72a70136-8be4-433d-a5aa-ce5fd6521e14">
+<p align="center"><i>Figura 9. </i></p>
+</div>
+	
+### 2.Prueba con Ultracortex Mark IV EEG Headset
+####  2.1. Visualización de las señales
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
@@ -252,7 +285,7 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 <p align="center"><i>Tabla 6. Videos obtenidos en los distintos estados con el Ultracortex</i></p>
 </div>
 
-#### b. Ploteo de señales en Python
+#### 2.2. Ploteo de señales en Python
 
 
 <a name="archivos"></a>
