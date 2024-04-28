@@ -314,9 +314,10 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 ## Archivo de las señales ploteadas en Python
 ### Prueba de BiTalino
 * **Código en Python**
-  - [Código para Estados bases]()
-  - [Código para Estado ojo cerrado-ojo abierto]()
-  - [Código para Estado de preguntas]()
+  - [Código para Estados bases](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/plotEEG1.py)
+  - [Código para Estado ojo cerrado-ojo abierto](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/EEGprueba2.py)
+  - [Código para segundo reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/EEGreposo2.py)
+  - [Código para Estado de preguntas](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/EEGpreguntas2.py)
 
 * **Datos de señales del Bitalino ploteadas en Python**
   - [Estado de reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/BITALINO/EEG1.txt)
