@@ -113,7 +113,7 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
    
 <a name="metodologia"></a>
 ## Metodología 
-La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface"<sup> [11](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf)</sup>. Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
+La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface"<sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>. Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
 
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
@@ -143,7 +143,33 @@ Para la adquisición de datos, el sujeto de prueba fue una mujer de 22 años con
 </div>
 
 #### Protocolo de conexión
-En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor EEG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolares de acuerdo al sistema internacional 10-20. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 3:
+##### Conexión con BiTalino
+En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Para utilizar el BITalino y cumplir con los objetivos del laboratorio, como la lectura de señales EEG, es necesario seguir ciertos pasos clave. El uso del programa OpenSignals es esencial para este propósito. En caso de no tener la instalación correspondiente, se puede proceder a través de la página web (enlace) para ejecutar el sistema operativo.
+
+Una vez realizada la instalación o acceso al programa, encendemos el BITalino cambiando el estado del interruptor a ON. Posteriormente, para configurar la placa y el sensor BITalino (r)evolution en OpenSignals, primero se abre el administrador de dispositivos de OpenSignals (r)evolution. Una vez dentro, se selecciona el dispositivo que se desea utilizar para la adquisición de datos haciendo clic en el botón ENABLE en el panel correspondiente. Se verifica que el dispositivo esté activado si es que aparece una señal de color azul.
+
+Después de seleccionar el dispositivo, se hace clic en el logo de BITalino para acceder a las configuraciones disponibles. En este paso, se elige el canal al que está conectado el sensor y se selecciona el tipo de sensor correspondiente desde el menú desplegable. Para este laboratorio sería el de EEG. Una vez seleccionado el canal y el tipo de sensor, se activa el canal para la adquisición. Finalmente, cuando se esté listo para comenzar con la adquisición de datos, se hace clic en el botón de grabación en la interfaz principal de OpenSignals. Este procedimiento garantiza que el BITalino esté correctamente configurado y listo para capturar los datos necesarios para el experimento en el laboratorio.
+
+###### Conexión del BITalino (r)evolution con sensores y actuadores
+La Placa BITalino (r)evolution viene con sensores y actuadores ya conectados a ella (ver Figura 10). Los sensores EEG, EDA, ECG y EMG necesitan ser conectados a un cable de electrodo utilizando el puerto del sensor, que está marcado en rojo para facilitar su identificación, en el caso específico para la toma de EEG el puerto al cual se debe conectar los electrodos al bitalino es el **A4** <sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>.
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d6304c8a-ef2e-459b-bb0a-2514072ec3a2">
+<p align="center"><i>Figura 3. Placa BITalino (r)evolution con sensores y actuadores preconectados. Puertos de sensores para conexión a un cable de electrodos marcados en rojo <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
+</div>
+
+Para conectar estos sensores, se requiere un cable de electrodo adecuado, que puede tener 2 o 3 cables conductores. La información sobre qué tipo de cable se necesita para cada sensor se encuentra en la Figura 4.<sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
+<p align="center"><i>Figura 4. Combinaciones de sensores y cable de electrodos. <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
+</div>
+
+
+#### Colocación de electrodos
+Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor EEG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolares de acuerdo al sistema internacional 10-20. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 3:
 * **FP1** (electrodo positivo/rojo) se coloca en la sección de la frente izquierda .
 * **FP2** (electrodo negativo/negro) se coloca en la sección de la frente derecha.
 * **REF** (electrodo de referencia/blanco) se coloca en el hueso mastoideo, debido a que representa una zona de baja interferencia electromagnética.
@@ -179,6 +205,17 @@ Para la adquisición de datos, se realizó el protocolo de adquisición brindado
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
+#### Ultracortex Mark IV EEG Headset
+Por otra parte, para la conexión del Ultracortex Mark IV se utilizó asimismo el sistema 10-20 para el posicionamiento de los electrodos, como se observa en la Figura X. Asimismo, la adquisición de las señales obtenidas fue registrada en OpenBCI para su posterior análisis. La conexión fue realizada a un sujeto de prueba (mujer, 22 años, condición sana) de un equipo de trabajo distinto al nuestro debido a complicaciones con el manejo del tiempo para el uso. 
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1572adee-70d4-4bde-9c4e-e38c0ed51ea3">
+<p align="center"><i>Figura 5. Posicionamiento de los electrodos según el sistema 10-20. <sup> []()</sup> </i></p>
+</div>
+
+
+
 <a name="procesamiento"></a>
 ### 3. Procesamiento de datos
 Para el procesamiento de las señales adquiridas, se realizó el ploteo en Python para el análisis cuantitativo de segmentos específicos y determinar las características de cada señal EEG, así como los intervalos de duración de cada parámetro. Asimismo, se realizó la transformada rápida de Fourier (FFT) para determinar las frecuencias.
@@ -186,7 +223,8 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 <a name="resultados"></a>
 ## Resultados
 <a name="videos"></a>
-###  Visualización de señal eléctrica mediante video y OpenSignals
+### Prueba con Bitalino
+####  a. Visualización de señal eléctrica mediante video y OpenSignals
 A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señals señales:
 <div align="center">	
 	
@@ -196,8 +234,26 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 | **b. Estado de ojos cerrado-ojos abiertos**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8cc12b02-0daf-4a6d-9831-6299945492e2">|
 | **c. Estado de segundo reposo**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5aba84d2-9a56-4b4f-a673-329ed3819a50">|
 | **d. Estado de preguntas**|<video width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/959c0340-0668-4424-9f28-764e0b352842">|
-<p align="center"><i>Tabla 5. Videos obtenidos en los distintos estados </i></p>
+<p align="center"><i>Tabla 5. Videos obtenidos en los distintos estados con el Bitalino</i></p>
 </div>
+
+#### b. Ploteo de señales en Python
+
+
+### Prueba con Ultracortex Mark IV EEG Headset
+
+####  a. Visualización de las señales
+| **Estados** | **Videos** |
+|:------------:|:---------------:|
+| **a. Estado de reposo**|<video width="300" height="200" src="">|
+| **b. Estado de ojos cerrado-ojos abiertos**|<video width="300" height="200" src="">|
+| **c. Estado de segundo reposo**|<video width="300" height="200" src="">|
+| **d. Estado de preguntas**|<video width="300" height="200" src="">|
+<p align="center"><i>Tabla 6. Videos obtenidos en los distintos estados con el Ultracortex</i></p>
+</div>
+
+#### b. Ploteo de señales en Python
+
 
 <a name="archivos"></a>
 ### Archivo de las señales ploteadas en Python
@@ -210,8 +266,8 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
-[1] https://www.mdpi.com/2076-3417/10/21/7453
-[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+[1] M. Soufineyestani, D. Dowling, and A. Khan, “Electroencephalography (EEG) Technology Applications and Available Devices,” Applied Sciences, vol. 10, no. 21, p. 7453, Oct. 2020, doi: https://doi.org/10.3390/app10217453.
+[2] Mayo Clinic, “Electroencefalografía (EEG) - Mayo Clinic,” www.mayoclinic.org, 2022. https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
 [3] Islam M.K., Rastegarnia A. Recent advances in EEG (non-invasive) based BCI applications. Front. Comput. Neurosci. 2023;17:1151852. doi: 10.3389/fncom.2023.1151852.
 [4] Patil A.U., Lin C., Lee S.H., Huang H.W., Wu S.C., Madathil D., Huang C.M. Review of EEG-based neurofeedback as a therapeutic intervention to treat depression. Psychiatry Res. Neuroimaging. 2023;329:111591. doi: 10.1016/j.pscychresns.2023.111591.
 [5] Chaddad, A., Wu, Y., Kateb, R., & Bouridane, A. (2023). Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques. Sensors (Basel, Switzerland), 23(14), 6434. https://doi.org/10.3390/s23146434
@@ -222,4 +278,5 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 [10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217. 
 [11] Urigüen JA, Garcia-Zapirain B. EEG artifact removal-state-of-the-art and guidelines. J Neural Eng. 2015 Jun. 12 (3):031001. 
 [12] Zhang C, Tong L, Zeng Y, Jiang J, Bu H, Yan B, et al. Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information. Biomed Res Int. 2015. 2015:720450. 
+[13] PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt
 
