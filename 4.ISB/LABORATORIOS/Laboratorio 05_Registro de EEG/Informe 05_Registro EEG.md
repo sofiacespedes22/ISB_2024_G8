@@ -319,10 +319,10 @@ A continuación se pueden observar los videos correspondientes a la adquisición
   - [Código para Estado de preguntas]()
 
 * **Datos de señales del Bitalino ploteadas en Python**
-  - [Estado de reposo]()
-  - [Estado de ojos cerrado-ojos abiertos]()
-  - [Estado de segundo reposo]()
-  - [Estado de preguntas]()
+  - [Estado de reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/BITALINO/EEG1.txt)
+  - [Estado de ojos cerrado-ojos abiertos](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/BITALINO/PruebaEEG2.txt)
+  - [Estado de segundo reposo](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/BITALINO/EEG3.txt)
+  - [Estado de preguntas](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/BITALINO/EEGprueba4.txt)
 
 
 ### Prueba de Ultracortex
