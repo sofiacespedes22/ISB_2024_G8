@@ -294,7 +294,7 @@ Por otra parte, en la Figura 11, observamos la señal durante la fase de pregunt
 <a name="ultracortex"></a>
 ### 2.Prueba con Ultracortex Mark IV EEG Headset
 ####  2.1. Visualización de las señales
-A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
+A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI. Estos videos son originalmente de otro equipo de trabajo del horario debido a complicaciones con el tiempo para la adquisición.
 <div align="center">
 	
 | **Estados** | **Videos** |
@@ -307,8 +307,39 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 </div>
 
 #### 2.2. Ploteo de señales en Python
-
-
+**a. Estado de reposo:**
+</div>
+<p align="center">
+<image width="500" height="350"src="">
+<p align="center"><i>Figura 12. Ploteo de la señal en estado de reposo
+</i></p>
+</div>
+	
+**b. Estado de ojos cerrados-abiertos:**
+</div>
+<p align="center">
+<image width="500" height="350"src="">
+<p align="center"><i>Figura 13. Ploteo de la señal en estado parpadeo
+</i></p>
+</div>
+	
+**c. Estado de segundo reposo:**
+</div>
+<p align="center">
+<image width="500" height="350"src="">
+<p align="center"><i>Figura 14. Ploteo de la señal en estado de segundo reposo
+</i></p>
+</div>
+	
+**d. Estado 04 - ejercicios matemáticos**:
+</div>
+<p align="center">
+<image width="500" height="350"src="">
+<p align="center"><i>Figura 15. Ploteo de la señal en estado de preguntas matemáticas
+</i></p>
+</div>
+	
+La gráfica de EEG ofrece un reflejo detallado de la amplitud y frecuencia de las señales cerebrales en diversas bandas de ondas. Las ondas delta, de baja frecuencia y alta amplitud, se distinguen por oscilaciones lentas y picos prominentes, asociados con el sueño profundo y la relajación. En contraste, las ondas theta, con frecuencia moderada y amplitud media, presentan oscilaciones más rápidas pero igualmente significativas, ligadas a la relajación, meditación y ciertos estados de atención.  Las ondas alpha, caracterizadas por una frecuencia media y baja amplitud, exhiben oscilaciones suaves y consistentes, señales de relajación o focalización de la atención. Mientras tanto, las ondas beta, de alta frecuencia y baja amplitud, se distinguen por oscilaciones rápidas y diminutas, relacionadas con la actividad mental activa, concentración y procesamiento cognitivo [a]. Por último, las ondas gamma, de alta frecuencia y baja amplitud similar a las beta pero en un rango superior, muestran oscilaciones veloces y mínimas, asociadas a la integración sensorial, percepción y conciencia.
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
@@ -402,3 +433,5 @@ En conjunto, esto indica que la señal registrada refleja cambios relacionados c
 [21] X. Jiang, G. B. Bian, and Z. Tian, "Removal of Artifacts from EEG Signals: A Review," Sensors (Basel, Switzerland), vol. 19, no. 5, p. 987, 2019. https://doi.org/10.3390/s19050987
 
 [22] F. Fatourechi, A. Bashashati, R. K. Ward, and G. E. Birch, "EMG and EOG artifacts in brain computer interface systems: A survey," Clin. Neurophysiol., vol. 118, pp. 480–494, 2007. https://doi.org/10.1016/j.clinph.2006.10.019
+
+[a] Pareek, N. (2022, 4 de septiembre). EEG 101 using OpenBCI Ultracortex. Medium. https://towardsdatascience.com/eeg-101-using-openbci-ultracortex-fbeb0202d0c5
