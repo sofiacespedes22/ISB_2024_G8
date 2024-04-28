@@ -10,6 +10,8 @@
    4.2 [Procedimiento](#adquisicion)\
    4.3 [Procesamiento de datos](#procesamiento)
 5. [Resultados](#resultados)
+   5.1 [Prueba con Bitalino](#bitalino)\
+   5.2 [Prueba con Ultracortex Mark IV](#ultracortex)
 6. [Archivos](#archivos)
 7. [Discusión](#discusion)
 8. [Conclusiones](#conclusiones)
@@ -228,7 +230,7 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 
 <a name="resultados"></a>
 ## Resultados
-<a name="videos"></a>
+<a name="bitalino"></a>
 ### 1. Prueba con Bitalino
 ####  1.1. Visualización de señal eléctrica mediante video y OpenSignals
 A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenSignals.
@@ -271,7 +273,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 <p align="center"><i>Figura 9. Ploteo de la señal en estado de segundo reposo</i></p>
 </div>
 
-**d. Estado 04 - ejercicios matemáticos**: En el cuarto estado, se registró la señal durante la resolución de los ejercicios matemáticos mentales. Se dividió la señal en dos fases: la fase de preguntas simples y la fase de preguntas complejas. En la Figura M, se observa la señal durante la fase de preguntas simples, en las que se observa la presencia de bandas beta, pues esta banda esta más asociada con la actividad mental, la concentración y la resolución de problemas, así como bandas theta debido a que eran ejercicios simples. Asimismo, la amplitud que presenta esta señal seccionada oscila entre los 400 y 700 mV, con picos de intensidad que representan los posibles artefactos durante la medición.
+**d. Estado 04 - ejercicios matemáticos**: En el cuarto estado, se registró la señal durante la resolución de los ejercicios matemáticos mentales. Se dividió la señal en dos fases: la fase de preguntas simples y la fase de preguntas complejas. En la Figura 10, se observa la señal durante la fase de preguntas simples, en las que se observa la presencia de bandas beta, pues esta banda esta más asociada con la actividad mental, la concentración y la resolución de problemas, así como bandas theta debido a que eran ejercicios simples. Asimismo, la amplitud que presenta esta señal seccionada oscila entre los 400 y 700 mV, con picos de intensidad que representan los posibles artefactos durante la medición.
 
 </div>
 <p align="center">
@@ -280,7 +282,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </i></p>
 </div>
 
-Por otra parte, en la Figura P, observamos la señal durante la fase de preguntas complejas, la cual requirió mayor atención y procesamiento cerebral para el sujeto. Se observa principalmente la presencia de bandas beta y gamma debido a que estas se presentan cuando existen procesos cognitivos complejos, como la percepción y el procesamiento de información. Al resolver problemas matemáticos, la actividad gamma puede aumentar, especialmente con problemas de alta complejidad que requieren más procesamiento cerebral. Asimismo, se observa la presencia de picos continuos durante el registro y con amplitud variable.
+Por otra parte, en la Figura 11, observamos la señal durante la fase de preguntas complejas, la cual requirió mayor atención y procesamiento cerebral para el sujeto. Se observa principalmente la presencia de bandas beta y gamma debido a que estas se presentan cuando existen procesos cognitivos complejos, como la percepción y el procesamiento de información. Al resolver problemas matemáticos, la actividad gamma puede aumentar, especialmente con problemas de alta complejidad que requieren más procesamiento cerebral. Asimismo, se observa la presencia de picos continuos durante el registro y con amplitud variable.
 
 </div>
 <p align="center">
@@ -288,7 +290,8 @@ Por otra parte, en la Figura P, observamos la señal durante la fase de pregunta
 <p align="center"><i>Figura 11. Ploteo de la señal en estado de preguntas matemáticas (preguntas complejas)
 </i></p>
 </div>
-
+	
+<a name="ultracortex"></a>
 ### 2.Prueba con Ultracortex Mark IV EEG Headset
 ####  2.1. Visualización de las señales
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
@@ -335,9 +338,21 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 
 <a name="discusion"></a>
 ## Discusión
+El análisis de las señales EEG obtenidas durante el estudio de los diferentes estados del sujeto evaluado permiten observar la variabilidad de la presencia de las bandas del EEG, características electroencefalográficas y anatómicas del cerebro para realizar una comparación con valores estándar y anormales. 
+
+Según un estudio realizado por [ref1],  la resolución de problemas complejos requiere un patrón característico de activación y sincronización funcional entre cortices. Estos patrones incluyen un aumento de la activación izquierda (frontal y parietal) asociada a una desactivación de la corteza temporal derecha, así como un aumento de la correlación entre las tres cortices [ref2][ref3]. Durante la resolución de los problemas matemáticos de alta complejidad, se registró una mayor actividad en las bandas de frecuencia theta y gamma en las áreas frontales y parietales izquierdas, las cuales están directamente relacionadas con el razonamiento matemático y el cálculo. Asimismo, se requiere de la activación de la región prefrontal-parietal izquierda, para mantener y manipular múltiple cantidad de información junto con un desacoplamiento funcional de las cortezas parietal-temporal derechas para suprimir el razonamiento dependiente del contexto y centrar más recursos cognitivos en el razonamiento matemático necesario para la resolución de problemas[ref5]. 
+
+Por otra parte, la presencia de artefactos influye directamente en el resultado de la señal, como se observa en los picos obtenidos en las señales, pues produce altas impedancias en los electrodos y por ende, altera los resultados [ref6]. Los movimientos oculares afectan las lecturas del EEG y constituyen un artefacto en la detección debido a la estructura dipolar de la retina y su proximidad a los electrodos frontales. Los cambios en la posición del ojo generan fluctuaciones en el potencial eléctrico detectado por los electrodos, que permite que aumente y disminuye, alterando así la señal [ref7]. Asimismo, el parpadeo o conexión eléctrica a otros dispositivos también constituyen artefactos durante la adquisición [ref8] por lo que una práctica de adquisición recomendada es fijar un punto de referencia para que el sujeto de prueba no presente distracciones, así como evitar tener conexiones cercanas a la zona de adquisición. 
 
 <a name="conclusiones"></a>
 ## Conclusiones
+- Durante los estados de reposo, la señal mostró patrones característicos de actividad cerebral basal, con la presencia de oscilaciones delta y alfa, indicando un estado de relajación.
+- En los momentos de apertura y cierre de los ojos, se observaron picos de amplitud en la señal, junto con la aparición de bandas alfa y beta, sugiriendo una respuesta cerebral ante estímulos visuales y atención al entorno.
+- La actividad cerebral durante el segundo periodo de reposo fue consistente con el primer estado de reposo, indicando un retorno a un estado de calma después de la actividad.
+- Durante la resolución de ejercicios matemáticos, se observaron cambios en la actividad cerebral entre las fases de preguntas simples y complejas. En las preguntas simples, predominaron las bandas beta y theta, mientras que en las preguntas complejas, se registró una mayor presencia de bandas beta y gamma, reflejando un aumento significativo en el procesamiento cognitivo y la atención requerida para resolver problemas más desafiantes.
+- La presencia de artefactos cerca del sujeto y que este esté conectado eléctricamente a otros dispositivos pueden generar altas impedancias en los electrodos de EEG y alterar los rangos normales.
+
+En conjunto, esto indica que la señal registrada refleja cambios relacionados con diferentes estados mentales y actividades realizadas por el sujeto.
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
