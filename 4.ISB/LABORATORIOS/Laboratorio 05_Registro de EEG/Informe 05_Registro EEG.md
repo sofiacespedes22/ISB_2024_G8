@@ -113,7 +113,7 @@ Si bien el EEG permite registrar la actividad eléctrica cerebral, también regi
    
 <a name="metodologia"></a>
 ## Metodología 
-La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface"<sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>. Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
+La metodología seguida para la adquisición y procesamiento de las señales EEG utilizando el kit BITalino fue implementada siguiendo el protocolo de adquisición y posicionamiento de los electrodos de la guía “"BITalino HOME-GUIDE #3 ELECTROENCEFALOGRAM(ECG) Exploring Signals at the Skin Surface" <sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> . Asimismo, se utilizó el Ultracortex Mark IV EEG Headset siguiendo el sistema 10-20 [ref2], que es el estándar aceptado internacionalmente para la colocación de electrodos en el contexto del EEG.
 
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
@@ -142,8 +142,8 @@ Para la adquisición de datos, el sujeto de prueba fue una mujer de 22 años con
 <p align="center"><i>Tabla 2. Características del sujeto de prueba escogido </i></p>
 </div>
 
-#### Protocolo de conexión
-##### Conexión con BiTalino
+#### 2.1. Protocolo de conexión
+##### a. Conexión con BiTalino
 En primer lugar, se realizó la conexión entre el BITalino con el programa OpenSignal para visualizar la señal generada a partir de Bluetooth. Para utilizar el BITalino y cumplir con los objetivos del laboratorio, como la lectura de señales EEG, es necesario seguir ciertos pasos clave. El uso del programa OpenSignals es esencial para este propósito. En caso de no tener la instalación correspondiente, se puede proceder a través de la página web (enlace) para ejecutar el sistema operativo.
 
 Una vez realizada la instalación o acceso al programa, encendemos el BITalino cambiando el estado del interruptor a ON. Posteriormente, para configurar la placa y el sensor BITalino (r)evolution en OpenSignals, primero se abre el administrador de dispositivos de OpenSignals (r)evolution. Una vez dentro, se selecciona el dispositivo que se desea utilizar para la adquisición de datos haciendo clic en el botón ENABLE en el panel correspondiente. Se verifica que el dispositivo esté activado si es que aparece una señal de color azul.
@@ -163,12 +163,12 @@ Para conectar estos sensores, se requiere un cable de electrodo adecuado, que pu
 
 </div>
 <p align="center">
-<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
+<image width="300" height="200"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f7dbd185-a7bb-4d4a-81bb-3c448e913c5e">
 <p align="center"><i>Figura 4. Combinaciones de sensores y cable de electrodos. <sup> [13](https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup> </i></p>
 </div>
 
 
-#### Colocación de electrodos
+#### b. Colocación de electrodos
 Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor EEG de 3 electrodos. Posteriormente, se realizó el posicionamiento de los electrodos en el sujeto de prueba para realizar la configuración bipolares de acuerdo al sistema internacional 10-20. En esta configuración, se colocaron los electrodos de la siguiente manera, también observada en la Tabla 3:
 * **FP1** (electrodo positivo/rojo) se coloca en la sección de la frente izquierda .
 * **FP2** (electrodo negativo/negro) se coloca en la sección de la frente derecha.
@@ -183,7 +183,7 @@ Luego, se realizó la conexion EEG en la placa del BITalino utilizando el sensor
 <p align="center"><i>Tabla 3. Posicionamiento de los electrodos en el sujeto de prueba</i></p>
 </div>
 
-#### Protocolo de adquisición
+#### 2.2. Protocolo de adquisición
 Para la adquisición de datos, se realizó el protocolo de adquisición brindado por la guía y los docentes del curso en la cual se registraron las señales EEG para el análisis en cuatro diferentes estados:
 
 **a. Estado de reposo**: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
@@ -205,7 +205,7 @@ Para la adquisición de datos, se realizó el protocolo de adquisición brindado
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-#### Ultracortex Mark IV EEG Headset
+#### 2.3. Ultracortex Mark IV EEG Headset
 Por otra parte, para la conexión del Ultracortex Mark IV se utilizó asimismo el sistema 10-20 para el posicionamiento de los electrodos, como se observa en la Figura X. Asimismo, la adquisición de las señales obtenidas fue registrada en OpenBCI para su posterior análisis. La conexión fue realizada a un sujeto de prueba (mujer, 22 años, condición sana) de un equipo de trabajo distinto al nuestro debido a complicaciones con el manejo del tiempo para el uso. 
 
 </div>
@@ -225,7 +225,7 @@ Para el procesamiento de las señales adquiridas, se realizó el ploteo en Pytho
 <a name="videos"></a>
 ### Prueba con Bitalino
 ####  a. Visualización de señal eléctrica mediante video y OpenSignals
-A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señals señales:
+A continuación se pueden observar los videos correspondientes, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenSignals
 <div align="center">	
 	
 | **Estados** | **Videos** |
@@ -241,8 +241,8 @@ A continuación se pueden observar los videos correspondientes, tanto del sujeto
 
 
 ### Prueba con Ultracortex Mark IV EEG Headset
-
 ####  a. Visualización de las señales
+A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
 | **Estados** | **Videos** |
 |:------------:|:---------------:|
 | **a. Estado de reposo**|<video width="300" height="200" src="">|
