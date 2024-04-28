@@ -151,7 +151,7 @@ Una vez realizada la instalación o acceso al programa, encendemos el BITalino c
 Después de seleccionar el dispositivo, se hace clic en el logo de BITalino para acceder a las configuraciones disponibles. En este paso, se elige el canal al que está conectado el sensor y se selecciona el tipo de sensor correspondiente desde el menú desplegable. Para este laboratorio sería el de EEG. Una vez seleccionado el canal y el tipo de sensor, se activa el canal para la adquisición. Finalmente, cuando se esté listo para comenzar con la adquisición de datos, se hace clic en el botón de grabación en la interfaz principal de OpenSignals. Este procedimiento garantiza que el BITalino esté correctamente configurado y listo para capturar los datos necesarios para el experimento en el laboratorio.
 
 ###### Conexión del BITalino (r)evolution con sensores y actuadores
-La Placa BITalino (r)evolution viene con sensores y actuadores ya conectados a ella (ver Figura 10). Los sensores EEG, EDA, ECG y EMG necesitan ser conectados a un cable de electrodo utilizando el puerto del sensor, que está marcado en rojo para facilitar su identificación, en el caso específico para la toma de EEG el puerto al cual se debe conectar los electrodos al puerto **A4** del BiTalino <sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>.
+La Placa BITalino (r)evolution viene con sensores y actuadores ya conectados a ella (ver Figura 3). Los sensores EEG, EDA, ECG y EMG necesitan ser conectados a un cable de electrodo utilizando el puerto del sensor, que está marcado en rojo para facilitar su identificación, en el caso específico para la toma de EEG el puerto al cual se debe conectar los electrodos al puerto **A4** del BiTalino <sup> [13](PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt)</sup>.
 
 </div>
 <p align="center">
@@ -245,7 +245,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/861f93da-1add-4bce-823b-806163ca2bda">
-<p align="center"><i>Figura 6. </i></p>
+<p align="center"><i>Figura 6.  Ploteo de la señal en estado de reposo</i></p>
 </div>
 
 **b. Estado 02 - ojos cerrados y abiertos**: En el segundo estado, se observa la presencia de picos en la amplitud de la señal, los cuales se intensifican debido a que representan el periodo de apertura de ojos por los cinco segundos. Se observa, además, que desde el segundo 05 al segundo 10, exite la mayor amplitud presentada y esto se debe a que el sujeto de prueba fue expuesto ante la intensidad luminosa del medio ambiente o el movimiento ocular, lo cual representa un artefacto en la medición. Asimismo, observamos la presencia de las bandas alfa y beta, debido a que al abrir los ojos y comenzar a enfocarse en el entorno, es común observar un aumento en la actividad beta. 
@@ -253,7 +253,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/149fb3f8-3991-407c-833d-6b5d7db8fd44">
-<p align="center"><i>Figura 7. </i></p>
+<p align="center"><i>Figura 7. Ploteo de la señal en estado de ojos cerrados-abiertos </i></p>
 </div>
 
 
@@ -262,7 +262,7 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2f47155e-4f65-47d2-9d77-906e0ccbccba">
-<p align="center"><i>Figura 8. </i></p>
+<p align="center"><i>Figura 8. Ploteo de la señal en estado de segundo reposo</i></p>
 </div>
 
 **d. Estado 04 - ejercicios matemáticos**: En el cuarto estado, se registró la señal durante la resolución de los ejercicios matemáticos mentales. Se dividió la señal en dos fases: la fase de preguntas simples y la fase de preguntas complejas. En la Figura M, se observa la señal durante la fase de preguntas simples, en las que se observa la presencia de bandas beta, pues esta banda esta más asociada con la actividad mental, la concentración y la resolución de problemas, así como bandas theta debido a que eran ejercicios simples. Asimismo, la amplitud que presenta esta señal seccionada oscila entre los 400 y 700 mV, con picos de intensidad que representan los posibles artefactos durante la medición.
@@ -270,9 +270,19 @@ Se realizó el ploteo de las señales obtenidas en Python y se calculó la prese
 </div>
 <p align="center">
 <image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/72a70136-8be4-433d-a5aa-ce5fd6521e14">
-<p align="center"><i>Figura 9. </i></p>
+<p align="center"><i>Figura 9. Ploteo de la señal en estado de preguntas matemáticas (preguntas simples)
+</i></p>
 </div>
-	
+
+Por otra parte, en la Figura P, observamos la señal durante la fase de preguntas complejas, la cual requirió mayor atención y procesamiento cerebral para el sujeto. Se observa principalmente la presencia de bandas beta y gamma debido a que estas se presentan cuando existen procesos cognitivos complejos, como la percepción y el procesamiento de información. Al resolver problemas matemáticos, la actividad gamma puede aumentar, especialmente con problemas de alta complejidad que requieren más procesamiento cerebral. Asimismo, se observa la presencia de picos continuos durante el registro y con amplitud variable.
+
+</div>
+<p align="center">
+<image width="500" height="350"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/9e373400-74c2-4421-99aa-8684c0fe93a1">
+<p align="center"><i>Figura 9. Ploteo de la señal en estado de preguntas matemáticas (preguntas complejas)
+</i></p>
+</div>
+
 ### 2.Prueba con Ultracortex Mark IV EEG Headset
 ####  2.1. Visualización de las señales
 A continuación se pueden observar los videos correspondientes a la adquisición con el Ultracortex Mark IV, tanto del sujeto de prueba como de la señal eléctrica registrada según cada estado en OpenBCI.
@@ -300,16 +310,29 @@ A continuación se pueden observar los videos correspondientes a la adquisición
 <a name="referencias"></a>
 ## Referencias bibliográficas
 [1] M. Soufineyestani, D. Dowling, and A. Khan, “Electroencephalography (EEG) Technology Applications and Available Devices,” Applied Sciences, vol. 10, no. 21, p. 7453, Oct. 2020, doi: https://doi.org/10.3390/app10217453.
+
 [2] Mayo Clinic, “Electroencefalografía (EEG) - Mayo Clinic,” www.mayoclinic.org, 2022. https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+
 [3] M. K. Islam and A. Rastegarnia, "Recent advances in EEG (non-invasive) based BCI applications," Front. Comput. Neurosci., vol. 17, 1151852, 2023, doi: 10.3389/fncom.2023.1151852.
+
 [4] A. U. Patil et al., "Review of EEG-based neurofeedback as a therapeutic intervention to treat depression," Psychiatry Res. Neuroimaging, vol. 329, 111591, 2023, doi: 10.1016/j.pscychresns.2023.111591.
+
 [5] A. Chaddad et al., "Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques," Sensors (Basel, Switzerland), vol. 23, no. 14, pp. 6434, 2023, https://doi.org/10.3390/s23146434.
+
 [6] B. Giesbrecht and J. Garrett, "Electroencephalography," in Reference Module in Neuroscience and Biobehavioral Psychology, Jan. 2024, doi: 10.1016/B978-0-12-820480-1.00007-3.
+
 [7] C. S. Herrmann et al., "EEG oscillations: From correlation to causality," Int. J. Psychophysiol., vol. 103, pp. 12–21, 2016, https://doi.org/10.1016/j.ijpsycho.2015.02.003.
+
 [8] C. S. Nayak and A. C. Anilkumar, "EEG Normal Waveforms," in StatPearls [Internet], Treasure Island (FL): StatPearls Publishing, updated Jul. 24, 2023, Available: https://www.ncbi.nlm.nih.gov/books/NBK539805.
+
 [9] M. X. Cohen, "Where does EEG come from and what does it mean?" Trends Neurosci., vol. 40, no. 4, pp. 208-218, 2017, https://doi.org/10.1016/j.tins.2017.02.004
+
 [10] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," Epileptic Disorders, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: 10.1684/EPD.2020.1217.
+
 [11] J. A. Urigüen and B. Garcia-Zapirain, "EEG artifact removal-state-of-the-art and guidelines," J. Neural Eng., vol. 12, no. 3, 031001, Jun. 2015, https://doi.org/10.1088/1741-2560/12/3/031001
+
 [12] C. Zhang et al., "Automatic Artifact Removal from Electroencephalogram Data Based on A Priori Artifact Information," Biomed Res. Int., vol. 2015, 720450, 2015, https://doi.org/10.1155%2F2015%2F720450
+
 [13] PLUX – Wireless Biosignals, “BITalino (r)evolution User Manual” 2020. Disponible en: https://www.pluxbiosignals.com/products/bitalino-revolution-board-kit-ble-bt
 
+[14]
