@@ -210,12 +210,11 @@ En el estado de reposo, se observa la presencia y cantidad del complejo QRS en a
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Respiración|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Post-ejercicio|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7326d1ac-3a2a-475c-80aa-d6debc45640d">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ebe113fa-64c8-4ef2-9798-6ad36601002f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d2f63894-b5b1-4d70-a6fa-9e21822e751f">|
+|Respiración|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/9910e9ba-bf53-4c46-8843-cb00d5650169">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ad3fab25-eb17-45e9-85d6-65d22e8d974d">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1643c7a3-6d7a-442d-9e84-4117990f852e">|
+|Post-ejercicio|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/175ef340-1c25-447a-a3b2-3a5e8cf41da6">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/42ebd9f2-da7f-4a16-b0fb-15b4940f86e9">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64636c9a-adaa-4ea9-88af-db8c541273fb">|
 <p align="center"><i>Tabla 1. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG </i></p>
 </div>
-
 
 ### Señal EMG
 
