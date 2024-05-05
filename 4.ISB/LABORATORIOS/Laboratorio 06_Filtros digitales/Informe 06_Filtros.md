@@ -164,18 +164,18 @@ La señal del electrocardiograma proporciona información sobre la actividad el�
 </div>
 
 #### Señal EMG
-La señal del electromiograma brinda información sobre la actividad eléctrica muscular para una futura aplicación en rehabilitación. Al igual que la señal ECG, es susceptible a ruidos que interfieren con la interpretación de la señal muscular. Para el filtrado de la señal EMG, se consideró el uso de las señales de electromiograma (EMG) obtenidas en el Laboratorio 03, las cuales se obtuvieron en diferentes estados: reposo, contracción leve y contracción fuerte al realizar. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el filtro 'Notch' para el filtro FIR debido a que permite suprimir eficazmente interferencias de frecuencia específica, como la interferencia de la línea de corriente alterna a 60 Hz, comúnmente observada en las señales EMG. Asimismo, se definió el filtro 'Butterworth' para el filtro IIR debido a que ajusta la respuesta de amplitud de la señal a través de una determinada frecuencia, lo que permite suavizar la señal y eliminar el ruido no deseado. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de [8] <sup>[9](https://doi.org/10.1109/ICPCES.2010.5698652)</sup> para FIR y <sup>[10]()</sup> para IIR de la señal EMG según cada tipo de filtro.
+La señal del electromiograma brinda información sobre la actividad eléctrica muscular para una futura aplicación en rehabilitación. Al igual que la señal ECG, es susceptible a ruidos que interfieren con la interpretación de la señal muscular. Para el filtrado de la señal EMG, se consideró el uso de las señales de electromiograma (EMG) obtenidas en el Laboratorio 03, las cuales se obtuvieron en diferentes estados: reposo, contracción leve y contracción fuerte al realizar. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el filtro 'Notch' para el filtro FIR debido a que permite suprimir eficazmente interferencias de frecuencia específica, como la interferencia de la línea de corriente alterna a 60 Hz, comúnmente observada en las señales EMG. Asimismo, se definió el filtro 'Butterworth' para el filtro IIR debido a que ajusta la respuesta de amplitud de la señal a través de una determinada frecuencia, lo que permite suavizar la señal y eliminar el ruido no deseado. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de [8] <sup>[9](https://doi.org/10.1109/ICPCES.2010.5698652)</sup> para FIR y <sup>[10](https://doi.org/10.1016/j.jbiomech.2005.08.007)</sup> para IIR de la señal EMG según cada tipo de filtro.
 
 
 <div align="center">
    
 |  **Parámetro**  | **FIR** | **IIR** | 
 |:------------:|:---------------:|:------------:|
-|Tipo de filtro|Notch||
-|Frecuencia de corte|35-45 Hz||
-|Frecuencia de muestreo|256 Hz||
-|Ventana|-||
-|Orden|37||
+|Tipo de filtro|-|Butterworth y Notch|
+|Frecuencia de corte|35-49 Hz|10 Hz y 50 Hz (Calidad)|
+|Frecuencia de muestreo|1000 Hz|1000 Hz|
+|Ventana|Hamming|-|
+|Orden|2|4|
 
 <p align="center"><i>Tabla 6. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EMG </i></p>
 </div>
@@ -288,7 +288,7 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 
 [9] R. Chand, P. Tripathi, A. Mathur, and K. C. Ray, “FPGA implementation of fast FIR low pass filter for EMG removal from ECG signal,” in 2010 International Conference on Power, Control and Embedded Systems, 2010.
 
-[10] 
+[10] Clancy, E. A., Bida, O., & Rancourt, D. (2006). Influence of advanced electromyogram (EMG) amplitude processors on EMG-to-torque estimation during constant-posture, force-varying contractions. Journal of Biomechanics, 39(14), 2690–2698. https://doi.org/10.1016/j.jbiomech.2005.08.007
 
 [11] A. Mahabub, “Design and implementation of cost-effective IIR filter for EEG signal on FPGA,” Australian Journal of Electrical and Electronics Engineering, vol. 17, no. 2, pp. 83–91, Apr. 2020, doi: https://doi.org/10.1080/1448837x.2020.1771662
 
