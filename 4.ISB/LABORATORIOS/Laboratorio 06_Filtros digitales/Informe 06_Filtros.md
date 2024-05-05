@@ -118,12 +118,11 @@ Se diseñan mediante dos técnicas principales: el diseño directo y el diseño 
 
 </div>
 <p align="center">
-<image width="300" height="200" src="">
-<p align="center"><i>Figura 3. Tipos de filtros IIR </i></p>
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6e3a61fb-d755-42b7-8d2e-a81cadebc114">
+<p align="center"><i>Figura 3. Tipos de filtros IIR [5] </i></p>
 </div>
 
 Para el diseño indirecto, se utilizan técnicas analógicas optimizadas para desarrollar el filtro, y luego se convierten al dominio digital mediante la Transformación Bilineal. Esta técnica mapea todas las frecuencias en el círculo unitario de manera no lineal, por lo que es necesario "pre-warpear" las frecuencias antes del diseño del filtro.
-
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -211,9 +210,9 @@ En el estado de reposo, se observa la presencia y cantidad del complejo QRS en a
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Reposo||||
-|Respiración||||
-|Post-ejercicio||||
+|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Respiración|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Post-ejercicio|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
 <p align="center"><i>Tabla 1. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG </i></p>
 </div>
 
@@ -224,9 +223,9 @@ En el estado de reposo, se observa la presencia y cantidad del complejo QRS en a
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Reposo||||
-|Contracción leve||||
-|Contracción fuerte||||
+|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Contracción leve|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Contracción fuerte|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
 <p align="center"><i>Tabla 2. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG </i></p>
 </div>
 
@@ -246,11 +245,12 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Reposo||||
-|Parpadeo||||
-|Razonamiento||||
+|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5ded0b97-7e80-4127-a7a6-d67d595eb0c4">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d3f29e9-15fa-4d33-9256-17f61967ced8">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f4855180-631e-4893-92ae-1e95507b2576">|
+|Parpadeo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e0f12c4-fe20-415e-b71a-43bf39d77f5f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e6385a7a-658b-4867-bd3e-c5d60a612777">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/511995e1-59ee-4166-a3d7-06f37b6d9313">|
+|Razonamiento|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/53212f1c-0a72-442b-84c0-e2fcc6ffa68f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e61526bb-31e0-4bc5-8416-80f903818654">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d308d8f7-828d-4621-b3ca-a0e1c88bcafa">|
 <p align="center"><i>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EEG </i></p>
 </div>
+
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
@@ -276,3 +276,5 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 [3] R. Oshana, “Overview of DSP algorithms,” in DSP for Embedded and Real-Time Systems, Elsevier, 2012, pp. 113–131. https://doi.org/10.1016/B978-0-12-386535-9.00007-X
 
 [4]“FIR Filters by Windowing - The Lab Book Pages,” www.labbookpages.co.uk. http://www.labbookpages.co.uk/audio/firWindowing.html
+
+[5] “Filter Topology Face Off: A closer look at the top 4 filter types,” Bliley.com. [Online]. Available: https://blog.bliley.com/hs-fs/hubfs/filter_post/filter-response-comparison.png?width=960&name=filter-response-comparison.png. 
