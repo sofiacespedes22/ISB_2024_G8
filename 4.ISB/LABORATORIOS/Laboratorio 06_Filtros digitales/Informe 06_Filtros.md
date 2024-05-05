@@ -252,7 +252,10 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
-* **Datos**
+* **Codigo**
+  - [ECG]()
+  - [EMG]()
+  - [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/Codigo%20EEG)
 
 <a name="discusion"></a>
 ## Discusión
