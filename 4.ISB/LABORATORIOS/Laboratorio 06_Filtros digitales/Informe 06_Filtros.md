@@ -226,14 +226,13 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Pulgar|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc07f5c1-a085-48d6-a8fa-0b3210d32760">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2bf127eb-8d3e-4100-be22-9ee6a6011495">|<image width="300" height="100" src="">|
-|Biceps|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a9297293-a409-4e61-a8b7-0119fa1de8d7">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c3aff2d2-7ace-4b57-a2e1-6d73004293e0">|<image width="300" height="100" src="">|
+|Pulgar|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc07f5c1-a085-48d6-a8fa-0b3210d32760">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2bf127eb-8d3e-4100-be22-9ee6a6011495">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/479e4ae1-ca8f-4454-9416-315c13804174">|
+|Biceps|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a9297293-a409-4e61-a8b7-0119fa1de8d7">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c3aff2d2-7ace-4b57-a2e1-6d73004293e0">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0ce0b68d-4f11-4244-b01e-0824e583a8f3">|
 <p align="center"><i>Tabla 9. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG del pulgar y biceps</i></p>
 </div>
 
 
 ### Señal EEG
-
 La señal EEG, adquirida mediante el BITalino con el uso de los electrodos en configuración 10-20, presentó una frecuencia de muestreo de 1000 Hz, un filtro butterworth para el filtro IIR y el uso de la ventana hamming para el FIR, así como los demás parámetros observados en la Tabla x.
  
 En el estado de reposo, se observa que la señal presentó una mayor reducción de ruido mediante el filtro FIR y las frecuencias significativas han sido mantenidas. Los ruidos que se consideraron en esta señal son el movimiento ocular presentado y pensamientos del sujeto de prueba. Asimismo, observamos la disminución en la amplitud de la señal para ambos filtros, en la que los picos oscilan entre los 100 y 200 mV, significativamente menor a los picos de la señal original. 
