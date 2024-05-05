@@ -7,10 +7,7 @@
 3. [Metodología](#metodologia)\
    3.1 [Materiales y equipos](#materiales)\
    3.2 [Procedimiento](#adquisicion)\
-   3.3 [Procesamiento de datos](#procesamiento)
 4. [Resultados](#resultados)\
-   4.1 [Prueba con Bitalino](#bitalino)\
-   4.2 [Prueba con Ultracortex Mark IV](#ultracortex)
 5. [Archivos](#archivos)
 6. [Discusión](#discusion)
 7. [Referencias bibliográficas](#referencias)
@@ -255,11 +252,7 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
-* **Código en Python**
-  - [Código para señal ECG]
-  - [Código para señal EMG]
-  - [Código para señal EEG]
-
+* **Datos**
 
 <a name="discusion"></a>
 ## Discusión
