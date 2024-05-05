@@ -42,10 +42,10 @@ La salida de un filtro difiere de su entrada según la forma específica de la r
 
 Se muestran cuatro tipos comunes de filtros: paso bajo, paso alto, paso de banda y rechazo de banda (o notch).
 
-* Los filtros de paso bajo atenúan las frecuencias altas.
-* Los filtros de paso alto atenúan las frecuencias bajas.
-* Los filtros de paso de banda atenúan las frecuencias fuera de la banda de interés.
-* Los filtros notch atenúan una banda estrecha de frecuencias.
+* **Filtros de paso bajo**: Son aquellos filtros que atenúan las frecuencias altas y permiten el paso de frecuencias por debajo de un punto de corte, conocida como frecuencia de corte (fc).
+* **Filtros de paso alto**: Son aquellos filtros que atenúan las frecuencias bajas, por debajo de una frecuencia de corte especfíca y permiten el paso de señales de alta frecuencia. 
+* **Filtros de paso de banda**: Estos filtros atenúan las frecuencias fuera de la banda de interés y permiten el paso de las frecuencias que se encuentren dentro de la banda. 
+* **Filtros notch**: Son filtros que se encargan de bloquear un rango específico de frecuencias y permite el paso de las frecuencias fuera de esa banda.
 
 La transición de frecuencia puede ser gradual (azul) o abrupta (roja), lo que influye en la longitud de la respuesta al impulso en el dominio del tiempo. La velocidad de estas transiciones depende del tipo y orden del filtro.
 
