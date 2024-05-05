@@ -164,7 +164,7 @@ La señal del electrocardiograma proporciona información sobre la actividad el�
 </div>
 
 #### Señal EMG
-La señal del electromiograma brinda información sobre la actividad eléctrica msucular para una futura aplicación en rehabilitación. Al igual que la señal ECG, es susceptible a ruidos los cuales interfieren con la interpretación de la señal muscular. Para el filtrado de la señal EMG, se consideró el uso de las señales de electromiograma (EMG) obtenidas en el Laboratorio 03, las cuales se obtuvieron en diferentes estados: reposo, contracción leve y contracción fuerte al realizar. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana () para el filtro FIR debido a que (). Asimismo, de definió el filtro () para el filtro IIR debido a que ().  Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de <sup>[8]()</sup> <sup>[9]()</sup> para el filtrado de la señal EMG según cada tipo de filtro.
+La señal del electromiograma brinda información sobre la actividad eléctrica msucular para una futura aplicación en rehabilitación. Al igual que la señal ECG, es susceptible a ruidos los cuales interfieren con la interpretación de la señal muscular. Para el filtrado de la señal EMG, se consideró el uso de las señales de electromiograma (EMG) obtenidas en el Laboratorio 03, las cuales se obtuvieron en diferentes estados: reposo, contracción leve y contracción fuerte al realizar. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana () para el filtro FIR debido a que (). Asimismo, de definió el filtro () para el filtro IIR debido a que ().  Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de [8] <sup>[9](https://doi.org/10.1109/ICPCES.2010.5698652)</sup> para FIR y <sup>[10]()</sup> para IIR de la señal EMG según cada tipo de filtro.
 
 <div align="center">
    
@@ -180,7 +180,7 @@ La señal del electromiograma brinda información sobre la actividad eléctrica 
 </div>
 
 #### Señal EEG
-Para el filtrado de la señal EEG, se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo y mientras se realizaba y respondía preguntas matemáticas. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana hamming para el filtro FIR debido a que permite la reducción de las oscilaciones y el rizado en las bandas y permitir su identificación. Asimismo, de definió el filtro butterworth para el filtro IIR para detetctar amplitudes de las oscilaciones en las diferentes bandas de frecuencia. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR.A continuación, se definen los parámetros obtenidos a partir de <sup>[10](https://doi.org/10.1080/1448837x.2020.1771662)</sup> <sup>[11](https://doi.org/10.1016/j.clinph.2005.07.025)</sup> para el filtrado de la señal EEG según cada tipo de filtro.
+Para el filtrado de la señal EEG, se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo y mientras se realizaba y respondía preguntas matemáticas. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana hamming para el filtro FIR debido a que permite la reducción de las oscilaciones y el rizado en las bandas y permitir su identificación. Asimismo, de definió el filtro butterworth para el filtro IIR para detetctar amplitudes de las oscilaciones en las diferentes bandas de frecuencia. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR.A continuación, se definen los parámetros obtenidos a partir de <sup>[11](https://doi.org/10.1080/1448837x.2020.1771662)</sup> <sup>[12](https://doi.org/10.1016/j.clinph.2005.07.025)</sup> para el filtrado de la señal EEG según cada tipo de filtro.
 
 <div align="center">
    
@@ -284,10 +284,12 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 
 [7] Basu, S., & Mamud, S. (2020, September). Comparative study on the effect of order and cut off frequency of Butterworth low pass filter for removal of noise in ECG signal. In 2020 IEEE 1st International Conference for Convergence in Engineering (ICCE) (pp. 156-160). https://ieeexplore-ieee-org.ezproxybib.pucp.edu.pe/document/9290646
 
-[8]
+[8] John R. Hampton”ECG Made Easy. Elsevier Health Sciences, 2008.
 
-[9]
+[9] R. Chand, P. Tripathi, A. Mathur, and K. C. Ray, “FPGA implementation of fast FIR low pass filter for EMG removal from ECG signal,” in 2010 International Conference on Power, Control and Embedded Systems, 2010.
 
-[10] A. Mahabub, “Design and implementation of cost-effective IIR filter for EEG signal on FPGA,” Australian Journal of Electrical and Electronics Engineering, vol. 17, no. 2, pp. 83–91, Apr. 2020, doi: https://doi.org/10.1080/1448837x.2020.1771662
+[10] 
 
-[11] X. Wan, K. Iwata, J. Riera, M. Kitamura, y R. Kawashima, "Artifact reduction for simultaneous EEG/fMRI recording: adaptive FIR reduction of imaging artifacts," Clin. Neurophysiol., vol. 117, no. 3, pp. 681–692, 2006. [En línea]. Disponible: https://doi.org/10.1016/j.clinph.2005.07.025
+[11] A. Mahabub, “Design and implementation of cost-effective IIR filter for EEG signal on FPGA,” Australian Journal of Electrical and Electronics Engineering, vol. 17, no. 2, pp. 83–91, Apr. 2020, doi: https://doi.org/10.1080/1448837x.2020.1771662
+
+[12] X. Wan, K. Iwata, J. Riera, M. Kitamura, y R. Kawashima, "Artifact reduction for simultaneous EEG/fMRI recording: adaptive FIR reduction of imaging artifacts," Clin. Neurophysiol., vol. 117, no. 3, pp. 681–692, 2006. [En línea]. Disponible: https://doi.org/10.1016/j.clinph.2005.07.025
