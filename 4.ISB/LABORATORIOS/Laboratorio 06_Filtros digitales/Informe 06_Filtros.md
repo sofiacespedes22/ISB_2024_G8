@@ -21,11 +21,12 @@
 ## **Introducción**
 <a name="contexto"></a>
 ### **Contexto**
+Los filtros son herramientas que sirven para eliminar ruidos o extraer partes útiles de una señal. Estos son utilizados en sistemas de comunicación,procesamientos de audio, radar, procesamiento de señales de voz y vídeo y en el procesamiento de señales biomédicas <sup>[1](https://arxiv.org/abs/2002.03130)</sup>.
 
-
-
+En el ámbito de la ingeniería biomédica, la obtención y correcta interpretación de señales médicas como ECG, EMG y EEG, son de suma importancia para el diagnóstico de enfermedades e investigación. Es por ello que en el procesamiento de señales biomédicas, los filtros cumplen un papel muy importante, que es el de eliminar ciertas partes que no se desean e interrumpen la interpretación de las mismas <sup>[1](https://arxiv.org/abs/2002.03130)</sup>.
+ 
 <a name="marco"></a>
-### Marco teórico
+### **Marco teórico**
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -150,3 +151,5 @@ En las tres señales analizadas, el objetivo fue analizar cuál de los dos tipos
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
+[1] P. Podder, Md. Mehedi Hasan, Md. Rafiqul Islam, and M. Sayeed, “Design and Implementation of Butterworth, Chebyshev-I and Elliptic Filter for Speech Signal Analysis,” International Journal of Computer Applications, vol. 98, no. 7, 2014, doi: 10.5120/17195-7390.
+
