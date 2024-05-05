@@ -27,6 +27,9 @@ En el ámbito de la ingeniería biomédica, la obtención y correcta interpretac
  
 <a name="marco"></a>
 ### **Marco teórico**
+#### **a. ¿Qué es un filtro?**
+Un filtro es una herramienta que transforma una señal de entrada, representada como "x", en una señal de salida, representada como "y". En este proceso, cada muestra de la forma de onda de salida "y" se calcula como una suma ponderada de varias muestras de la forma de onda de entrada "x".Para un filtro digital:
+
 
 <a name="objetivos"></a>
 ## Objetivos
