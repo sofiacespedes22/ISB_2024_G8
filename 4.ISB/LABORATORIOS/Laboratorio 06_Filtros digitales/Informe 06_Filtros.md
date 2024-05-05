@@ -13,8 +13,7 @@
    4.2 [Prueba con Ultracortex Mark IV](#ultracortex)
 5. [Archivos](#archivos)
 6. [Discusión](#discusion)
-7. [Conclusiones](#conclusiones)
-8. [Referencias bibliográficas](#referencias)
+7. [Referencias bibliográficas](#referencias)
 
   
 <a name="introduccion"></a>
@@ -226,11 +225,11 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Contracción leve|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Contracción fuerte|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-<p align="center"><i>Tabla 9. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG </i></p>
+|Pulgar|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cc07f5c1-a085-48d6-a8fa-0b3210d32760">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2bf127eb-8d3e-4100-be22-9ee6a6011495">|<image width="300" height="100" src="">|
+|Biceps|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a9297293-a409-4e61-a8b7-0119fa1de8d7">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c3aff2d2-7ace-4b57-a2e1-6d73004293e0">|<image width="300" height="100" src="">|
+<p align="center"><i>Tabla 9. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG del pulgar y biceps</i></p>
 </div>
+
 
 ### Señal EEG
 
@@ -265,8 +264,7 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 ## Discusión
 
 
-<a name="conclusiones"></a>
-## Conclusiones
+
 
 
 <a name="referencias"></a>
