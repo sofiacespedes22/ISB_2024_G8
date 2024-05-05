@@ -245,12 +245,11 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
 |:------------:|:---------------:|:------------:|:------------:|
-|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5ded0b97-7e80-4127-a7a6-d67d595eb0c4">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d3f29e9-15fa-4d33-9256-17f61967ced8">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/f4855180-631e-4893-92ae-1e95507b2576">|
+|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2f0c7a26-45bb-4a92-be6d-2590784faa29">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d3f29e9-15fa-4d33-9256-17f61967ced8">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ac25ead8-527a-400e-a33d-90514acf9477">|
 |Parpadeo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e0f12c4-fe20-415e-b71a-43bf39d77f5f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e6385a7a-658b-4867-bd3e-c5d60a612777">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/511995e1-59ee-4166-a3d7-06f37b6d9313">|
 |Razonamiento|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/53212f1c-0a72-442b-84c0-e2fcc6ffa68f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e61526bb-31e0-4bc5-8416-80f903818654">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d308d8f7-828d-4621-b3ca-a0e1c88bcafa">|
 <p align="center"><i>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EEG </i></p>
 </div>
-
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
