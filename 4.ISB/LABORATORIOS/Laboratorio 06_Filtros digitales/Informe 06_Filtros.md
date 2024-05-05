@@ -27,7 +27,7 @@ En el ámbito de la ingeniería biomédica, la obtención y correcta interpretac
  
 <a name="marco"></a>
 ### **Marco teórico**
-#### **1. ¿Qué es un filtro?** <sup>[2](https://www.sciencedirect.com/science/article/pii/S0896627319301746?via%3Dihub)</sup>
+#### **a. ¿Qué es un filtro?** <sup>[2](https://www.sciencedirect.com/science/article/pii/S0896627319301746?via%3Dihub)</sup>
 Un filtro es una herramienta que transforma una señal de entrada, representada como "x", en una señal de salida, representada como "y". En este proceso, cada muestra de la forma de onda de salida "y" se calcula como una suma ponderada de varias muestras de la forma de onda de entrada "x".Para un filtro digital:
 
 </div>
@@ -49,16 +49,16 @@ Se muestran cuatro tipos comunes de filtros: paso bajo, paso alto, paso de banda
 
 La transición de frecuencia puede ser gradual (azul) o abrupta (roja), lo que influye en la longitud de la respuesta al impulso en el dominio del tiempo. La velocidad de estas transiciones depende del tipo y orden del filtro.
 
-#### **2. Filtros analógicos y digitales**
+#### **b. Filtros analógicos y digitales**
 Entre los filtros, podemos encontrar 2 tipos, los analógicos y los digitales:
 * **Filtros analógicos**: Los filtros analógicos emplean circuitos electrónicos discretos como resistencias, condensadores, entre otros. Estos filtros pueden tomar cualquier valor dentro de un intervalo, es decir tratamiento de señales continuas en el tiempo. 
 * **Filtros digitales**: Los filtros digitales son sistemas lineales e invariantes en el tiempo discreto y usan procesadores digitales que efectúan operaciones matemáticas en valores muestreados de la señal, es decir, que toma valores discretos. 
 
-#### **3. Filtros básicos**
-#### **3.1. Filtros FIR**:
+#### **c. Filtros básicos**
+##### **c.1. Filtros FIR**:
 Los filtros FIR (Finite Impulse Response) son aquellos que no utilizan retroalimentación en su ecuación, lo que les otorga estabilidad inherente. Esta característica los hace ideales para aplicaciones que requieren fases lineales, ya que pueden producir estas fases de manera consistente. Sin embargo, debido a la falta de retroalimentación, los filtros FIR tienden a requerir más coeficientes en su ecuación para cumplir con los mismos requisitos que un filtro IIR, lo que resulta en una mayor carga computacional y de memoria, especialmente en sistemas exigentes.
 
-##### **3.1.1. Diseño de Filtros FIR**:
+###### **Diseño de Filtros FIR**:
 La clave para diseñar un filtro FIR eficaz radica en encontrar los coeficientes adecuados. Hoy en día existen varios algoritmos eficientes y programas de diseño de software que facilitan este proceso de cálculo. Una vez que se obtienen los coeficientes, implementar el filtro en un algoritmo resulta relativamente sencillo.
 
 Una técnica popular para diseñar filtros FIR es la ventana (windowing). Esta técnica implica generar los coeficientes de frecuencia a partir de una respuesta al impulso ideal. Sin embargo, la respuesta en el dominio del tiempo de esta respuesta al impulso ideal puede ser infinitamente larga, lo que presenta un problema al truncar el filtro, ya que esto puede generar oscilaciones alrededor de la frecuencia de corte en el dominio de la frecuencia debido a las discontinuidades en el dominio del tiempo. Para mitigar este problema, se utiliza una técnica llamada “windowing”.Esta consiste en multiplicar los coeficientes en el dominio del tiempo por un algoritmo que suavice los "bordes" de los coeficientes. El compromiso aquí es reducir las oscilaciones a costa de aumentar el ancho de transición. 
@@ -79,17 +79,15 @@ Existen varias ventanas populares, cada una con un equilibrio entre el ancho de 
 
 Al diseñar un filtro utilizando la técnica de ventana, el primer paso es decidir qué ventana sería apropiada según las curvas de respuesta o el ensayo y error. Luego, se elige el número deseado de coeficientes del filtro y una vez determinada la longitud y el tipo de ventana, se pueden calcular los coeficientes de la ventana y multiplicarlos por la respuesta del filtro ideal.
 
-#### **3.2. Filtros IIR**:
+##### **c.2. Filtros IIR**:
 Por otro lado, los filtros IIR (Infinite Impulse Response) utilizan tanto las entradas como las salidas anteriores en su ecuación, lo que les permite operar de manera más eficiente en términos de requisitos computacionales. Esto se debe a la retroalimentación que incorporan en su diseño. Sin embargo, mantener una fase lineal en los filtros IIR es más difícil de lograr debido a esta retroalimentación. A pesar de ello, los filtros IIR son una opción preferida cuando se busca reducir la carga del sistema y el número de coeficientes necesarios en la ecuación del filtro.
 
 Los filtros IIR al incorporar retroalimentación en su ecuación, permite que la ecuación contenga significativamente menos coeficientes que sus contrapartes FIR, aunque también puede distorsionar la fase y complicar el diseño e implementación del filtro.
 
-##### **3.1.1. Diseño de Filtros IIR**:
+###### **Diseño de Filtros IIR**:
 Se diseñan mediante dos técnicas principales: el diseño directo y el diseño indirecto. El diseño directo opera en el dominio digital (z), mientras que el diseño indirecto trabaja en el dominio analógico (s) y luego convierte los resultados al dominio digital. Las técnicas analógicas optimizadas, como Butterworth, Chebyshev, Chebyshev II, Bessel y Eliptical, son comúnmente utilizadas en el diseño indirecto.
 
 Para el diseño indirecto, se utilizan técnicas analógicas optimizadas para desarrollar el filtro, y luego se convierten al dominio digital mediante la Transformación Bilineal. Esta técnica mapea todas las frecuencias en el círculo unitario de manera no lineal, por lo que es necesario "pre-warpear" las frecuencias antes del diseño del filtro.
-
-
 
 
 <a name="objetivos"></a>
