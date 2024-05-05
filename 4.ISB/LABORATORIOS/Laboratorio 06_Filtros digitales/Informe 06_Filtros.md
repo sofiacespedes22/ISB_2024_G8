@@ -32,7 +32,7 @@ Un filtro es una herramienta que transforma una señal de entrada, representada 
 
 </div>
 <p align="center">
-<image width="200" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ae6d4322-dd94-4925-ae12-de12c6bef0a8">
+<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ae6d4322-dd94-4925-ae12-de12c6bef0a8">
 <p align="center"><i>Figura 1. Actividad cerebral registrada por encefalograma [2] </i></p>
 </div>
 
