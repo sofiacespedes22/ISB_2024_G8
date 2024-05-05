@@ -154,8 +154,8 @@ La señal del electrocardiograma proporciona información sobre la actividad el�
    
 |  **Parámetro**  | **FIR** | **IIR** | 
 |:------------:|:---------------:|:------------:|
-|Tipo de filtro|Notch|Butterworth|
-|Frecuencia de corte|0 - 0.5 Hz|40 Hz|
+|Tipo de filtro|Pasa baja|Notch-Butterworth|
+|Frecuencia de corte|0 - 0.5 Hz|10 Hz|
 |Frecuencia de muestreo|1000 Hz|1000 Hz|
 |Ventana|Blackman|-|
 |Orden|56|4|
