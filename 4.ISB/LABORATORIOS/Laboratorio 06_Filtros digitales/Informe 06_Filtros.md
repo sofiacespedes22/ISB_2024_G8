@@ -88,6 +88,12 @@ Existen varias ventanas populares, cada una con un equilibrio entre el ancho de 
 <p align="center"><i>Tabla 2. Tipos de filtros FIR </i></p>
 </div>
 
+</div>
+<p align="center">
+<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8fce10a5-b0d1-4a8f-8879-84d3213e96ce">
+<p align="center"><i>Figura 2. Método de ventanas para los filtros FIR <sup>[4](http://www.labbookpages.co.uk/audio/firWindowing.html)</sup> </i></p>
+</div>
+
 Al diseñar un filtro utilizando la técnica de ventana, el primer paso es decidir qué ventana sería apropiada según las curvas de respuesta o el ensayo y error. Luego, se elige el número deseado de coeficientes del filtro y una vez determinada la longitud y el tipo de ventana, se pueden calcular los coeficientes de la ventana y multiplicarlos por la respuesta del filtro ideal.
 
 ##### **c.2. Filtros IIR**: <sup>[3](https://doi.org/10.1016/B978-0-12-386535-9.00007-X)</sup>
@@ -108,6 +114,12 @@ Se diseñan mediante dos técnicas principales: el diseño directo y el diseño 
 |**Bessel**|<p align="justify"> Estos filtros tienen como objetivo lograr una respuesta de fase lineal en un margen de frecuencias amplio alrededor de la frecuencia de corte. La ganancia en la banda de paso no es tan plana como en un filtro Butterworth ni la pendiente en la banda de transición tan acentuada como en un filtro Chebyshev. </p>|
 |**Eliptical**|<p align="justify"> se caracteriza por tener ondulaciones constantes tanto en la banda de paso como en la banda de corte. </p>|
 <p align="center"><i>Tabla 3. Tipos de filtros IIR </i></p>
+</div>
+
+</div>
+<p align="center">
+<image width="300" height="200" src="">
+<p align="center"><i>Figura 3. Tipos de filtros IIR </i></p>
 </div>
 
 Para el diseño indirecto, se utilizan técnicas analógicas optimizadas para desarrollar el filtro, y luego se convierten al dominio digital mediante la Transformación Bilineal. Esta técnica mapea todas las frecuencias en el círculo unitario de manera no lineal, por lo que es necesario "pre-warpear" las frecuencias antes del diseño del filtro.
@@ -265,3 +277,4 @@ En las tres señales analizadas, el objetivo fue analizar cuál de los dos tipos
 
 [3] R. Oshana, “Overview of DSP algorithms,” in DSP for Embedded and Real-Time Systems, Elsevier, 2012, pp. 113–131. https://doi.org/10.1016/B978-0-12-386535-9.00007-X
 
+[4]“FIR Filters by Windowing - The Lab Book Pages,” www.labbookpages.co.uk. http://www.labbookpages.co.uk/audio/firWindowing.html
