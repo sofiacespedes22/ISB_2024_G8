@@ -253,9 +253,9 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
 * **Codigo**
-  - [ECG]()
-  - [EMG]()
-  - [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/Codigo%20EEG)
+  - [ECG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2006_Filtros%20digitales/Archivos%20python/ECG_Fir.py)
+  - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2006_Filtros%20digitales/Archivos%20python/EMG.py)
+  - [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2006_Filtros%20digitales/Archivos%20python/EEG_cruda.py)
 
 <a name="discusion"></a>
 ## Discusión
