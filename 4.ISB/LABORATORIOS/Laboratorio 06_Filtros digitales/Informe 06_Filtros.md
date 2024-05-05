@@ -256,9 +256,10 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
 * **Código en Python**
-  - [Código para señal ECG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/plotEEG1.py)
-  - [Código para señal EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/EEGprueba2.py)
-  - [Código para señal EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/ee2fd7eb8a4922d2dcae8d2fab752b2530563190/4.ISB/LABORATORIOS/Laboratorio%2005_Registro%20de%20EEG/C%C3%B3digos%20y%20TXT/EEGreposo2.py)
+  - [Código para señal ECG]
+  - [Código para señal EMG]
+  - [Código para señal EEG]
+
 
 <a name="discusion"></a>
 ## Discusión
