@@ -218,7 +218,7 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 </div>
 
 ### Señal EMG
-
+Este filtro permite extraer características específicas de la señal EMG, como la raíz cuadrada media (RMS), la amplitud y la frecuencia, entre otras. Como se observa en la comparación entre la imagen de la señal filtrada y la no filtrada, se evidencia un contraste significativo. Aunque ambas se representan en las mismas escalas, en la señal filtrada es más fácil discernir las características mencionadas. Además, este filtro facilita la identificación de las frecuencias dominantes en la señal y cómo evolucionan a lo largo del tiempo.
 <div align="center">
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
@@ -259,10 +259,12 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 
 <a name="discusion"></a>
 ## Discusión
+Para las pruebas de EEG, e evaluó la eficacia de los filtros FIR e IIR en la reducción del ruido de la señal EEG en tres estados mentales: reposo, parpadeo y realización de preguntas matemáticas. Los resultados mostraron que el filtro FIR fue más efectivo durante el reposo, mientras que el filtro IIR destacó en el parpadeo y las preguntas matemáticas. Ambos filtros lograron reducir la amplitud de la señal, mejorando su calidad. Estos hallazgos sugieren que la elección del filtro depende del estado mental (requerir de mayor concentración y esfuerzo mental) y resalta la importancia de adaptar los filtros a las características específicas de la señal en cada contexto.
 
+El uso de filtros FIR e IIR fue efectivo en el procesamiento de señales de electromiograma (EMG) en diferentes estados musculares: reposo, contracción leve y contracción fuerte. El filtro 'Notch' utilizado en el FIR demostró ser eficaz en la supresión de interferencias de frecuencia específica, como la interferencia de la línea de corriente alterna a 60 Hz, comúnmente presente en las señales EMG. Por otro lado, el filtro 'Butterworth' aplicado en el IIR permitió ajustar la respuesta de amplitud de la señal, lo que facilitó la eliminación de ruido no deseado y mejoró la interpretación de la actividad muscular. La comparación entre las señales crudas y filtradas reveló una mejora significativa en la calidad de la señal procesada.
 
-
-
+Para la eficacia de los filtros FIR e IIR en la reducción del ruido de la señal ECG en diferentes condiciones fisiológicas: reposo, respiración controlada y después de actividad física. Durante el estado de reposo, ambos filtros permitieron la visualización del complejo QRS y la determinación de la FC. Sin embargo, el filtro FIR con la ventana Blackman mostró una mayor reducción del ruido, lo que sugiere que fue más efectivo en la limpieza de la señal en condiciones de reposo.
+En cuanto a la respiración controlada y después de la actividad física, el filtro IIR destacó por reducir de manera más efectiva el ruido generado durante la medición, lo que puede atribuirse a su capacidad para adaptarse a cambios rápidos en la señal.
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
