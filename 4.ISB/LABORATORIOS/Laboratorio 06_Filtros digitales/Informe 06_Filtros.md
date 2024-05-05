@@ -130,7 +130,7 @@ La metodología del siguiente laboratorio consistió en el diseño de filtros di
 
 |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
 |:------------:|:---------------:|:------------:|:----------:|
-|-|**Laptop o PC**: Laptop equipada con el programa Python, para poder implementar ahí el código, para realizar los respectivos filtrados|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
+|-|**Laptop o PC**: Laptop equipada con el programa Python, para poder implementar ahí el código, para realizar los respectivos filtrados|1|<image width="300" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
 
 <p align="center"><i>Tabla 4. Materiales y equipos utilizados</i></p>
 </div>
