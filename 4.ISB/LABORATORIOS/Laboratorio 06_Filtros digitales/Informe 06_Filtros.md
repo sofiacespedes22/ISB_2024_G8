@@ -90,7 +90,7 @@ Existen varias ventanas populares, cada una con un equilibrio entre el ancho de 
 
 </div>
 <p align="center">
-<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8fce10a5-b0d1-4a8f-8879-84d3213e96ce">
+<image width="600" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8fce10a5-b0d1-4a8f-8879-84d3213e96ce">
 <p align="center"><i>Figura 2. Método de ventanas para los filtros FIR <sup>[4](http://www.labbookpages.co.uk/audio/firWindowing.html)</sup> </i></p>
 </div>
 
@@ -142,7 +142,7 @@ La metodología del siguiente laboratorio consistió en el diseño de filtros di
 
 |  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
 |:------------:|:---------------:|:------------:|:----------:|
-|-|**Laptop o PC**: Laptop equipada con el programa Python, para poder implementar ahí el código, para realizar los respectivos filtrados|1|<image width="300" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
+|-|**Laptop o PC**: Laptop equipada con el programa Python, para poder implementar ahí el código, para realizar los respectivos filtrados|1|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
 
 <p align="center"><i>Tabla 4. Materiales y equipos utilizados</i></p>
 </div>
