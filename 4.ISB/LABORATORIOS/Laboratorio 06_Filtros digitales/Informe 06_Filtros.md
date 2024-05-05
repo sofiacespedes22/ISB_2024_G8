@@ -161,7 +161,7 @@ La señal del electrocardiograma proporciona información sobre la actividad el�
 |Ventana|Hamming|-|
 |Orden|56|4|
 
-<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG </i></p>
+<p align="center"><i>Tabla 5. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG </i></p>
 </div>
 
 #### Señal EMG
@@ -177,7 +177,7 @@ La señal del electromiograma brinda información sobre la actividad eléctrica 
 |Ventana|-||
 |Orden|37||
 
-<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EMG </i></p>
+<p align="center"><i>Tabla 6. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EMG </i></p>
 </div>
 
 #### Señal EEG
@@ -194,7 +194,7 @@ Para el filtrado de la señal EEG, se consideró el uso de las señales de elect
 |Orden|2|4|
 
 
-<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EEG </i></p>
+<p align="center"><i>Tabla 7. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EEG </i></p>
 </div>
 
 En las tres señales analizadas, el objetivo fue analizar cuál de los dos tipos de filtro era más efectivo en minimizar el ruido causado por los diferentes artefactos y mejorar la claridad de las señales para un análisis posterior. Se realizó el ploteo en Python y se tomo en consideración las características de las ondas ECG (complejo QRS e intervalo RR), las características de las onda EMG y de las ondas EEG (extracción de bandas theta, alpha, beta).
@@ -206,6 +206,10 @@ La señal ECG, adquirida mediante el BITalino con el uso de los electrodos en co
 
 En el estado de reposo, se observa la presencia y cantidad del complejo QRS en ambos filtros lo cual indica que es posible determinar la frecuencia cardíaca, además de poder medir el intervalor RR y QT para los valores aproximados de latidos por minuto. Asimismo, observamos en el filtro IIR que la señal se observa menos distorsiona lo cual indica que se ha reducido los ruidos causados por los artefactos durante la medición. El filtrado que logró una mayor reducción de ruido fue el filtro FIR y la ventana blackman.
 
+En el estado de repiración y post-ejercicio, se observa que la señal presenta un mayor intervalo RR, y permite la visualización del complejo QRS para determinar la frecuencia cardíaca y los latidos por minuto en el filtro IIR. Se observa que para el filtro IIR es el que reduce significativamente más el ruido generado, mientras que en FIR se observa un incremento abrupto en los picos, posiblemente debido a la configuración que presenta en el momento del ploteo.
+
+A continuación, se presenta la tabla con los resultados obtenidos tras el filtrado de la señal ECG con los dos tipos de filtro.
+
 <div align="center">
 	
 |  **Campo de actividad**  | **Señal cruda** | **Filtro FIR** | **Filtro IIR** |
@@ -213,7 +217,7 @@ En el estado de reposo, se observa la presencia y cantidad del complejo QRS en a
 |Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7326d1ac-3a2a-475c-80aa-d6debc45640d">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ebe113fa-64c8-4ef2-9798-6ad36601002f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d2f63894-b5b1-4d70-a6fa-9e21822e751f">|
 |Respiración|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/9910e9ba-bf53-4c46-8843-cb00d5650169">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ad3fab25-eb17-45e9-85d6-65d22e8d974d">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1643c7a3-6d7a-442d-9e84-4117990f852e">|
 |Post-ejercicio|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/175ef340-1c25-447a-a3b2-3a5e8cf41da6">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/42ebd9f2-da7f-4a16-b0fb-15b4940f86e9">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/64636c9a-adaa-4ea9-88af-db8c541273fb">|
-<p align="center"><i>Tabla 1. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG </i></p>
+<p align="center"><i>Tabla 8. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG </i></p>
 </div>
 
 ### Señal EMG
@@ -225,7 +229,7 @@ En el estado de reposo, se observa la presencia y cantidad del complejo QRS en a
 |Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
 |Contracción leve|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
 |Contracción fuerte|<image width="300" height="100" src="">|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-<p align="center"><i>Tabla 2. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG </i></p>
+<p align="center"><i>Tabla 9. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG </i></p>
 </div>
 
 ### Señal EEG
@@ -247,7 +251,7 @@ A continuación, se presenta la tabla con los resultados obtenidos tras el filtr
 |Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2f0c7a26-45bb-4a92-be6d-2590784faa29">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/0d3f29e9-15fa-4d33-9256-17f61967ced8">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ac25ead8-527a-400e-a33d-90514acf9477">|
 |Parpadeo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8e0f12c4-fe20-415e-b71a-43bf39d77f5f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e6385a7a-658b-4867-bd3e-c5d60a612777">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/511995e1-59ee-4166-a3d7-06f37b6d9313">|
 |Razonamiento|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/53212f1c-0a72-442b-84c0-e2fcc6ffa68f">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e61526bb-31e0-4bc5-8416-80f903818654">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d308d8f7-828d-4621-b3ca-a0e1c88bcafa">|
-<p align="center"><i>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EEG </i></p>
+<p align="center"><i>Tabla 10. Resumen de la señal filtrada con filtros FIR e IIR para la data EEG </i></p>
 </div>
 
 <a name="archivos"></a>
