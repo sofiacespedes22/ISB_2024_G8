@@ -41,37 +41,72 @@ La metodología del siguiente laboratorio consistió en el diseño de filtros di
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
 
+<div align="center">
+
+|   Modelo      | Descripción   | Cantidad |
+|---------------|---------------|----------|
+| (R)EVOLUTION  | Kit BITalino  | 1        |
+|      -      |Electrodos con gel| 3|
+|       -       | Laptop o PC   | 1        |
+
+<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+</div>
 
 <a name="adquisicion"></a>
 ### 2. Procedimiento
 #### Señal ECG
-La señal del electrocardiograma proporciona información sobre la actividad eléctrica cardíaca medida a partir de la diferencia de potencial eléctrico de las derivaciones entre dos electrodos colocados en el sujeto de prueba. Sin embargo, es susceptible a diferentes tipos de ruidos como los provocados por el incorrecto posicionamiento de los electrodos, interferencia electromagnética, limpieza inadecuada de la zona de posicionamiento o artefactos producidos por corriente alterna que afectan la línea base del ECG. Para el filtrado de la señal ECG, se consideró el uso de las señales de electrocardiograma (ECG) obtenidas en el Laboratorio 03 [ref], las cuales se obtuvieron en diferentes estados: reposo, respiración controlada y después de realizar actividad física. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana () para el filtro FIR debido a que (). Asimismo, de definió el filtro () para el filtro IIR debido a que (). Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de [][] para el filtrado de la señal ECG según cada tipo de filtro.
+La señal del electrocardiograma proporciona información sobre la actividad eléctrica cardíaca medida a partir de la diferencia de potencial eléctrico de las derivaciones entre dos electrodos colocados en el sujeto de prueba. Sin embargo, es susceptible a diferentes tipos de ruidos como los provocados por el incorrecto posicionamiento de los electrodos, interferencia electromagnética, limpieza inadecuada de la zona de posicionamiento o artefactos producidos por corriente alterna que afectan la línea base del ECG. Para el filtrado de la señal ECG, se consideró el uso de las señales de electrocardiograma (ECG) obtenidas en el Laboratorio 03 [ref], las cuales se obtuvieron en diferentes estados: reposo, respiración controlada y después de realizar actividad física. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana hamming para el filtro FIR debido a que (). Asimismo, de definió el filtro butterworth para el filtro IIR debido a que (). Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de [][] para el filtrado de la señal ECG según cada tipo de filtro.
+
+<div align="center">
+   
+|  **Parámetro**  | **FIR** | **IIR** | 
+|:------------:|:---------------:|:------------:|
+|Tipo de filtro|Notch|Butterworth|
+|Frecuencia de corte|0.5 - 108 Hz|40 Hz|
+|Frecuencia de muestreo|-||
+|Ventana|Hamming|-|
+|Orden|56|4|
+
+<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG </i></p>
+</div>
 
 #### Señal EMG
 La señal del electromiograma brinda información sobre la actividad eléctrica msucular para una futura aplicación en rehabilitación. Al igual que la señal ECG, es susceptible a ruidos los cuales interfieren con la interpretación de la señal muscular. Para el filtrado de la señal EMG, se consideró el uso de las señales de electromiograma (EMG) obtenidas en el Laboratorio 04, las cuales se obtuvieron en diferentes estados: reposo, contracción leve y contracción fuerte al realizar (). Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana () para el filtro FIR debido a que (). Asimismo, de definió el filtro () para el filtro IIR debido a que ().  Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR. A continuación, se definen los parámetros obtenidos a partir de [][] para el filtrado de la señal EMG según cada tipo de filtro.
 
+
 #### Señal EEG
 Para el filtrado de la señal EMG, se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo y mientras se realizaba y respondía preguntas matemáticas. Estas fueron inicialmente filtradas utilizando un filtro pasabandas pues permiten preparar la señal para un procesamiento posterior. Se definió el método de ventana () para el filtro FIR debido a que (). Asimismo, de definió el filtro () para el filtro IIR debido a que (). Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada tanto con FIR como con IIR.A continuación, se definen los parámetros obtenidos a partir de [][] para el filtrado de la señal EEG según cada tipo de filtro.
+
+<div align="center">
+   
+|  **Parámetro**  | **FIR** | **IIR** | 
+|:------------:|:---------------:|:------------:|
+|Tipo de filtro||-|
+|Frecuencia de corte|0.5 Hz||
+|Frecuencia de muestreo|-|-|
+|Ventana|Hamming||
+|Orden|56||
+
+EMG
+<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG </i></p>
+</div>
+
+|  **Parámetro**  | **FIR** | **IIR** | 
+|:------------:|:---------------:|:------------:|
+|Tipo de filtro|Notch||
+|Frecuencia de corte|35-45 Hz||
+|Frecuencia de muestreo|256 Hz||
+|Ventana|-||
+|Orden|37||
+
+<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EMG </i></p>
+</div>
 
 En las tres señales analizadas, el objetivo fue analizar cuál de los dos tipos de filtro era más efectivo en minimizar el ruido causado por los diferentes artefactos y mejorar la claridad de las señales para un análisis posterior. Se realizó el ploteo en Python y se tomo en consideración las características de las ondas ECG (complejo QRS e intervalo RR), las características de las onda EMG y de las ondas EEG (extracción de bandas theta, alpha, beta).
 
 <a name="resultados"></a>
 ## Resultados
 ### Señal ECG
-
-<div align="center">
-   
-|  **Parámetro**  | **FIR** | **IIR** | 
-|:------------:|:---------------:|:------------:|
-|Tipo de filtro|||
-|Frecuencia de corte sup|||
-|Frecuencia de corte inf|||
-|Frecuencia de muestreo|||
-|Ventana|||
-|Orden|||
-
-<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG </i></p>
-</div>
 
 <div align="center">
 	
@@ -83,21 +118,8 @@ En las tres señales analizadas, el objetivo fue analizar cuál de los dos tipos
 <p align="center"><i>Tabla 1. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG </i></p>
 </div>
 
+
 ### Señal EMG
-
-<div align="center">
-   
-|  **Parámetro**  | **FIR** | **IIR** | 
-|:------------:|:---------------:|:------------:|
-|Tipo de filtro|||
-|Frecuencia de corte sup|||
-|Frecuencia de corte inf|||
-|Frecuencia de muestreo|||
-|Ventana|||
-|Orden|||
-
-<p align="center"><i>Tabla 1. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG </i></p>
-</div>
 
 <div align="center">
 	
