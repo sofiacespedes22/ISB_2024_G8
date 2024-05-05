@@ -107,7 +107,7 @@ Se diseñan mediante dos técnicas principales: el diseño directo y el diseño 
 |**Chebyshev II**|<p align="justify"> Estos filtros tienen la banda de paso monótona pero agrega ondas a la banda de parada. </p>|
 |**Bessel**|<p align="justify"> Estos filtros tienen como objetivo lograr una respuesta de fase lineal en un margen de frecuencias amplio alrededor de la frecuencia de corte. La ganancia en la banda de paso no es tan plana como en un filtro Butterworth ni la pendiente en la banda de transición tan acentuada como en un filtro Chebyshev. </p>|
 |**Eliptical**|<p align="justify"> se caracteriza por tener ondulaciones constantes tanto en la banda de paso como en la banda de corte. </p>|
-<p align="center"><i>Tabla 1. Tipos de filtros IIR </i></p>
+<p align="center"><i>Tabla 3. Tipos de filtros IIR </i></p>
 </div>
 
 Para el diseño indirecto, se utilizan técnicas analógicas optimizadas para desarrollar el filtro, y luego se convierten al dominio digital mediante la Transformación Bilineal. Esta técnica mapea todas las frecuencias en el círculo unitario de manera no lineal, por lo que es necesario "pre-warpear" las frecuencias antes del diseño del filtro.
@@ -128,13 +128,11 @@ La metodología del siguiente laboratorio consistió en el diseño de filtros di
 
 <div align="center">
 
-|   Modelo      | Descripción   | Cantidad |
-|---------------|---------------|----------|
-| (R)EVOLUTION  | Kit BITalino  | 1        |
-|      -      |Electrodos con gel| 3|
-|       -       | Laptop o PC   | 1        |
+|  **Modelo**  | **Descripción** | **Cantidad** | **Imagen** |
+|:------------:|:---------------:|:------------:|:----------:|
+|-|**Laptop o PC**: Laptop equipada con el programa Python, para poder implementar ahí el código, para realizar los respectivos filtrados|1|<image width="300" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1e850abc-e826-47a5-aa7b-292a134d94ec">|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 4. Materiales y equipos utilizados</i></p>
 </div>
 
 <a name="adquisicion"></a>
