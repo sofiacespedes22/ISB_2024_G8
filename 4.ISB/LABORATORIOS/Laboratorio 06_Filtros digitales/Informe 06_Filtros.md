@@ -54,38 +54,61 @@ Entre los filtros, podemos encontrar 2 tipos, los analógicos y los digitales:
 * **Filtros analógicos**: Los filtros analógicos emplean circuitos electrónicos discretos como resistencias, condensadores, entre otros. Estos filtros pueden tomar cualquier valor dentro de un intervalo, es decir tratamiento de señales continuas en el tiempo. 
 * **Filtros digitales**: Los filtros digitales son sistemas lineales e invariantes en el tiempo discreto y usan procesadores digitales que efectúan operaciones matemáticas en valores muestreados de la señal, es decir, que toma valores discretos. 
 
-#### **c. Filtros básicos**
-##### **c.1. Filtros FIR**:
-Los filtros FIR (Finite Impulse Response) son aquellos que no utilizan retroalimentación en su ecuación, lo que les otorga estabilidad inherente. Esta característica los hace ideales para aplicaciones que requieren fases lineales, ya que pueden producir estas fases de manera consistente. Sin embargo, debido a la falta de retroalimentación, los filtros FIR tienden a requerir más coeficientes en su ecuación para cumplir con los mismos requisitos que un filtro IIR, lo que resulta en una mayor carga computacional y de memoria, especialmente en sistemas exigentes.
+#### **c. Tipos filtros digitales** 
+Ahora hablando específicamente de los filtros digitales, estos podemos dividirlos en 2 clases, los filtros de respuesta al impulso finito (FIR) y los filtro de respuesta al impulso infinito (IIR). Ahora, adaptando la fórmula general de los filtros a cada uno, obtenemos las siguientes fórmulas que se pueden observar en la _Tabla 1_.
+
+<div align="center">
+	
+|**FILTRO IIR**|**FILTRO FIR**|
+|:------------:|:------------:|
+|<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/010fef30-58b0-4b02-abe4-acc5691e5d6b">|<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e3558b0a-cca9-4585-bbd0-1b01795e6a80">|
+<p align="center"><i>Tabla 1. Representaciones de los filtros IIR y FIR </i></p>
+</div>
+
+
+##### **c.1. Filtros FIR**: <sup>[3](https://doi.org/10.1016/B978-0-12-386535-9.00007-X)</sup>
+Los filtros FIR (Finite Impulse Response) son aquellos que no utilizan retroalimentación en su ecuación, lo que les otorga estabilidad inherente. Esta característica los hace ideales para aplicaciones que requieren fases lineales, ya que pueden producir estas fases de manera consistente. Sin embargo, debido a la falta de retroalimentación, los filtros FIR tienden a requerir más coeficientes en su ecuación para cumplir con los mismos requisitos que un filtro IIR, lo que resulta en una mayor carga computacional y de memoria, especialmente en sistemas exigentes. 
 
 ###### **Diseño de Filtros FIR**:
 La clave para diseñar un filtro FIR eficaz radica en encontrar los coeficientes adecuados. Hoy en día existen varios algoritmos eficientes y programas de diseño de software que facilitan este proceso de cálculo. Una vez que se obtienen los coeficientes, implementar el filtro en un algoritmo resulta relativamente sencillo.
 
 Una técnica popular para diseñar filtros FIR es la ventana (windowing). Esta técnica implica generar los coeficientes de frecuencia a partir de una respuesta al impulso ideal. Sin embargo, la respuesta en el dominio del tiempo de esta respuesta al impulso ideal puede ser infinitamente larga, lo que presenta un problema al truncar el filtro, ya que esto puede generar oscilaciones alrededor de la frecuencia de corte en el dominio de la frecuencia debido a las discontinuidades en el dominio del tiempo. Para mitigar este problema, se utiliza una técnica llamada “windowing”.Esta consiste en multiplicar los coeficientes en el dominio del tiempo por un algoritmo que suavice los "bordes" de los coeficientes. El compromiso aquí es reducir las oscilaciones a costa de aumentar el ancho de transición. 
 
-Existen varias ventanas populares, cada una con un equilibrio entre el ancho de transición y la atenuación de la banda de parada. Algunos tipos podemos observarlos en la _Tabla 1_
+Existen varias ventanas populares, cada una con un equilibrio entre el ancho de transición y la atenuación de la banda de parada. Algunos tipos podemos observarlos en la _Tabla 2_
 
 <div align="center">
 	
-|  **Tipo**  | **Frecuencia (Hz)** |
+|  **Tipo**  | **Descripción** |
 |:----------:|:-------------------:|
 |**Rectangular**|<p align="justify">Transición más afilada, con menor atenuación en la banda de parada (21 dB)</p>|
 |**Hanning**|<p align="justify">Transición más suave que la rectangular, con una atenuación de 30 dB</p>|
 |**Haming**|<p align="justify">Transición aún más suave que la Hanning, con 40 dB de atenuación</p>|
 |**Blackman**|<p align="justify">Transición aún más suave que la Hamming, con 74 dB de atenuación</p>|
 |**Kaiser**|<p align="justify">Permite generar ventanas personalizadas según la atenuación de la banda de parada deseada</p>|
-<p align="center"><i>Tabla 1. Tipos de filtros FIR </i></p>
+<p align="center"><i>Tabla 2. Tipos de filtros FIR </i></p>
 </div>
 
 Al diseñar un filtro utilizando la técnica de ventana, el primer paso es decidir qué ventana sería apropiada según las curvas de respuesta o el ensayo y error. Luego, se elige el número deseado de coeficientes del filtro y una vez determinada la longitud y el tipo de ventana, se pueden calcular los coeficientes de la ventana y multiplicarlos por la respuesta del filtro ideal.
 
-##### **c.2. Filtros IIR**:
+##### **c.2. Filtros IIR**: <sup>[3](https://doi.org/10.1016/B978-0-12-386535-9.00007-X)</sup>
 Por otro lado, los filtros IIR (Infinite Impulse Response) utilizan tanto las entradas como las salidas anteriores en su ecuación, lo que les permite operar de manera más eficiente en términos de requisitos computacionales. Esto se debe a la retroalimentación que incorporan en su diseño. Sin embargo, mantener una fase lineal en los filtros IIR es más difícil de lograr debido a esta retroalimentación. A pesar de ello, los filtros IIR son una opción preferida cuando se busca reducir la carga del sistema y el número de coeficientes necesarios en la ecuación del filtro.
 
 Los filtros IIR al incorporar retroalimentación en su ecuación, permite que la ecuación contenga significativamente menos coeficientes que sus contrapartes FIR, aunque también puede distorsionar la fase y complicar el diseño e implementación del filtro.
 
 ###### **Diseño de Filtros IIR**:
-Se diseñan mediante dos técnicas principales: el diseño directo y el diseño indirecto. El diseño directo opera en el dominio digital (z), mientras que el diseño indirecto trabaja en el dominio analógico (s) y luego convierte los resultados al dominio digital. Las técnicas analógicas optimizadas, como Butterworth, Chebyshev, Chebyshev II, Bessel y Eliptical, son comúnmente utilizadas en el diseño indirecto.
+Se diseñan mediante dos técnicas principales: el diseño directo y el diseño indirecto. El diseño directo opera en el dominio digital (z), mientras que el diseño indirecto trabaja en el dominio analógico (s) y luego convierte los resultados al dominio digital. Las técnicas analógicas optimizadas, como Butterworth, Chebyshev, Chebyshev II, Bessel y Eliptical, son comúnmente utilizadas en el diseño indirecto y pueden observarlas mejor en la _Tabla 3_
+
+<div align="center">
+	
+|  **Tipo**  | **Descripción** |
+|:----------:|:-------------------:|
+|**Butterworth**|<p align="justify">Este filtro es utilizado para una ondulación plana en la banda de paso. Además de ello, mientras va aumentando la frecuencia, la respuesta en magnitud no aumentará. </p>|
+|**Chebyshev**|<p align="justify"> Estos filtros se encargan de maximizar la pendiente de la característica de ganancia en la región de transición, ya que tienen una transición más pronunciada que la Butterworth, con el coste de una mayor fluctuación en la banda de paso.</p>|
+|**Chebyshev II**|<p align="justify"> Estos filtros tienen la banda de paso monótona pero agrega ondas a la banda de parada. </p>|
+|**Bessel**|<p align="justify"> Estos filtros tienen como objetivo lograr una respuesta de fase lineal en un margen de frecuencias amplio alrededor de la frecuencia de corte. La ganancia en la banda de paso no es tan plana como en un filtro Butterworth ni la pendiente en la banda de transición tan acentuada como en un filtro Chebyshev. </p>|
+|**Eliptical**|<p align="justify"> se caracteriza por tener ondulaciones constantes tanto en la banda de paso como en la banda de corte. </p>|
+<p align="center"><i>Tabla 1. Tipos de filtros IIR </i></p>
+</div>
 
 Para el diseño indirecto, se utilizan técnicas analógicas optimizadas para desarrollar el filtro, y luego se convierten al dominio digital mediante la Transformación Bilineal. Esta técnica mapea todas las frecuencias en el círculo unitario de manera no lineal, por lo que es necesario "pre-warpear" las frecuencias antes del diseño del filtro.
 
@@ -240,7 +263,8 @@ En las tres señales analizadas, el objetivo fue analizar cuál de los dos tipos
 ## Referencias bibliográficas
 [1] P. Podder, Md. Mehedi Hasan, Md. Rafiqul Islam, and M. Sayeed, “Design and Implementation of Butterworth, Chebyshev-I and Elliptic Filter for Speech Signal Analysis,” International Journal of Computer Applications, vol. 98, no. 7, 2014, doi: 10.5120/17195-7390.
 
-[2] A. de Cheveigné and I. Nelken, “Filters: When, why, and how (not) to use them,” Neuron, vol. 102, no. 2, pp. 280–293, 2019.
+[2] A. de Cheveigné and I. Nelken, “Filters: When, why, and how (not) to use them,” Neuron, vol. 102, no. 2, pp. 280–293, 2019. https://doi.org/10.1016/j.neuron.2019.02.039
 
-[3] R. Oshana, “Overview of DSP algorithms,” in DSP for Embedded and Real-Time Systems, Elsevier, 2012, pp. 113–131.
+[3] R. Oshana, “Overview of DSP algorithms,” in DSP for Embedded and Real-Time Systems, Elsevier, 2012, pp. 113–131. https://doi.org/10.1016/B978-0-12-386535-9.00007-X
 
+[4] Electrositio, '¿Qué Es Un Filtro Analógico? - Diferentes Tipos De Filtros Analógicos,' Electrositio, 2023. [En línea]. Disponible: https://electrositio.com/que-es-un-filtro-analogico-diferentes-tipos-de-filtros-analogicos/. [Accedido: 03-may-2024].
