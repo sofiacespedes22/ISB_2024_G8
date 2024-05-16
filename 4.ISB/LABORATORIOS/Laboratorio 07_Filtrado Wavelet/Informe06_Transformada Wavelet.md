@@ -13,7 +13,8 @@
    4.1 [Señal EEG](#eeg)
 5. [Archivos](#archivos)
 6. [Discusión](#discusion)
-7. [Referencias bibliográficas](#referencias)
+7. [Conclusiones](#conclusiones)
+8. [Referencias bibliográficas](#referencias)
 
   
 <a name="introduccion"></a>
@@ -83,6 +84,10 @@
 
 <a name="discusion"></a>
 ## Discusión
+
+
+<a name="conclusiones"></a>
+## Conclusiones
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
