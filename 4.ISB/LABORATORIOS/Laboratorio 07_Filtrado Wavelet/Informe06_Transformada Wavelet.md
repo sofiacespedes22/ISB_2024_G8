@@ -67,13 +67,42 @@
 
 <a name="ecg"></a>
 ### Señal ECG
+<div align="center">
+
+|  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
+|:------------:|:---------------:|:------------:|
+|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+<p align="center"><i>Tabla 8. Resumen de la señal filtrada con DWT para la data EcG </i></p>
+</div>
 
 <a name="emg"></a>
 ### Señal EMG
+<div align="center">
+
+|  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
+|:------------:|:---------------:|:------------:|
+|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+<p align="center"><i>Tabla 8. Resumen de la señal filtrada con DWT para la data EMG </i></p>
+</div>
 
 <a name="eeg"></a>
 ### Señal EEG
-
+<div align="center">
+	
+|  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
+|:------------:|:---------------:|:------------:|
+|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Parpadeo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Segundo reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Razonamiento|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+<p align="center"><i>Tabla 8. Resumen de la señal filtrada con DWT para la data EEG </i></p>
+</div>
 
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
