@@ -80,7 +80,7 @@ Durante esta prueba, se registró la actividad eléctrica del bíceps braquial e
 *Actividad muscular del abductor corto del pulgar - Prueba 02:*
 En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.
 
-Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia [x].
+Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia. <sup>[x](https://doi.org/10.1016/j.jelekin.2013.05.001)</sup> 
 
 <div align="center">
 	
@@ -190,6 +190,6 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 [3] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
 
-[4] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
+[x] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
 
 
