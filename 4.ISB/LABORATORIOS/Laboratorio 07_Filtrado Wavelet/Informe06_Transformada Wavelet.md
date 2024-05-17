@@ -59,7 +59,7 @@
 
 #### Señal EEG
 
-Para el filtrado de la señal EEG, se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo, reposo tras el parpadeo y mientras se realizaba y respondía preguntas matemáticas (razonamiento):
+Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05 para el filtrado con la transformada wavelet, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo, reposo tras el parpadeo y mientras se realizaba y respondía preguntas matemáticas (razonamiento):
 
 **a. Estado de reposo**: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
 
@@ -82,7 +82,7 @@ Para el filtrado de la señal EEG, se consideró el uso de las señales de elect
 <p align="center"><i>Tabla 5. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT (continuar). Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.
+El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6 y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante () y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.
 
 <div align="center">
 	
@@ -129,10 +129,9 @@ El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT 
 	
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Parpadeo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Segundo reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-|Razonamiento|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Reposo|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/reposo.png">|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/reposo_dwt.png">|
+|Parpadeo|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/parpadeo.png">|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/parpadeo_dwt.png">|
+|Razonamiento|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/preguntas.png">|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/preguntas_dwt.png">|
 <p align="center"><i>Tabla 8. Resumen de la señal filtrada con DWT para la data EEG </i></p>
 </div>
 
