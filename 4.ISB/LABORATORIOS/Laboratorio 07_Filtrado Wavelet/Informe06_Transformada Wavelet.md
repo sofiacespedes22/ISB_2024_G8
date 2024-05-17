@@ -140,7 +140,7 @@ El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT 
 * **Codigo**
   - [ECG]()
   - [EMG]()
-  - [EEG]()
+  - [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/db4939c9ee53fb066a803574d1a96906d5e0938c/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/eeg_wavelet.py)
 
 <a name="discusion"></a>
 ## Discusión
