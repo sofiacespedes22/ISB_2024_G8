@@ -69,7 +69,7 @@ Para el filtrado con transformada Wavelet de ECG, estamos usando los datos obten
 
 **b. Estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos.
 
-**c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.\
+**c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
 |:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
@@ -142,14 +142,12 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-<p align="center"><i>Tabla 6. Resumen de la señal filtrada con DWT para la data EcG </i></p>
-</div>
+|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a65245f0-9aea-467d-b7b5-d029ec1b11a0">|<image width="300" height="100" src="">|
+|Respiración prolongada|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1bdb7cf7-de2d-4d1d-9800-20a37943cb9e">|<image width="300" height="100" src="">|
+|Ejercicio Intensivo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a92ee20a-44d4-4d6f-b6e6-08ef77d57510">|<image width="300" height="100" src="">|
 
 <a name="emg"></a>
+
 ### Señal EMG
 <div align="center">
 
