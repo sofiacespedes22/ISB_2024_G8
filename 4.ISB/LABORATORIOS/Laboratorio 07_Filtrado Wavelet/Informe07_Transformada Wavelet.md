@@ -142,11 +142,13 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a65245f0-9aea-467d-b7b5-d029ec1b11a0">|<image width="300" height="100" src="">|
+|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a65245f0-9aea-467d-b7b5-d029ec1b11a0">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/92ec472d-1273-41d1-88f9-ca300708860f">|
 |Respiración prolongada|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1bdb7cf7-de2d-4d1d-9800-20a37943cb9e">|<image width="300" height="100" src="">|
 |Ejercicio Intensivo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a92ee20a-44d4-4d6f-b6e6-08ef77d57510">|<image width="300" height="100" src="">|
-
+<p align="center"><i>Tabla 6. Resumen de la señal filtrada con DWT para la data ECG </i></p>
+</div>
 <a name="emg"></a>
+
 
 ### Señal EMG
 <div align="center">
@@ -159,6 +161,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 </div>
 
 <a name="eeg"></a>
+
 ### Señal EEG
 
 <div align="center">
