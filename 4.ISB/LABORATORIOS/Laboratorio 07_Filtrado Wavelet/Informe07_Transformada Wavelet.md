@@ -1,8 +1,7 @@
 # Laboratorio N°7 - Filtrado con transformada wavelet
 ## **Tabla de contenidos**
 1. [Introducción](#introduccion)\
-   1.1 [Contexto](#contexto)\
-   1.2 [Marco teórico](#marco)
+   1.1 [Marco teórico](#marco)
 2. [Objetivos](#objetivos)
 3. [Metodología](#metodologia)\
    3.1 [Materiales y equipos](#materiales)\
@@ -147,8 +146,8 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Prueba Biceps|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Imágenes/SeñalBiceps_Original.png">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/SeñalBiceps_WT.png">|
-|Prueba Pulgar|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/SeñalPulgar_Original.png">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/084fb69b10b80046c5b4b9ef50b891431fa742b4/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/SeñalPulgar_WT.png">|
+|Prueba Biceps|<image width="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Imágenes/SeñalBiceps_Original.png">|<image width="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/25907d77b4b0c32c31a8138006a56abc9dba9554/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/Se%C3%B1alBiceps_WT.png">|
+|Prueba Pulgar|<image width="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/25907d77b4b0c32c31a8138006a56abc9dba9554/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/Se%C3%B1alPulgar_Original.png">|<image width="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/25907d77b4b0c32c31a8138006a56abc9dba9554/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/Im%C3%A1genes/Se%C3%B1alPulgar_WT.png">|
 <p align="center"><i>Tabla 7. Resumen de la señal filtrada con DWT para la data EMG </i></p>
 </div>
 
