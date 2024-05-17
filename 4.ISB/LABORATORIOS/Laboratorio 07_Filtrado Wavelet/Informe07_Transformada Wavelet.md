@@ -64,8 +64,11 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 ### 2. Procedimiento
 #### Señal ECG
 Para el filtrado con transformada Wavelet de ECG, estamos usando los datos obtenidos en el Laboratorio 4 de ECG. Estos datos, fueron obtenidos en 3 diferentes estados: reposo, respiración controlada y depués de haber realizado actividad física. 
+
 **a. Estado de reposo** :El sujeto de prueba se quedó en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
+
 **b. Estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos.
+
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.\
 
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
