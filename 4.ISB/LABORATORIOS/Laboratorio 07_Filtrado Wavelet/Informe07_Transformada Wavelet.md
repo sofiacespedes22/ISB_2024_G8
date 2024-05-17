@@ -168,7 +168,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 ## Archivo de las señales ploteadas en Python
 * **Codigo**
   - [ECG]()
-  - [EMG]()
+  - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/d22284eac044bb34acde6b8b07a34325d813988b/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/emg_wavelet.py)
   - [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/db4939c9ee53fb066a803574d1a96906d5e0938c/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/eeg_wavelet.py)
 
 <a name="discusion"></a>
