@@ -88,7 +88,7 @@ El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT 
 	
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
 |:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
-|bior2.6 (Biorthogonal 2.6)|5|8|1000 Hz|A5| D1, D2, D3, D4, D5|
+|bior2.6 (Biorthogonal 2.6)|5|16|1000 Hz|A5| D1, D2, D3, D4, D5|
 <p align="center"><i>Tabla 4. Parámetros considerados para el diseño del filtro en la señal EEG </i></p>
 
 </div>
