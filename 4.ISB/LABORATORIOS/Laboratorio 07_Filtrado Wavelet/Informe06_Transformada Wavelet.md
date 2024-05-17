@@ -67,9 +67,10 @@ Para el filtrado de la señal EEG, se consideró el uso de las señales de elect
 
 **c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
 
-**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup>
- de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
+**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup> de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
 
+<div align="center">
+	
 |  **Categoría**  | **Pregunta** | 
 |:------------:|:---------------:|
 |**Simple**|<p align="justify"> Hay 3 pájaros en un árbol; Llegan 7 más. ¿Cuántos pájaros hay ahora?</p>|
@@ -83,7 +84,14 @@ Para el filtrado de la señal EEG, se consideró el uso de las señales de elect
 
 El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT (continuar). Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.
 
+<div align="center">
+	
+|  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
+|:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
+|bior2.6 (Biorthogonal 2.6)|5|8|1000 Hz|A5| D1, D2, D3, D4, D5|
+<p align="center"><i>Tabla 4. Parámetros considerados para el diseño del filtro en la señal EEG </i></p>
 
+</div>
 
 <a name="resultados"></a>
 ## Resultados
@@ -116,6 +124,7 @@ El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT 
 
 <a name="eeg"></a>
 ### Señal EEG
+
 <div align="center">
 	
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
