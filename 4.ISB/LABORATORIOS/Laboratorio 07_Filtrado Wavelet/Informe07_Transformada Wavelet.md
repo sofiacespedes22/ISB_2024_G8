@@ -41,13 +41,18 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 
 <a name="objetivos"></a>
 ## Objetivos
-1. Diseño de un filtro IIR a partir de uno de los siguientes tipos: Bessel, Butterworth, Chebyshev, o Elíptico.
-2. Diseñar un filtro FIR utilizando dos de las siguientes técnicas de ventaneo: Hanning, Hamming, Bartlett, rectangular, o Blackman.
-3. Implementar los filtros diseñados para el acondicionamiento de las señales ECG, EMG y EEG adquiridas en laboratorios pasados
+1. Implementar y comparar el filtrado wavelet para reducir el ruido por artefactos producidos de las señales ECG, EMG y EEG para la aplicación en aspectos clínicos
 
 <a name="metodologia"></a>
 ## Metodología 
+La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia [1]. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel. La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original. A continuación, se detalla los pasos seguidos para la obtención del filtrado:
 
+1. Descomposición de la señal mediantre la DWT
+
+2. Cálculo del umbral
+
+3. Reconstrucción de la señal
+   
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
 
