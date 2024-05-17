@@ -20,7 +20,8 @@
 <a name="introduccion"></a>
 ## **Introducción**
 
-<p align="justify">La teoría de las wavelets, desarrollada por Morlet, Grossmann y Meyer, inicialmente estaba enfocada en aspectos teóricos más que en aplicaciones prácticas. Sin embargo, investigadores como Daubechies y Mallat establecieron la conexión entre las wavelets y el procesamiento digital de señales, ampliando su utilidad. Las wavelets han sido aplicadas en áreas como compresión de datos, procesamiento de imágenes y estimación espectral tiempo-frecuencia. Ofrecen una alternativa a la transformada de Fourier de tiempo corto en el análisis tiempo-frecuencia de señales discretas. Aunque la teoría subyacente es compleja, la implementación de la transformada de wavelet es más sencilla de lo esperado, lo que permite su aplicación práctica con un mínimo de conocimientos matemáticos. [1]</p>
+La teoría de las wavelets, desarrollada por Morlet, Grossmann y Meyer, inicialmente estaba enfocada en aspectos teóricos más que en aplicaciones prácticas. Sin embargo, investigadores como Daubechies y Mallat establecieron la conexión entre las wavelets y el procesamiento digital de señales, ampliando su utilidad. Las wavelets han sido aplicadas en áreas como compresión de datos, procesamiento de imágenes y estimación espectral tiempo-frecuencia. Ofrecen una alternativa a la transformada de Fourier de tiempo corto en el análisis tiempo-frecuencia de señales discretas. Aunque la teoría subyacente es compleja, la implementación de la transformada de wavelet es más sencilla de lo esperado, lo que permite su aplicación práctica con un mínimo de conocimientos matemáticos. <sup>[1](https://doi.org/10.1049/ecej:19940401)</sup> 
+
 
 <a name="contexto"></a>
 ### **Contexto**
@@ -29,19 +30,19 @@
 ### **Marco teórico**
  - #### **Wavelet**
 
-<p align="justify">Las wavelets son funciones matemáticas con naturaleza oscilatoria similar a las ondas sinusoidales, pero con la particularidad de ser de "naturaleza oscilatoria finita". Básicamente, una forma de onda de longitud finita y en decadencia, cuando se escala y se traduce, resulta en lo que se llama una "wavelet hija" de la "wavelet madre" original. Por lo tanto, diferentes variables de escala y traducción producen una wavelet hija diferente a partir de una sola wavelet madre. [2]</p>
+Las wavelets son funciones matemáticas con naturaleza oscilatoria similar a las ondas sinusoidales, pero con la particularidad de ser de "naturaleza oscilatoria finita". Básicamente, una forma de onda de longitud finita y en decadencia, cuando se escala y se traduce, resulta en lo que se llama una "wavelet hija" de la "wavelet madre" original. Por lo tanto, diferentes variables de escala y traducción producen una wavelet hija diferente a partir de una sola wavelet madre. <sup>[2](https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2)</sup> 
 
  - #### **Transformadas wavelet**
 
-<p align="justify">Las transformadas de wavelet se clasifican como Transformadas de Wavelet Continuas (CWT) y Transformadas de Wavelet Discretas (DWT). La naturaleza oscilatoria finita de las wavelets las hace extremadamente útiles en situaciones de la vida real en las que las señales no son estacionarias. Mientras que la transformada de Fourier de una señal solo ofrece resolución de frecuencia, las transformadas de wavelet ofrecen una resolución de "tiempo-frecuencia" variable, que es característica de estas transformadas.</p>
+Las transformadas de wavelet se clasifican como Transformadas de Wavelet Continuas (CWT) y Transformadas de Wavelet Discretas (DWT). La naturaleza oscilatoria finita de las wavelets las hace extremadamente útiles en situaciones de la vida real en las que las señales no son estacionarias. Mientras que la transformada de Fourier de una señal solo ofrece resolución de frecuencia, las transformadas de wavelet ofrecen una resolución de "tiempo-frecuencia" variable, que es característica de estas transformadas.
 
-<p align="justify">Una transformada de wavelet descompone una señal en funciones de base conocidas como wavelets. La transformada de wavelet se calcula por separado para diferentes segmentos de la señal de dominio de tiempo en diferentes frecuencias, lo que resulta en un análisis de multi-resolución. Está diseñada de tal manera que el producto de la resolución temporal y la resolución de frecuencia es constante. Por lo tanto, ofrece buena resolución temporal y baja resolución de frecuencia en frecuencias altas, mientras que ofrece buena resolución de frecuencia y baja resolución temporal en frecuencias bajas. Esta característica de análisis de multi-resolución lo hace excelente para señales que tienen componentes de alta frecuencia durante cortos períodos y componentes de baja frecuencia durante períodos largos, como el ruido en señales, imágenes, fotogramas de video, etc. [2]</p>
+Una transformada de wavelet descompone una señal en funciones de base conocidas como wavelets. La transformada de wavelet se calcula por separado para diferentes segmentos de la señal de dominio de tiempo en diferentes frecuencias, lo que resulta en un análisis de multi-resolución. Está diseñada de tal manera que el producto de la resolución temporal y la resolución de frecuencia es constante. Por lo tanto, ofrece buena resolución temporal y baja resolución de frecuencia en frecuencias altas, mientras que ofrece buena resolución de frecuencia y baja resolución temporal en frecuencias bajas. Esta característica de análisis de multi-resolución lo hace excelente para señales que tienen componentes de alta frecuencia durante cortos períodos y componentes de baja frecuencia durante períodos largos, como el ruido en señales, imágenes, fotogramas de video, etc. <sup>[2](https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2)</sup> 
 
 - #### **Discrete Wavelet Transform (DWT)**
 
-<p align="justify">Técnica matemática que descompone una señal en una serie de funciones básicas llamadas wavelets. Estas wavelets son como pequeñas ondas que tienen diferentes tamaños y ubicaciones en el tiempo. La idea es que al combinar estas wavelets de diferentes maneras, podemos representar cualquier tipo de señal de manera eficiente. La descomposición de la señal se realiza calculando coeficientes que indican cuánto de cada wavelet está presente en la señal original. Estos coeficientes nos dan información sobre los diferentes componentes de la señal, como las frecuencias y los momentos en el tiempo.</p>
+Técnica matemática que descompone una señal en una serie de funciones básicas llamadas wavelets. Estas wavelets son como pequeñas ondas que tienen diferentes tamaños y ubicaciones en el tiempo. La idea es que al combinar estas wavelets de diferentes maneras, podemos representar cualquier tipo de señal de manera eficiente. La descomposición de la señal se realiza calculando coeficientes que indican cuánto de cada wavelet está presente en la señal original. Estos coeficientes nos dan información sobre los diferentes componentes de la señal, como las frecuencias y los momentos en el tiempo.
 
-<p align="justify">La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. [3]</p>
+La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[3](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -71,15 +72,15 @@
 
 #### Señal EMG
 
-<p align="justify">Para el estudio de la actividad muscular, se llevaron a cabo mediciones del músculo bíceps braquial y del abductor corto del pulgar en diferentes estados:</p>
+Para el estudio de la actividad muscular, se llevaron a cabo mediciones del músculo bíceps braquial y del abductor corto del pulgar en diferentes estados:
 
 *Actividad muscular del bíceps braquial (brazo) - Prueba 01:*
-<p align="justify">Durante esta prueba, se registró la actividad eléctrica del bíceps braquial en estados de reposo y ante la exposición de fuerzas con oposición o sin ella. Para ello, en el ensayo se empleó un electrodo de referencia en el codo para minimizar la interferencia eléctrica y el ruido.</p>
+Durante esta prueba, se registró la actividad eléctrica del bíceps braquial en estados de reposo y ante la exposición de fuerzas con oposición o sin ella. Para ello, en el ensayo se empleó un electrodo de referencia en el codo para minimizar la interferencia eléctrica y el ruido.</p>
 
 *Actividad muscular del abductor corto del pulgar - Prueba 02:*
-<p align="justify">En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.</p>
+En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.
 
-<p align="justify">Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia [x].</p>
+Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia [x].
 
 <div align="center">
 	
@@ -92,15 +93,15 @@
 
 #### Señal EEG
 
-<p align="justify">Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05 para el filtrado con la transformada wavelet, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo, reposo tras el parpadeo y mientras se realizaba y respondía preguntas matemáticas (razonamiento).</p>
+Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05 para el filtrado con la transformada wavelet, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo, reposo tras el parpadeo y mientras se realizaba y respondía preguntas matemáticas (razonamiento).
 
-<p align="justify">**a. Estado de reposo**: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.</p>
+**a. Estado de reposo**: El sujeto de prueba se quedó en una posición estable y manteniendo la calma para el registro de una línea base de señal con poco ruido y sin movimientos. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
 
-<p align="justify">**b. Estado de ojos cerrado-ojos abiertos**: El sujeto mantuvo los ojos cerrados y abiertos completando un ciclo (5 veces cada estado), manteniendo ambas fases durante 5 segundos. Para evitar artefactos, el sujeto se mantuvo calmado y mirando hacia un punto específico. El registro de la señal fue grabado por 50 segundos.</p>
+**b. Estado de ojos cerrado-ojos abiertos**: El sujeto mantuvo los ojos cerrados y abiertos completando un ciclo (5 veces cada estado), manteniendo ambas fases durante 5 segundos. Para evitar artefactos, el sujeto se mantuvo calmado y mirando hacia un punto específico. El registro de la señal fue grabado por 50 segundos.
 
-<p align="justify">**c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.</p>
+**c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
 
-<p align="justify">**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup> de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.</p>
+**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup> de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
 
 <div align="center">
 	
@@ -148,10 +149,8 @@
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Reposo|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
-||<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Prueba Biceps|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
+|Prueba Pulgar|<image width="300" height="100" src="">|<image width="300" height="100" src="">|
 <p align="center"><i>Tabla 7. Resumen de la señal filtrada con DWT para la data EMG </i></p>
 </div>
 
@@ -187,7 +186,7 @@
 
 [1] P. M. Bentley and J. T. E. McDonnell, “Wavelet transforms: an introduction,” Electronics & Communication Engineering Journal, vol. 6, no. 4, pp. 175–186, Aug. 1994, doi: https://doi.org/10.1049/ecej:19940401.
 
-[2] R. Madan, S. Kr. Singh, and N. Jain, “Signal Filtering Using Discrete Wavelet Transform - ProQuest,” www.proquest.com, 2009. https://search.proquest.com/openview/6ffd3420501e87ed0556bf2441eee7cb/1?pq-origsite=gscholar&cbl=136092&casa_token=tA8wa7u-dSsAAAAA:n473ZfazAqmJ8tXjVAbfggz68tXU3f1J8Pqam5SFYlWkg5mJWpGcOfKdYhEQMCqEY5ktPAgDvmk (accessed May 17, 2024).
+[2] R. Madan, S. K. Singh and N. Jain, "Signal Filtering Using Discrete Wavelet Transform," International Journal of Recent Trends in Engineering, vol. 2, (3), pp. 96-98, 2009. Available: https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2.
 
 [3] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
 
