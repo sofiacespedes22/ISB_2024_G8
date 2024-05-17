@@ -73,7 +73,7 @@ Para el filtrado con transformada Wavelet de ECG, estamos usando los datos obten
 
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
 |:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
-|||| Hz|| |
+|Daubechies wavelet (db4)|2|0.2|500 Hz|A2| |
 <p align="center"><i>Tabla 2. Parámetros considerados para el diseño del filtro en la señal ECG </i></p>
 
 
