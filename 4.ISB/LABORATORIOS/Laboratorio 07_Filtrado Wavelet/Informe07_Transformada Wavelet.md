@@ -75,7 +75,7 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 </div>
 <p align="center">
 <image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/08dbb35a-84e5-4bfc-b0b2-f9de7f4ae043">
-<p align="center"><i>Figura 4. Estructura del proceso de descomposición de la transformada wavelet discreta [3]</i></p>
+<p align="center"><i>Figura 5. Estructura del proceso de descomposición de la transformada wavelet discreta [3]</i></p>
 </div>
 
 
@@ -98,8 +98,6 @@ La metodología del siguiente laboratorio consistió en el diseño de filtros wa
 
 La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel <sup>[6](http://dx.doi.org/10.13005/bpj/627)</sup> <sup>[7](https://doi.org/10.1109/CCAA.2016.7813897)</sup> [8] <sup>[9](http://www.ijecs.in/index.php/ijecs/article/download/1393/1279/2481)</sup> . La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original <sup>[6]()</sup> . A continuación, se detalla los pasos seguidos para la obtención del filtrado:
 
-
-
 **1. Descomposición de la señal mediantre la DWT: La descomposición de la señal se utilizó**:
 Las señales fueron descompuestas utilizando los tipos de filtros de DWT, como la familia Daubechies o Biorthogonal, según la literatura de referencia. Este proceso permite separar las componentes de frecuencia de la señal en diferentes niveles, aislando los detalles y las aproximaciones de frecuencia baja y alta.
 
@@ -109,7 +107,7 @@ Se aplicó una técnica de umbralización suave a los coeficientes wavelet para 
 </div>
 <p align="center">
 <image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
-<p align="center"><i>Figura 5. Fórmula para el cálculo del Umbral </i></p>
+<p align="center"><i>Figura 6. Fórmula para el cálculo del umbral </i></p>
 </div
 
 **3. Reconstrucción de la señal**:
@@ -118,7 +116,7 @@ Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales 
 </div>
 <p align="center">
 <image width="450" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
-<p align="center"><i>Figura 6. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
+<p align="center"><i>Figura 7. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
 </div>
 
 <a name="materiales"></a>
@@ -272,9 +270,9 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 La definición del umbral es un factor crítico en el diseño del filtro wavelet pues un umbral muy pequeño o uno muy grande podría influir en los estimadores de contracción de ondas, pues podría sobre/no ajustar la data <sup> [16](https://doi.org/10.1007/978-1-4612-2544-7_16)</sup>. El método utilizado para el cálculo del umbral, como se observa en la Fórmula 1 propuesto por Donoho y Johnstone <sup> [17](https://doi.org/10.1093/biomet/81.3.425)</sup> garantiza la reconstrucción de la señal filtrada del ruido, sin embargo, suele no ajustar los datos <sup> [18](https://www.academia.edu/109301514/Adaptation_to_high_spatial_inhomogeneity_using_wavelet_methods)</sup>. Esto podría explicar los resultados obtenidos previamente, pues si bien el umbral utilizado era relativamente elevado, no se realizaba un filtrado óptimo para las señales EEG. Como se observó en los resultados de ECG, EMG o EEG, la presencia de niveles de excitación en los picos y la presencia de ruido de mayores frecuencias debido a una mayor presencia de artefactos dificultó el filtrado apropiado ante el umbral calculado. Asimismo, al aplicar un valor de umbral menor a 1 para las señales EMG y EEG, se observaba un cambio nulo o no significativo en el filtrado de la señal por lo que se tuvo que realizar pruebas en el cálculo y en la programación para obtener una señal filtrada significativamente sin pérdida de información relevante. Esto indica que el proceso y protocolo de adquisición de las señales biomédicas es de suma relevancia pues nos permite un mejor entendimiento de la información provista y evitar complicaciones en el proceso de filtrado, pues elegir un umbral alto podría resultar en la pérdida de información relevante de la señal para su aplicación futura.
 
 ## Conclusiones
-a. El filtro utilizado en señales de ECG fue eficaz para preservar características fundamentales de la señal como el complejo QRS mientras elimina ruido no deseado, mejorando la interpretabilidad.
-b. En señales EMG, el filtrado es más efectivo en el abductor corto del pulgar debido a menor interferencia de músculos adyacentes y una ubicación superficial que facilita una captación más precisa en comparación al bíceps.
-c. La definición del umbral es crítica en el diseño del filtro DWT, ya que un umbral incorrecto puede sobreajustar o no ajustar adecuadamente los datos, afectando la calidad del filtrado y eliminando información importante.
+a. El filtro utilizado en señales de ECG fue eficaz para preservar características fundamentales de la señal como el complejo QRS mientras elimina ruido no deseado, mejorando la interpretabilidad.\
+b. En señales EMG, el filtrado es más efectivo en el abductor corto del pulgar debido a menor interferencia de músculos adyacentes y una ubicación superficial que facilita una captación más precisa en comparación al bíceps.\
+c. La definición del umbral es crítica en el diseño del filtro DWT, ya que un umbral incorrecto puede sobreajustar o no ajustar adecuadamente los datos, afectando la calidad del filtrado y eliminando información importante.\
 d. El protocolo de adquisición para señales biomédicas es esencial para asegurar una filtración óptima y evitar la pérdida de información relevante.
 
 <a name="referencias"></a>
