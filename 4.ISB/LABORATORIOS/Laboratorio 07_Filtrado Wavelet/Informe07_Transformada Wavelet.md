@@ -70,7 +70,7 @@ La aplicación del filtrado para las tres señales estuvo enfocado en el método
 <a name="adquisicion"></a>
 ### 2. Procedimiento
 #### Señal ECG
-Para el filtrado con transformada Wavelet de ECG, estamos usando los datos obtenidos en el Laboratorio 4 de ECG. Estos datos, fueron obtenidos en 3 diferentes estados: reposo, respiración controlada y depués de haber realizado actividad física. 
+Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  ECG obtenidas en el Laboratorio 4 de ECG. Estos datos, fueron obtenidos en 3 diferentes estados: reposo, respiración controlada y depués de haber realizado actividad física. 
 
 **a. Estado de reposo** :El sujeto de prueba se quedó en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
 
@@ -78,12 +78,12 @@ Para el filtrado con transformada Wavelet de ECG, estamos usando los datos obten
 
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
+A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia. <sup>[]()</sup> 
+
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
 |:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
 |Daubechies wavelet (db4)|2|0.2|500 Hz|A2| |
 <p align="center"><i>Tabla 2. Parámetros considerados para el diseño del filtro en la señal ECG </i></p>
-
-
 
 #### Señal EMG
 
@@ -129,7 +129,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6 y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante () y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.</p>
+<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a que permite  y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suae y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.</p>
 
 <div align="center">
 	
