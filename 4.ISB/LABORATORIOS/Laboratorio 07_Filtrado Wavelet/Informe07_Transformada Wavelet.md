@@ -42,7 +42,7 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 <p align="center"><i>Figura 1. Esquema de la Transformada Wavelet </i></p>
 </div>
 
-#### **c. Transformada Wavelet Continua y discreta** <sup>[3]()</sup> 
+#### **c. Transformada Wavelet Continua y discreta** <sup>[3](https://repositorio.uptc.edu.co/bitstream/handle/001/6072/clasificacion_metodos_usando_wavelets.pdf;jsessionid=63CE2AF06D1808E7DEECD5E534E00EDB?sequence=1)</sup> 
 Todas las wavelets son generadas a partir de la función  madre y tiene la misma forma. Lo que varía entre ellas es la escala s (siempre cumple condición de ser mayor a cero) y la ubicación u. Las Wavelets presentan un conportamiento continuo o discreto, dependiendo de la aplicación que le demos.
 * **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 2_ se puede observar la ecuación de la CWT.
 </div>
@@ -52,6 +52,7 @@ Todas las wavelets son generadas a partir de la función  madre y tiene la misma
 </div>
 	
 * **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 3_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
+  
 </div>
 <p align="center">
 <image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
@@ -64,7 +65,7 @@ Técnica matemática que descompone una señal en una serie de funciones básica
 
 La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[4](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
 
-#### **c.1. Tipos de Wavelets discretas**
+##### **d.1. Tipos de Wavelets discretas**
 
 
 
@@ -86,7 +87,13 @@ Se aplicó una técnica de umbralización suave a los coeficientes wavelet para 
 
 **3. Reconstrucción de la señal**:
 Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales filtradas. Este paso permite asegurar que los elementos esenciales de cada señal, como las bandas de frecuencia alfa, beta, gamma o theta específicas en EEG, las contracciones musculares en EMG, y los picos R, Q y S del complejo QRS en ECG, se mantengan definidos, facilitando así su identificación y análisis.
-   
+
+</div>
+<p align="center">
+<image width="400" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
+<p align="center"><i>Figura 4. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
+</div>
+
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
 
@@ -237,7 +244,7 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 
 [2] R. Madan, S. K. Singh and N. Jain, "Signal Filtering Using Discrete Wavelet Transform," International Journal of Recent Trends in Engineering, vol. 2, (3), pp. 96-98, 2009. Available: https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2.
 
-[3]
+[3] https://repositorio.uptc.edu.co/bitstream/handle/001/6072/clasificacion_metodos_usando_wavelets.pdf;jsessionid=63CE2AF06D1808E7DEECD5E534E00EDB?sequence=1
 
 [4] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
 
