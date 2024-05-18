@@ -107,7 +107,7 @@ Se aplicó una técnica de umbralización suave a los coeficientes wavelet para 
 
 </div>
 <p align="center">
-<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
+<image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
 <p align="center"><i>Figura 5. Fórmula para el cálculo del Umbral </i></p>
 </div
 
@@ -134,7 +134,7 @@ Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales 
 
 <a name="adquisicion"></a>
 ### 2. Procedimiento
-#### Señal ECG
+#### SEÑAL ECG
 Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  ECG obtenidas en el Laboratorio 4 de ECG. Estos datos, fueron obtenidos en 3 diferentes estados: reposo, respiración controlada y depués de haber realizado actividad física. 
 
 **a. Estado de reposo** :El sujeto de prueba se quedó en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
@@ -150,7 +150,7 @@ El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro 
 |||| Hz|| |
 <p align="center"><i>Tabla 2. Parámetros considerados para el diseño del filtro en la señal ECG </i></p>
 
-#### Señal EMG
+#### SEÑAL EMG
 
 Para el estudio de la actividad muscular, se llevaron a cabo mediciones del músculo bíceps braquial y del abductor corto del pulgar en diferentes estados:
 
@@ -169,7 +169,7 @@ Para el análisis de la señal de actividad muscular de cada ensayo, se utilizar
 
 </div>
 
-#### Señal EEG
+#### SEÑAL EEG
 
 Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 05 para el filtrado con la transformada wavelet, las cuales se obtuvieron en diferentes estados: reposo, durante el parpadeo, reposo tras el parpadeo y mientras se realizaba y respondía preguntas matemáticas (razonamiento).
 
