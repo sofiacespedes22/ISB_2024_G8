@@ -210,6 +210,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 <a name="ecg"></a>
 ### SEÑAL ECG
+
 <div align="center">
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
@@ -259,6 +260,10 @@ A partir de las señales filtradas obtenidas, se observa que el filtro diseñado
 
 <a name="discusion"></a>
 ## Discusión
+
+En el caso de la señal de ECG, el filtro empleado es un DDDTDWT, o Transformada Wavelet Discreta en Dos Dimensiones con Umbral Doble, el cual es una técnica de procesamiento de señales ampliamente utilizada en el análisis y la mejora de señales, como en el caso específico de señales de ECG. Esta técnica se basa en la descomposición de la señal en diferentes escalas y niveles de detalle, lo que permite una representación más eficiente de la información tanto en el dominio temporal como en el de frecuencia.
+Nuestro filtro DDDTDWT cuenta con un nivel de descomposición de 8 y un umbral de 10 a la señal de ECG, porque lo que podemos aprovecar varias de sus características distintivas. En primer lugar, este filtro demuestra una habilidad notable para preservar las características fundamentales de la señal mientras elimina eficazmente el ruido no deseado. Esto se traduce en una mejora evidente en la claridad y la interpretabilidad de la señal procesada, lo que facilita su análisis y diagnóstico.
+Además, el filtro DDDTDWT puede adaptarse a la estructura temporal de la señal. Esto significa que puede capturar tanto los detalles de alta frecuencia como las tendencias de baja frecuencia presentes en la señal de ECG, lo que resulta en una eliminación de ruido más selectiva y efectiva.
 
 
 <a name="conclusiones"></a>
