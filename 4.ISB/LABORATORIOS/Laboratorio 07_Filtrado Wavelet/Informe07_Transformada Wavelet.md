@@ -143,11 +143,11 @@ Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  EC
 
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
-El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro ______ con un nivel ___. Los coeficientes de aproximación fueron ___ y de detalle _________. El umbral fue calculado mediante umbralización suae y fue optimizado mediante pruebas. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[X]()</sup>.</p>
+El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro ______ con un nivel ___. Los coeficientes de aproximación fueron ___ y de detalle _________. El umbral fue calculado mediante umbralización suae y fue optimizado mediante pruebas. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[7](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
 
-|  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
-|:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
-|||| Hz|| |
+|  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** |
+|:------------:|:---------------:|:------------:|:------------:|:------------:|
+|Daubechies wavelet (db4)|2|1| 360 Hz|A2|
 <p align="center"><i>Tabla 2. Parámetros considerados para el diseño del filtro en la señal ECG </i></p>
 
 #### SEÑAL EMG
@@ -214,9 +214,9 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a65245f0-9aea-467d-b7b5-d029ec1b11a0">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/92ec472d-1273-41d1-88f9-ca300708860f">|
-|Respiración prolongada|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/1bdb7cf7-de2d-4d1d-9800-20a37943cb9e">|<image width="300" height="100" src="">|
-|Ejercicio Intensivo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a92ee20a-44d4-4d6f-b6e6-08ef77d57510">|<image width="300" height="100" src="">|
+|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4c36a03d-cdab-4f23-8ba5-780565977bef">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/abf43e2f-09c3-40f4-9c06-c6090826181f">|
+|Respiración prolongada|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b5eea10c-0274-46a4-8b2e-f815d54396a7">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe0e464a-9261-4ed6-a115-ce2338d929d4">|
+|Ejercicio Intensivo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f382fb8-517b-4560-bf83-e0459176a7d6">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/75068877-a29e-40e7-942e-039f3b79bf3b">|
 <p align="center"><i>Tabla 6. Resumen de la señal filtrada con DWT para la data ECG </i></p>
 </div>
 <a name="emg"></a>
@@ -275,9 +275,11 @@ A partir de las señales filtradas obtenidas, se observa que el filtro diseñado
 
 [4] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
 
-[5] [2] L. Chun-Lin, “A tutorial of the wavelet transform,” NTUEE Taiwan, vol. 21, no. 22, p. 2, 2010.
+[5] L. Chun-Lin, “A tutorial of the wavelet transform,” NTUEE Taiwan, vol. 21, no. 22, p. 2, 2010.
 
 [6] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+
+[7] “Analysis of ECG signal denoising using discrete wavelet transform,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/7569341
 
 [x] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
 
