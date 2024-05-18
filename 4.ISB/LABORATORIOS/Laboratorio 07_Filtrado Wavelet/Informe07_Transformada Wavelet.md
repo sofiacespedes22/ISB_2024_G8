@@ -43,20 +43,27 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 </div>
 
 #### **c. Transformada Wavelet Continua y discreta** <sup>[3](https://repositorio.uptc.edu.co/bitstream/handle/001/6072/clasificacion_metodos_usando_wavelets.pdf;jsessionid=63CE2AF06D1808E7DEECD5E534E00EDB?sequence=1)</sup> 
-Todas las wavelets son generadas a partir de la función  madre y tiene la misma forma. Lo que varía entre ellas es la escala s (siempre cumple condición de ser mayor a cero) y la ubicación u. Las Wavelets presentan un conportamiento continuo o discreto, dependiendo de la aplicación que le demos.
-* **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 2_ se puede observar la ecuación de la CWT.
+Todas las wavelets son generadas a partir de la función  madre (_Figura2_) y tiene la misma forma. Lo que varía entre ellas es la escala s (siempre cumple condición de ser mayor a cero) y la ubicación u. Las Wavelets presentan un conportamiento continuo o discreto, dependiendo de la aplicación que le demos.
+
 </div>
 <p align="center">
-<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe547337-8e2f-466c-bda1-e42b3c277345">
-<p align="center"><i>Figura 2. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
+<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a3edcef-17a0-49ad-9795-5418fb8d3365">
+<p align="center"><i>Figura 2. Función madre [3] </i></p>
 </div>
-	
-* **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 3_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
+
+* **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 3_ se puede observar la ecuación de la CWT.
+</div>
+<p align="center">
+<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/deec86c7-9d3a-4057-82e9-6b47600dd568">
+<p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
+</div>
+
+* **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 4_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
   
 </div>
 <p align="center">
-<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
-<p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Discreta [3] </i></p>
+<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7a0289e7-103f-4921-8535-8b43bcaa9148">
+<p align="center"><i>Figura 4. Ecuación de definición de la Transformada Wavelet Discreta [3] </i></p>
 </div>
 
 
@@ -98,13 +105,19 @@ Las señales fueron descompuestas utilizando los tipos de filtros de DWT, como l
 **2. Cálculo del umbral**:
 Se aplicó una técnica de umbralización suave a los coeficientes wavelet para atenuar o eliminar el ruido generado en la toma de las señales. El umbral utilizado se basó en la fórmula (ver Fórmula 1), optimizada para la reducción del ruido evitando eliminar las características fundamentales de las señales EEG, EMG y ECG para su posterior análisis:
 
+</div>
+<p align="center">
+<image width="300" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
+<p align="center"><i>Figura 5. Fórmula para el cálculo del Umbral </i></p>
+</div
+
 **3. Reconstrucción de la señal**:
 Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales filtradas. Este paso permite asegurar que los elementos esenciales de cada señal, como las bandas de frecuencia alfa, beta, gamma o theta específicas en EEG, las contracciones musculares en EMG, y los picos R, Q y S del complejo QRS en ECG, se mantengan definidos, facilitando así su identificación y análisis.
 
 </div>
 <p align="center">
 <image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
-<p align="center"><i>Figura 4. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
+<p align="center"><i>Figura 6. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
 </div>
 
 <a name="materiales"></a>
