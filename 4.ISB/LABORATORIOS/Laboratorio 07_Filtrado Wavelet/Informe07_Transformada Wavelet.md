@@ -75,7 +75,7 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 </div>
 <p align="center">
 <image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/08dbb35a-84e5-4bfc-b0b2-f9de7f4ae043">
-<p align="center"><i>Figura 4. Estructura del proceso de descomposición de la transformada wavelet discreta </i></p>
+<p align="center"><i>Figura 4. Estructura del proceso de descomposición de la transformada wavelet discreta [4]</i></p>
 </div>
 
 
