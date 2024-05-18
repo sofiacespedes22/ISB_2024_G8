@@ -38,7 +38,7 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 
 </div>
 <p align="center">
-<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
+<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
 <p align="center"><i>Figura 1. Esquema de la Transformada Wavelet </i></p>
 </div>
 
@@ -47,14 +47,14 @@ Todas las wavelets son generadas a partir de la función  madre y tiene la misma
 * **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 2_ se puede observar la ecuación de la CWT.
 </div>
 <p align="center">
-<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe547337-8e2f-466c-bda1-e42b3c277345">
+<image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe547337-8e2f-466c-bda1-e42b3c277345">
 <p align="center"><i>Figura 2. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
 </div>
 	
 * **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 3_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
 </div>
 <p align="center">
-<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
+<image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
 <p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Discreta [3] </i></p>
 </div>
 
@@ -78,11 +78,14 @@ La metodología del siguiente laboratorio consistió en el diseño de filtros wa
 
 La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia [1]. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel. La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original. A continuación, se detalla los pasos seguidos para la obtención del filtrado:
 
-1. Descomposición de la señal mediantre la DWT: La descomposición de la señal se utilizó
+**1. Descomposición de la señal mediantre la DWT: La descomposición de la señal se utilizó**:
+Las señales fueron descompuestas utilizando los tipos de filtros de DWT, como la familia Daubechies o Biorthogonal, según la literatura de referencia. Este proceso permite separar las componentes de frecuencia de la señal en diferentes niveles, aislando los detalles y las aproximaciones de frecuencia baja y alta.
 
-2. Cálculo del umbral
+**2. Cálculo del umbral**:
+Se aplicó una técnica de umbralización suave a los coeficientes wavelet para atenuar o eliminar el ruido generado en la toma de las señales. El umbral utilizado se basó en la fórmula (ver Fórmula 1), optimizada para la reducción del ruido evitando eliminar las características fundamentales de las señales EEG, EMG y ECG para su posterior análisis:
 
-3. Reconstrucción de la señal
+**3. Reconstrucción de la señal**:
+Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales filtradas. Este paso permite asegurar que los elementos esenciales de cada señal, como las bandas de frecuencia alfa, beta, gamma o theta específicas en EEG, las contracciones musculares en EMG, y los picos R, Q y S del complejo QRS en ECG, se mantengan definidos, facilitando así su identificación y análisis.
    
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
