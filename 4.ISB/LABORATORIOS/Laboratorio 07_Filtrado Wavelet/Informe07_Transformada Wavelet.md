@@ -116,8 +116,9 @@ Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales 
 </div>
 <p align="center">
 <image width="450" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
-<p align="center"><i>Figura 7. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
+<p align="center"><i>Figura 7. Diagrama de flujo de eliminación de ruido con transformada wavelet <sup>(https://www.researchgate.net/figure/Wavelet-threshold-denoising-flow-chart_fig1_343325096)</sup> </i></p>
 </div>
+
 
 <a name="materiales"></a>
 ### 1. Materiales y Equipos
@@ -143,6 +144,7 @@ Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  EC
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
 El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro Daubechies(db4) con un nivel 2. Los coeficientes de aproximación fue A2 y de detalle. En el caso del umbral, según el paper en el que nos basamos, indicaban un valor umbral de 0.2, ese valor lo tomamos como valor inicial, sin embargo, el filtrado era casi imperceptible, por lo que optamos después de algunas pruebas, el valor 1. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[11](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
+
 
 <div align="center">
 	
