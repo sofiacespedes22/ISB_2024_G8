@@ -182,7 +182,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 **c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
 
-**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [8](https://doi.org/10.3758/s13415-019-00703-5)</sup> de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
+**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
 
 <div align="center">
 	
@@ -197,7 +197,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[13](http://dx.doi.org/10.1109/I2CT51068.2021.9417984)</sup>.</p>
+<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[13](http://dx.doi.org/10.1109/I2CT51068.2021.9417984)</sup>.
 
 <div align="center">
 	
@@ -270,10 +270,10 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 La definición del umbral es un factor crítico en el diseño del filtro wavelet pues un umbral muy pequeño o uno muy grande podría influir en los estimadores de contracción de ondas, pues podría sobre/no ajustar la data <sup> [16](https://doi.org/10.1007/978-1-4612-2544-7_16)</sup>. El método utilizado para el cálculo del umbral, como se observa en la Fórmula 1 propuesto por Donoho y Johnstone <sup> [17](https://doi.org/10.1093/biomet/81.3.425)</sup> garantiza la reconstrucción de la señal filtrada del ruido, sin embargo, suele no ajustar los datos <sup> [18](https://www.academia.edu/109301514/Adaptation_to_high_spatial_inhomogeneity_using_wavelet_methods)</sup>. Esto podría explicar los resultados obtenidos previamente, pues si bien el umbral utilizado era relativamente elevado, no se realizaba un filtrado óptimo para las señales EEG. Como se observó en los resultados de ECG, EMG o EEG, la presencia de niveles de excitación en los picos y la presencia de ruido de mayores frecuencias debido a una mayor presencia de artefactos dificultó el filtrado apropiado ante el umbral calculado. Asimismo, al aplicar un valor de umbral menor a 1 para las señales EMG y EEG, se observaba un cambio nulo o no significativo en el filtrado de la señal por lo que se tuvo que realizar pruebas en el cálculo y en la programación para obtener una señal filtrada significativamente sin pérdida de información relevante. Esto indica que el proceso y protocolo de adquisición de las señales biomédicas es de suma relevancia pues nos permite un mejor entendimiento de la información provista y evitar complicaciones en el proceso de filtrado, pues elegir un umbral alto podría resultar en la pérdida de información relevante de la señal para su aplicación futura.
 
 ## Conclusiones
-a. El filtro utilizado en señales de ECG fue eficaz para preservar características fundamentales de la señal como el complejo QRS mientras elimina ruido no deseado, mejorando la interpretabilidad.\
-b. En señales EMG, el filtrado es más efectivo en el abductor corto del pulgar debido a menor interferencia de músculos adyacentes y una ubicación superficial que facilita una captación más precisa en comparación al bíceps.\
-c. La definición del umbral es crítica en el diseño del filtro DWT, ya que un umbral incorrecto puede sobreajustar o no ajustar adecuadamente los datos, afectando la calidad del filtrado y eliminando información importante.\
-d. El protocolo de adquisición para señales biomédicas es esencial para asegurar una filtración óptima y evitar la pérdida de información relevante.
+* El filtro utilizado en señales de ECG fue eficaz para preservar características fundamentales de la señal como el complejo QRS mientras elimina ruido no deseado, mejorando la interpretabilidad.
+* En señales EMG, el filtrado es más efectivo en el abductor corto del pulgar debido a menor interferencia de músculos adyacentes y una ubicación superficial que facilita una captación más precisa en comparación al bíceps.
+* La definición del umbral es crítica en el diseño del filtro DWT, ya que un umbral incorrecto puede sobreajustar o no ajustar adecuadamente los datos, afectando la calidad del filtrado y eliminando información importante.
+* El protocolo de adquisición para señales biomédicas es esencial para asegurar una filtración óptima y evitar la pérdida de información relevante.
 
 <a name="referencias"></a>
 ## Referencias bibliográficas
