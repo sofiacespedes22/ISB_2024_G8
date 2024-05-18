@@ -107,7 +107,7 @@ Se aplicó una técnica de umbralización suave a los coeficientes wavelet para 
 
 </div>
 <p align="center">
-<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
+<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
 <p align="center"><i>Figura 5. Fórmula para el cálculo del Umbral </i></p>
 </div
 
@@ -116,7 +116,7 @@ Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales 
 
 </div>
 <p align="center">
-<image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
+<image width="450" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
 <p align="center"><i>Figura 6. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
 </div>
 
@@ -194,7 +194,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a que permite  y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.</p>
+<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.</p>
 
 <div align="center">
 	
