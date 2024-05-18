@@ -42,20 +42,20 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 <p align="center"><i>Figura 1. Esquema de la Transformada Wavelet </i></p>
 </div>
 
-#### **c. Transformada Wavelet Continua y discreta** <sup>[3](https://repositorio.uptc.edu.co/bitstream/handle/001/6072/clasificacion_metodos_usando_wavelets.pdf;jsessionid=63CE2AF06D1808E7DEECD5E534E00EDB?sequence=1)</sup> 
+#### **c. Transformada Wavelet Continua y discreta**
 Todas las wavelets son generadas a partir de la función  madre (_Figura2_) y tiene la misma forma. Lo que varía entre ellas es la escala s (siempre cumple condición de ser mayor a cero) y la ubicación u. Las Wavelets presentan un conportamiento continuo o discreto, dependiendo de la aplicación que le demos.
 
 </div>
 <p align="center">
 <image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a3edcef-17a0-49ad-9795-5418fb8d3365">
-<p align="center"><i>Figura 2. Función madre [3] </i></p>
+<p align="center"><i>Figura 2. Función madre </i></p>
 </div>
 
 * **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 3_ se puede observar la ecuación de la CWT.
 </div>
 <p align="center">
 <image width="250" height="80" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/deec86c7-9d3a-4057-82e9-6b47600dd568">
-<p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
+<p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Continua </i></p>
 </div>
 
 * **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 4_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
@@ -63,23 +63,23 @@ Todas las wavelets son generadas a partir de la función  madre (_Figura2_) y ti
 </div>
 <p align="center">
 <image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7a0289e7-103f-4921-8535-8b43bcaa9148">
-<p align="center"><i>Figura 4. Ecuación de definición de la Transformada Wavelet Discreta [3] </i></p>
+<p align="center"><i>Figura 4. Ecuación de definición de la Transformada Wavelet Discreta </i></p>
 </div>
 
 
 #### **d. Discrete Wavelet Transform (DWT)**
 Técnica matemática que descompone una señal en una serie de funciones básicas llamadas wavelets. Estas wavelets son como pequeñas ondas que tienen diferentes tamaños y ubicaciones en el tiempo. La idea es que al combinar estas wavelets de diferentes maneras, podemos representar cualquier tipo de señal de manera eficiente. La descomposición de la señal se realiza calculando coeficientes que indican cuánto de cada wavelet está presente en la señal original. Estos coeficientes nos dan información sobre los diferentes componentes de la señal, como las frecuencias y los momentos en el tiempo.
 
-La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[4](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
+La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[3](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
 
 </div>
 <p align="center">
 <image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/08dbb35a-84e5-4bfc-b0b2-f9de7f4ae043">
-<p align="center"><i>Figura 4. Estructura del proceso de descomposición de la transformada wavelet discreta [4]</i></p>
+<p align="center"><i>Figura 4. Estructura del proceso de descomposición de la transformada wavelet discreta [3]</i></p>
 </div>
 
 
-##### **d.1. Tipos de Wavelets discretas** <sup>[5](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>
+##### **d.1. Tipos de Wavelets discretas** <sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>
 Entre los tipos de Wavelets, tenemos los siguientes:
 * **Wavelet de Haar**: Fue la primera wavelet que se propuso y la más simple. Además, tiene un función madre discontinua, lo cual en ciertos contextos podría resultar un desventaja ya que no es muy suave, por lo que luego de usarla se necesitaria hacer una reconstrucción suave, sin embargo, a pesar de su simplicidad y la discontinuidad, esta wavelet es útil para el análisis señales y es la base de las Wavelets que veremos a continuación. 
 * **Wavelets de Daubechies**: Está formada por un conjunto de wavelets ortogonales con soporte compacto y están diseñadas de forma que puedan maximizar la suavidad de acuerdo a la longitud que se le de, esto la hace útil para la comprensión de imágenes y el procesamiento de señales.
@@ -94,7 +94,7 @@ Entre los tipos de Wavelets, tenemos los siguientes:
 
 <a name="metodologia"></a>
 ## Metodología 
-La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[6](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
+La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
 
 La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia <sup>[1](https://doi.org/10.1049/ecej:19940401)</sup> 
 . El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel. La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original. A continuación, se detalla los pasos seguidos para la obtención del filtrado:
@@ -143,7 +143,7 @@ Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  EC
 
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
-El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro ______ con un nivel ___. Los coeficientes de aproximación fueron ___ y de detalle _________. El umbral fue calculado mediante umbralización suae y fue optimizado mediante pruebas. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[7](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
+El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro Daubechies(db4) con un nivel 2. Los coeficientes de aproximación fue A2 y de detalle. En el caso del umbral, según el paper en el que nos basamos, indicaban un valor umbral de 0.2, ese valor lo tomamos como valor inicial, sin embargo, el filtrado era casi imperceptible, por lo que optamos después de algunas pruebas, el valor 1. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[6](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
 
 <div align="center">
 	
@@ -162,7 +162,7 @@ Para el estudio de la actividad muscular, se llevaron a cabo mediciones del mús
 
 **b. Actividad muscular del abductor corto del pulgar:** En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.
 
-Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia. <sup>[x](https://doi.org/10.1016/j.jelekin.2013.05.001)</sup> 
+Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia. <sup>[7](https://doi.org/10.1016/j.jelekin.2013.05.001)</sup> 
 
 <div align="center">
 	
@@ -183,7 +183,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 **c. Estado de segundo reposo**: Tras la primera actividad, el sujeto de prueba mantuvo nuevamente el estado de calma y sin movimiento como segunda fase de referencia. El registro de la señal fue grabado por 30 segundos.
 
-**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [14](https://doi.org/10.3758/s13415-019-00703-5)</sup> de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
+**d. Estado de preguntas**: Se realizaron una serie de ejercicios matemáticos <sup> [8](https://doi.org/10.3758/s13415-019-00703-5)</sup> de menor a mayor complejidad al sujeto de prueba para que pueda resolverlo mentalmente enfocando su mirada en un punto específicos para evitar artefactos. La duración entre el lapso de registro de la respuesta y la siguiente pregunta fue de 12 segundos. Las preguntas realizadas se observan en la Tabla 4.
 
 <div align="center">
 	
@@ -198,7 +198,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[X]()</sup>.</p>
+<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[9]()</sup>.</p>
 
 <div align="center">
 	
@@ -280,15 +280,13 @@ Además, el filtro DDDTDWT puede adaptarse a la estructura temporal de la señal
 
 [2] R. Madan, S. K. Singh and N. Jain, "Signal Filtering Using Discrete Wavelet Transform," International Journal of Recent Trends in Engineering, vol. 2, (3), pp. 96-98, 2009. Available: https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2.
 
-[3] https://repositorio.uptc.edu.co/bitstream/handle/001/6072/clasificacion_metodos_usando_wavelets.pdf;jsessionid=63CE2AF06D1808E7DEECD5E534E00EDB?sequence=1
+[3] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
 
-[4] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
+[4] L. Chun-Lin, “A tutorial of the wavelet transform,” NTUEE Taiwan, vol. 21, no. 22, p. 2, 2010.
 
-[5] L. Chun-Lin, “A tutorial of the wavelet transform,” NTUEE Taiwan, vol. 21, no. 22, p. 2, 2010.
+[5] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
-[6] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
-
-[7] “Analysis of ECG signal denoising using discrete wavelet transform,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/7569341
+[6] “Analysis of ECG signal denoising using discrete wavelet transform,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/7569341
 
 [x] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
 
