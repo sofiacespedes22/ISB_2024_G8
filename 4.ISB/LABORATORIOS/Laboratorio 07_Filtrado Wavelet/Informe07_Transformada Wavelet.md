@@ -100,7 +100,7 @@ Para el análisis de la señal de actividad muscular de cada ensayo, se utilizar
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** | **Coeficientes de detalle** | 
 |:------------:|:---------------:|:------------:|:------------:|:------------:|:------------:|
 |Bior1.5 (Biorthogonal 1.5)|7|16|500 Hz|A7| D1, D2, D3, D4, D5, D6, D7|
-<p align="center"><i>Tabla 3. Parámetros considerados para el diseño del filtro en la señal EEG </i></p>
+<p align="center"><i>Tabla 3. Parámetros considerados para el diseño del filtro en la señal EMG </i></p>
 
 </div>
 
@@ -158,6 +158,9 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 
 ### Señal EMG
+
+En el análisis de las señales EMG obtenidas del bíceps braquial y del abductor corto del pulgar, el uso de la transformada wavelet discreta (DWT) con la wavelet biorthogonal 1.5 (Bior1.5) resultó particularmente efectivo. La elección de estos parámetros permitió una descomposición detallada de las señales en siete niveles, con un umbral de 16 y una frecuencia de 500 Hz. Observando los gráficos, se pudo apreciar que la señal filtrada del abductor corto del pulgar mostró una mayor claridad y menos ruido en comparación con la del bíceps braquial.
+
 <div align="center">
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
