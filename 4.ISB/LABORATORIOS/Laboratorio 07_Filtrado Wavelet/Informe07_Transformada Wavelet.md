@@ -215,7 +215,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 <a name="ecg"></a>
 ### SEÑAL ECG
-
+Como vemos en las señales obtenidas luego del filtrado, podemos que el filtro si tuvo eficiencia en reducción del ruido, pero bastante leve. En el estado de reposo, podemos observar que la Wavelet logró atenuar levemente los picos observados, pero no se observó un resultado significativo. En el caso de la respiración prolongada, es donde se ve la mayor diferencia, entre la señal original y la Wavelet, en donde se observa notoriamente una disminución del ruido. Y finalmente, en el estado de reposo intensivo, también se puede observar un filtrado de ruido pero muy leve. En general, se observa disminución de ruido, pero no tan significativa, esto puede deberse a la presencia de artefactos durante la toma de muestras.
 <div align="center">
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
@@ -259,7 +259,7 @@ A partir de las señales filtradas obtenidas, se observa que el filtro diseñado
 <a name="archivos"></a>
 ## Archivo de las señales ploteadas en Python
 * **Codigo**
-  - [ECG]()
+  - [ECG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/ECG.py)
   - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/d22284eac044bb34acde6b8b07a34325d813988b/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/emg_wavelet.py)
   - [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/db4939c9ee53fb066a803574d1a96906d5e0938c/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/eeg_wavelet.py)
 
@@ -272,7 +272,7 @@ Además, el filtro DDDTDWT puede adaptarse a la estructura temporal de la señal
 El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar que en el bíceps braquial debido a varias razones fisiológicas y técnicas. El abductor corto del pulgar, siendo un músculo más pequeño y localizado, experimenta menor interferencia de músculos adyacentes y presenta movimientos menos complejos, lo que reduce significativamente los artefactos y el ruido en la señal. Además, su ubicación superficial y menor profundidad permiten una captación más precisa de la señal por los electrodos. En contraste, el bíceps braquial, al estar rodeado de músculos grandes y estar involucrado en movimientos más amplios, genera señales con mayor ruido e interferencias, lo que dificulta una filtración tan eficaz.
 
 La definición del umbral es un factor crítico en el diseño del filtro wavelet pues un umbral muy pequeño o uno muy grande podría influir en los estimadores de contracción de ondas, pues podría sobre/no ajustar la data <sup> [14](https://doi.org/10.1007/978-1-4612-2544-7_16
-)</sup>. El método utilizado para el cálculo del umbral, como se observa en la Fórmula 1 propuesto por Donoho y Johnstone <sup> [15](https://doi.org/10.1093/biomet/81.3.425)</sup> garantiza la reconstrucción de la señal filtrada del ruido, sin embargo, suele no ajustar los datos [16]. Esto podría explicar los resultados obtenidos previamente, pues si bien el umbral utilizado era relativamente elevado, no se realizaba un filtrado óptimo para las señales EEG.
+)</sup>. El método utilizado para el cálculo del umbral, como se observa en la Fórmula 1 propuesto por Donoho y Johnstone <sup> [15](https://doi.org/10.1093/biomet/81.3.425)</sup> garantiza la reconstrucción de la señal filtrada del ruido, sin embargo, suele no ajustar los datos <sup> [16](https://www.academia.edu/109301514/Adaptation_to_high_spatial_inhomogeneity_using_wavelet_methods)</sup>. Esto podría explicar los resultados obtenidos previamente, pues si bien el umbral utilizado era relativamente elevado, no se realizaba un filtrado óptimo para las señales EEG.
 Como se observó en los resultados de ECG, EMG o EEG, la presencia de niveles de excitación en los picos y la presencia de ruido de mayores frecuencias debido a una mayor presencia de artefactos dificultó el filtrado apropiado ante el umbral calculado. Asimismo, al aplicar un valor de umbral menor a 1 para las señales EMG y EEG, se observaba un cambio nulo o no significativo en el filtrado de la señal por lo que se tuvo que realizar pruebas en el cálculo y en la programación para obtener una señal filtrada significativamente sin pérdida de información relevante. Esto indica que el proceso y protocolo de adquisición de las señales biomédicas es de suma relevancia pues nos permite un mejor entendimiento de la información provista y evitar complicaciones en el proceso de filtrado, pues elegir un umbral alto podría resultar en la pérdida de información relevante de la señal para su aplicación futura.
 
 ## Conclusiones
@@ -288,7 +288,7 @@ Como se observó en los resultados de ECG, EMG o EEG, la presencia de niveles de
 
 [4] L. Chun-Lin, “A tutorial of the wavelet transform,” NTUEE Taiwan, vol. 21, no. 22, p. 2, 2010.
 
-[5] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+[5] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/
 
 [6] M. Balamareeswaran and D. Ebenezer, "Denoising of EEG signals using discrete wavelet transform based scalar quantization," Biomed. Pharma. J., vol. 8, no. 1, pp. 399–406, 2015. DOI: http://dx.doi.org/10.13005/bpj/627
 
@@ -310,7 +310,7 @@ Como se observó en los resultados de ECG, EMG o EEG, la presencia de niveles de
 
 [15] D. L. Donoho and I. M. Johnstone, "Ideal spatial adaptation by wavelet shrinkage," Biometrika, 1994. doi: https://doi.org/10.1093/biomet/81.3.425
 
-[16] J. Fan, P. Hall, M. Martin, and P. Patil, "Adaption to high spatial inhomogeneity based on wavelets and on local linear smoothing," Tech. Rep. CMA-SR18-93, Centre for Mathematics and Its Applications, Australian National University, Canberra, 1993.
+[16] J. Fan, P. Hall, M. Martin, and P. Patil, "Adaption to high spatial inhomogeneity based on wavelets and on local linear smoothing," Tech. Rep. CMA-SR18-93, Centre for Mathematics and Its Applications, Australian National University, Canberra, 1993. Link: https://www.academia.edu/109301514/Adaptation_to_high_spatial_inhomogeneity_using_wavelet_methods
 
 
 
