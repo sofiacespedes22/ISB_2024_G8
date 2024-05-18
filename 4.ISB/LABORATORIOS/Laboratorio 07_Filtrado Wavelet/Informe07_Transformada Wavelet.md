@@ -47,14 +47,14 @@ Todas las wavelets son generadas a partir de la función  madre (_Figura2_) y ti
 
 </div>
 <p align="center">
-<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a3edcef-17a0-49ad-9795-5418fb8d3365">
+<image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2a3edcef-17a0-49ad-9795-5418fb8d3365">
 <p align="center"><i>Figura 2. Función madre [3] </i></p>
 </div>
 
 * **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 3_ se puede observar la ecuación de la CWT.
 </div>
 <p align="center">
-<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/deec86c7-9d3a-4057-82e9-6b47600dd568">
+<image width="250" height="80" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/deec86c7-9d3a-4057-82e9-6b47600dd568">
 <p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
 </div>
 
@@ -107,7 +107,7 @@ Se aplicó una técnica de umbralización suave a los coeficientes wavelet para 
 
 </div>
 <p align="center">
-<image width="300" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
+<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ec77e1c5-4ccd-47e0-8842-fb8600758275">
 <p align="center"><i>Figura 5. Fórmula para el cálculo del Umbral </i></p>
 </div
 
