@@ -18,20 +18,30 @@
   
 <a name="introduccion"></a>
 ## **Introducción**
+### **Contexto**
+Actualmente en el ámbito de la ingeniería biomédica, la obtención y correcta interpretación de señales médicas como ECG, EMG, y EEG, son de suma importancia el diagnóstico de distintas enfermedades y para la investigación. Una de las principales estrategias usadas para el procesamiento de estas señales es la transformada Wavelet.
 
 La teoría de las wavelets, desarrollada por Morlet, Grossmann y Meyer, inicialmente estaba enfocada en aspectos teóricos más que en aplicaciones prácticas. Sin embargo, investigadores como Daubechies y Mallat establecieron la conexión entre las wavelets y el procesamiento digital de señales, ampliando su utilidad. Las wavelets han sido aplicadas en áreas como compresión de datos, procesamiento de imágenes y estimación espectral tiempo-frecuencia. Ofrecen una alternativa a la transformada de Fourier de tiempo corto en el análisis tiempo-frecuencia de señales discretas. Aunque la teoría subyacente es compleja, la implementación de la transformada de wavelet es más sencilla de lo esperado, lo que permite su aplicación práctica con un mínimo de conocimientos matemáticos. <sup>[1](https://doi.org/10.1049/ecej:19940401)</sup> 
 
+
 <a name="marco"></a>
 ### **Marco teórico**
- - #### **Wavelet**
+ - #### **a. Wavelet**
 
 Las wavelets son funciones matemáticas con naturaleza oscilatoria similar a las ondas sinusoidales, pero con la particularidad de ser de "naturaleza oscilatoria finita". Básicamente, una forma de onda de longitud finita y en decadencia, cuando se escala y se traduce, resulta en lo que se llama una "wavelet hija" de la "wavelet madre" original. Por lo tanto, diferentes variables de escala y traducción producen una wavelet hija diferente a partir de una sola wavelet madre. <sup>[2](https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2)</sup> 
 
- - #### **Transformadas wavelet**
+ - #### **b. Transformadas wavelet**
 
 Las transformadas de wavelet se clasifican como Transformadas de Wavelet Continuas (CWT) y Transformadas de Wavelet Discretas (DWT). La naturaleza oscilatoria finita de las wavelets las hace extremadamente útiles en situaciones de la vida real en las que las señales no son estacionarias. Mientras que la transformada de Fourier de una señal solo ofrece resolución de frecuencia, las transformadas de wavelet ofrecen una resolución de "tiempo-frecuencia" variable, que es característica de estas transformadas.
 
 Una transformada de wavelet descompone una señal en funciones de base conocidas como wavelets. La transformada de wavelet se calcula por separado para diferentes segmentos de la señal de dominio de tiempo en diferentes frecuencias, lo que resulta en un análisis de multi-resolución. Está diseñada de tal manera que el producto de la resolución temporal y la resolución de frecuencia es constante. Por lo tanto, ofrece buena resolución temporal y baja resolución de frecuencia en frecuencias altas, mientras que ofrece buena resolución de frecuencia y baja resolución temporal en frecuencias bajas. Esta característica de análisis de multi-resolución lo hace excelente para señales que tienen componentes de alta frecuencia durante cortos períodos y componentes de baja frecuencia durante períodos largos, como el ruido en señales, imágenes, fotogramas de video, etc. <sup>[2](https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2)</sup> 
+
+</div>
+<p align="center">
+<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ae6d4322-dd94-4925-ae12-de12c6bef0a8">
+<p align="center"><i>Figura 1. Actividad cerebral registrada por encefalograma [2] </i></p>
+</div>
+
 
 - #### **Discrete Wavelet Transform (DWT)**
 
