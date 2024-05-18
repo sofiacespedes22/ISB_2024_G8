@@ -38,7 +38,7 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 
 </div>
 <p align="center">
-<image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
+<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
 <p align="center"><i>Figura 1. Esquema de la Transformada Wavelet </i></p>
 </div>
 
@@ -66,7 +66,12 @@ Técnica matemática que descompone una señal en una serie de funciones básica
 La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[4](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
 
 ##### **d.1. Tipos de Wavelets discretas**
-
+Entre los tipos de Wavelets, tenemos los siguientes:
+* **Wavelet de Haar**: Fue la primera wavelet que se propuso y la más simple. Además, tiene un función madre discontinua, lo cual en ciertos contextos podría resultar un desventaja ya que no es muy suave, por lo que luego de usarla se necesitaria hacer una reconstrucción suave, sin embargo, a pesar de su simplicidad y la discontinuidad, esta wavelet es útil para el análisis señales y es la base de las Wavelets que veremos a continuación. 
+* **Wavelets de Daubechies**: Está formada por un conjunto de wavelets ortogonales con soporte compacto y están diseñadas de forma que puedan maximizar la suavidad de acuerdo a la longitud que se le de, esto la hace útil para la comprensión de imágenes y el procesamiento de señales.
+* **Wavelets de Meyer**: Estas Wavelets a pesar de no están compactamente soportadas, nos proporcionan una aproximación más suave. Tiene aplicaciones en el análisis de señales biomédicas y en procesamiento de señales específicas.
+* **Wavelets Symlets**: Tienen mayor simetría que las Daubechies, lo que le permite tener una fase más lineal y capturar las características de señales con simetría par.
+* **Wavelets Coiflets**: Nos proporcionan mejor representación de señales polinomiales. Son diseñadas con un número específico de momentos de desvanecimiento, lo que ocasiona que el tamaño del soporte sea mínimo. 
 
 
 <a name="objetivos"></a>
@@ -75,7 +80,7 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 
 <a name="metodologia"></a>
 ## Metodología 
-La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
+La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[6](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
 
 La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia [1]. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel. La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original. A continuación, se detalla los pasos seguidos para la obtención del filtrado:
 
@@ -90,7 +95,7 @@ Utilizando los coeficientes wavelet modificados, se reconstruyeron las señales 
 
 </div>
 <p align="center">
-<image width="400" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
+<image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/062087dc-fe29-4b71-b5d3-f1973986f0d3">
 <p align="center"><i>Figura 4. Diagrama de flujo de eliminación de ruido con transformada wavelet </i></p>
 </div>
 
@@ -248,7 +253,9 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 
 [4] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
 
-[5] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+[5] [2] L. Chun-Lin, “A tutorial of the wavelet transform,” NTUEE Taiwan, vol. 21, no. 22, p. 2, 2010.
+
+[6] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
 [x] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
 
