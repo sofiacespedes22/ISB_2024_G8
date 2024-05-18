@@ -65,7 +65,14 @@ Técnica matemática que descompone una señal en una serie de funciones básica
 
 La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[4](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
 
-##### **d.1. Tipos de Wavelets discretas**
+</div>
+<p align="center">
+<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/08dbb35a-84e5-4bfc-b0b2-f9de7f4ae043">
+<p align="center"><i>Figura 4. Estructura del proceso de descomposición de la transformada wavelet discreta </i></p>
+</div>
+
+
+##### **d.1. Tipos de Wavelets discretas** <sup>[5](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>
 Entre los tipos de Wavelets, tenemos los siguientes:
 * **Wavelet de Haar**: Fue la primera wavelet que se propuso y la más simple. Además, tiene un función madre discontinua, lo cual en ciertos contextos podría resultar un desventaja ya que no es muy suave, por lo que luego de usarla se necesitaria hacer una reconstrucción suave, sin embargo, a pesar de su simplicidad y la discontinuidad, esta wavelet es útil para el análisis señales y es la base de las Wavelets que veremos a continuación. 
 * **Wavelets de Daubechies**: Está formada por un conjunto de wavelets ortogonales con soporte compacto y están diseñadas de forma que puedan maximizar la suavidad de acuerdo a la longitud que se le de, esto la hace útil para la comprensión de imágenes y el procesamiento de señales.
@@ -217,6 +224,7 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 <a name="eeg"></a>
 
 ### Señal EEG
+A partir de las señales filtradas obtenidas, se observa que el filtro diseñado tuvo una eficiencia significativa en la reducción del ruido generado. En el estado de reposo, observamos que el filtro aplicado logró suavizar los picos, los cuales fueron generados por artefactos durante el estado de ojos cerrados del sujeto de prueba, posiblemente debido a movimientos oculares rápidos o alteraciones en el pensamiento. Se elegió definir el tiempo entre los 10-13 segundos debido a que fue la sección con menores fluctuaciones de picos extremos registrada durante ese estado. En el estado de parpadeo, se observa el efecto del filtrado con DWT, sin embargo, no presentó un resultado significativo. Esto puede deberse posiblemente por la presencia de mayores artefactos durante la toma de este estado o que en los picos se presentó mayores niveles de excitación, por lo que el filtro diseñado no fue el ideal. Se elegió definir el tiempo entre los 3-6 segundos debido a que fue la sección que presentaba fracción del tiempo del estado de ojos cerrados y fracción del tiempo de estado de ojos abiertos (picos de mayor amplitud) registrada durante ese estado. Por último, durante el estado de razonamiento de preguntas matemáticas, se observa que sí hubo un filtrado apropiado específicamente en los picos extremos. Se elegió definir el tiempo entre los 36-42 segundos debido a que fue la sección que presentaba el estado de preguntas sencillas y fracción del tiempo de estado de preguntas que implicaban un mayor razonamiento matemático.
 
 <div align="center">
 	
