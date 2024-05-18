@@ -146,10 +146,12 @@ Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  EC
 El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro ______ con un nivel ___. Los coeficientes de aproximación fueron ___ y de detalle _________. El umbral fue calculado mediante umbralización suae y fue optimizado mediante pruebas. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[7](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
 
 <div align="center">
+	
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** |
 |:------------:|:---------------:|:------------:|:------------:|:------------:|
 |Daubechies wavelet (db4)|2|1| 360 Hz|A2|
 <p align="center"><i>Tabla 2. Parámetros considerados para el diseño del filtro en la señal ECG </i></p>
+
 </div>
 
 #### SEÑAL EMG
