@@ -26,11 +26,11 @@ La teoría de las wavelets, desarrollada por Morlet, Grossmann y Meyer, inicialm
 
 <a name="marco"></a>
 ### **Marco teórico**
- - #### **a. Wavelet**
+#### **a. Wavelet**
 
 Las wavelets son funciones matemáticas con naturaleza oscilatoria similar a las ondas sinusoidales, pero con la particularidad de ser de "naturaleza oscilatoria finita". Básicamente, una forma de onda de longitud finita y en decadencia, cuando se escala y se traduce, resulta en lo que se llama una "wavelet hija" de la "wavelet madre" original. Por lo tanto, diferentes variables de escala y traducción producen una wavelet hija diferente a partir de una sola wavelet madre. <sup>[2](https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2)</sup> 
 
- - #### **b. Transformadas wavelet**
+#### **b. Transformadas wavelet**
 
 Las transformadas de wavelet se clasifican como Transformadas de Wavelet Continuas (CWT) y Transformadas de Wavelet Discretas (DWT). La naturaleza oscilatoria finita de las wavelets las hace extremadamente útiles en situaciones de la vida real en las que las señales no son estacionarias. Mientras que la transformada de Fourier de una señal solo ofrece resolución de frecuencia, las transformadas de wavelet ofrecen una resolución de "tiempo-frecuencia" variable, que es característica de estas transformadas.
 
@@ -38,16 +38,35 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 
 </div>
 <p align="center">
-<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/ae6d4322-dd94-4925-ae12-de12c6bef0a8">
-<p align="center"><i>Figura 1. Actividad cerebral registrada por encefalograma [2] </i></p>
+<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
+<p align="center"><i>Figura 1. Esquema de la Transformada Wavelet </i></p>
+</div>
+
+#### **c. Transformada Wavelet Continua y discreta** <sup>[3]()</sup> 
+Todas las wavelets son generadas a partir de la función  madre y tiene la misma forma. Lo que varía entre ellas es la escala s (siempre cumple condición de ser mayor a cero) y la ubicación u. Las Wavelets presentan un conportamiento continuo o discreto, dependiendo de la aplicación que le demos.
+* **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 2_ se puede observar la ecuación de la CWT.
+</div>
+<p align="center">
+<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe547337-8e2f-466c-bda1-e42b3c277345">
+<p align="center"><i>Figura 2. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
+</div>
+	
+* **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 3_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
+</div>
+<p align="center">
+<image width="200" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
+<p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Discreta [3] </i></p>
 </div>
 
 
-- #### **Discrete Wavelet Transform (DWT)**
-
+#### **d. Discrete Wavelet Transform (DWT)**
 Técnica matemática que descompone una señal en una serie de funciones básicas llamadas wavelets. Estas wavelets son como pequeñas ondas que tienen diferentes tamaños y ubicaciones en el tiempo. La idea es que al combinar estas wavelets de diferentes maneras, podemos representar cualquier tipo de señal de manera eficiente. La descomposición de la señal se realiza calculando coeficientes que indican cuánto de cada wavelet está presente en la señal original. Estos coeficientes nos dan información sobre los diferentes componentes de la señal, como las frecuencias y los momentos en el tiempo.
 
-La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[3](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
+La ventaja del DWT es que nos permite analizar señales en diferentes escalas de tiempo y frecuencia de manera simultánea, lo que puede ser útil para detectar patrones en datos complejos, como señales de audio o imágenes. <sup>[4](https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download)</sup> 
+
+#### **c.1. Tipos de Wavelets discretas**
+
+
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -55,7 +74,7 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 
 <a name="metodologia"></a>
 ## Metodología 
-La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[3](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
+La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
 
 La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia [1]. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel. La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original. A continuación, se detalla los pasos seguidos para la obtención del filtrado:
 
@@ -215,7 +234,11 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 
 [2] R. Madan, S. K. Singh and N. Jain, "Signal Filtering Using Discrete Wavelet Transform," International Journal of Recent Trends in Engineering, vol. 2, (3), pp. 96-98, 2009. Available: https://www.proquest.com/scholarly-journals/signal-filtering-using-discrete-wavelet-transform/docview/603852467/se-2.
 
-[3] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
+[3]
+
+[4] C. S. Burrus, R. Gopinath, and H. Guo, “Wavelets and Wavelet Transforms OpenStax-CNX,” 2015. Available: https://repository.rice.edu/bitstreams/33cd90c3-b6c6-4a7e-ab6f-dbc34e868d9b/download
+
+[5] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
 [x] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
 
