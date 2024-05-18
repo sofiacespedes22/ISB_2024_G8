@@ -209,7 +209,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 ## Resultados
 
 <a name="ecg"></a>
-### Señal ECG
+### SEÑAL ECG
 <div align="center">
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
@@ -222,7 +222,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 <a name="emg"></a>
 
 
-### Señal EMG
+### SEÑAL EMG
 
 En el análisis de las señales EMG obtenidas del bíceps braquial y del abductor corto del pulgar, el uso de la transformada wavelet discreta (DWT) con la wavelet biorthogonal 1.5 (Bior1.5) resultó particularmente efectivo. La elección de estos parámetros permitió una descomposición detallada de las señales en siete niveles, con un umbral de 16 y una frecuencia de 500 Hz. Observando los gráficos, se pudo apreciar que la señal filtrada del abductor corto del pulgar mostró una mayor claridad y menos ruido en comparación con la del bíceps braquial.
 
@@ -237,7 +237,7 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 
 <a name="eeg"></a>
 
-### Señal EEG
+### SEÑAL EEG
 A partir de las señales filtradas obtenidas, se observa que el filtro diseñado tuvo una eficiencia significativa en la reducción del ruido generado. En el estado de reposo, observamos que el filtro aplicado logró suavizar los picos, los cuales fueron generados por artefactos durante el estado de ojos cerrados del sujeto de prueba, posiblemente debido a movimientos oculares rápidos o alteraciones en el pensamiento. Se elegió definir el tiempo entre los 10-13 segundos debido a que fue la sección con menores fluctuaciones de picos extremos registrada durante ese estado. En el estado de parpadeo, se observa el efecto del filtrado con DWT, sin embargo, no presentó un resultado significativo. Esto puede deberse posiblemente por la presencia de mayores artefactos durante la toma de este estado o que en los picos se presentó mayores niveles de excitación, por lo que el filtro diseñado no fue el ideal. Se elegió definir el tiempo entre los 3-6 segundos debido a que fue la sección que presentaba fracción del tiempo del estado de ojos cerrados y fracción del tiempo de estado de ojos abiertos (picos de mayor amplitud) registrada durante ese estado. Por último, durante el estado de razonamiento de preguntas matemáticas, se observa que sí hubo un filtrado apropiado específicamente en los picos extremos. Se elegió definir el tiempo entre los 36-42 segundos debido a que fue la sección que presentaba el estado de preguntas sencillas y fracción del tiempo de estado de preguntas que implicaban un mayor razonamiento matemático.
 
 <div align="center">
