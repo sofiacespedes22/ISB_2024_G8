@@ -79,13 +79,13 @@ La ventaja del DWT es que nos permite analizar señales en diferentes escalas de
 </div>
 
 
-##### **d.1. Tipos de Wavelets discretas** <sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>
+##### **d.1. Tipos de Wavelets discretas** 
 Entre los tipos de Wavelets, tenemos los siguientes:
-* **Wavelet de Haar**: Fue la primera wavelet que se propuso y la más simple. Además, tiene un función madre discontinua, lo cual en ciertos contextos podría resultar un desventaja ya que no es muy suave, por lo que luego de usarla se necesitaria hacer una reconstrucción suave, sin embargo, a pesar de su simplicidad y la discontinuidad, esta wavelet es útil para el análisis señales y es la base de las Wavelets que veremos a continuación. 
-* **Wavelets de Daubechies**: Está formada por un conjunto de wavelets ortogonales con soporte compacto y están diseñadas de forma que puedan maximizar la suavidad de acuerdo a la longitud que se le de, esto la hace útil para la comprensión de imágenes y el procesamiento de señales.
-* **Wavelets de Meyer**: Estas Wavelets a pesar de no están compactamente soportadas, nos proporcionan una aproximación más suave. Tiene aplicaciones en el análisis de señales biomédicas y en procesamiento de señales específicas.
-* **Wavelets Symlets**: Tienen mayor simetría que las Daubechies, lo que le permite tener una fase más lineal y capturar las características de señales con simetría par.
-* **Wavelets Coiflets**: Nos proporcionan mejor representación de señales polinomiales. Son diseñadas con un número específico de momentos de desvanecimiento, lo que ocasiona que el tamaño del soporte sea mínimo. 
+* **Wavelet de Haar**: Fue la primera wavelet que se propuso y la más simple. Además, tiene un función madre discontinua, lo cual en ciertos contextos podría resultar un desventaja ya que no es muy suave, por lo que luego de usarla se necesitaria hacer una reconstrucción suave, sin embargo, a pesar de su simplicidad y la discontinuidad, esta wavelet es útil para el análisis señales y es la base de las Wavelets que veremos a continuación. <sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>
+* **Wavelets de Daubechies**: Está formada por un conjunto de wavelets ortogonales con soporte compacto y están diseñadas de forma que puedan maximizar la suavidad de acuerdo a la longitud que se le de, esto la hace útil para la comprensión de imágenes y el procesamiento de señales<sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>.
+* **Wavelets de Meyer**: Estas Wavelets a pesar de no están compactamente soportadas, nos proporcionan una aproximación más suave. Tiene aplicaciones en el análisis de señales biomédicas y en procesamiento de señales específicas<sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>.
+* **Wavelets Symlets**: Tienen mayor simetría que las Daubechies, lo que le permite tener una fase más lineal y capturar las características de señales con simetría par<sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>.
+* **Wavelets Coiflets**: Nos proporcionan mejor representación de señales polinomiales. Son diseñadas con un número específico de momentos de desvanecimiento, lo que ocasiona que el tamaño del soporte sea mínimo<sup>[4](https://disp.ee.ntu.edu.tw/tutorial/WaveletTutorial.pdf)</sup>. 
 
 
 <a name="objetivos"></a>
