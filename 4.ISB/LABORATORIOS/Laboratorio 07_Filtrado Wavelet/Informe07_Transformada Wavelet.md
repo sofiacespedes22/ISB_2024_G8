@@ -38,7 +38,7 @@ Una transformada de wavelet descompone una señal en funciones de base conocidas
 
 </div>
 <p align="center">
-<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
+<image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/c82a4845-0384-4094-9e30-9e511d2b923c">
 <p align="center"><i>Figura 1. Esquema de la Transformada Wavelet </i></p>
 </div>
 
@@ -47,14 +47,14 @@ Todas las wavelets son generadas a partir de la función  madre y tiene la misma
 * **Transformada Wavelet Continua (CWT)**: La tranformada Wavelet continua identidicada como CWT, nos permite obtener un análisis de un señal en un segmento localizado de esta, obteniendo los coeficientes del producto interno entre la señal y la Wavelet madre y realizando una expansión de coeficientes de los mismo. En la _Figura 2_ se puede observar la ecuación de la CWT.
 </div>
 <p align="center">
-<image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe547337-8e2f-466c-bda1-e42b3c277345">
+<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe547337-8e2f-466c-bda1-e42b3c277345">
 <p align="center"><i>Figura 2. Ecuación de definición de la Transformada Wavelet Continua [3] </i></p>
 </div>
 	
 * **Transformada Wavelet Discreta (DWT)**: Teniendo en cuenta la CWT, se hizo la observación de que los parámetros de escala y de traslación cambian contuamente, por lo que se presenta la necesidad de realizar un proceso de discretización para poder cambiar a un conjunto de valores finitos. Esto se logra por medio de la integral por sumatorias. En la _Figura 3_ se puede observar la ecuación de la DWT. La DWT es la transformada que estaremos usando a lo largo del laboratorio.
 </div>
 <p align="center">
-<image width="250" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
+<image width="250" height="50" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3d5eb672-352f-4ea3-9128-042223bfc1ae">
 <p align="center"><i>Figura 3. Ecuación de definición de la Transformada Wavelet Discreta [3] </i></p>
 </div>
 
