@@ -145,10 +145,12 @@ Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  EC
 
 El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro ______ con un nivel ___. Los coeficientes de aproximación fueron ___ y de detalle _________. El umbral fue calculado mediante umbralización suae y fue optimizado mediante pruebas. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[7](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
 
+<div align="center">
 |  **Función Wavelet**  | **Nivel** | **Umbral** | **Frecuencia** | **Coeficiente de aproximación** |
 |:------------:|:---------------:|:------------:|:------------:|:------------:|
 |Daubechies wavelet (db4)|2|1| 360 Hz|A2|
 <p align="center"><i>Tabla 2. Parámetros considerados para el diseño del filtro en la señal ECG </i></p>
+</div>
 
 #### SEÑAL EMG
 
@@ -215,9 +217,9 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 
 |  **Campo de actividad**  | **Señal cruda** | **Señal filtrada con DWT** |
 |:------------:|:---------------:|:------------:|
-|Reposo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4c36a03d-cdab-4f23-8ba5-780565977bef">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/abf43e2f-09c3-40f4-9c06-c6090826181f">|
-|Respiración prolongada|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b5eea10c-0274-46a4-8b2e-f815d54396a7">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe0e464a-9261-4ed6-a115-ce2338d929d4">|
-|Ejercicio Intensivo|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f382fb8-517b-4560-bf83-e0459176a7d6">|<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/75068877-a29e-40e7-942e-039f3b79bf3b">|
+|Reposo|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4c36a03d-cdab-4f23-8ba5-780565977bef">|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/abf43e2f-09c3-40f4-9c06-c6090826181f">|
+|Respiración prolongada|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b5eea10c-0274-46a4-8b2e-f815d54396a7">|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/fe0e464a-9261-4ed6-a115-ce2338d929d4">|
+|Ejercicio Intensivo|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/3f382fb8-517b-4560-bf83-e0459176a7d6">|<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/75068877-a29e-40e7-942e-039f3b79bf3b">|
 <p align="center"><i>Tabla 6. Resumen de la señal filtrada con DWT para la data ECG </i></p>
 </div>
 <a name="emg"></a>
