@@ -94,16 +94,17 @@ Entre los tipos de Wavelets, tenemos los siguientes:
 
 <a name="metodologia"></a>
 ## Metodología 
-La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del Kit BITalino**“"BITalino HOME-GUIDE"** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
+La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del **Kit BITalino BITalino HOME-GUIDE** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
 
-La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia <sup>[1](https://doi.org/10.1049/ecej:19940401)</sup> 
-. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel. La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original. A continuación, se detalla los pasos seguidos para la obtención del filtrado:
+La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel <sup>[6](http://dx.doi.org/10.13005/bpj/627)</sup> <sup>[7](https://doi.org/10.1109/CCAA.2016.7813897)</sup> [8] <sup>[9](http://www.ijecs.in/index.php/ijecs/article/download/1393/1279/2481)</sup> . La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original <sup>[6]()</sup> . A continuación, se detalla los pasos seguidos para la obtención del filtrado:
+
+
 
 **1. Descomposición de la señal mediantre la DWT: La descomposición de la señal se utilizó**:
 Las señales fueron descompuestas utilizando los tipos de filtros de DWT, como la familia Daubechies o Biorthogonal, según la literatura de referencia. Este proceso permite separar las componentes de frecuencia de la señal en diferentes niveles, aislando los detalles y las aproximaciones de frecuencia baja y alta.
 
 **2. Cálculo del umbral**:
-Se aplicó una técnica de umbralización suave a los coeficientes wavelet para atenuar o eliminar el ruido generado en la toma de las señales. El umbral utilizado se basó en la fórmula (ver Fórmula 1), optimizada para la reducción del ruido evitando eliminar las características fundamentales de las señales EEG, EMG y ECG para su posterior análisis:
+Se aplicó una técnica de umbralización suave a los coeficientes wavelet para atenuar o eliminar el ruido generado en la toma de las señales. El umbral utilizado se basó en la fórmula (ver Fórmula 1)<sup>[10](https://doi.org/10.1093/biomet/81.3.425)</sup>, optimizada para la reducción del ruido evitando eliminar las características fundamentales de las señales EEG, EMG y ECG para su posterior análisis:
 
 </div>
 <p align="center">
@@ -143,7 +144,7 @@ Para el filtrado con transformada Wavelet de ECG, se utilizaron las señales  EC
 
 **c. Estado de ejercicio intensivo**: El sujeto de prueba realizó la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
-El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro Daubechies(db4) con un nivel 2. Los coeficientes de aproximación fue A2 y de detalle. En el caso del umbral, según el paper en el que nos basamos, indicaban un valor umbral de 0.2, ese valor lo tomamos como valor inicial, sin embargo, el filtrado era casi imperceptible, por lo que optamos después de algunas pruebas, el valor 1. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[6](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
+El filtro utilizado para la eliminación de ruido en la señal ECG es un filtro Daubechies(db4) con un nivel 2. Los coeficientes de aproximación fue A2 y de detalle. En el caso del umbral, según el paper en el que nos basamos, indicaban un valor umbral de 0.2, ese valor lo tomamos como valor inicial, sin embargo, el filtrado era casi imperceptible, por lo que optamos después de algunas pruebas, el valor 1. A continuación, se definen los parámetros obtenidos para el filtrado de las señales ECG a partir de la literatura de referencia <sup>[11](https://ieeexplore.ieee.org/document/7569341)</sup>.</p>
 
 <div align="center">
 	
@@ -162,7 +163,7 @@ Para el estudio de la actividad muscular, se llevaron a cabo mediciones del mús
 
 **b. Actividad muscular del abductor corto del pulgar:** En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.
 
-Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia. <sup>[7](https://doi.org/10.1016/j.jelekin.2013.05.001)</sup> 
+Para el análisis de la señal de actividad muscular de cada ensayo, se utilizará DWT. Este enfoque ofrece la capacidad de detectar y caracterizar cambios en la señal en distintas escalas temporales, siendo especialmente útil para identificar patrones complejos en señales no estacionarias como la actividad muscular. La transformada de wavelet proporciona información detallada sobre la localización temporal de eventos de interés, lo que nos permite identificar cambios en la actividad muscular en respuesta a diferentes condiciones o estímulos. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EMG a partir de la literatura de referencia. <sup>[12](https://doi.org/10.1016/j.jelekin.2013.05.001)</sup> 
 
 <div align="center">
 	
@@ -198,7 +199,7 @@ Se consideró el uso de las señales de electroencefalograma (EEG) obtenidas en 
 <p align="center"><i>Tabla 4. Preguntas realizadas al sujeto de prueba </i></p>
 </div>
 
-<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[9]()</sup>.</p>
+<p align="justify">El filtro utilizado para la eliminación de ruido en la señal es un filtro DWT tipo Biorthogonal 2.6, debido a su alta simetría, capacidad de separar eficazmente los componentes de frecuencia baja y alta y reconstrucción de la señal original y un nivel de 5. Los coeficientes de aproximación fueron A5 y de detalle D1, D2, D3, D4 y D5. El umbral fue calculado mediante umbralización suave y fue optimizado mediante pruebas. Por último, se realizó la comparación entre la señal cruda obtenida y la señal filtrada con el DWT para observar la eficiencia del filtrado. A continuación, se definen los parámetros obtenidos para el filtrado de las señales EEG a partir de la literatura de referencia <sup>[13](http://dx.doi.org/10.1109/I2CT51068.2021.9417984)</sup>.</p>
 
 <div align="center">
 	
@@ -264,13 +265,16 @@ A partir de las señales filtradas obtenidas, se observa que el filtro diseñado
 
 <a name="discusion"></a>
 ## Discusión
-
 En el caso de la señal de ECG, el filtro empleado es un DDDTDWT, o Transformada Wavelet Discreta en Dos Dimensiones con Umbral Doble, el cual es una técnica de procesamiento de señales ampliamente utilizada en el análisis y la mejora de señales, como en el caso específico de señales de ECG. Esta técnica se basa en la descomposición de la señal en diferentes escalas y niveles de detalle, lo que permite una representación más eficiente de la información tanto en el dominio temporal como en el de frecuencia.
 Nuestro filtro DDDTDWT cuenta con un nivel de descomposición de 8 y un umbral de 10 a la señal de ECG, porque lo que podemos aprovecar varias de sus características distintivas. En primer lugar, este filtro demuestra una habilidad notable para preservar las características fundamentales de la señal mientras elimina eficazmente el ruido no deseado. Esto se traduce en una mejora evidente en la claridad y la interpretabilidad de la señal procesada, lo que facilita su análisis y diagnóstico.
 Además, el filtro DDDTDWT puede adaptarse a la estructura temporal de la señal. Esto significa que puede capturar tanto los detalles de alta frecuencia como las tendencias de baja frecuencia presentes en la señal de ECG, lo que resulta en una eliminación de ruido más selectiva y efectiva.
 
+El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar que en el bíceps braquial debido a varias razones fisiológicas y técnicas. El abductor corto del pulgar, siendo un músculo más pequeño y localizado, experimenta menor interferencia de músculos adyacentes y presenta movimientos menos complejos, lo que reduce significativamente los artefactos y el ruido en la señal. Además, su ubicación superficial y menor profundidad permiten una captación más precisa de la señal por los electrodos. En contraste, el bíceps braquial, al estar rodeado de músculos grandes y estar involucrado en movimientos más amplios, genera señales con mayor ruido e interferencias, lo que dificulta una filtración tan eficaz.
 
-<a name="conclusiones"></a>
+La definición del umbral es un factor crítico en el diseño del filtro wavelet pues un umbral muy pequeño o uno muy grande podría influir en los estimadores de contracción de ondas, pues podría sobre/no ajustar la data <sup> [14](https://doi.org/10.1007/978-1-4612-2544-7_16
+)</sup>. El método utilizado para el cálculo del umbral, como se observa en la Fórmula 1 propuesto por Donoho y Johnstone <sup> [15](https://doi.org/10.1093/biomet/81.3.425)</sup> garantiza la reconstrucción de la señal filtrada del ruido, sin embargo, suele no ajustar los datos [16]. Esto podría explicar los resultados obtenidos previamente, pues si bien el umbral utilizado era relativamente elevado, no se realizaba un filtrado óptimo para las señales EEG.
+Como se observó en los resultados de ECG, EMG o EEG, la presencia de niveles de excitación en los picos y la presencia de ruido de mayores frecuencias debido a una mayor presencia de artefactos dificultó el filtrado apropiado ante el umbral calculado. Asimismo, al aplicar un valor de umbral menor a 1 para las señales EMG y EEG, se observaba un cambio nulo o no significativo en el filtrado de la señal por lo que se tuvo que realizar pruebas en el cálculo y en la programación para obtener una señal filtrada significativamente sin pérdida de información relevante. Esto indica que el proceso y protocolo de adquisición de las señales biomédicas es de suma relevancia pues nos permite un mejor entendimiento de la información provista y evitar complicaciones en el proceso de filtrado, pues elegir un umbral alto podría resultar en la pérdida de información relevante de la señal para su aplicación futura.
+
 ## Conclusiones
 
 <a name="referencias"></a>
@@ -286,8 +290,27 @@ Además, el filtro DDDTDWT puede adaptarse a la estructura temporal de la señal
 
 [5] https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
-[6] “Analysis of ECG signal denoising using discrete wavelet transform,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/7569341
+[6] M. Balamareeswaran and D. Ebenezer, "Denoising of EEG signals using discrete wavelet transform based scalar quantization," Biomed. Pharma. J., vol. 8, no. 1, pp. 399–406, 2015. DOI: http://dx.doi.org/10.13005/bpj/627
 
-[x] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
+[7] M. S. Choudhry and R. Kapoor, "A survey on different discrete wavelet transforms and thresholding techniques for EEG denoising," in International Conference on Computing, Communication, and Automation, Greater Noida, India, pp. 29–30 April, 2016. DOI: https://doi.org/10.1109/CCAA.2016.7813897
+
+[8] S. Jothimani and A. Suganya, "Denoising of EEG gesture using DWT," Int. J. Recent Tech. Eng., vol. 7, no. 6S4, pp. 522–527, 2019.
+
+[9] S. Kaur and S. Malhotra, "Various techniques for denoising EEG signal: a review," Int. J. Eng. Comp. Scie., vol. 3, no. 8, pp. 7965–7973, 2014. Link: http://www.ijecs.in/index.php/ijecs/article/download/1393/1279/2481
+
+[10] D. L. Donoho and I. M. Johnstone, "Ideal spatial adaptation by wavelet shrinkage," Biometrika, 1994. doi: https://doi.org/10.1093/biomet/81.3.425
+
+[11] “Analysis of ECG signal denoising using discrete wavelet transform,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/7569341
+
+[12] S. K. Chowdhury, A. D. Nimbarte, M. Jaridi, and R. C. Creese, “Discrete wavelet transform analysis of surface electromyography for the fatigue assessment of neck and shoulder muscles,” Journal of Electromyography and Kinesiology, vol. 23, no. 5, pp. 995–1003, Oct. 2013, doi: https://doi.org/10.1016/j.jelekin.2013.05.001.
+
+[13] A. W. Pise and P. P. Rege, "Comparative Analysis of Various Filtering Techniques for Denoising EEG Signals," 2021 6th International Conference for Convergence in Technology (I2CT), Maharashtra, India, 2021, pp. 1-4, doi: http://dx.doi.org/10.1109/I2CT51068.2021.9417984
+
+[14] G. P. Nason, "Choice of the Threshold Parameter in Wavelet Function Estimation," in Wavelets and Statistics, A. Antoniadis and G. Oppenheim, Eds., Lecture Notes in Statistics, vol. 103, New York, NY: Springer, 1995. doi: https://doi.org/10.1007/978-1-4612-2544-7_16
+
+[15] D. L. Donoho and I. M. Johnstone, "Ideal spatial adaptation by wavelet shrinkage," Biometrika, 1994. doi: https://doi.org/10.1093/biomet/81.3.425
+
+[16] J. Fan, P. Hall, M. Martin, and P. Patil, "Adaption to high spatial inhomogeneity based on wavelets and on local linear smoothing," Tech. Rep. CMA-SR18-93, Centre for Mathematics and Its Applications, Australian National University, Canberra, 1993.
+
 
 
