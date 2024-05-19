@@ -1,6 +1,8 @@
 ## *Bienvenidos al repositorio del Grupo 8 en el curso “Introducción a Señales Biomédicas”*
 _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, pertenecientes a la Pontificia Universidad Católica del Perú (PUCP) y la Universidad Peruana Cayetano Heredia (UPCH), en el semestre 2024-1_
 
+[VIDEO DE PRESENTACIÓN DE PROYECTO] (https://drive.google.com/drive/folders/1FEm2Pc4ruVGaKf2r64uYcRyfktOaxjX2?usp=sharing)
+
 # **PROYECTO: Desarrollo de un algoritmo para la detección de arritmias en adultos mayores a partir de la comparación de 2 clasificadores usando señales ECG**
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
 
@@ -9,7 +11,7 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 </p>
 <p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
-[VIDEO DE PRESENTACIÓN DE PROYECTO] ()
+[VIDEO DE PRESENTACIÓN DE PROYECTO] (https://drive.google.com/drive/folders/1FEm2Pc4ruVGaKf2r64uYcRyfktOaxjX2?usp=sharing)
 
 
 ## Tabla de contenidos
