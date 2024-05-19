@@ -9,6 +9,9 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 </p>
 <p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
+[VIDEO DE PRESENTACIÓN DE PROYECTO] ()
+
+
 ## Tabla de contenidos
 1. [Introducción](#intro)
 2. [Problemática](#problematica)
