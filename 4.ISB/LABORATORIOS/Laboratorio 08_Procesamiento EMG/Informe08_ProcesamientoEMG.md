@@ -19,7 +19,7 @@
 ### **Contexto**
 Como sabemos la electromiografía (EMG), es el estudio que permite registrar señales eléctricas biomédicas que son obtenidas a través de actividades generadas por los músculos esqueléticos, estas señales mioeléctricas son generadas a partir de neuronas motoras, que forman parte del Sistema Nervioso Central (SNC) <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>. En conclusión, una señal EMG es una señal biomédica que registra las corrientes eléctricas que son generadas por los músculos durante la contracción, representando actividades neuromusculares. 
 
-Actualmente, la EMG es una herramienta de gran utilidad, ya que se pueden utilizar para diagnóstico y monitoreo de lesiones musculares, daños a los nervios y disfunciones musculares que se pueden producir a trastornos neurológicos y musculares, con fines de investigación, para el análisis de la biomecánica de diversos movimientos y el análisis de la marcha, entre otros. <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)
+Actualmente, la EMG es una herramienta de gran utilidad, ya que se pueden utilizar para diagnóstico y monitoreo de lesiones musculares, daños a los nervios y disfunciones musculares que se pueden producir a trastornos neurológicos y musculares, con fines de investigación, para el análisis de la biomecánica de diversos movimientos y el análisis de la marcha, entre otros. <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>.
 
 La electromiografía (EMG) al tener tanta relevancia en el ámbito biomédico, requiere de un procesamiento de la señal antes de ser estudiada, ya que al ser al ser una señal que registra la actividad muscular, la cual es controlada por el sistema nervioso, hace que la EMG se vuelve una señal complicada de analizar. La señal EMG puede adquirir ruido mientras viaja por los diferentes tejidos, además de que si la EMG es tomada en la superficie de la piel puede recoger señales de diferentes unidades motoras a la vez. Es por ello, que un adecuado procesamiento de la señal EMG es de suma importancia para un correcto análisis de la misma. 
 
@@ -27,10 +27,36 @@ La electromiografía (EMG) al tener tanta relevancia en el ámbito biomédico, r
 <a name="marco"></a>
 ### **Marco teórico**
 #### EMG
-Proceso de registro de las actividades eléctricas musculares. Las actividades eléctricas musculares son realizadas bajo el control del cerebro, por lo tanto, están directamente relacionadas con el sistema nervioso. En el cerebro se produce un potencial de acción, el cual pasa a través de las fibras nerviosas, las cuales estimularán a las fibras musculares y las neuronas motoras trasmiten la señal logrando que el músculo se contraiga, generando una pequeña corriente eléctrica, la cual puede ser medida y registrada mediante EMG, y es mostrada en gráficos, sonidos y cuantificarla en valores numéricos <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf). Las señales EMG son señales no estacionarias, no lineales y complejas. <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)
+Proceso de registro de las actividades eléctricas musculares. Las actividades eléctricas musculares son realizadas bajo el control del cerebro, por lo tanto, están directamente relacionadas con el sistema nervioso. En el cerebro se produce un potencial de acción, el cual pasa a través de las fibras nerviosas, las cuales estimularán a las fibras musculares y las neuronas motoras trasmiten la señal logrando que el músculo se contraiga, generando una pequeña corriente eléctrica, la cual puede ser medida y registrada mediante EMG, y es mostrada en gráficos, sonidos y cuantificarla en valores numéricos <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup> .Las señales EMG son señales no estacionarias, no lineales y complejas. <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup>.
+
+</div>
+<p align="center">
+<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2b11a295-81ac-4f5b-9ae4-f85013bbe7a8">
+<p align="center"><i>Figura 1. Señal EMG sin procesamiento [2] </i></p>
+</div>
 
 La amplitud de una señal EMG puede depender de varios factores, incluyendo la distancia que separa a los electrodos, el material de los electrodos y ruidos y “artefactos”.
 
+#### Adquisición
+Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de electrodos: el electrodo de aguja (método invasivo) y los electrodos de superficie (método no invasivo) (_Figura 2_). Los electrodos de aguja se clasifican además en tres subtipos: los electrodos individuales monopolares, electrodos EMG de fibra única y electrodos EMG concéntricos; tienen aproximadamente 1 mm2 de ancho. Los electrodos de superficie, son de dos tipos: electrodos EMG gelificados y electrodos EMG secos; tienen entre 0.5 y 2.5 mm de ancho y como son colocados en la superficie de la piel, son no invasivos, estos electrodos detectan el cambio entre la superficie del músculo y la piel a través de la conducción electrolítica <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup> .
+
+</div>
+<p align="center">
+<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e442da38-c5bb-479c-b12d-5dd2702dcc1b">
+<p align="center"><i>Figura 2. Tipos de electrodos para la adquisición de señales EMG [1] </i></p>
+</div>
+
+
+|  **Electrodo de superficie**  | **Electrodo de aguja (Invasivo)** |
+|:------------:|:---------------:|
+|Se colocan sobre la piel del músculo que se desea medir.|Son electrodos intramusculares, estos deben ser insertados directamente en el músculo que se desea analizar, requiere de un especialista que supervise diche inserción.|
+|La señal que se registre es el promedio de la actividad eléctrica de varias unidades motoras en el músculo.|Es posible solo obtener mediciones de una sola unidad motora.|
+|Al ser colocados los electrodos en la superficie de la piel, al viajar por lo diferentes tejidos, presenta un alto nivel de ruido.|La cantidad de ruido es menor.|
+
+En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis.
+
+#### Procesamiento
+Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, se requiere de un procesamiento de estas señales, con el fin de eliminar el ruido. 
 
 <a name="objetivos"></a>
 ## Objetivos
