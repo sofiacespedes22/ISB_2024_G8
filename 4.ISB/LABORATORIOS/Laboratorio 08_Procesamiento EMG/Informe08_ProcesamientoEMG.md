@@ -26,8 +26,9 @@ La electromiografía (EMG) al tener tanta relevancia en el ámbito biomédico, r
 
 <a name="marco"></a>
 ### **Marco teórico**
-EMG
-
+#### EMG
+Proceso de registro de las actividades eléctricas musculares. Las actividades eléctricas musculares son realizadas bajo el control del cerebro, por lo tanto, están directamente relacionadas con el sistema nervioso. En el cerebro se produce un potencial de acción, el cual pasa a través de las fibras nerviosas, las cuales estimularán a las fibras musculares y las neuronas motoras trasmiten la señal logrando que el músculo se contraiga, generando una pequeña corriente eléctrica, la cual puede ser medida y registrada mediante EMG, y es mostrada en gráficos, sonidos y cuantificarla en valores numéricos <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf). Las señales EMG son señales no estacionarias, no lineales y complejas. <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)
+La amplitud de una señal EMG puede depender de varios factores, incluyendo la distancia que separa a los electrodos, el material de los electrodos y ruidos y “artefactos”.
 
 
 <a name="objetivos"></a>
@@ -121,3 +122,5 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 <a name="referencias"></a>
 ## Referencias bibliográficas
 [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/
+
+[2] https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf
