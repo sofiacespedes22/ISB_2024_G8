@@ -31,7 +31,7 @@ Proceso de registro de las actividades eléctricas musculares. Las actividades e
 
 </div>
 <p align="center">
-<image width="400" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2b11a295-81ac-4f5b-9ae4-f85013bbe7a8">
+<image width="500" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2b11a295-81ac-4f5b-9ae4-f85013bbe7a8">
 <p align="center"><i>Figura 1. Señal EMG sin procesamiento [2] </i></p>
 </div>
 
@@ -42,7 +42,7 @@ Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de 
 
 </div>
 <p align="center">
-<image width="130" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e442da38-c5bb-479c-b12d-5dd2702dcc1b">
+<image width="230" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e442da38-c5bb-479c-b12d-5dd2702dcc1b">
 <p align="center"><i>Figura 2. Tipos de electrodos para la adquisición de señales EMG [1] </i></p>
 </div>
 
