@@ -26,7 +26,7 @@ La electromiografía (EMG) al tener tanta relevancia en el ámbito biomédico, r
 
 <a name="marco"></a>
 ### **Marco teórico**
-#### EMG
+#### a. EMG
 Proceso de registro de las actividades eléctricas musculares. Las actividades eléctricas musculares son realizadas bajo el control del cerebro, por lo tanto, están directamente relacionadas con el sistema nervioso. En el cerebro se produce un potencial de acción, el cual pasa a través de las fibras nerviosas, las cuales estimularán a las fibras musculares y las neuronas motoras trasmiten la señal logrando que el músculo se contraiga, generando una pequeña corriente eléctrica, la cual puede ser medida y registrada mediante EMG, y es mostrada en gráficos, sonidos y cuantificarla en valores numéricos <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup> .Las señales EMG son señales no estacionarias, no lineales y complejas. <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup>.
 
 </div>
@@ -37,7 +37,7 @@ Proceso de registro de las actividades eléctricas musculares. Las actividades e
 
 La amplitud de una señal EMG puede depender de varios factores, incluyendo la distancia que separa a los electrodos, el material de los electrodos y ruidos y “artefactos”.
 
-#### Adquisición
+#### b. Adquisición
 Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de electrodos: el electrodo de aguja (método invasivo) y los electrodos de superficie (método no invasivo) (_Figura 2_). Los electrodos de aguja se clasifican además en tres subtipos: los electrodos individuales monopolares, electrodos EMG de fibra única y electrodos EMG concéntricos; tienen aproximadamente 1 mm2 de ancho. Los electrodos de superficie, son de dos tipos: electrodos EMG gelificados y electrodos EMG secos; tienen entre 0.5 y 2.5 mm de ancho y como son colocados en la superficie de la piel, son no invasivos, estos electrodos detectan el cambio entre la superficie del músculo y la piel a través de la conducción electrolítica <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup> .
 
 </div>
@@ -49,13 +49,13 @@ Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de 
 
 |  **Electrodo de superficie**  | **Electrodo de aguja (Invasivo)** |
 |:------------:|:---------------:|
-|Se colocan sobre la piel del músculo que se desea medir.|Son electrodos intramusculares, estos deben ser insertados directamente en el músculo que se desea analizar, requiere de un especialista que supervise diche inserción.|
-|La señal que se registre es el promedio de la actividad eléctrica de varias unidades motoras en el músculo.|Es posible solo obtener mediciones de una sola unidad motora.|
-|Al ser colocados los electrodos en la superficie de la piel, al viajar por lo diferentes tejidos, presenta un alto nivel de ruido.|La cantidad de ruido es menor.|
+|<p align="justify">Se colocan sobre la piel del músculo que se desea medir.</p>|<p align="justify">Son electrodos intramusculares, estos deben ser insertados directamente en el músculo que se desea analizar, requiere de un especialista que supervise diche inserción.</p>|
+|<p align="justify">La señal que se registre es el promedio de la actividad eléctrica de varias unidades motoras en el músculo.</p>|<p align="justify">Es posible solo obtener mediciones de una sola unidad motora.</p>|
+|<p align="justify">Al ser colocados los electrodos en la superficie de la piel, al viajar por lo diferentes tejidos, presenta un alto nivel de ruido.</p>|<p align="justify">La cantidad de ruido es menor.</p>|
 
 En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis.
 
-#### Procesamiento
+#### c. Procesamiento
 Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, se requiere de un procesamiento de estas señales, con el fin de eliminar el ruido. 
 
 <a name="objetivos"></a>
