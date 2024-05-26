@@ -17,7 +17,14 @@
 <a name="introduccion"></a>
 ## **INTRODUCIÓN**
 ### **CONTEXTO**
-Como sabemos la electromiografía (EMG), es el estudio que permite registrar señales eléctricas biomédicas que son obtenidas a través de actividades generadas por los músculos esqueléticos, estas señales mioeléctricas son generadas a partir de neuronas motoras, que forman parte del Sistema Nervioso Central (SNC) <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>. En conclusión, una señal EMG es una señal biomédica que registra las corrientes eléctricas que son generadas por los músculos durante la contracción, representando actividades neuromusculares. 
+Como sabemos la electromiografía (EMG), es el estudio que permite registrar señales eléctricas biomédicas que son obtenidas a través de actividades generadas por los músculos esqueléticos, estas señales mioeléctricas son generadas a partir de neuronas motoras, que forman parte del Sistema Nervioso Central (SNC) <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>. En conclusión, una señal EMG es una señal biomédica que registra las corrientes eléctricas que son generadas por los músculos durante la contracción, representando actividades neuromusculares (_Figura 1_). 
+
+</div>
+<p align="center">
+<image width="450" height="500" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33febe45-7e95-4082-97aa-4bb7d851b23b">
+<p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
+</div>
+
 
 Actualmente, la EMG es una herramienta de gran utilidad, ya que se pueden utilizar para diagnóstico y monitoreo de lesiones musculares, daños a los nervios y disfunciones musculares que se pueden producir a trastornos neurológicos y musculares, con fines de investigación, para el análisis de la biomecánica de diversos movimientos y el análisis de la marcha, entre otros. <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>.
 
@@ -32,7 +39,7 @@ Proceso de registro de las actividades eléctricas musculares. Las actividades e
 </div>
 <p align="center">
 <image width="500" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2b11a295-81ac-4f5b-9ae4-f85013bbe7a8">
-<p align="center"><i>Figura 1. Señal EMG sin procesamiento [2] </i></p>
+<p align="center"><i>Figura 2. Señal EMG sin procesamiento [2] </i></p>
 </div>
 
 La amplitud de una señal EMG puede depender de varios factores, incluyendo la distancia que separa a los electrodos, el material de los electrodos y ruidos y “artefactos”.
@@ -43,7 +50,7 @@ Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de 
 </div>
 <p align="center">
 <image width="230" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/e442da38-c5bb-479c-b12d-5dd2702dcc1b">
-<p align="center"><i>Figura 2. Tipos de electrodos para la adquisición de señales EMG [1] </i></p>
+<p align="center"><i>Figura 3. Tipos de electrodos para la adquisición de señales EMG [1] </i></p>
 </div>
 
 
@@ -53,18 +60,25 @@ Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de 
 |<p align="justify">La señal que se registre es el promedio de la actividad eléctrica de varias unidades motoras en el músculo.</p>|<p align="justify">Es posible solo obtener mediciones de una sola unidad motora.</p>|
 |<p align="justify">Al ser colocados los electrodos en la superficie de la piel, al viajar por lo diferentes tejidos, presenta un alto nivel de ruido.</p>|<p align="justify">La cantidad de ruido es menor.</p>|
 
+</div>
+<p align="center">
+<image width="450" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8f02ca47-3024-407c-8f02-5dee0b1d56a3">
+<p align="center"><i>Figura 3. Señales obtenidas mediante EMG intramuscular y EMG superficial [3] </i></p>
+</div>
+
+
 En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis.
 
 #### c. PROCESAMIENTO
+Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, se requiere de un procesamiento de estas señales, con el fin de eliminar el ruido. 
+
 ##### c.1. PRE-PROCESAMIENTO
-Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, se requiere de un procesamiento de estas señales, con el fin de eliminar el ruido. Las señales obtenidas por electrodos de superficie, son señales bastante débiles y ruidosas, como se mencionó anteriormente, por lo que requiere adecuación antes de ser tratada. Por lo que primero la señal debe pasar por una etapa de amplificación <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>. Después de esta amplificación, se siguen los siguientes pasos:
+Las señales obtenidas por electrodos de superficie, son señales bastante débiles y ruidosas, como se mencionó anteriormente, por lo que requiere adecuación antes de ser tratada. Por lo que primero la señal debe pasar por una etapa de amplificación <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>. Después de esta amplificación, se siguen los siguientes pasos:
 
 * **Filtrado**: Se debe empezar con una etapa de filtración, ya que es esencial para reducir los artefactos en las señales EMG. Generalmente se necesita un filtro paso alto para que se puedan reducir efectos de artefactos correspondientes a movimientos en inestabilidad entre los electrodos de superficie y la piel, también se necesitarán filtros pasa bajo para registrar los datos que corresponden a estimulación muscular y eliminar interferencias de alta frecuencia, e incluso se puede utilizar filtro pasa banda <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>.  En algunos estudios, para poder filtrar la señal utilizaron filtros Butterworth con parámetros específicos o filtros pasa banda <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. En este laboratorio utilizaremos el filtro que mejor nos haya dado resultado de los laboratorios anteriores de FIR e IRR. 
-
-
-
-
-
+* **Rectificación**:
+* **Normalización**:
+* **Segmentación**
 
 ##### c.2. EXTRACCIÓN DE CARACTERÍSTICAS
 
