@@ -166,13 +166,13 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 </div>
 <p align="center">
 <image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/74995d02-0110-402a-8d56-2ec0ccf56667">
-<p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
+<p align="center"><i>Figura 2. Ploteo de la señal de la prueba del pulgar con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
 </div>
 
 </div>
 <p align="center">
 <image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/207d6443-b7e9-48c8-abe4-d358b7bd7b2b">
-<p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
+<p align="center"><i>Figura 2. Ploteo de la señal de la prueba del bicep con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
 </div>
 
 
