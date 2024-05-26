@@ -124,14 +124,17 @@ En el proceso de procesamiento de señales EMG, el primer paso implica la búsqu
 ### 2. PROCEDIMIENTO
 #### Procedimiento de Utilización de Señales EMG
 	
- - Datos Adquiridos Previamente
+ - **Datos Adquiridos Previamente**
 
 Para este laboratorio, se utilizarán datos de señales EMG adquiridos en sesiones de laboratorio anteriores. El proceso de adquisición se llevó a cabo siguiendo un protocolo estándar utilizando el dispositivo BITalino y el programa OpenSignal. Inicialmente, se estableció la conexión entre el BITalino y OpenSignal mediante Bluetooth para visualizar las señales en tiempo real. Luego, se conectó el sensor EMG de 3 electrodos al BITalino para comenzar la adquisición de señales.
  
- - Procedimiento de Adquisición Anterior
+ - **Procedimiento de Adquisición Anterior**
 
 Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[x0](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf)</sup>, se implementaron tres protocolos para medir la actividad muscular en diferentes músculos: el bíceps braquial y el abductor corto del pulgar. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales EMG en reposo, sin oposición y con oposición para ambos músculos.
-  
+
+**a. Actividad muscular del bíceps braquial (brazo)**: Durante esta prueba, se registró la actividad eléctrica del bíceps braquial en estados de reposo y ante la exposición de fuerzas con oposición o sin ella. Para ello, en el ensayo se empleó un electrodo de referencia en el codo para minimizar la interferencia eléctrica y el ruido.
+
+**b. Actividad muscular del abductor corto del pulgar**: En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.
 
 #### Datos adquiridos EMG
 
