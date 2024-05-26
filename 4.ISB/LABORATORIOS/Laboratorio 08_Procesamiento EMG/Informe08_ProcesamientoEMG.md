@@ -88,11 +88,13 @@ Las señales obtenidas por electrodos de superficie, son señales bastante débi
 En la extracción, lo que se busca es obtener información de la señal EMG, que sea relevante para su análisis, a través de una transformación de los datos originales, y de esta transformación se obtiene el vector de características. La extracción de características, no solo mejora el rendimiento del clasificador, sino que también es capaz de reducir la dimensionalidad, de forma que simplifique el procesamiento y la clasificación <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. Entre las características que se pueden clasificar, están las siguientes tres:
 
 * **Características en el dominio del tiempo**:
-* 
-* **Características en el dominio de la frecuencia**:
-* 
-* **Características en el dominio tiempo-frecuencia**:
+Las características del dominio del tiempo se evalúan en función de las variaciones de amplitud de la señal a lo largo del tiempo, eliminando la necesidad de más transformaciones y beneficiándose de su simplicidad y bajos requisitos de recursos computacionales <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>.
 
+* **Características en el dominio de la frecuencia**:
+Nos ayudan a identificar patrones específicos y poder identificar la activación para poder obtener información acerca de la modulación de la fuerza y de la velocidad de la contracción muscular. Las características del dominio de la frecuencia, a diferencia de las características del dominio del tiempo, no pueden derivarse directamente de datos sin procesar y se obtienen aplicando la transformada de Fourier a la señal. Estas características abarcan la densidad del espectro de potencia de la señal <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>.
+
+* **Características en el dominio tiempo-frecuencia**:
+Las herramientas de análisis en tiempo-frecuencia son capaces de darnos la información temporal de la cual se carece en el análisis espectral. Además, permite una mejor lectura e interpretación de las contracciones musculares.
 
 ##### C.3. CLASIFICACIÓN Y EVALUACIÓN
 
