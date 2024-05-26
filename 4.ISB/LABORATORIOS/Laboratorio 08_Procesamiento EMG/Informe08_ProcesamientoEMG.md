@@ -21,7 +21,7 @@ Como sabemos la electromiografía (EMG), es el estudio que permite registrar se�
 
 </div>
 <p align="center">
-<image width="350" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33febe45-7e95-4082-97aa-4bb7d851b23b">
+<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/33febe45-7e95-4082-97aa-4bb7d851b23b">
 <p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
 </div>
 
@@ -38,7 +38,7 @@ Proceso de registro de las actividades eléctricas musculares. Las actividades e
 
 </div>
 <p align="center">
-<image width="500" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2b11a295-81ac-4f5b-9ae4-f85013bbe7a8">
+<image width="500" height="180" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/2b11a295-81ac-4f5b-9ae4-f85013bbe7a8">
 <p align="center"><i>Figura 2. Señal EMG sin procesamiento [2] </i></p>
 </div>
 
@@ -60,14 +60,17 @@ Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de 
 |<p align="justify">La señal que se registre es el promedio de la actividad eléctrica de varias unidades motoras en el músculo.</p>|<p align="justify">Es posible solo obtener mediciones de una sola unidad motora.</p>|
 |<p align="justify">Al ser colocados los electrodos en la superficie de la piel, al viajar por lo diferentes tejidos, presenta un alto nivel de ruido.</p>|<p align="justify">La cantidad de ruido es menor.</p>|
 
+A continuación podemos observar (_Figura 4_) dos señales obtenidas, tanto en EMG intramuscular, es decir con aguja, y un EMG obtenido por electrodo de superficie. Aquí se puede observar que efectivamente las señales obtenidas con electrodos de superficie, presentan mayor ruido, por lo que se dificulta su análisis.
+.
+
 </div>
 <p align="center">
 <image width="450" height="250" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/8f02ca47-3024-407c-8f02-5dee0b1d56a3">
-<p align="center"><i>Figura 3. Señales obtenidas mediante EMG intramuscular y EMG superficial [3] </i></p>
+<p align="center"><i>Figura 4. Señales obtenidas mediante EMG intramuscular y EMG superficial [3] </i></p>
 </div>
 
 
-En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis.
+En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis
 
 
 #### c. PROCESAMIENTO
