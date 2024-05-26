@@ -81,8 +81,8 @@ Las señales obtenidas por electrodos de superficie, son señales bastante débi
 
 * **Filtrado**: Se debe empezar con una etapa de filtración, ya que es esencial para reducir los artefactos en las señales EMG. Generalmente se necesita un filtro paso alto para que se puedan reducir efectos de artefactos correspondientes a movimientos en inestabilidad entre los electrodos de superficie y la piel, también se necesitarán filtros pasa bajo para registrar los datos que corresponden a estimulación muscular y eliminar interferencias de alta frecuencia, e incluso se puede utilizar filtro pasa banda <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>.  En algunos estudios, para poder filtrar la señal utilizaron filtros Butterworth con parámetros específicos o filtros pasa banda <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. En este laboratorio utilizaremos el filtro que mejor nos haya dado resultado de los laboratorios anteriores de FIR e IRR. 
 * **Rectificación**: Una de las técnicas más comunes para poder analizar la amplitud de una señal EMG es la rectificación. Las señales EMG adquieren valores positivos y negativos durante la contracción, lo que hace el proceso de rectificación es abordar la parte negativa de la señal. Para este proceso de rectificación, tenemos a los dos más comunes, que son la rectificación de onda completa y la de media onda <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. En la rectificación de media onda, se excluyen los valores negativos y únicamente se consideran los valores positivos, mientras que en la rectificación de onda completa, se obtiene el valor absoluto de todos los valores, incluyendo los negativos <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>. 
-* **Normalización**:
-* **Segmentación**
+* **Normalización**: La señales EMG varían de individuo en individuo, por lo que la normalización es un proceso que nos permite estandarizar la amplitud para poder comparar las señales entre diferentes sujetos. El proceso de normalización consiste en dividir las señales EMG obtenidas por un valore de señal EMG de referencia, ambas señales obtenida a las mismas condiciones, permitiendo una comparación más eficiente entre los individuos <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>.
+* **Segmentación**: El proceso de segmentación consiste en dividir los datos muestreados, en segmentos para la posterior extracción de características. El tamaño de los segmentos debe ser lo suficientemente grande como para extraer adecuadamente las características de cada segmento y tener una mayor precisión de clasificación , pero la longitud de estos segmentos también debe ser pequeña para evitar cualquier retraso computacional en sistemas en tiempo real.
 
 ##### C.2. EXTRACCIÓN DE CARACTERÍSTICAS
 En la extracción, lo que se busca es obtener información de la señal EMG, que sea relevante para su análisis, a través de una transformación de los datos originales, y de esta transformación se obtiene el vector de características. La extracción de características, no solo mejora el rendimiento del clasificador, sino que también es capaz de reducir la dimensionalidad, de forma que simplifique el procesamiento y la clasificación <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. Entre las características que se pueden clasificar, están las siguientes tres:
@@ -220,6 +220,10 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/
 
 [2] https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf
+
+[3] https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content
+
+[4] ] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/
 
 [x0] “BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS”. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
 
