@@ -10,8 +10,7 @@
    4.1 [Señal EEG](#eeg)
 5. [Archivos](#archivos)
 6. [Discusión](#discusion)
-7. [Conclusiones](#conclusiones)
-8. [Referencias bibliográficas](#referencias)
+7. [Referencias bibliográficas](#referencias)
 
 <a name="introduccion"></a>
 ## **INTRODUCIÓN**
@@ -129,7 +128,7 @@ Para este laboratorio, se utilizarán datos de señales EMG adquiridos en sesion
  
  - **Procedimiento de Adquisición Anterior**
 
-Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[x0](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf)</sup>, se implementaron tres protocolos para medir la actividad muscular en diferentes músculos: el bíceps braquial y el abductor corto del pulgar. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales EMG en reposo, sin oposición y con oposición para ambos músculos.
+Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf)</sup>, se implementaron tres protocolos para medir la actividad muscular en diferentes músculos: el bíceps braquial y el abductor corto del pulgar. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales EMG en reposo, sin oposición y con oposición para ambos músculos.
 
 **a. Actividad muscular del bíceps braquial (brazo)**: Durante esta prueba, se registró la actividad eléctrica del bíceps braquial en estados de reposo y ante la exposición de fuerzas con oposición o sin ella. Para ello, en el ensayo se empleó un electrodo de referencia en el codo para minimizar la interferencia eléctrica y el ruido.
 
@@ -141,7 +140,7 @@ En este laboratorio, nos enfocaremos en el análisis y la interpretación de los
 
 #### Filtrado, Segmentación y Extracción de Características de Señal EMG
 
-Para esta sección se seleccionó un articulo de referencia <sup>[x1](https://doi.org/10.18280/ts.390518)</sup>, en este se optimiza el procesamiento de señales EMG mediante técnicas de filtrado, segmentación y extracción de características. El mejor enfoque encontrado se describe brevemente a continuación:
+Para esta sección se seleccionó un articulo de referencia <sup>[6](https://doi.org/10.18280/ts.390518)</sup>, en este se optimiza el procesamiento de señales EMG mediante técnicas de filtrado, segmentación y extracción de características. El mejor enfoque encontrado se describe brevemente a continuación:
 
 - **Filtrado**
 
@@ -215,7 +214,7 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 </div>
 
 Asimismo, se extrayeron las características correspondientes las cuales se observan en la siguientes carpeta:
- - [Feature extraction]()
+ - [Feature extraction](https://github.com/sofiacespedes22/ISB_2024_G8/tree/7f4809ac39605ca591b058a35f0dea00cf118745/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Feature%20extraction)
 
 <a name="archivos"></a>
 ## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
@@ -223,11 +222,9 @@ Asimismo, se extrayeron las características correspondientes las cuales se obse
   - [EMG]()
 
 <a name="discusion"></a>
-## DISCUSIÓN
-El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar que en el bíceps braquial debido a varias razones fisiológicas y técnicas. El abductor corto del pulgar, siendo un músculo más pequeño y localizado, experimenta menor interferencia de músculos adyacentes y presenta movimientos menos complejos, lo que reduce significativamente los artefactos y el ruido en la señal. Además, su ubicación superficial y menor profundidad permiten una captación más precisa de la señal por los electrodos. En contraste, el bíceps braquial, al estar rodeado de músculos grandes y estar involucrado en movimientos más amplios, genera señales con mayor ruido e interferencias, lo que dificulta una filtración tan eficaz.
+## Discusión
+La amplitud, tendencia central y variabilidad de las señales EMG evaluadas permite reconocer afecciones y variaciones del sistema neuromuscular, y es esencial para el diagnóstico de miopatías, neuropatías periféricas, ELA, y síndrome de túnel carpiano. En el presente laboratorio, se investigaron los datos tomados de la EMG para reconocer la actividad muscular según el movimiento o el tipo músculo evaluado, como fue el caso del abductor del pulgar o el músculo bíceps. Se observó que el filtro con mayor capacidad de atenuar el ruido por artefactos fue el filtro utilizando la transformada wavelet. El parámetro del SNR (Signal-to-noise ratio) fue evaluado pues permite identificar la relación entre la claridad de la señal frente al ruido que padece: a un mayor valor de SNR, la señal presenta mayor claridad y el ruido es relativamente mejor, lo cual nos da información de la calidad del filtrado. Se observa, a partir de los resultados obtenidos, que el filtro con transformada Wavelet que tuvo mayor efectividad fue en el bíceps braquial al presentar valores mas altos de SNR así como en la visualización de reducción de picos en la señal. Por último, concluimos que el análisis de señales EMG es relevante en el ámbito de la biomecánica, ya que se pronuncia en relación con la contracción, el rendimiento muscular y la coordinación involucrada. El procesamiento de señales de EMG, que abarca proceso y extracción de características y métodos de análisis y clasificación, es importante en las decisiones de diagnóstico y tratamiento de pacientes con desordenes neuromusculares. Asimismo, valores como la media y el valor RMS son ejes centrales para eliminar y normalizar señales <sup>[7](https://doi.org/10.1016/j.jelekin.2009.01.008)</sup>.
 
-<a name="conclusiones"></a>
-## CONCLUSIONES
 
 <a name="referencias"></a>
 ## REFERENCIAS BIBLIOGRÁFICAS
@@ -239,7 +236,9 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 
 [4] ] A. M. Moslhi, H. H. Aly, and M. ElMessiery, “The impact of feature extraction on classification accuracy examined by employing a signal transformer to classify hand gestures using surface electromyography signals,” Sensors, vol. 24, no. 4, p. 1259, Feb. 2024, doi: 10.3390/s24041259 Disponible en: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/
 
-[x0] “BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS”. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
+[5] “BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS”. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
 
-[x1] Y. Sevim, “A new feature extraction method for EMG signals,” Trait. Du Signal, vol. 39, no. 5, pp. 1615–1620, 2022. https://doi.org/10.18280/ts.390518
+[6] Y. Sevim, “A new feature extraction method for EMG signals,” Trait. Du Signal, vol. 39, no. 5, pp. 1615–1620, 2022. https://doi.org/10.18280/ts.390518
+
+[7] T. I. Arabadzhiev, V. G. Dimitrov, N. A. Dimitrova, and G. V. Dimitrov, “Interpretation of EMG integral or RMS and estimates of ‘neuromuscular efficiency’ can be misleading in fatiguing contraction,” Journal of Electromyography and Kinesiology, vol. 20, no. 2. Elsevier BV, pp. 223–232, Apr. 2010. doi: 10.1016/j.jelekin.2009.01.008.
 
