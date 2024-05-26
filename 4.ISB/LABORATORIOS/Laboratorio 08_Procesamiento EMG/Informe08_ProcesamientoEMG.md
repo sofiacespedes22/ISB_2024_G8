@@ -7,7 +7,6 @@
    3.1 [Materiales y equipos](#materiales)\
    3.2 [Procedimiento](#adquisicion)
 4. [Resultados](#resultados)\
-   4.1 [Señal EEG](#eeg)
 5. [Archivos](#archivos)
 6. [Discusión](#discusion)
 7. [Referencias bibliográficas](#referencias)
@@ -219,7 +218,7 @@ Asimismo, se extrayeron las características correspondientes las cuales se obse
 <a name="archivos"></a>
 ## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
 * **Codigo**
-  - [EMG]()
+  - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/tree/df24f30fb5e09ca55f7570ee885619f6fd250f00/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Codigos)
 
 <a name="discusion"></a>
 ## Discusión
