@@ -94,11 +94,7 @@ Las características del dominio del tiempo se evalúan en función de las varia
 Nos ayudan a identificar patrones específicos y poder identificar la activación para poder obtener información acerca de la modulación de la fuerza y de la velocidad de la contracción muscular. Las características del dominio de la frecuencia, a diferencia de las características del dominio del tiempo, no pueden derivarse directamente de datos sin procesar y se obtienen aplicando la transformada de Fourier a la señal. Estas características abarcan la densidad del espectro de potencia de la señal <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>.
 
 * **Características en el dominio tiempo-frecuencia**:
-Las herramientas de análisis en tiempo-frecuencia son capaces de darnos la información temporal de la cual se carece en el análisis espectral. Además, permite una mejor lectura e interpretación de las contracciones musculares.
-
-##### C.3. CLASIFICACIÓN Y EVALUACIÓN
-
-
+Las herramientas de análisis en tiempo-frecuencia son capaces de darnos la información temporal de la cual se carece en el análisis espectral. Además, permite una mejor lectura e interpretación de las contracciones musculares <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>.
 
 <a name="objetivos"></a>
 ## OBJETIVOS
