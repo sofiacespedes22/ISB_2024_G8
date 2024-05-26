@@ -98,6 +98,10 @@ Las herramientas de análisis en tiempo-frecuencia son capaces de darnos la info
 
 <a name="objetivos"></a>
 ## OBJETIVOS
+* Investigar literatura científica sobre técnica de procesamiento de señales electromiográficas (EMG).
+* Identificar e implementar la mejor técnica filtrado para eliminar el ruido de las señales electromiográficas (EMG).
+* Implementar un proceso de segmentación de las señales electromiográficas (EMG).
+* Extraer características relevantes de las señales electromiográficas (EMG) en diferentes dominios.
 
 <a name="metodologia"></a>
 ## METODOLOGÍA 
