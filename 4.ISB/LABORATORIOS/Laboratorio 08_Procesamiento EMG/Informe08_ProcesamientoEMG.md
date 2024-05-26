@@ -170,7 +170,7 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 </div>
 <p align="center">
 <image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/74995d02-0110-402a-8d56-2ec0ccf56667">
-<p align="center"><i>Figura 2. Ploteo de la señal de la prueba del pulgar con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
+<p align="center"><i>Figura 5. Ploteo de la señal de la prueba del pulgar con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
 </div>
 
 <div align="center">
@@ -178,46 +178,49 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 |  **SNR para filtro Wavelet**  | **SNR para filtro Butterworth** | **SNR para filtro IIR** | **Filtro mas efectivo** |
 |:------------:|:---------------:|:------------:|:----------:|
 |19.41 dB|2.41 dB|6.03 dB|Wavelet con SNR de 19.41 dB|
-<p align="center"><i>Tabla 2. Resultados de análisis SNR para el biceps </i></p>
+<p align="center"><i>Tabla 3. Resultados de análisis SNR para el biceps </i></p>
 </div>
 
 
 </div>
 <p align="center">
 <image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/207d6443-b7e9-48c8-abe4-d358b7bd7b2b">
-<p align="center"><i>Figura 2. Ploteo de la señal de la prueba del biceps con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
+<p align="center"><i>Figura 6. Ploteo de la señal de la prueba del biceps con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
 </div>
 
 
 </div>
 <p align="center">
-<image width="600" height="350" src="">
-<p align="center"><i>Figura 3. Ploteo de la señal del abductor del pulgar filtrada con transformada wavelet (fuente : Elaboración propia) </i></p>
+<image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Im%C3%A1genes/abductor_wavelet.jfif">
+<p align="center"><i>Figura 7. Ploteo de la señal del abductor del pulgar filtrada con transformada wavelet (fuente : Elaboración propia) </i></p>
 </div>
 
 
 </div>
 <p align="center">
-<image width="600" height="350" src="">
-<p align="center"><i>Figura 4. Segmentación utilizado el método de ventana deslizante para el abductor del pulgar</i></p>
+<image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Im%C3%A1genes/segmentacion_abductor.jfif">
+<p align="center"><i>Figura 8. Segmentación utilizado el método de ventana deslizante para el abductor del pulgar</i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="600" height="350" src="">
-<p align="center"><i>Figura 3. Ploteo de la señal del bíceps braquial filtrada con transformada wavelet (fuente : Elaboración propia) </i></p>
+<image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Im%C3%A1genes/biceps_wavelet.jfif">
+<p align="center"><i>Figura 9. Ploteo de la señal del bíceps braquial filtrada con transformada wavelet (fuente : Elaboración propia) </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="600" height="350" src="">
-<p align="center"><i>Figura 4. Segmentación utilizado el método de ventana deslizante para el bíceps braquial</i></p>
+<image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Im%C3%A1genes/segmenetacion_biceps.jfif">
+<p align="center"><i>Figura 10. Segmentación utilizado el método de ventana deslizante para el bíceps braquial</i></p>
 </div>
+
+Asimismo, se extrayeron las características correspondientes las cuales se observan en la siguientes carpeta:
+ - [Feature extraction]()
 
 <a name="archivos"></a>
 ## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
 * **Codigo**
-  - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/d22284eac044bb34acde6b8b07a34325d813988b/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/emg_wavelet.py)
+  - [EMG]()
 
 <a name="discusion"></a>
 ## DISCUSIÓN
