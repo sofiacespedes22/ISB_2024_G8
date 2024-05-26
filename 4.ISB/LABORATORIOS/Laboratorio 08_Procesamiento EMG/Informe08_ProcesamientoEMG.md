@@ -13,7 +13,6 @@
 7. [Conclusiones](#conclusiones)
 8. [Referencias bibliográficas](#referencias)
 
-  s
 <a name="introduccion"></a>
 ## **INTRODUCIÓN**
 ### **CONTEXTO**
@@ -157,27 +156,63 @@ Se utilizó un método de ventana deslizante con una longitud de ventana de 250 
 Se exploraron varias técnicas de extracción de características, incluidas las características en el dominio del tiempo (como la media y la varianza, así como características específicas de EMG), características en el dominio de la frecuencia (obtenidas mediante la transformada de Fourier), y métodos en el dominio tiempo-frecuencia (como la transformada de Fourier de tiempo corto y la transformada Wavelet). Además, se propuso un nuevo método de extracción de características basado en los coeficientes AR de las regiones positivas y negativas de la señal.
 
 
-#### SEÑAL EMG
-
-
 <a name="resultados"></a>
 ## RESULTADOS
 
+<div align="center">
+	
+|  **SNR para filtro Wavelet**  | **SNR para filtro Butterworth** | **SNR para filtro IIR** | **Filtro mas efectivo** |
+|:------------:|:---------------:|:------------:|:----------:|
+|12.29 dB|0.46 dB|3.18 dB|Wavelet con SNR de 12.29 dB|
+<p align="center"><i>Tabla 2. Resultados de análisis SNR para el abductor del pulgar</i></p>
+</div>
+
 </div>
 <p align="center">
-<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/74995d02-0110-402a-8d56-2ec0ccf56667">
+<image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/74995d02-0110-402a-8d56-2ec0ccf56667">
 <p align="center"><i>Figura 2. Ploteo de la señal de la prueba del pulgar con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
 </div>
 
+<div align="center">
+	
+|  **SNR para filtro Wavelet**  | **SNR para filtro Butterworth** | **SNR para filtro IIR** | **Filtro mas efectivo** |
+|:------------:|:---------------:|:------------:|:----------:|
+|19.41 dB|2.41 dB|6.03 dB|Wavelet con SNR de 19.41 dB|
+<p align="center"><i>Tabla 2. Resultados de análisis SNR para el biceps </i></p>
+</div>
+
+
 </div>
 <p align="center">
-<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/207d6443-b7e9-48c8-abe4-d358b7bd7b2b">
-<p align="center"><i>Figura 2. Ploteo de la señal de la prueba del bicep con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
+<image width="600" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/207d6443-b7e9-48c8-abe4-d358b7bd7b2b">
+<p align="center"><i>Figura 2. Ploteo de la señal de la prueba del biceps con el uso de diferentes filtros (fuente : Elaboración propia) </i></p>
 </div>
 
 
+</div>
+<p align="center">
+<image width="600" height="350" src="">
+<p align="center"><i>Figura 3. Ploteo de la señal del abductor del pulgar filtrada con transformada wavelet (fuente : Elaboración propia) </i></p>
+</div>
 
 
+</div>
+<p align="center">
+<image width="600" height="350" src="">
+<p align="center"><i>Figura 4. Segmentación utilizado el método de ventana deslizante para el abductor del pulgar</i></p>
+</div>
+
+</div>
+<p align="center">
+<image width="600" height="350" src="">
+<p align="center"><i>Figura 3. Ploteo de la señal del bíceps braquial filtrada con transformada wavelet (fuente : Elaboración propia) </i></p>
+</div>
+
+</div>
+<p align="center">
+<image width="600" height="350" src="">
+<p align="center"><i>Figura 4. Segmentación utilizado el método de ventana deslizante para el bíceps braquial</i></p>
+</div>
 
 <a name="archivos"></a>
 ## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
