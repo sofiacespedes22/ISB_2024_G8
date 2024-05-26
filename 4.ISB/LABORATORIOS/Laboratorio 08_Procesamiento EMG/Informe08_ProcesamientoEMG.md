@@ -193,13 +193,13 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 
 <a name="referencias"></a>
 ## REFERENCIAS BIBLIOGRÁFICAS
-[1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/
+[1] V. Gohel and N. Mehendale, “Review on electromyography signal acquisition and processing,” Biophysical Reviews, vol. 12, no. 6, pp. 1361–1367, Nov. 2020, doi: 10.1007/s12551-020-00770-w. Disponible en: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/
 
 [2] https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf
 
 [3] https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content
 
-[4] ] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/
+[4] ] A. M. Moslhi, H. H. Aly, and M. ElMessiery, “The impact of feature extraction on classification accuracy examined by employing a signal transformer to classify hand gestures using surface electromyography signals,” Sensors, vol. 24, no. 4, p. 1259, Feb. 2024, doi: 10.3390/s24041259 Disponible en: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/
 
 [x0] “BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS”. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
 
