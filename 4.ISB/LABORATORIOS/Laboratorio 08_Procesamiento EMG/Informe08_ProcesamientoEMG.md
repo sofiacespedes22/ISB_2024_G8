@@ -33,7 +33,7 @@ La electromiografía (EMG) al tener tanta relevancia en el ámbito biomédico, r
 
 <a name="marco"></a>
 ### **MARCO TEÓRICO**
-#### a. EMG
+#### A. EMG
 Proceso de registro de las actividades eléctricas musculares. Las actividades eléctricas musculares son realizadas bajo el control del cerebro, por lo tanto, están directamente relacionadas con el sistema nervioso. En el cerebro se produce un potencial de acción, el cual pasa a través de las fibras nerviosas, las cuales estimularán a las fibras musculares y las neuronas motoras trasmiten la señal logrando que el músculo se contraiga, generando una pequeña corriente eléctrica, la cual puede ser medida y registrada mediante EMG, y es mostrada en gráficos, sonidos y cuantificarla en valores numéricos <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup> .Las señales EMG son señales no estacionarias, no lineales y complejas. <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup>.
 
 </div>
@@ -44,7 +44,7 @@ Proceso de registro de las actividades eléctricas musculares. Las actividades e
 
 La amplitud de una señal EMG puede depender de varios factores, incluyendo la distancia que separa a los electrodos, el material de los electrodos y ruidos y “artefactos”.
 
-#### b. ADQUISICIÓN
+#### B. ADQUISICIÓN
 Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de electrodos: el electrodo de aguja (método invasivo) y los electrodos de superficie (método no invasivo) (_Figura 2_). Los electrodos de aguja se clasifican además en tres subtipos: los electrodos individuales monopolares, electrodos EMG de fibra única y electrodos EMG concéntricos; tienen aproximadamente 1 mm2 de ancho. Los electrodos de superficie, son de dos tipos: electrodos EMG gelificados y electrodos EMG secos; tienen entre 0.5 y 2.5 mm de ancho y como son colocados en la superficie de la piel, son no invasivos, estos electrodos detectan el cambio entre la superficie del músculo y la piel a través de la conducción electrolítica <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup> .
 
 </div>
@@ -73,10 +73,10 @@ A continuación podemos observar (_Figura 4_) dos señales obtenidas, tanto en E
 En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis
 
 
-#### c. PROCESAMIENTO
+#### C. PROCESAMIENTO
 Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, se requiere de un procesamiento de estas señales, con el fin de eliminar el ruido. 
 
-##### c.1. PRE-PROCESAMIENTO
+##### C.1. PRE-PROCESAMIENTO
 Las señales obtenidas por electrodos de superficie, son señales bastante débiles y ruidosas, como se mencionó anteriormente, por lo que requiere adecuación antes de ser tratada. Por lo que primero la señal debe pasar por una etapa de amplificación <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>. Después de esta amplificación, se siguen los siguientes pasos:
 
 * **Filtrado**: Se debe empezar con una etapa de filtración, ya que es esencial para reducir los artefactos en las señales EMG. Generalmente se necesita un filtro paso alto para que se puedan reducir efectos de artefactos correspondientes a movimientos en inestabilidad entre los electrodos de superficie y la piel, también se necesitarán filtros pasa bajo para registrar los datos que corresponden a estimulación muscular y eliminar interferencias de alta frecuencia, e incluso se puede utilizar filtro pasa banda <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>.  En algunos estudios, para poder filtrar la señal utilizaron filtros Butterworth con parámetros específicos o filtros pasa banda <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. En este laboratorio utilizaremos el filtro que mejor nos haya dado resultado de los laboratorios anteriores de FIR e IRR. 
@@ -84,10 +84,17 @@ Las señales obtenidas por electrodos de superficie, son señales bastante débi
 * **Normalización**:
 * **Segmentación**
 
-##### c.2. EXTRACCIÓN DE CARACTERÍSTICAS
+##### C.2. EXTRACCIÓN DE CARACTERÍSTICAS
+En la extracción, lo que se busca es obtener información de la señal EMG, que sea relevante para su análisis, a través de una transformación de los datos originales, y de esta transformación se obtiene el vector de características. La extracción de características, no solo mejora el rendimiento del clasificador, sino que también es capaz de reducir la dimensionalidad, de forma que simplifique el procesamiento y la clasificación <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. Entre las características que se pueden clasificar, están las siguientes tres:
+
+* **Características en el dominio del tiempo**:
+* 
+* **Características en el dominio de la frecuencia**:
+* 
+* **Características en el dominio tiempo-frecuencia**:
 
 
-##### c.3. CLASIFICACIÓN Y EVALUACIÓN
+##### C.3. CLASIFICACIÓN Y EVALUACIÓN
 
 
 
