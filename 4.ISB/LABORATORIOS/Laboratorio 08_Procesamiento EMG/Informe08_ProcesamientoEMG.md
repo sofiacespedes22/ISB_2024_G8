@@ -169,6 +169,13 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 <p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
 </div>
 
+</div>
+<p align="center">
+<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/207d6443-b7e9-48c8-abe4-d358b7bd7b2b">
+<p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
+</div>
+
+
 
 ### SEÑAL EMG
 
