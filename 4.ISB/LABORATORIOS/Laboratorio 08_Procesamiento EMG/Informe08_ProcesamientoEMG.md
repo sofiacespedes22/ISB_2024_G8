@@ -163,6 +163,13 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 <a name="resultados"></a>
 ## RESULTADOS
 
+</div>
+<p align="center">
+<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/74995d02-0110-402a-8d56-2ec0ccf56667">
+<p align="center"><i>Figura 1. Relación entre el sistema nervioso central y el músculo [3] </i></p>
+</div>
+
+
 ### SEÑAL EMG
 
 En el análisis de las señales EMG obtenidas del bíceps braquial y del abductor corto del pulgar, el uso de la transformada wavelet discreta (DWT) con la wavelet biorthogonal 1.5 (Bior1.5) resultó particularmente efectivo. La elección de estos parámetros permitió una descomposición detallada de las señales en siete niveles, con un umbral de 16 y una frecuencia de 500 Hz. Observando los gráficos, se pudo apreciar que la señal filtrada del abductor corto del pulgar mostró una mayor claridad y menos ruido en comparación con la del bíceps braquial.
@@ -177,9 +184,6 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 </div>
 
 <a name="eeg"></a>
-
-### SEÑAL EEG
-
 
 
 <a name="archivos"></a>
