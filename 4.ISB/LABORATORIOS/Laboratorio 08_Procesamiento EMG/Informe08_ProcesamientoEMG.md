@@ -103,12 +103,9 @@ En la extracción, lo que se busca es obtener información de la señal EMG, que
 
 <a name="metodologia"></a>
 ## METODOLOGÍA 
-La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del **Kit BITalino BITalino HOME-GUIDE** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
 
-La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel <sup>[6](http://dx.doi.org/10.13005/bpj/627)</sup> <sup>[7](https://doi.org/10.1109/CCAA.2016.7813897)</sup> [8] <sup>[9](http://www.ijecs.in/index.php/ijecs/article/download/1393/1279/2481)</sup> . La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original <sup>[6]()</sup> . A continuación, se detalla los pasos seguidos para la obtención del filtrado:
-
+En el proceso de procesamiento de señales EMG, el primer paso implica la búsqueda y revisión de al menos un artículo que aborde todos los aspectos relevantes para este propósito. En este reporte de laboratorio, se busca adquirir información esencial sobre técnicas de filtrado, métodos de segmentación y estrategias de extracción de características específicas para las señales EMG. Una vez seleccionado el recurso adecuado, se realizará la posterior aplicación de técnicas de filtrado para eliminar el ruido y las interferencias no deseadas de las señales EMG. Para luego continuar con el proceso de segmentación, dividiendo las señales en intervalos discretos para un análisis más detallado y llegar, finalmente, a la extracción de características relevantes de las señales segmentadas, identificando patrones y atributos útiles para su posterior análisis y aplicación en diversas aplicaciones biomédicas. 
  
-
 <a name="materiales"></a>
 ### 1. MATERIALES Y EQUIPOS
 
@@ -221,3 +218,8 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/
 
 [2] https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf
+
+[x0] “BITalino (r)evolution Lab Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS”. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
+
+[x1] Y. Sevim, “A new feature extraction method for EMG signals,” Trait. Du Signal, vol. 39, no. 5, pp. 1615–1620, 2022. https://doi.org/10.18280/ts.390518
+
