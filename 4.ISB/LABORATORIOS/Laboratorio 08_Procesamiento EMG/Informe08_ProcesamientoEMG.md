@@ -197,7 +197,7 @@ El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar q
 
 [2] https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf
 
-[3] https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content
+[3] A. Moreno Sanz, “Procesado Avanzado de señal EMG,” thesis, Universidad Carlos III de Madrid, Escuela politécnica superior, Madrid, 2017. Disponible en: https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content
 
 [4] ] A. M. Moslhi, H. H. Aly, and M. ElMessiery, “The impact of feature extraction on classification accuracy examined by employing a signal transformer to classify hand gestures using surface electromyography signals,” Sensors, vol. 24, no. 4, p. 1259, Feb. 2024, doi: 10.3390/s24041259 Disponible en: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/
 
