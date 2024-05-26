@@ -15,8 +15,8 @@
 
   
 <a name="introduccion"></a>
-## **Introducción**
-### **Contexto**
+## **INTRODUCIÓN**
+### **CONTEXTO**
 Como sabemos la electromiografía (EMG), es el estudio que permite registrar señales eléctricas biomédicas que son obtenidas a través de actividades generadas por los músculos esqueléticos, estas señales mioeléctricas son generadas a partir de neuronas motoras, que forman parte del Sistema Nervioso Central (SNC) <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>. En conclusión, una señal EMG es una señal biomédica que registra las corrientes eléctricas que son generadas por los músculos durante la contracción, representando actividades neuromusculares. 
 
 Actualmente, la EMG es una herramienta de gran utilidad, ya que se pueden utilizar para diagnóstico y monitoreo de lesiones musculares, daños a los nervios y disfunciones musculares que se pueden producir a trastornos neurológicos y musculares, con fines de investigación, para el análisis de la biomecánica de diversos movimientos y el análisis de la marcha, entre otros. <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup>.
@@ -25,7 +25,7 @@ La electromiografía (EMG) al tener tanta relevancia en el ámbito biomédico, r
 
 
 <a name="marco"></a>
-### **Marco teórico**
+### **MARCO TEÓRICO**
 #### a. EMG
 Proceso de registro de las actividades eléctricas musculares. Las actividades eléctricas musculares son realizadas bajo el control del cerebro, por lo tanto, están directamente relacionadas con el sistema nervioso. En el cerebro se produce un potencial de acción, el cual pasa a través de las fibras nerviosas, las cuales estimularán a las fibras musculares y las neuronas motoras trasmiten la señal logrando que el músculo se contraiga, generando una pequeña corriente eléctrica, la cual puede ser medida y registrada mediante EMG, y es mostrada en gráficos, sonidos y cuantificarla en valores numéricos <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup> .Las señales EMG son señales no estacionarias, no lineales y complejas. <sup>[2](https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf)</sup>.
 
@@ -37,7 +37,7 @@ Proceso de registro de las actividades eléctricas musculares. Las actividades e
 
 La amplitud de una señal EMG puede depender de varios factores, incluyendo la distancia que separa a los electrodos, el material de los electrodos y ruidos y “artefactos”.
 
-#### b. Adquisición
+#### b. ADQUISICIÓN
 Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de electrodos: el electrodo de aguja (método invasivo) y los electrodos de superficie (método no invasivo) (_Figura 2_). Los electrodos de aguja se clasifican además en tres subtipos: los electrodos individuales monopolares, electrodos EMG de fibra única y electrodos EMG concéntricos; tienen aproximadamente 1 mm2 de ancho. Los electrodos de superficie, son de dos tipos: electrodos EMG gelificados y electrodos EMG secos; tienen entre 0.5 y 2.5 mm de ancho y como son colocados en la superficie de la piel, son no invasivos, estos electrodos detectan el cambio entre la superficie del músculo y la piel a través de la conducción electrolítica <sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/)</sup> .
 
 </div>
@@ -55,8 +55,8 @@ Para la adquisición de las señales EMG, se utilizan principalmente 2 tipos de 
 
 En este laboratorio, nosotros estaremos analizando señales EMG adquiridas por electrodos de superficie, por lo tanto, es necesario que estas señales tengan un correcto procesamiento, para poder atenuar el ruido, producido por la propia adquisición y así poder luego realizar un mejor análisis.
 
-#### c. Procesamiento
-##### Pre-Procesamiento
+#### c. PROCESAMIENTO
+##### c.1. PRE-PROCESAMIENTO
 Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, se requiere de un procesamiento de estas señales, con el fin de eliminar el ruido. Las señales obtenidas por electrodos de superficie, son señales bastante débiles y ruidosas, como se mencionó anteriormente, por lo que requiere adecuación antes de ser tratada. Por lo que primero la señal debe pasar por una etapa de amplificación <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>. Después de esta amplificación, se siguen los siguientes pasos:
 
 * **Filtrado**: Se debe empezar con una etapa de filtración, ya que es esencial para reducir los artefactos en las señales EMG. Generalmente se necesita un filtro paso alto para que se puedan reducir efectos de artefactos correspondientes a movimientos en inestabilidad entre los electrodos de superficie y la piel, también se necesitarán filtros pasa bajo para registrar los datos que corresponden a estimulación muscular y eliminar interferencias de alta frecuencia, e incluso se puede utilizar filtro pasa banda <sup>[3](https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content)</sup>.  En algunos estudios, para poder filtrar la señal utilizaron filtros Butterworth con parámetros específicos o filtros pasa banda <sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10893156/)</sup>. En este laboratorio utilizaremos el filtro que mejor nos haya dado resultado de los laboratorios anteriores de FIR e IRR. 
@@ -66,18 +66,18 @@ Como mencionamos, para poder analizar correctamente las señales EMG obtenidas, 
 
 
 
-##### Extracción de características
+##### c.2. EXTRACCIÓN DE CARACTERÍSTICAS
 
 
-##### Clasificación y evaluación
+##### c.3. CLASIFICACIÓN Y EVALUACIÓN
 
 
 
 <a name="objetivos"></a>
-## Objetivos
+## OBJETIVOS
 
 <a name="metodologia"></a>
-## Metodología 
+## METODOLOGÍA 
 La metodología del siguiente laboratorio consistió en el diseño de filtros wavelet para atenuar las frecuencias altas generadas por el ruido en la adquisición y procesamiento de señales ECG, EMG y EEG a partir del protocolo de de adquisición y posicionamiento de los electrodos de la guía del **Kit BITalino BITalino HOME-GUIDE** <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, realizado en laboratorios anteriores. Puesto que las señales adquirida no han atravesado ningún tipo de pre-procesamiento, contienen ruidos debido a los artefactos que surgieron durante la adquisición y, por lo tanto, resulta relevante la aplicación del filtrado para obtener una mayor claridad de la señal y así una interpretación mas acertada.
 
 La aplicación del filtrado para las tres señales estuvo enfocado en el método de pre-procesamiento utilizando el método de transformada wavelet discreta (DWT) debido a que permite analizar señales en múltiples resoluciones lo que permite una mejor localización en tiempo y en frecuencia. El método de DWT permite descomponer la señal en componentes de alta y baja frecuencia con filtros de pasa baja y alta, reduciendo los coeficientes wavelet a mitad de cada nivel <sup>[6](http://dx.doi.org/10.13005/bpj/627)</sup> <sup>[7](https://doi.org/10.1109/CCAA.2016.7813897)</sup> [8] <sup>[9](http://www.ijecs.in/index.php/ijecs/article/download/1393/1279/2481)</sup> . La señal se subsamplea, basado en la regal de Nyquist, descartando cada segunda muestra, lo que permite que los coeficientes DWT reconstruyan la señal original <sup>[6]()</sup> . A continuación, se detalla los pasos seguidos para la obtención del filtrado:
@@ -85,7 +85,7 @@ La aplicación del filtrado para las tres señales estuvo enfocado en el método
  
 
 <a name="materiales"></a>
-### 1. Materiales y Equipos
+### 1. MATERIALES Y EQUIPOS
 
 <div align="center">
 
@@ -97,7 +97,7 @@ La aplicación del filtrado para las tres señales estuvo enfocado en el método
 </div>
 
 <a name="adquisicion"></a>
-### 2. Procedimiento
+### 2. PROCEDIMIENTO
 #### Procedimiento de Utilización de Señales EMG
 	
  - Datos Adquiridos Previamente
@@ -158,7 +158,7 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 
 
 <a name="resultados"></a>
-## Resultados
+## RESULTADOS
 
 ### SEÑAL EMG
 
@@ -180,19 +180,19 @@ En el análisis de las señales EMG obtenidas del bíceps braquial y del abducto
 
 
 <a name="archivos"></a>
-## Archivo de las señales ploteadas en Python
+## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
 * **Codigo**
   - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/d22284eac044bb34acde6b8b07a34325d813988b/4.ISB/LABORATORIOS/Laboratorio%2007_Filtrado%20Wavelet/C%C3%B3digos/emg_wavelet.py)
 
 <a name="discusion"></a>
-## Discusión
+## DISCUSIÓN
 El filtrado de la señal EMG fue más efectivo en el abductor corto del pulgar que en el bíceps braquial debido a varias razones fisiológicas y técnicas. El abductor corto del pulgar, siendo un músculo más pequeño y localizado, experimenta menor interferencia de músculos adyacentes y presenta movimientos menos complejos, lo que reduce significativamente los artefactos y el ruido en la señal. Además, su ubicación superficial y menor profundidad permiten una captación más precisa de la señal por los electrodos. En contraste, el bíceps braquial, al estar rodeado de músculos grandes y estar involucrado en movimientos más amplios, genera señales con mayor ruido e interferencias, lo que dificulta una filtración tan eficaz.
 
 <a name="conclusiones"></a>
-## Conclusiones
+## CONCLUSIONES
 
 <a name="referencias"></a>
-## Referencias bibliográficas
+## REFERENCIAS BIBLIOGRÁFICAS
 [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7755956/
 
 [2] https://www.ijsrp.org/research-paper-0517/ijsrp-p6504.pdf
