@@ -6,7 +6,7 @@
 3. [Metodología](#metodologia)\
    3.1 [Materiales y equipos](#materiales)\
    3.2 [Procedimiento](#adquisicion)
-4. [Resultados](#resultados)\
+4. [Resultados](#resultados)
 5. [Archivos](#archivos)
 6. [Discusión](#discusion)
 7. [Referencias bibliográficas](#referencias)
@@ -113,7 +113,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 |  **Señal Original vs Filtrada** | **Picos identificados** |
 |:------------:|:---------------:|
-||20|
+|<image width="400" height="200" src="">|20|
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
@@ -165,8 +165,8 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 | **Etapa** | **Señal Original vs Filtrada** | **Picos identificados** |
 |:------------:|:---------------:|:---------------:|
-|Inhalación||17|
-|Exhalación||13|
+|Inhalación|<image width="400" height="200" src="">|17|
+|Exhalación|<image width="400" height="200" src="">|13|
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
@@ -256,7 +256,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 |  **Señal Original vs Filtrada** | **Picos identificados** |
 |:------------:|:---------------:|
-||12|
+|<image width="400" height="200" src="">|12|
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
