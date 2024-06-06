@@ -31,38 +31,7 @@
 
 <a name="metodologia"></a>
 ## METODOLOGÍA 
- - **Datos Adquiridos Previamente**
-
 Para este laboratorio, se utilizarán datos de señales ECG adquiridas por el BITalino en la sesión de laboratorio 04. El proceso de adquisición se llevó a cabo siguiendo un protocolo estándar utilizando el dispositivo BITalino y el programa OpenSignal. Inicialmente, se estableció la conexión entre el BITalino y OpenSignal mediante Bluetooth para visualizar las señales en tiempo real. Luego, se conectó el sensor ECG de 3 electrodos al BITalino para comenzar la adquisición de señales.
- 
- - **Procedimiento de Adquisición Anterior**
-
-Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf)</sup>, se implementaron tres protocolos para medir la actividad eléctrica cardíaca en diferentes estados: estado de reposo, estado de respiración controlada, estado de descanso y estado post-ejercicio. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales ECG.
-
-**a. Actividad muscular del bíceps braquial (brazo)**: Durante esta prueba, se registró la actividad eléctrica del bíceps braquial en estados de reposo y ante la exposición de fuerzas con oposición o sin ella. Para ello, en el ensayo se empleó un electrodo de referencia en el codo para minimizar la interferencia eléctrica y el ruido.
-
-**b. Actividad muscular del abductor corto del pulgar**: En esta serie de mediciones, se evaluó la actividad eléctrica del abductor corto del pulgar en estados de reposo, fuerza con oposición y sin oposición. Al igual que en la prueba anterior, se utilizó un electrodo de referencia en el codo para reducir la interferencia eléctrica. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función muscular.
-
-#### DATOS ADQUIRIDOS EMG
-
-En este laboratorio, nos enfocaremos en el análisis y la interpretación de los datos de señales EMG previamente adquiridos. Las señales registradas durante las actividades musculares se utilizarán para llevar a cabo análisis específicos y extraer conclusiones relevantes sobre la actividad muscular en el bíceps braquial y el abductor corto del pulgar en diferentes condiciones experimentales.
-
-#### Filtrado, Segmentación y Extracción de Características de Señal EMG
-
-Para esta sección se seleccionó un articulo de referencia <sup>[6](https://doi.org/10.18280/ts.390518)</sup>, en este se optimiza el procesamiento de señales EMG mediante técnicas de filtrado, segmentación y extracción de características. El mejor enfoque encontrado se describe brevemente a continuación:
-
-- **Filtrado**
-
-Se aplicó un filtro de rechazo de banda de 45-55Hz para eliminar la interferencia de la línea de alimentación, lo que ayudó a mejorar la calidad de las señales EMG al eliminar el ruido no deseado.
-
-- **Segmentación**
-
-Se utilizó un método de ventana deslizante con una longitud de ventana de 250 ms y un incremento de 64 ms para segmentar los datos EMG. Esta técnica permitió dividir las señales en intervalos más pequeños para un análisis más detallado.
-
-- **Extracción de características**
-
-Se exploraron varias técnicas de extracción de características, incluidas las características en el dominio del tiempo (como la media y la varianza, así como características específicas de EMG), características en el dominio de la frecuencia (obtenidas mediante la transformada de Fourier), y métodos en el dominio tiempo-frecuencia (como la transformada de Fourier de tiempo corto y la transformada Wavelet). Además, se propuso un nuevo método de extracción de características basado en los coeficientes AR de las regiones positivas y negativas de la señal.
-
 
 <a name="materiales"></a>
 ### 1. MATERIALES Y EQUIPOS
@@ -78,7 +47,39 @@ Se exploraron varias técnicas de extracción de características, incluidas las
 
 <a name="adquisicion"></a>
 ### 2. PROCEDIMIENTO
+Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, se implementaron tres protocolos para medir la actividad eléctrica cardíaca en diferentes estados: estado de reposo, estado de respiración prolongada y estado de ejercicio intensivo. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales ECG para realizar la configuración bipolar de Einthoven de la siguiente manera:
 
+* **IN+** (electrodo positivo/rojo) se coloca en la muñeca izquierda .
+* **IN-** (electrodo negativo/negro) se coloca en la muñeca derecha.
+* **REF** (electrodo de referencia/blanco) se coloca en la cresta ilíaca, debido a que representa una zona de baja interferencia electromagnética.
+  
+**a. Actividad eléctrica en estado de reposo**: Durante esta prueba, se registró la actividad eléctrica cardíaca del sujeto de prueba en una posición estable y manteniendo la calma. Este estado representa nuestra prueba control. El registro de la señal fue grabado por 30 segundos.
+
+**b. Actividad eléctrica en estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función cardíaca.
+
+**a. Actividad eléctrica en estado de ejercicio intensivo**: Durante esta prueba, se registró la actividad eléctrica del sujeto de prueba al realizar la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos..
+
+#### DATOS ADQUIRIDOS EMG
+
+En este laboratorio, nos enfocaremos en el análisis y la interpretación de las características de las señales ECG previamente adquiridos, como los picos de la onda R y la variabilidad de la frecuencia cardíaca (HRV). Las señales registradas durante los estado serán utilizadas para el análisis respectivo y así poder extraer conclusiones relevantes sobre la actividad cardíaca de diferentes estados del paciente en diferentes condiciones experimentales. Asimismo, para el cálculo del HRV y parte del procesamiento de la señal se utilizó un artículo de referencia que presentaba un enfoque en tiempo real del análisis del HRV <sup>[6]()</sup>.
+
+#### Pre-procesamiento de la señal
+- **Filtrado**
+
+Se aplicó un filtro pasa banda con frecuencias de corte de 0.5Hz para frecuencia inferior y 40 Hz para superior. Estas fueron implementadas para eliminar la línea base, evitar el ruido de alta frecuencia generado por artefactos como la presencia de la actividad muscular no deseada. Este filtrado permitió mejorar la calidad de las señales ECG al eliminar el ruido no deseado y así facilitar la detección de pico.
+
+- **Segmentación**
+
+Las señales de voltaje se segmentaron y anotaron en los puntos P, Q, R, S y T, que corresponden a diferentes intervalos de despolarización/repolarización atrial/ventricular, lo cual resulta relevante para el análisis de la señal al conocer sus características principales.
+
+#### Detección de picos en onda R
+
+
+
+#### Cálculo del HRV
+
+
+- **Extracción de características**
 
 
 <a name="resultados"></a>
