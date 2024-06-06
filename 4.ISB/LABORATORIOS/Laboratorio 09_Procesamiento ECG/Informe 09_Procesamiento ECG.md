@@ -113,7 +113,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 |  **Señal Original vs Filtrada** | **Picos identificados** |
 |:------------:|:---------------:|
-|<image width="400" height="200" src="">|20|
+|<image width="800" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/reposo%20original%20vs%20filtrado.jfif">|20|
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
@@ -165,8 +165,8 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 | **Etapa** | **Señal Original vs Filtrada** | **Picos identificados** |
 |:------------:|:---------------:|:---------------:|
-|Inhalación|<image width="400" height="200" src="">|17|
-|Exhalación|<image width="400" height="200" src="">|13|
+|Inhalación|<image width="700" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/inhalaci%C3%B3n%20original%20vs%20filtrado.jfif">|17|
+|Exhalación|<image width="700" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/exhalaci%C3%B3n%20original%20vs%20filtrado.jfif">|13|
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
@@ -256,7 +256,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 |  **Señal Original vs Filtrada** | **Picos identificados** |
 |:------------:|:---------------:|
-|<image width="400" height="200" src="">|12|
+|<image width="800" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/ejercicio%20original%20vs%20filtrado.jfif">|12|
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
