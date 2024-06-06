@@ -102,12 +102,13 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 
 ##### Análisis de frecuencias
 
-
+El método de Lomb-Scargle se utilizó para convertir las señales HRV al dominio de frecuencia, dado que la serie temporal de los intervalos RR tiene un periodo de muestreo irregular. Este método generó un "estimador de espectro de potencia tipo Fourier" basado en el método de mínimos cuadrados, donde se determinó el sinusoide que mejor se ajusta a los datos para cada componente de frecuencia elemental. Se calcularon las potencias en las bandas de baja frecuencia (LF: 0.04-0.15 Hz) y alta frecuencia (HF: 0.15-0.40 Hz), las cuales proporcionan información sobre los componentes autónomos de la variabilidad de la frecuencia cardíaca. Asimismo, para el análisis en el dominio de frecuencia, se utilizó una ventana deslizante con una duración mínima de 2 minutos, garantizando una resolución suficiente para distinguir los componentes elementales del espectro en las diferentes bandas, ya que ventanas más cortas resultan en resoluciones frecuenciales insuficientes.
 
 <a name="resultados"></a>
 ## RESULTADOS
 ### Estado de reposo
 #### Detección de picos R
+
 <div align="center">
 
 |  **Señal Original vs Filtrada** | **Picos identificados** |
@@ -118,6 +119,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 </div>
 
 #### Resultados de HRV
+
 <div align="center">
 
 |  **Parámetro**  | **Resultado** |
@@ -139,7 +141,9 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
+
 #### Análisis de frecuencia
+
 <div align="center">
 
 |  **Ventana**  | **Resultado** |
@@ -156,6 +160,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 ### Estado de respiración prolongada
 
 #### Detección de picos R
+
 <div align="center">
 
 | **Etapa** | **Señal Original vs Filtrada** | **Picos identificados** |
@@ -170,6 +175,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 ##### Etapa de inhalación
 
 <div align="center">
+   
 |  **Parámetro**  | **Resultado** |
 |:------------:|:---------------:|
 |minRR|[0.72, 0.632, 0.632, 0.664]|
@@ -191,7 +197,9 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 </div>
 
 ##### Etapa de exhalación
+
 <div align="center">
+   
 |  **Parámetro**  | **Resultado** |
 |:------------:|:---------------:|
 |minRR|[0.781, 0.717, 0.65, 0.616]|
@@ -214,6 +222,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 
 #### Análisis de frecuencia
 ##### Etapa de inhalación
+
 <div align="center">
 
 |  **Ventana**  | **Resultado** |
@@ -227,6 +236,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 </div>
 
 ##### Etapa de exhalación
+
 <div align="center">
 
 |  **Ventana**  | **Resultado** |
@@ -241,6 +251,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 
 ### Estado de ejercicio intensivo
 #### Detección de picos R
+
 <div align="center">
 
 |  **Señal Original vs Filtrada** | **Picos identificados** |
@@ -249,7 +260,9 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 
 <p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
 </div>
+
 #### Resultados de HRV
+
 <div align="center">
 
 |  **Parámetro**  | **Resultado** |
@@ -272,6 +285,7 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 </div>
 
 #### Análisis de frecuencia
+
 <div align="center">
 
 |  **Ventana**  | **Resultado** |
