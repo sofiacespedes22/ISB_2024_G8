@@ -34,7 +34,7 @@ El electrocardiograma (ECG) es un gráfico en el que se estudian las variaciones
 
 </div>
 <p align="center">
-<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d4838867-5412-4967-a745-b27708bbd075">
+<image width="500" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d4838867-5412-4967-a745-b27708bbd075">
 <p align="center"><i>Figura 2. Complejo PQRST [1] </i></p>
 </div>  
 <a name="objetivos"></a>
