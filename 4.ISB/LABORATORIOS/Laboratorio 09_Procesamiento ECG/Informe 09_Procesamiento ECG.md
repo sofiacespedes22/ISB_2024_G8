@@ -67,7 +67,7 @@ El posicionamiento de los electrodos en un electrocardiograma (ECG) es crucial p
 </div>
 <p align="center">
 <image width="500" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7ec39cdc-42dc-44d0-87fd-fc6d2b9c09a0">
-<p align="center"><i>Figura 4. Colocación de ECG de 12 derivaciones. Extraido de https://www.ncbi.nlm.nih.gov/books/NBK594493/ [1] </i></p>
+<p align="center"><i>Figura 4. Colocación de ECG de 12 derivaciones. Extraido de https://www.ncbi.nlm.nih.gov/books/NBK594493/ </i></p>
 </div>  
 <a name="objetivos"></a>
 
