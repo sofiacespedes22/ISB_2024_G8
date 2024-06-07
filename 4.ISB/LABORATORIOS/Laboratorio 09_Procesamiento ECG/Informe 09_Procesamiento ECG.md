@@ -377,6 +377,7 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 
 [6] Sattar Y, Chhabra L. Electrocardiogram. [Updated 2023 Jun 5]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK549803/
 
-[a]
+[a] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+
 [b] G. Ramos, M. Alfaras, and H. Gamboa, "Real-Time Approach to HRV Analysis," in Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2018), vol. 4: BIOSIGNALS, pp. 208-215, 2018, doi: http://dx.doi.org/10.5220/0006641402080215
 
