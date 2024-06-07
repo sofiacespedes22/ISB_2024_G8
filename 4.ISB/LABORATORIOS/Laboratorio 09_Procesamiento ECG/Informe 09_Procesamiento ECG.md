@@ -67,7 +67,7 @@ El posicionamiento de los electrodos en un electrocardiograma (ECG) es crucial p
 </div>
 <p align="center">
 <image width="500" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7ec39cdc-42dc-44d0-87fd-fc6d2b9c09a0">
-<p align="center"><i>Figura 4. Colocación de ECG de 12 derivaciones. Extraido de https://www.ncbi.nlm.nih.gov/books/NBK594493/ </i></p>
+<p align="center"><i>Figura 4. Colocación de ECG de 12 derivaciones [5] </i></p>
 </div>  
 <a name="objetivos"></a>
 
@@ -83,7 +83,7 @@ Para las derivaciones precordiales (V1-V6):
 * **V3**: Entre V2 y V4.
 * **V4**: En el quinto espacio intercostal en la línea medio-clavicular.
 * **V5**: Entre V4 y V6.
-* **V6**: En el quinto espacio intercostal en la línea medio-axilar.<sup>[5](https://www.ncbi.nlm.nih.gov/books/NBK549803/)</sup>
+* **V6**: En el quinto espacio intercostal en la línea medio-axilar.<sup>[6](https://www.ncbi.nlm.nih.gov/books/NBK549803/)</sup>
 
 #### C. PROCESAMIENTO
 
@@ -383,5 +383,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 [4] Vieau, S., Iaizzo, P.A. (2015). Basic ECG Theory, 12-Lead Recordings, and Their Interpretation. In: Iaizzo, P. (eds) Handbook of Cardiac Anatomy, Physiology, and Devices. Springer, Cham. https://doi.org/10.1007/978-3-319-19464-6_19
 
-[5] Sattar Y, Chhabra L. Electrocardiogram. [Updated 2023 Jun 5]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK549803/
+[5] Open Resources for Nursing (Open RN); Ernstmeyer K, Christman E, editors. Nursing Advanced Skills [Internet]. Eau Claire (WI): Chippewa Valley Technical College; 2023. Chapter 7 Interpret Basic ECG. Available from: https://www.ncbi.nlm.nih.gov/books/NBK594493/
+
+[6] Sattar Y, Chhabra L. Electrocardiogram. [Updated 2023 Jun 5]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK549803/
 
