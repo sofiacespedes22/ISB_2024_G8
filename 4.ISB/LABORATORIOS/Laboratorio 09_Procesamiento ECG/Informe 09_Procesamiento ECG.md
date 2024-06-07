@@ -85,6 +85,9 @@ Para las derivaciones precordiales (V1-V6):
 * **V5**: Entre V4 y V6.
 * **V6**: En el quinto espacio intercostal en la línea medio-axilar.<sup>[5](https://www.ncbi.nlm.nih.gov/books/NBK549803/)</sup>
 
+#### C. PROCESAMIENTO
+
+
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electrocardiográficas (ECG).
 * Identificar e implementar la mejor técnica filtrado para eliminar el ruido de las señales ECG.
