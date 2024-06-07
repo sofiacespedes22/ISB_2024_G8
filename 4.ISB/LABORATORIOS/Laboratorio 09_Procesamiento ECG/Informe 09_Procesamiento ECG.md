@@ -14,15 +14,32 @@
 <a name="introduccion"></a>
 ## **INTRODUCIÓN**
 ### **CONTEXTO**
+A lo largo del tiempo, el electrocardiograma (ECG) se ha vuelto la herramienta más extendida para observar la actividad eléctrica del corazón <sup>[1](https://doi-org.ezproxybib.pucp.edu.pe/10.1109/ICIT.2012.6209924)</sup> y se usa prácticamente en todas las situaciones médicas en la que se necesite evaluar el estado clínico del corazón de algún paciente y así permitir la identificación de diversas anomalías en la funcionalidad del corazón o del diagnóstico y monitoreo de patologías cardiacas. Este alcance se debe gracias a que es un método no invasivo, de fácil uso, seguro, accesible y sencillo de realizar, que proporciona una gran cantidad de información con relación al estado del corazón.
 
+</div>
+<p align="center">
+<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6ced3134-f549-4726-92c7-cdaad99f309d">
+<p align="center"><i>Figura 1. Realización de un electrocardiograma de 12 derivaciones [2] </i></p>
+</div>
 
+El electrocardiograma (ECG) proporciona una representación directa de los potenciales eléctricos del corazón, donde cada latido (ciclo cardiáco) se representa como una secuencia de cinco desviaciones (complejo PQRST) <sup>[1](https://doi-org.ezproxybib.pucp.edu.pe/10.1109/ICIT.2012.6209924)</sup>. Los cardiólogos evalúan la morfología de la forma de estas ondas (Ejm.Altura del pico R) y variaciones temporales (duración de intervalo QRS, intervalo QT, segmento T,etc) y de esta forma emitir sus diagnósticos.
+
+Al ser el electrocardiograma (ECG) una herramienta de gran importancia en la actualidad para entornos clínicos, de salud, biomédicos y de investigación, es necesario que la señal obtenida sea lo más clara posible, libre de errores en el proceso de adquisición y con el menor ruido posible. Teniendo en cuenta que el electrocardiograma registra la actividad eléctrica del corazón, de forma aleatoria y además es inestable <sup>[3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7922324/)</sup>, ya que varía dependiendo del entorno y del individuo al que se le realice la prueba, es necesario tener un adecuado procesamiento de la señal ECG  para la eliminación o disminución de estos ruidos y así realizar un correcto análisis y obtener información relevante de la actividad cardiáca.
 
 
 <a name="marco"></a>
 ### **MARCO TEÓRICO**
+#### A. ECG
+El electrocardiograma (ECG) es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Se registran los impulsos eléctricos de la actividad que se desarrolla en el corazón durante un tiempo determinado. El ECG es una herramienta crucial en la medición y análisis de la actividad eléctrica del corazón, lo cual es crucial para entender el funcionamiento cardíaco y detectar posibles trastornos del ritmo cariado (arritmias) y en el diagnóstico de situaciones que cursan con un aporte insuficiente de sandre al corazón (infarto de miocardio y angina de pecho). 
 
-
+</div>
+<p align="center">
+<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d4838867-5412-4967-a745-b27708bbd075">
+<p align="center"><i>Figura 2. Complejo PQRST [1] </i></p>
+</div>  
 <a name="objetivos"></a>
+
+   
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electrocardiográficas (ECG).
 * Identificar e implementar la mejor técnica filtrado para eliminar el ruido de las señales ECG.
