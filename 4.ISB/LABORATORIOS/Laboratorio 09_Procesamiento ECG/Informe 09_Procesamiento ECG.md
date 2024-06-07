@@ -18,7 +18,7 @@ A lo largo del tiempo, el electrocardiograma (ECG) se ha vuelto la herramienta m
 
 </div>
 <p align="center">
-<image width="300" height="100" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6ced3134-f549-4726-92c7-cdaad99f309d">
+<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6ced3134-f549-4726-92c7-cdaad99f309d">
 <p align="center"><i>Figura 1. Realización de un electrocardiograma de 12 derivaciones [2] </i></p>
 </div>
 
@@ -36,7 +36,7 @@ El ECG presenta como línea guía la denominada línea isoeléctrica o línea ba
 
 </div>
 <p align="center">
-<image width="300" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/736e7588-584e-4b8d-bce9-751c3284a120">
+<image width="300" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/736e7588-584e-4b8d-bce9-751c3284a120">
 <p align="center"><i>Figura 2. Representación de latidos cardiácos consecutivos en el electrocardiograma [2] </i></p>
 </div>
 
