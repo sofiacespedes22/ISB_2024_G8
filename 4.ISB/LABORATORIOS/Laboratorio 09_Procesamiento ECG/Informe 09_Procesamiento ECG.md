@@ -86,7 +86,20 @@ Para las derivaciones precordiales (V1-V6):
 * **V6**: En el quinto espacio intercostal en la línea medio-axilar.<sup>[6](https://www.ncbi.nlm.nih.gov/books/NBK549803/)</sup>
 
 #### C. PROCESAMIENTO
+Como mencionamos, para el correcto análisis de la señal ECG, se requiere un adecuado procesamiento de la señal con el fin de eliminar los diversos ruidos que puedan ser generados, ya sea por el ambiente, ruidos aleatorios o por artefactos de movimiento de los electrodos de superficie en el momento de la adquisición. 
 
+##### C.1. PRE-PROCESAMIENTO
+En el pre-procesamiento se realiza el acondicionamiento de la señal para poder obtenerla lo más clara y libre de interferencias posibles, para ello realizaremos los siguientes pasos:
+
+* **Filtrado**: Se debe empezar con una etapa de filtración, que se refiere a la eliminación del ruido de la señal de ECG que se puede producir debido a las interferencias de red eléctrica, a electrodos mal conectados y artefactos respiratorios o de movimiento. Esto se puede lograr pasando la señal ECG cruda a través de filtros, por ejemplo filtros  de paso de banda digital de fase cero. Los filtros se seleccionan basándose dependiendo de los límites en los que se encuentre la actividad eléctrica del corazón. <sup>[1](https://doi-org.ezproxybib.pucp.edu.pe/10.1109/ICIT.2012.6209924)</sup>
+
+* **Segmentación**: El proceso de segmentación consiste en dividir los datos muestreados de la señal ECG, en segmentos más pequeños que representen mejor la señal ECG, para la posterior extracción de características. El tamaño de los segmentos debe ser lo suficientemente grande como para extraer adecuadamente las características de cada segmento y tener una mayor precisión de clasificación , pero la longitud de estos segmentos también debe ser pequeña para evitar cualquier retraso computacional en sistemas en tiempo real. En señales ECG, se busca principalmente enfocarse en el complejo QRS y en el pico R, ya que estos son los que pueden brindar maayor información acerca del estado del corazón.
+
+##### C.2. EXTRACCIÓN DE CARACTERÍSTICAS
+En la extracción, lo que se busca es obtener información de la señal ECG, que sea relevante para su análisis, a través de una transformación de los datos originales, y de esta transformación se obtiene el vector de características, de modo que se tengan valores representativos y no redundantes de estos segmentos. Como se mencionó, las características más resaltantes son el complejo QRS y el pico R.
+
+#### D. PICO R
+La detección del pico R, es la característica más resaltante de todo el complejo y es la que se busca identificar, ya que las demás características se extraen luego de la ubicación de este.  De la colección de puntos extremos, la instancia de tiempo pico R se extrae como los máximos locales que tienen el valor de gradiente (pendiente) más alto a su alrededor. La instancia de tiempo pico R extraída se verifica si se encuentra dentro de los límites del QRS. Si esto no se cumple, la aproximación inicial de la posición del pico R se considera errónea. Luego se calcula la posición del pico R como los máximos locales presentes dentro de los límites del QRS. El análisis del pico R es fundamental para el diagnóstico de diferentes enfermedades como arritmia, entre otras.
 
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electrocardiográficas (ECG).
