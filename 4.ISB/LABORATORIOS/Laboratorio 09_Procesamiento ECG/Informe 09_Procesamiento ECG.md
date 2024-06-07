@@ -30,9 +30,9 @@ Al ser el electrocardiograma (ECG) una herramienta de gran importancia en la act
 <a name="marco"></a>
 ### **MARCO TEÓRICO**
 #### A. ECG
-El electrocardiograma (ECG) es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Se registran los impulsos eléctricos de la actividad que se desarrolla en el corazón durante un tiempo determinado. El ECG es una herramienta crucial en la medición y análisis de la actividad eléctrica del corazón, lo cual es crucial para entender el funcionamiento cardíaco y detectar posibles trastornos del ritmo cariado (arritmias) y en el diagnóstico de situaciones que cursan con un aporte insuficiente de sandre al corazón (infarto de miocardio y angina de pecho) [2]. 
+El electrocardiograma (ECG) es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Se registran los impulsos eléctricos de la actividad que se desarrolla en el corazón durante un tiempo determinado. El ECG es una herramienta crucial en la medición y análisis de la actividad eléctrica del corazón, lo cual es crucial para entender el funcionamiento cardíaco y detectar posibles trastornos del ritmo cariado (arritmias) y en el diagnóstico de situaciones que cursan con un aporte insuficiente de sandre al corazón (infarto de miocardio y angina de pecho) <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>. 
 
-El ECG presenta como línea guía la denominada línea isoeléctrica o línea basal, que se puede identificar fácilmente como la línea horizontal que existe entre cada uno de los latidos (_Figura 2_). Cada latido queda queda representado en el ECG por las diferentes oscilaciones de la línea basal en formas de ángulos, segmentos, ondas e intervalos, y de esta forma constituye la imagen característica. En sentido horizontal se hace referencia al tiempo transcurrido y la distancia vertical representa al voltaje que se está produciendo [2].
+El ECG presenta como línea guía la denominada línea isoeléctrica o línea basal, que se puede identificar fácilmente como la línea horizontal que existe entre cada uno de los latidos (_Figura 2_). Cada latido queda queda representado en el ECG por las diferentes oscilaciones de la línea basal en formas de ángulos, segmentos, ondas e intervalos, y de esta forma constituye la imagen característica. En sentido horizontal se hace referencia al tiempo transcurrido y la distancia vertical representa al voltaje que se está produciendo <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>.
 
 </div>
 <p align="center">
@@ -42,12 +42,12 @@ El ECG presenta como línea guía la denominada línea isoeléctrica o línea ba
 
 En un ECG normal, cada complejo se representa como una secuencia de cinco desviaciones, más conocida como complejo PQRST, en este complejo se distinguen la onda P, el segmento P-R, el complejo QRS, el segmento ST y finalmente la onda T. A continuación especicaremos detalladamente algunas de ellas:
 * **Onda P**: Representa la despolarización de las aurículas y la contracción auricular. Dura aproximadamente 80-100 milisegundos.
-* **Segmento PR**: Es el tramo de la línea basal (línea isoeléctrica) que se encuentra al final de la onda P. En este periodo, las aurículas terminan de vaciarse y se produce una relativa desaceleración en la transmisión de la corriente eléctrica por el corazón. [2]
+* **Segmento PR**: Es el tramo de la línea basal (línea isoeléctrica) que se encuentra al final de la onda P. En este periodo, las aurículas terminan de vaciarse y se produce una relativa desaceleración en la transmisión de la corriente eléctrica por el corazón <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>. 
 * **Complejo QRS**: Representa la despolarización de los ventrículos y es el componente más prominente del ECG. Incluye:
  **Onda Q**: Pequeña deflexión negativa (si está presente).
  **Onda R**: Gran deflexión positiva.
  **Onda S**: Deflexión negativa que sigue a la onda R. Este complejo dura aproximadamente 100 milisegundos.
-* **Segmento ST**: Es el trazado de la línea basal que está al final de la onda S y ante del comienzo de la onda T. La elevación o descenso de este segmento en relación con la línea basal puede significar diversos problemas en el corazón, como insuficiencia en el riesgo del corazón. 
+* **Segmento ST**: Es el trazado de la línea basal que está al final de la onda S y ante del comienzo de la onda T. La elevación o descenso de este segmento en relación con la línea basal puede significar diversos problemas en el corazón, como insuficiencia en el riesgo del corazón <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>. 
 * **Onda T**: Representa la repolarización de los ventrículos.
 
 En la _Figura 3_ se puede observar de forma más detallada el complejo de la onda PQRST, y los segmentos característicos que hemos descrito anteriormente:
@@ -59,7 +59,7 @@ En la _Figura 3_ se puede observar de forma más detallada el complejo de la ond
 </div>  
 <a name="objetivos"></a>
 
-El ECG no solo proporciona información sobre el ritmo y la frecuencia cardíaca, sino que también puede indicar problemas como arritmias, bloqueos cardíacos y otros trastornos del corazón. En algunos casos, también se puede observar una onda U después de la onda T, aunque su origen no está completamente claro y se asocia con repolarizaciones tardías en el sistema de Purkinje. [a]
+El ECG no solo proporciona información sobre el ritmo y la frecuencia cardíaca, sino que también puede indicar problemas como arritmias, bloqueos cardíacos y otros trastornos del corazón. En algunos casos, también se puede observar una onda U después de la onda T, aunque su origen no está completamente claro y se asocia con repolarizaciones tardías en el sistema de Purkinje <sup>[4](https://doi.org/10.1007/978-3-319-19464-6_19)</sup>. 
 
 
 
