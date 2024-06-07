@@ -43,10 +43,10 @@ El ECG presenta como línea guía la denominada línea isoeléctrica o línea ba
 En un ECG normal, cada complejo se representa como una secuencia de cinco desviaciones, más conocida como complejo PQRST, en este complejo se distinguen la onda P, el segmento P-R, el complejo QRS, el segmento ST y finalmente la onda T. A continuación especicaremos detalladamente algunas de ellas:
 * **Onda P**: Representa la despolarización de las aurículas y la contracción auricular. Dura aproximadamente 80-100 milisegundos.
 * **Segmento PR**: Es el tramo de la línea basal (línea isoeléctrica) que se encuentra al final de la onda P. En este periodo, las aurículas terminan de vaciarse y se produce una relativa desaceleración en la transmisión de la corriente eléctrica por el corazón <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>. 
-* **Complejo QRS**: Representa la despolarización de los ventrículos y es el componente más prominente del ECG. Incluye:
-      **Onda Q**: Pequeña deflexión negativa (si está presente).
-      **Onda R**: Gran deflexión positiva.
-      **Onda S**: Deflexión negativa que sigue a la onda R. Este complejo dura aproximadamente 100 milisegundos.
+* **Complejo QRS**: Representa la despolarización de los ventrículos y es el componente más prominente del ECG. Incluye:\
+      **Onda Q**: Pequeña deflexión negativa (si está presente).\
+      **Onda R**: Gran deflexión positiva.\
+      **Onda S**: Deflexión negativa que sigue a la onda R. Este complejo dura aproximadamente 100 milisegundos.\
 * **Segmento ST**: Es el trazado de la línea basal que está al final de la onda S y ante del comienzo de la onda T. La elevación o descenso de este segmento en relación con la línea basal puede significar diversos problemas en el corazón, como insuficiencia en el riesgo del corazón <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>. 
 * **Onda T**: Representa la repolarización de los ventrículos.
 
