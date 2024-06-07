@@ -46,7 +46,7 @@ En un ECG normal, cada complejo se representa como una secuencia de cinco desvia
 * **Complejo QRS**: Representa la despolarización de los ventrículos y es el componente más prominente del ECG. Incluye:\
       **Onda Q**: Pequeña deflexión negativa (si está presente).\
       **Onda R**: Gran deflexión positiva.\
-      **Onda S**: Deflexión negativa que sigue a la onda R. Este complejo dura aproximadamente 100 milisegundos.\
+      **Onda S**: Deflexión negativa que sigue a la onda R. Este complejo dura aproximadamente 100 milisegundos.
 * **Segmento ST**: Es el trazado de la línea basal que está al final de la onda S y ante del comienzo de la onda T. La elevación o descenso de este segmento en relación con la línea basal puede significar diversos problemas en el corazón, como insuficiencia en el riesgo del corazón <sup>[2](https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf)</sup>. 
 * **Onda T**: Representa la repolarización de los ventrículos.
 
@@ -61,9 +61,30 @@ En la _Figura 3_ se puede observar de forma más detallada el complejo de la ond
 
 El ECG no solo proporciona información sobre el ritmo y la frecuencia cardíaca, sino que también puede indicar problemas como arritmias, bloqueos cardíacos y otros trastornos del corazón. En algunos casos, también se puede observar una onda U después de la onda T, aunque su origen no está completamente claro y se asocia con repolarizaciones tardías en el sistema de Purkinje <sup>[4](https://doi.org/10.1007/978-3-319-19464-6_19)</sup>. 
 
+#### B. ADQUISICIÓN
+El posicionamiento de los electrodos en un electrocardiograma (ECG) es crucial para obtener mediciones precisas de la actividad eléctrica del corazón. En un ECG convencional de 12 derivaciones, se utilizan diez electrodos distribuidos en diferentes partes del cuerpo.
 
+</div>
+<p align="center">
+<image width="500" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/7ec39cdc-42dc-44d0-87fd-fc6d2b9c09a0">
+<p align="center"><i>Figura 4. Colocación de ECG de 12 derivaciones. Extraido de https://www.ncbi.nlm.nih.gov/books/NBK594493/ [1] </i></p>
+</div>  
+<a name="objetivos"></a>
 
-   
+Para los derivaciones de miembros:
+* **Derivación I**: El electrodo positivo se coloca en el brazo izquierdo y el electrodo negativo en el brazo derecho.
+* **Derivación II**: El electrodo positivo se coloca en la pierna izquierda y el electrodo negativo en el brazo derecho.
+* **Derivación III**: El electrodo positivo se coloca en la pierna izquierda y el electrodo negativo en el brazo izquierdo.
+* **aVR, aVL, y aVF**: Estas derivaciones están formadas por combinaciones de los electrodos de los miembros.
+  
+Para las derivaciones precordiales (V1-V6):
+* **V1**: A la derecha del borde esternal.
+* **V2**: A la izquierda del borde esternal.
+* **V3**: Entre V2 y V4.
+* **V4**: En el quinto espacio intercostal en la línea medio-clavicular.
+* **V5**: Entre V4 y V6.
+* **V6**: En el quinto espacio intercostal en la línea medio-axilar.<sup>[5](https://www.ncbi.nlm.nih.gov/books/NBK549803/)</sup>
+
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electrocardiográficas (ECG).
 * Identificar e implementar la mejor técnica filtrado para eliminar el ruido de las señales ECG.
@@ -351,3 +372,13 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 
 <a name="referencias"></a>
 ## REFERENCIAS BIBLIOGRÁFICAS
+[1] 10.1109/ICIT.2012.6209924
+
+[2] https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf
+
+[3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7922324/
+
+[4] Vieau, S., Iaizzo, P.A. (2015). Basic ECG Theory, 12-Lead Recordings, and Their Interpretation. In: Iaizzo, P. (eds) Handbook of Cardiac Anatomy, Physiology, and Devices. Springer, Cham. https://doi.org/10.1007/978-3-319-19464-6_19
+
+[5] Sattar Y, Chhabra L. Electrocardiogram. [Updated 2023 Jun 5]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK549803/
+
