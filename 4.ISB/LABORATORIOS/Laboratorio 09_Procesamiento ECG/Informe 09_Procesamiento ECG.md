@@ -91,8 +91,7 @@ Para las derivaciones precordiales (V1-V6):
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electrocardiográficas (ECG).
 * Identificar e implementar la mejor técnica filtrado para eliminar el ruido de las señales ECG.
-* Implementar un proceso de segmentación de las señales ECG.
-* Extraer características relevantes de las señales ECG en diferentes dominios.
+* Extraer picos de las ondas R y calcular el HRV de las señales ECG en diferentes dominios.
 
 <a name="metodologia"></a>
 ## METODOLOGÍA 
@@ -112,7 +111,7 @@ Para este laboratorio, se utilizarán datos de señales ECG adquiridas por el BI
 
 <a name="adquisicion"></a>
 ### 2. PROCEDIMIENTO
-Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[5](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, se implementaron tres protocolos para medir la actividad eléctrica cardíaca en diferentes estados: estado de reposo, estado de respiración prolongada y estado de ejercicio intensivo. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales ECG para realizar la configuración bipolar de Einthoven de la siguiente manera:
+Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[a](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, se implementaron tres protocolos para medir la actividad eléctrica cardíaca en diferentes estados: estado de reposo, estado de respiración prolongada y estado de ejercicio intensivo. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales ECG para realizar la configuración bipolar de Einthoven de la siguiente manera:
 
 * **IN+** (electrodo positivo/rojo) se coloca en la muñeca izquierda .
 * **IN-** (electrodo negativo/negro) se coloca en la muñeca derecha.
@@ -122,11 +121,11 @@ Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 prop
 
 **b. Actividad eléctrica en estado de respiración prolongada**: El sujeto mantuvo la respiración por 30 segundos y se registró la señal durante la inspiración, mantención y expiración. El registro de la señal fue grabado por 30 segundos. Esta ubicación del electrodo permitió una colocación cómoda y no intrusiva durante las mediciones, lo que resulta beneficioso para evaluar la función cardíaca.
 
-**a. Actividad eléctrica en estado de ejercicio intensivo**: Durante esta prueba, se registró la actividad eléctrica del sujeto de prueba al realizar la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos..
+**a. Actividad eléctrica en estado de ejercicio intensivo**: Durante esta prueba, se registró la actividad eléctrica del sujeto de prueba al realizar la actividad física de 10 burpees por 3 minutos y la señal fue registrada durante y después de la actividad realizada. El registro de la señal fue grabado por 30 segundos.
 
 #### DATOS ADQUIRIDOS ECG
 
-En este laboratorio, nos enfocaremos en el análisis y la interpretación de las características de las señales ECG previamente adquiridos, como los picos de la onda R y la variabilidad de la frecuencia cardíaca (HRV). Las señales registradas durante los estado serán utilizadas para el análisis respectivo y así poder extraer conclusiones relevantes sobre la actividad cardíaca de diferentes estados del paciente en diferentes condiciones experimentales. Asimismo, para el cálculo del HRV y parte del procesamiento de la señal se utilizó un artículo de referencia que presentaba un enfoque en tiempo real del análisis del HRV <sup>[6]()</sup>.
+En este laboratorio, nos enfocaremos en el análisis y la interpretación de las características de las señales ECG previamente adquiridos, como los picos de la onda R y la variabilidad de la frecuencia cardíaca (HRV). Las señales registradas durante los estado serán utilizadas para el análisis respectivo y así poder extraer conclusiones relevantes sobre la actividad cardíaca de diferentes estados del paciente en diferentes condiciones experimentales. Asimismo, para el cálculo del HRV y parte del procesamiento de la señal se utilizó un artículo de referencia que presentaba un enfoque en tiempo real del análisis del HRV <sup>[b](http://dx.doi.org/10.5220/0006641402080215)</sup>.
 
 #### Pre-procesamiento de la señal
 - **Filtrado**
@@ -167,12 +166,15 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 
 ##### Análisis de frecuencias
 
-El método de Lomb-Scargle se utilizó para convertir las señales HRV al dominio de frecuencia, dado que la serie temporal de los intervalos RR tiene un periodo de muestreo irregular. Este método generó un "estimador de espectro de potencia tipo Fourier" basado en el método de mínimos cuadrados, donde se determinó el sinusoide que mejor se ajusta a los datos para cada componente de frecuencia elemental. Se calcularon las potencias en las bandas de baja frecuencia (LF: 0.04-0.15 Hz) y alta frecuencia (HF: 0.15-0.40 Hz), las cuales proporcionan información sobre los componentes autónomos de la variabilidad de la frecuencia cardíaca. Asimismo, para el análisis en el dominio de frecuencia, se utilizó una ventana deslizante con una duración mínima de 2 minutos, garantizando una resolución suficiente para distinguir los componentes elementales del espectro en las diferentes bandas, ya que ventanas más cortas resultan en resoluciones frecuenciales insuficientes.
+El método de Lomb-Scargle se utilizó para convertir las señales HRV al dominio de frecuencia el cual generó un "estimador de espectro de potencia tipo Fourier" basado en el método de mínimos cuadrados, donde se determinó el sinusoide que mejor se ajusta a los datos para cada componente de frecuencia elemental. Se calculó las potencias en las bandas de baja frecuencia (LF: 0.04-0.15 Hz) y alta frecuencia (HF: 0.15-0.40 Hz), las cuales proporcionan información sobre los componentes autónomos de la variabilidad de la frecuencia cardíaca. 
+
+Asimismo, para el análisis en el dominio de frecuencia, se utilizó una ventana deslizante con una duración mínima de 2 minutos, garantizando una resolución suficiente para distinguir los componentes elementales del espectro en las diferentes bandas, ya que ventanas más cortas resultan en resoluciones frecuenciales insuficientes.
 
 <a name="resultados"></a>
 ## RESULTADOS
 ### Estado de reposo
 #### Detección de picos R
+La detección de picos R permite el cálculo de la variabilidad de frecuencia cardíaca (HRV). A continuación, se evidencia la señal ECG filtrada en estado de reposo mediante la implementación de los tres filtros mencionados en la metodología. Se observa que el filtrado permite eliminar el ruido generado en la adquisición por artefactos sin eliminar componentes esenciales del complejo QRS, lo cual permite una mayor clarificación para la detección de los picos, detectando 20.
 
 <div align="center">
 
@@ -180,11 +182,11 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |:------------:|:---------------:|
 |<image width="800" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/reposo%20original%20vs%20filtrado.jfif">|20|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 3. Resultados de la señal y los picos detectados en estado de reposo</i></p>
 </div>
 
 #### Resultados de HRV
-
+El HRV es un parámetro que refleja la interacción entre las ramas simpática y parasimpática del sistema nervioso lo cual permite ser una herramienta de diagnóstico para la detección de enfermedades cardiovasculares. Los parámetros del HRV se demuestran a continuación:
 <div align="center">
 
 |  **Parámetro**  | **Resultado** |
@@ -204,11 +206,11 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |SD2|[0.007079901129253154, 0.014468716252660383, 0.023211587144738213, 0.03784324392954592, 0.01979504357156101]|
 
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 4. Resultados del HRV en estado de reposo</i></p>
 </div>
 
 #### Análisis de frecuencia
-
+Asimismo, se realizó el análisis de frecuencia se analizó las ventanas para determinar la relación LF/HF la cual varía entre 1 y 2. Los valores que presentan índice más altos pueden indicar predominio simpático, como estrés o actividad física, mientras que los bajos pueden sujerir un predominio parasimpático, lo cual indica una reducción en la actividad simpática. Se observa en este estado los valores menores pues la actividad parasimpática predomina.
 <div align="center">
 
 |  **Ventana**  | **Resultado** |
@@ -219,12 +221,13 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |Window_4|('LF": 0.15, 'HF': 0.4)|
 |Window_5|('LF": 0.15, 'HF': 0.4)|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 5. Resultados del análisis de frecuencia del estado de reposo</i></p>
 </div>
 
 ### Estado de respiración prolongada
 
 #### Detección de picos R
+Por otra parte, se observa los resultados del proceso de filtrado del estado de respiración en la etapa de inhlación y exhalación lo cual evidencia los componentes principales del complejo QRS. Asimismo, se observa una mayor presencia de picos en la inhlación, como se observa en la siguiente tabla:
 
 <div align="center">
 
@@ -233,7 +236,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |Inhalación|<image width="700" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/inhalaci%C3%B3n%20original%20vs%20filtrado.jfif">|17|
 |Exhalación|<image width="700" height="350" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/exhalaci%C3%B3n%20original%20vs%20filtrado.jfif">|13|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 6. Resultados de la señal y los picos detectados en estado de respiración prolongada</i></p>
 </div>
 
 #### Resultados de HRV
@@ -258,7 +261,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |SD2|[O.024861840461058195, 0.013402425153680245, 0.021554436898235146, 0.010799305533227568]|
 
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 7. Resultados del HRV en estado de inhalación</i></p>
 </div>
 
 ##### Etapa de exhalación
@@ -282,11 +285,12 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |SD2|[0.0, 0.006800735254367698, 0.004716990566028274, 0.004062019202317984]|
 
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 8. Resultados del HRV en estado de exhalación</i></p>
 </div>
 
 #### Análisis de frecuencia
-##### Etapa de inhalación
+##### Etapa de inhalación y exhalación
+Asimismo, observamos que los resultados del valor de análisis de frecuencia representan un estado parasimpático del sujeto de prueba, como se observa en la siguiente tabla.
 
 <div align="center">
 
@@ -297,21 +301,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |Window_3|("LF": 0.15, "HE": 0.4)|
 |Window_4|("LF": 0.15, "HF": 0.4)|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
-</div>
-
-##### Etapa de exhalación
-
-<div align="center">
-
-|  **Ventana**  | **Resultado** |
-|:------------:|:---------------:|
-|Window_1|("LF": 0.15, "HF": 0.4)|
-|Window_2|("LF": 0.15, "HF": 0.4)|
-|Window_3|("LF": 0.15, "HF": 0.4)|
-|Window_4|("LF": 0.15, "HF": 0.4)|
-
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 9. Resultados del análisis de frecuencia del estado de respiración prolongada</i></p>
 </div>
 
 ### Estado de ejercicio intensivo
@@ -323,7 +313,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |:------------:|:---------------:|
 |<image width="800" height="400" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Im%C3%A1genes/ejercicio%20original%20vs%20filtrado.jfif">|12|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 10. Resultados de la señal y los picos detectados en estado de ejercicio intensivo</i></p>
 </div>
 
 #### Resultados de HRV
@@ -346,7 +336,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |SD1|[0.6112938123357703, 0.05444722215136417, 0.15414927029066737, 0.2300583405770512]|
 |SD2|[0.6112938123357103, 0.05444722215136417, 0.15414921829866737, 0.2300583485770512]|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 11. Resultados del HRV en estado de ejercicio intensivo</i></p>
 </div>
 
 #### Análisis de frecuencia
@@ -360,14 +350,14 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 |Window_3|("LF": 0.15, "HF": 0.4)|
 |Window_4|("LF": 0.15, "HF": 0.4)|
 
-<p align="center"><i>Tabla 1. Materiales y equipos utilizados</i></p>
+<p align="center"><i>Tabla 12. Resultados del análisis de frecuencia del estado de ejercicio intensivo</i></p>
 </div>
 
 
 <a name="archivos"></a>
 ## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
 * **Codigo**
-  - [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/tree/df24f30fb5e09ca55f7570ee885619f6fd250f00/4.ISB/LABORATORIOS/Laboratorio%2008_Procesamiento%20EMG/Codigos)
+  - [Cálculo del HRV y Detección de picos]()
 
 <a name="discusion"></a>
 ## Discusión
@@ -386,4 +376,7 @@ El método de Lomb-Scargle se utilizó para convertir las señales HRV al domini
 [5] Open Resources for Nursing (Open RN); Ernstmeyer K, Christman E, editors. Nursing Advanced Skills [Internet]. Eau Claire (WI): Chippewa Valley Technical College; 2023. Chapter 7 Interpret Basic ECG. Available from: https://www.ncbi.nlm.nih.gov/books/NBK594493/
 
 [6] Sattar Y, Chhabra L. Electrocardiogram. [Updated 2023 Jun 5]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK549803/
+
+[a]
+[b] G. Ramos, M. Alfaras, and H. Gamboa, "Real-Time Approach to HRV Analysis," in Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2018), vol. 4: BIOSIGNALS, pp. 208-215, 2018, doi: http://dx.doi.org/10.5220/0006641402080215
 
