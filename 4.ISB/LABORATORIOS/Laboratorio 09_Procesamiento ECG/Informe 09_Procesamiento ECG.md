@@ -101,6 +101,9 @@ En la extracción, lo que se busca es obtener información de la señal ECG, que
 #### D. PICO R
 La detección del pico R, es la característica más resaltante de todo el complejo y es la que se busca identificar, ya que las demás características se extraen luego de la ubicación de este.  De la colección de puntos extremos, la instancia de tiempo pico R se extrae como los máximos locales que tienen el valor de gradiente (pendiente) más alto a su alrededor. La instancia de tiempo pico R extraída se verifica si se encuentra dentro de los límites del QRS. Si esto no se cumple, la aproximación inicial de la posición del pico R se considera errónea. Luego se calcula la posición del pico R como los máximos locales presentes dentro de los límites del QRS. El análisis del pico R es fundamental para el diagnóstico de diferentes enfermedades como arritmia, entre otras.
 
+#### E. HRV
+La variabilidad de la frecuencia cardíaca (HRV) se obtiene al medir los intervalos de tiempo entre dos ondas R consecutivas en un ECG, reflejando así las propiedades electrofisiológicas del corazón y la interacción entre las actividades simpáticas y parasimpáticas del sistema nervioso autónomo (ANS) <sup>[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7437069/)</sup><sup>[8](https://www.worldscientific.com/doi/10.1142/S021951941240012X)</sup>. Ampliamente utilizada como herramienta no invasiva, la HRV sirve como indicador de enfermedades existentes y predictor de trastornos cardiovasculares, con una disminución de la HRV asociada a un mayor riesgo de enfermedades cardiovasculares <sup>[9](https://www.sciencedirect.com/science/article/abs/pii/S0020025508003381)</sup><sup>[8](https://www.worldscientific.com/doi/10.1142/S021951941240012X)</sup>. Esta característica la convierte en un instrumento fiable para evaluar el estado del ANS y la salud cardíaca. Sin embargo, debido a la complejidad de la señal de frecuencia cardíaca, extraer información útil de la HRV presenta desafíos.
+
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electrocardiográficas (ECG).
 * Identificar e implementar la mejor técnica filtrado para eliminar el ruido de las señales ECG.
@@ -378,17 +381,23 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 
 <a name="referencias"></a>
 ## REFERENCIAS BIBLIOGRÁFICAS
-[1] 10.1109/ICIT.2012.6209924
+[1] “A Time-Domain Morphology and Gradient based algorithm for ECG feature extraction,” IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/6209924
 
-[2] https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf
+[2] “Libro del corazón.” https://www.fbbva.es/microsites/salud_cardio/fbbva_libroCorazon_Cap_4.html?gOrri=1
 
-[3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7922324/
+[3] L. Wu, X. Xie, and Y. Wang, “ECG enhancement and R-Peak detection based on window variability,” Healthcare, vol. 9, no. 2, p. 227, Feb. 2021, doi: 10.3390/healthcare9020227.
 
 [4] Vieau, S., Iaizzo, P.A. (2015). Basic ECG Theory, 12-Lead Recordings, and Their Interpretation. In: Iaizzo, P. (eds) Handbook of Cardiac Anatomy, Physiology, and Devices. Springer, Cham. https://doi.org/10.1007/978-3-319-19464-6_19
 
 [5] Open Resources for Nursing (Open RN); Ernstmeyer K, Christman E, editors. Nursing Advanced Skills [Internet]. Eau Claire (WI): Chippewa Valley Technical College; 2023. Chapter 7 Interpret Basic ECG. Available from: https://www.ncbi.nlm.nih.gov/books/NBK594493/
 
 [6] Sattar Y, Chhabra L. Electrocardiogram. [Updated 2023 Jun 5]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK549803/
+
+[7] I. Constant, D. Laude, I. Murat, and J. L. Elghozi, “Pulse rate variability is not a surrogate for heart rate variability,” Clin. Sci. (Lond.), vol. 97, no. 4, 1999
+
+[8] G. Swapna, D. N. Ghista, R. J. Martis, A. P. C. Ang, and S. V. Sree, “Ecg signal generation and heart rate variability signal extraction: Signal processing, features detection, and their correlation with cardiac diseases,” J. Mech. Med. Biol., vol. 12, no. 04, p. 1240012, 2012.
+
+[9] U. Acharya, M. Sankaranarayanan, J. Nayak, C. Xiang, and T. Tamura, “Automatic identification of cardiac health using modeling techniques: A comparative study,” Inf. Sci. (Ny), vol. 178, no. 23, pp. 4571–4582, 2008.
 
 [a] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
