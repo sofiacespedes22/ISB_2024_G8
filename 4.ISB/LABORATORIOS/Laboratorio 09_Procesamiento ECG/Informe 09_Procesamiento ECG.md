@@ -379,6 +379,10 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 <a name="discusion"></a>
 ## Discusión
 
+## Conclusión
+* Durante el estado de reposo, se observó una variabilidad de la frecuencia cardíaca dentro de rangos normales, indicando una actividad autonómica cardíaca equilibrada.
+* La respiración prolongada demostró influir en la variabilidad de la frecuencia cardíaca, con cambios significativos durante el ciclo respiratorio, lo que sugiere una interacción entre el sistema respiratorio y el cardiovascular.
+* Durante el ejercicio intenso, se observaron aumentos en la variabilidad de la frecuencia cardíaca, lo que refleja la adaptación del sistema autónomo ante el estrés físico.
 
 <a name="referencias"></a>
 ## REFERENCIAS BIBLIOGRÁFICAS
