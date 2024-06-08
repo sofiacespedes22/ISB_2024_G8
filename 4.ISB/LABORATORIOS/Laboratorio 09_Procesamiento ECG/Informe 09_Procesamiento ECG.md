@@ -128,7 +128,7 @@ Para este laboratorio, se utilizarán datos de señales ECG adquiridas por el BI
 
 <a name="adquisicion"></a>
 ### 2. PROCEDIMIENTO
-Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[a](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, se implementaron tres protocolos para medir la actividad eléctrica cardíaca en diferentes estados: estado de reposo, estado de respiración prolongada y estado de ejercicio intensivo. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales ECG para realizar la configuración bipolar de Einthoven de la siguiente manera:
+Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 proporcionada por PLUX-Wireless Biosignals <sup>[10](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf)</sup>, se implementaron tres protocolos para medir la actividad eléctrica cardíaca en diferentes estados: estado de reposo, estado de respiración prolongada y estado de ejercicio intensivo. Los electrodos se colocaron de acuerdo con las especificaciones del protocolo, garantizando una captura precisa de las señales ECG para realizar la configuración bipolar de Einthoven de la siguiente manera:
 
 * **IN+** (electrodo positivo/rojo) se coloca en la muñeca izquierda .
 * **IN-** (electrodo negativo/negro) se coloca en la muñeca derecha.
@@ -142,7 +142,7 @@ Siguiendo las indicaciones de la guía BITalino (r)evolution Lab Guide 2021 prop
 
 #### DATOS ADQUIRIDOS ECG
 
-En este laboratorio, nos enfocaremos en el análisis y la interpretación de las características de las señales ECG previamente adquiridos, como los picos de la onda R y la variabilidad de la frecuencia cardíaca (HRV). Las señales registradas durante los estado serán utilizadas para el análisis respectivo y así poder extraer conclusiones relevantes sobre la actividad cardíaca de diferentes estados del paciente en diferentes condiciones experimentales. Asimismo, para el cálculo del HRV y parte del procesamiento de la señal se utilizó un artículo de referencia que presentaba un enfoque en tiempo real del análisis del HRV <sup>[b](http://dx.doi.org/10.5220/0006641402080215)</sup>.
+En este laboratorio, nos enfocaremos en el análisis y la interpretación de las características de las señales ECG previamente adquiridos, como los picos de la onda R y la variabilidad de la frecuencia cardíaca (HRV). Las señales registradas durante los estado serán utilizadas para el análisis respectivo y así poder extraer conclusiones relevantes sobre la actividad cardíaca de diferentes estados del paciente en diferentes condiciones experimentales. Asimismo, para el cálculo del HRV y parte del procesamiento de la señal se utilizó un artículo de referencia que presentaba un enfoque en tiempo real del análisis del HRV <sup>[11](http://dx.doi.org/10.5220/0006641402080215)</sup>.
 
 #### Pre-procesamiento de la señal
 - **Filtrado**
@@ -379,6 +379,7 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 <a name="discusion"></a>
 ## Discusión
 
+
 ## Conclusión
 * Durante el estado de reposo, se observó una variabilidad de la frecuencia cardíaca dentro de rangos normales, indicando una actividad autonómica cardíaca equilibrada.
 * La respiración prolongada demostró influir en la variabilidad de la frecuencia cardíaca, con cambios significativos durante el ciclo respiratorio, lo que sugiere una interacción entre el sistema respiratorio y el cardiovascular.
@@ -404,7 +405,8 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 
 [9] U. Acharya, M. Sankaranarayanan, J. Nayak, C. Xiang, and T. Tamura, “Automatic identification of cardiac health using modeling techniques: A comparative study,” Inf. Sci. (Ny), vol. 178, no. 23, pp. 4571–4582, 2008.
 
-[a] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
+[10] PLUX – Wireless Biosignals, “BITalino (r)evolution Lab Guide,” Feb. 2021. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
-[b] G. Ramos, M. Alfaras, and H. Gamboa, "Real-Time Approach to HRV Analysis," in Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2018), vol. 4: BIOSIGNALS, pp. 208-215, 2018, doi: http://dx.doi.org/10.5220/0006641402080215
+[11] G. Ramos, M. Alfaras, and H. Gamboa, "Real-Time Approach to HRV Analysis," in Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2018), vol. 4: BIOSIGNALS, pp. 208-215, 2018, doi: http://dx.doi.org/10.5220/0006641402080215
+
 
