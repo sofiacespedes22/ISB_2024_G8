@@ -1,4 +1,4 @@
-# Laboratorio N°8 - Procesamiento de señales ECG
+# Laboratorio N°9 - Procesamiento de señales ECG
 ## **Tabla de contenidos**
 1. [Introducción](#introduccion)\
    1.1 [Marco teórico](#marco)
@@ -379,6 +379,7 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 <a name="discusion"></a>
 ## Discusión
 
+La variabilidad de la frecuencia cardíaca (HRV) permite evaluar el estado del sistema nervioso mediante la variación entre latidos, pues a una baja variación indica la presencia de la activación simpática, mientras que a una alta variación indicaría la activación parasimpática <sup>[12](https://doi.org/10.7453/gahmj.2014.0735)</sup>. Esto se relaciona directamente con las patologías cardiovasculares pues estudios han evidenciado que un HRV bajo indicar hipertensión, sin embargo, un HRV con valor mas alto indicaría que el sujeto presenta una mejor condición física. Adicionalmente, permite proporcionar información en cuanto a la dependencia de la longitud del ciclo cardíaco <sup>[13](https://doi.org/10.1016/j.encep.2008.06.016)</sup> <sup>[14](https://doi.org/10.2174/1573403X16999201231203854)</sup>. Cuando la frecuencia cardíaca aumenta, la HRV disminuye debido al período insuficiente para los latidos del corazón, lo cual podría implicar la presencia de condiciones patológicas o frecuencias cardíacas altas. Por lo tanto, resulta relevante conocer este tipo de parámetro y factores que influyen en la HRV pues permiten el diagnóstico clínico y nuevas soluciones terapéuticas. 
 
 ## Conclusión
 * Durante el estado de reposo, se observó una variabilidad de la frecuencia cardíaca dentro de rangos normales, indicando una actividad autonómica cardíaca equilibrada.
@@ -409,4 +410,8 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 
 [11] G. Ramos, M. Alfaras, and H. Gamboa, "Real-Time Approach to HRV Analysis," in Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2018), vol. 4: BIOSIGNALS, pp. 208-215, 2018, doi: http://dx.doi.org/10.5220/0006641402080215
 
+[12] McCraty R., Shaffer F. Heart rate variability: New perspectives on physiological mechanisms, assessment of self-regulatory capacity, and health risk. Glob. Adv. Health Med. 2015;4(1):46–61. doi: https://doi.org/10.7453/gahmj.2014.0735
 
+[13] Servant D., Logier R., Mouster Y., Goudemand M. Heart rate variability. Applications in psychiatry. Encephale. 2009;35(5):423–428. doi: https://doi.org/10.1016/j.encep.2008.06.016
+
+[14] R. Tiwari, R. Kumar, S. Malik, T. Raj, and P. Kumar, "Analysis of Heart Rate Variability and Implication of Different Factors on Heart Rate Variability," Current Cardiology Reviews, vol. 17, no. 5, pp. e160721189770, 2021, doi: https://doi.org/10.2174/1573403X16999201231203854
