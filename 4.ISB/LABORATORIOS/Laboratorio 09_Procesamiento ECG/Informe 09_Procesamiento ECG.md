@@ -374,7 +374,7 @@ Asimismo, observamos que los resultados del valor de análisis de frecuencia rep
 <a name="archivos"></a>
 ## ARCHIVO DE LA SEÑAL PLOTEADA EN PYTHON
 * **Codigo**
-  - [Cálculo del HRV y Detección de picos]()
+  - [Cálculo del HRV y Detección de picos](https://github.com/sofiacespedes22/ISB_2024_G8/blob/fcf482928b906c39d8ba624deba7b67c1e758ae0/4.ISB/LABORATORIOS/Laboratorio%2009_Procesamiento%20ECG/Codigos%20y%20librer%C3%ADas/HRV-R.py)
 
 <a name="discusion"></a>
 ## Discusión
