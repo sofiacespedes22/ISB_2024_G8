@@ -170,13 +170,14 @@ Asimismo, se utilizará el mecanismo de ventana deslizante para el cálculo de l
 |avgRR|Promedio de los intervalos RR|-|
 |SDNN|Desviación estándar de los intervalos RR|$SDNN = \sqrt{\frac{1}{N-1} (\sum_{i=1})^{N} (RR_i - \overline{RR})^2}$, donde $\(RR_i\)$ es cada intervalo RR y $\(\overline{RR}\)$ es el promedio de todos los intervalos RR.|
 |rmsSD|Raíz cuadrada media de las diferencias sucesivas|$\text{rmsSD} = \sqrt{\frac{(\sum_{i=1})^{N-1} (RR_{i+1} - RR_i)^2}{N-1}}$, donde $\(RR_{i+1} - RR_i\)$ representa la diferencia entre intervalos RR sucesivos|
-|NN20|Número de intervalos RR donde la diferencia con el intervalo RR previo es mayor a 20 ms|$\text{NN20} = \sum_{i=1}^{N-1} \text{I}(RR_{i+1} - RR_i) > 20 \text{ms})$|
+|NN20|Número de intervalos RR donde la diferencia con el intervalo RR previo es mayor a 20 ms|$\text{NN20} = (\sum_{i=1})^{N-1} \text{I}(RR_{i+1} - RR_i) > 20 \text{ms})$|
 |avg IHR|Promedio de la frecuencia cardíaca instantánea (IHR)|$\text{avg IHR} = \frac{1}{\overline{RR}} \times 60$|
-|pNN20|Promedio de la frecuencia cardíaca instantánea (IHR)|$\text{avg IHR} = \frac{1}{\overline{RR}} \times 60$|
-|NN50|Promedio de la frecuencia cardíaca instantánea (IHR)|$\text{avg IHR} = \frac{1}{\overline{RR}} \times 60$|
-|std IHR|Promedio de la frecuencia cardíaca instantánea (IHR)|$\text{avg IHR} = \frac{1}{\overline{RR}} \times 60$|
-|SD1|Promedio de la frecuencia cardíaca instantánea (IHR)|$\text{avg IHR} = \frac{1}{\overline{RR}} \times 60$|
-|SD2|Promedio de la frecuencia cardíaca instantánea (IHR)|$\text{avg IHR} = \frac{1}{\overline{RR}} \times 60$|
+|pNN20|Proporción de NN20 respecto al número total de intervalos RR|$pNN20 = \frac{NN20}{N-1}$|
+|NN50|Número de intervalos RR donde la diferencia con el intervalo RR previo es mayor a 50 ms|$NN50 = (\sum_{i=1})^{N-1} \text{I}(RR_{i+1} - RR_i > 50 \text{ms})$|
+|pNN50|Proporción de NN50 respecto al número total de intervalos RR|$pNN50 = \frac{NN50}{N-1}$|
+|std IHR|Desviación estándar de la frecuencia cardíaca instantánea.|$\text{STD IHR} = \sqrt{\frac{1}{N-1} (\sum_{i=1})^{N} (\frac{60}{RR_i} - \overline{\text{IHR}})^2}$|
+|SD1|Ejes sub-elípticos derivados del diagrama de Poincaré, relacionados con la variabilidad del HRV a corto y largo plazo.|$SD1 = \sqrt{\frac{SDSD^2}{2}}$|
+|SD2|Ejes sub-elípticos derivados del diagrama de Poincaré, relacionados con la variabilidad del HRV a corto y largo plazo.|$SD2 = \sqrt{2 \times SDNN^2 - SD1^2}$|
 
 <p align="center"><i>Tabla 2. Parámetros del análisis estadístico y geométrico en tiempo real</i></p>
 </div>
