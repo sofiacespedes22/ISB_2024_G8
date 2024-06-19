@@ -19,32 +19,49 @@
 <a name="marco"></a>
 ### **MARCO TEÓRICO**
 #### EEG
-El EEG mide la actividad eléctrica del cerebro, registrada en el cuero cabelludo, a partir de impulsos generados por las células nerviosas corticales. Estos impulsos producen señales con amplitudes de entre 10 y 100 µV y frecuencias de 1 a 100 Hz. Esta técnica no invasiva es crucial para diagnosticar diversas enfermedades neurológicas, como epilepsia, tumores y lesiones cerebrovasculares. Sin embargo, los resultados pueden verse afectados por artefactos debido a la naturaleza compleja y no lineal de las señales eléctricas cerebrales. [a]
+El EEG mide la actividad eléctrica del cerebro, registrada en el cuero cabelludo, a partir de impulsos generados por las células nerviosas corticales. Estos impulsos producen señales con amplitudes de entre 10 y 100 µV y frecuencias de 1 a 100 Hz. Esta técnica no invasiva es crucial para diagnosticar diversas enfermedades neurológicas, como epilepsia, tumores y lesiones cerebrovasculares. Sin embargo, los resultados pueden verse afectados por artefactos debido a la naturaleza compleja y no lineal de las señales eléctricas cerebrales. <sup>[a](https://doi.org/10.1007/s10916-008-9231-z)</sup>
 
-Figura 1: Señal EEG. 
+</div>
+<p align="center">
+<image width="260" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/70b9488a9578f60327302e3cf2d00b15a86e01dc/4.ISB/LABORATORIOS/Laboratorio%2010_Procesamiento%20EEG/Im%C3%A1genes/EEG.jpg">
+<p align="center"><i>Figura 1: Señal EEG.</i></p>
+</div>
 
 #### Ondas Cerebrales
-Las ondas cerebrales son fundamentales para diagnosticar trastornos neurológicos a través del EEG. En adultos sanos, las frecuencias y amplitudes de las ondas cerebrales varían según el estado de vigilia o sueño y con la edad. Los principales tipos de ondas cerebrales son: delta (0.5-4 Hz), asociadas con el sueño profundo; theta (4-7.5 Hz), relacionadas con la somnolencia y la meditación; alfa (8-13 Hz), vinculadas con la relajación y la atención pasiva; beta (14-26 Hz), asociadas con la atención activa y la resolución de problemas; y gamma (>30 Hz), relacionadas con la sincronización cerebral en eventos específicos. La identificación precisa de estos ritmos es crucial y puede mejorarse con herramientas avanzadas de procesamiento de señales. [b]
+Las ondas cerebrales son fundamentales para diagnosticar trastornos neurológicos a través del EEG. En adultos sanos, las frecuencias y amplitudes de las ondas cerebrales varían según el estado de vigilia o sueño y con la edad. Los principales tipos de ondas cerebrales son: delta (0.5-4 Hz), asociadas con el sueño profundo; theta (4-7.5 Hz), relacionadas con la somnolencia y la meditación; alfa (8-13 Hz), vinculadas con la relajación y la atención pasiva; beta (14-26 Hz), asociadas con la atención activa y la resolución de problemas; y gamma (>30 Hz), relacionadas con la sincronización cerebral en eventos específicos. La identificación precisa de estos ritmos es crucial y puede mejorarse con herramientas avanzadas de procesamiento de señales. <sup>[b](http://dx.doi.org/10.1002/9780470511923)</sup>
 
-Figura 2: Ondas cerebrales típicas, ordenados de frecuencias altas a bajas. 
+</div>
+<p align="center">
+<image width="260" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/70b9488a9578f60327302e3cf2d00b15a86e01dc/4.ISB/LABORATORIOS/Laboratorio%2010_Procesamiento%20EEG/Im%C3%A1genes/OndasCerebrales.jpg">
+<p align="center"><i>Figura 2: Ondas cerebrales típicas, ordenados de frecuencias altas a bajas.</i></p>
+</div>
 
 #### Adquisición
 Adquirir señales del cuerpo humano, como el EEG, es esencial para el diagnóstico temprano de enfermedades. El EEG es preferido sobre fMRI y MEG por su alta resolución temporal y menor costo.
-Los sistemas EEG actuales utilizan múltiples electrodos, amplificadores diferenciales y conversión digital, con frecuencias de muestreo de 200 a 2000 muestras/s y cuantización fina para asegurar precisión diagnóstica. El almacenamiento de datos requiere gran capacidad; una hora de grabación de 128 electrodos necesita aproximadamente 0.45 GB. [b]
+Los sistemas EEG actuales utilizan múltiples electrodos, amplificadores diferenciales y conversión digital, con frecuencias de muestreo de 200 a 2000 muestras/s y cuantización fina para asegurar precisión diagnóstica. El almacenamiento de datos requiere gran capacidad; una hora de grabación de 128 electrodos necesita aproximadamente 0.45 GB. <sup>[b](http://dx.doi.org/10.1002/9780470511923)</sup>
 
 ##### A. Posicionamiento Convencional de Electrodos
-El sistema 10-20 es el estándar para colocar 21 electrodos de manera consistente basada en puntos anatómicos [c]. Este sistema permite la expansión con más electrodos para estudios detallados. Se utilizan modos de grabación diferencial y referencial, con referencias comunes como Cz, orejas conectadas o la punta de la nariz .[d] [b]
+El sistema 10-20 es el estándar para colocar 21 electrodos de manera consistente basada en puntos anatómicos <sup>[c](https://doi.org/10.1016/0013-4694%2858%2990053-1)</sup>. Este sistema permite la expansión con más electrodos para estudios detallados. Se utilizan modos de grabación diferencial y referencial, con referencias comunes como Cz, orejas conectadas o la punta de la nariz .<sup>[d](https://scholar.google.com/scholar_lookup?title=Encyclopedia+of+Neuroscience&author=RD+Bickford&publication_year=1987&)</sup>  <sup>[b](http://dx.doi.org/10.1002/9780470511923)</sup>
 
-Figura 3 Posiciones convencionales de electrodos 10-20 para la colocación de 21 electrodos.
+</div>
+<p align="center">
+<image width="260" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/70b9488a9578f60327302e3cf2d00b15a86e01dc/4.ISB/LABORATORIOS/Laboratorio%2010_Procesamiento%20EEG/Im%C3%A1genes/posicionElectrodos.jpg">
+<p align="center"><i>Figura 3 Posiciones convencionales de electrodos 10-20 para la colocación de 21 electrodos.</i></p>
+</div>
 
 ##### B. Acondicionamiento de Señales
-Las señales EEG crudas, con amplitudes en microvoltios y frecuencias de hasta 300 Hz, requieren amplificación y filtrado para eliminar ruido y retener información útil. Se usan filtros pasaaltos para remover componentes de baja frecuencia, filtros pasabajos para reducir ruido de alta frecuencia y filtros de muesca para eliminar interferencias de suministro eléctrico. Las frecuencias de muestreo comunes son 100, 250, 500, 1000 y 2000 muestras/s [b].
+Las señales EEG crudas, con amplitudes en microvoltios y frecuencias de hasta 300 Hz, requieren amplificación y filtrado para eliminar ruido y retener información útil. Se usan filtros pasaaltos para remover componentes de baja frecuencia, filtros pasabajos para reducir ruido de alta frecuencia y filtros de muesca para eliminar interferencias de suministro eléctrico. Las frecuencias de muestreo comunes son 100, 250, 500, 1000 y 2000 muestras/s. <sup>[b](http://dx.doi.org/10.1002/9780470511923)</sup>
 
 ##### C. Ultracortex Mark IV
 El Ultracortex Mark IV es un casco EEG desarrollado por OpenBCI que optimiza la adquisición de señales neuronales mediante una estructura modular y personalizable. Utiliza electrodos de gel, secos o semi-secos, lo que permite flexibilidad según las necesidades experimentales. Los electrodos de gel proporcionan una excelente conductividad, mientras que los secos permiten un montaje rápido y limpio. La colocación de los electrodos sigue el sistema internacional 10-20, asegurando una cobertura completa y precisa de la actividad cerebral.
-La estabilidad del casco durante la adquisición de datos minimiza el ruido y los artefactos, garantizando la calidad de las señales EEG. Su compatibilidad con las placas de adquisición OpenBCI, como la Cyton y la Ganglion, facilita el procesamiento y análisis de los datos recogidos. El diseño ajustable del Ultracortex Mark IV asegura un contacto óptimo entre los electrodos y el cuero cabelludo, proporcionando datos fiables y de alta calidad [e].
+La estabilidad del casco durante la adquisición de datos minimiza el ruido y los artefactos, garantizando la calidad de las señales EEG. Su compatibilidad con las placas de adquisición OpenBCI, como la Cyton y la Ganglion, facilita el procesamiento y análisis de los datos recogidos. El diseño ajustable del Ultracortex Mark IV asegura un contacto óptimo entre los electrodos y el cuero cabelludo, proporcionando datos fiables y de alta calidad. <sup>[e](https://docs.openbci.com/AddOns/Headwear/MarkIV/)</sup>
 
-Figura 4. Ultracortex Mark IV.
+
+</div>
+<p align="center">
+<image width="260" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/70b9488a9578f60327302e3cf2d00b15a86e01dc/4.ISB/LABORATORIOS/Laboratorio%2010_Procesamiento%20EEG/Im%C3%A1genes/UltraCortex.jpg">
+<p align="center"><i>Figura 4. Ultracortex Mark IV.</i></p>
+</div>
 
 ## OBJETIVOS
 * Investigar literatura científica sobre técnica de procesamiento de señales electroencefalográficas (EEG).
@@ -141,7 +158,8 @@ Por último, para la clasificación, se emplearon como clasificadores las técni
 
 [a] D. P. Subha, P. K. Joseph, R. Acharya U, and C. M. Lim, “EEG signal analysis: A survey,” J. Med. Syst., vol. 34, no. 2, pp. 195–212, 2010.
 [b] S. Sanei and J. A. Chambers, EEG signal processing. Wiley, 2007.
-[c] Akaike, H., ‘A New Look at statistical model identification‘, IEEE Trans. Autom. Control, 19, 1974, 716–723
-[d] Dacorogna, M., Muller, U., Olsen, R. B., and Pictet, O., ‘Modelling short-term volatility with GARCH and HARCH models’, in Nonlinear Modelling of High Frequency Financial Time Series, Econometrics, Eds L. Christian Dunis and B. Zhou, John Wiley & Sons, Ltd, Chichester, 1998.
+[c]  Jasper, H., ‘Report of committee on methods of clinical exam in EEG’, Electroencephalogr. Clin. Neurophysiol., 10, 1958, 370–375.
+[d] Bickford, R. D., ‘Electroencephalography’, in Encyclopedia of Neuroscience, Ed. G. Adelman,
+Birkhauser, Cambridge (USA), 1987, 371–373.
 [e] “Ultracortex Mark IV,” Openbci.com. [Online]. Available: https://docs.openbci.com/AddOns/Headwear/MarkIV/. [Accessed: 19-Jun-2024].
 
