@@ -53,8 +53,7 @@ Para el procedimiento del procesamiento de las señales EEG, se utilizó un art�
 
 </div>
 <p align="center">
-<image width="400" height="200" src="[https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/736e7588-584e-4b8d-bce9-751c3284a120](https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/94395227-58c9-49f7-ade4-45aa67303d9f)">
-<p align="center"><i>Figura x. Diagrama de bloques del procedimiento a seguir basado en la literatura [x] </i></p>
+<image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/94395227-58c9-49f7-ade4-45aa67303d9f"><p align="center"><i>Figura x. Diagrama de bloques del procedimiento a seguir basado en la literatura [x] </i></p>
 </div>
 
 
@@ -80,8 +79,7 @@ Para la extracción de características, se utilizó la DWT basado en LBP, desvi
 
 </div>
 <p align="center">
-<image width="400" height="200" src="[https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/736e7588-584e-4b8d-bce9-751c3284a120](https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/94395227-58c9-49f7-ade4-45aa67303d9f)">
-<p align="center"><i>Figura y. Descomposición de la señal mediante el DWT 4 niveles [x] </i></p>
+<image width="400" height="200" src=""> <p  align="center"><i>Figura y. Descomposición de la señal mediante el DWT 4 niveles [x] </i></p>
 </div>
 
 
