@@ -12,7 +12,7 @@
 7. [Referencias bibliográficas](#referencias)
 
 <a name="introduccion"></a>
-## **INTRODUCIÓN**
+## **INTRODUCCIÓN**
 ### **CONTEXTO**
 
 
@@ -49,7 +49,7 @@ Para este laboratorio, se utilizarán las señales obtenidas del Ultracortex Mar
 
 <a name="adquisicion"></a>
 ### 2. PROCEDIMIENTO
-Para el procedimiento del procesamiento de las señales EEG, se utilizó un artículo de referencia el cual presenta un análisis de las señales EEG para el diagnóstico de desórdenes neurológicos utilizando la transformada wavelet (DWT) y técnicas de filtrado y clasificación [x]. Las señales fueron previamente pre-procesadas mediante el uso de filtros, sus características fueron extraídas y se utilizaron técnicas de clasificación de vectores. Se combinaron técnicas dentro de la extracción de características como la banda de potencia logarítmica, desviación estándar, varianza, kurtosis y entropía de Shannon, utilizando clasificadores de diferentes tipos. Se presenta, a continuación, un diagrama de bloques que ejemplifica el procesamiento de las señales basadas en DWT.
+Para el procedimiento del procesamiento de las señales EEG, se utilizó un artículo de referencia el cual presenta un análisis de las señales EEG para el diagnóstico de desórdenes neurológicos utilizando la transformada wavelet (DWT) y técnicas de filtrado y clasificación <sup>[x](https://doi.org/10.3390/s20092505)</sup>. Las señales fueron previamente pre-procesadas mediante el uso de filtros, sus características fueron extraídas y se utilizaron técnicas de clasificación de vectores. Se combinaron técnicas dentro de la extracción de características como la banda de potencia logarítmica, desviación estándar, varianza, kurtosis y entropía de Shannon, utilizando clasificadores de diferentes tipos. Se presenta, a continuación, un diagrama de bloques que ejemplifica el procesamiento de las señales basadas en DWT.
 
 </div>
 <p align="center">
