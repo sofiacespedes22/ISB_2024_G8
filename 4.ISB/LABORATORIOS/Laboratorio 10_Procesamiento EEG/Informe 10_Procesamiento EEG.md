@@ -53,7 +53,7 @@ Para el procedimiento del procesamiento de las señales EEG, se utilizó un art�
 
 </div>
 <p align="center">
-<image width="400" height="200" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/94395227-58c9-49f7-ade4-45aa67303d9f"><p align="center"><i>Figura x. Diagrama de bloques del procedimiento a seguir basado en la literatura [x] </i></p>
+<image width="600" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164461832/94395227-58c9-49f7-ade4-45aa67303d9f"><p align="center"><i>Figura x. Diagrama de bloques del procedimiento a seguir basado en la literatura [x] </i></p>
 </div>
 
 
@@ -79,7 +79,7 @@ Para la extracción de características, se utilizó la DWT basado en LBP, desvi
 
 </div>
 <p align="center">
-<image width="400" height="200" src=""> <p  align="center"><i>Figura y. Descomposición de la señal mediante el DWT 4 niveles [x] </i></p>
+<image width="600" height="300" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/d542cf0f9bbc912fd5ee4e3baaeeb29211e277f1/4.ISB/LABORATORIOS/Laboratorio%2010_Procesamiento%20EEG/Im%C3%A1genes/feature%20extracion.jpg"> <p  align="center"><i>Figura y. Descomposición de la señal mediante el DWT 4 niveles [x] </i></p>
 </div>
 
 
