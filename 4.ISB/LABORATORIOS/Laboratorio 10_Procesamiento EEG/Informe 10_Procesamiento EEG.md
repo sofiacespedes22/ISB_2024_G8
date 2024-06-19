@@ -111,3 +111,4 @@ Por último, para la clasificación, se emplearon como clasificadores las técni
 
 <a name="referencias"></a>
 ## REFERENCIAS BIBLIOGRÁFICAS
+[x] F. A. Alturki, K. AlSharabi, A. M. Abdurraqeeb, y M. Aljalal, "EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques," Sensors (Basel, Switzerland), vol. 20, no. 9, p. 2505, 2020. [Online]. Disponible: https://doi.org/10.3390/s20092505.
