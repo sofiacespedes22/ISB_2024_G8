@@ -14,7 +14,11 @@
 <a name="introduccion"></a>
 ## **INTRODUCCIÓN**
 ### **CONTEXTO**
+En la actualidad, la electroencefalografía(EEG) es reconocida por su capacidad de capturar la actividad electrofisiológica del cerebro. Por ser un método no invasivo, portable, de facilidad de administración y disponibilidad en general en la mayoría de entornos hospitalarios, este método puede ser considerado altamente rentable, en comparación con otras modalidades de neuroimagen, como la tomografía computarizada y la resonancia magnética.
 
+El electroencefalograma nos proporciona información de resolución temporal bastante alta, lo cual nos permite obtener información muy importante del funcionamiento del cerebro. Para poder analizar un EEG lo que hacen los especialistas esidentificar distintos patrones de frecuencia anormales en diferentes estados biológicos en los que se realize las mediciones y las características ambientales y morfológicas.
+
+Por otro lado, las señales EECG son indiscutiblemente no estacionarios y son suceptibles a captar diversas fuentes de ruido, sobre todo las interferencias de frecuencis. Es por ello que la eliminación efectiva del ruido de estos datos obtenidos de la EEG sin procesar es de suma importancia, para que se pueda reflejar de forma precisa la actividad cerebral y los distintos estados cerebrales. 
 
 <a name="marco"></a>
 ### **MARCO TEÓRICO**
