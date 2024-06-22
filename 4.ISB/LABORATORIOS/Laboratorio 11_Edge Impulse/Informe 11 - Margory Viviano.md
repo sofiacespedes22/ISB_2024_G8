@@ -101,18 +101,20 @@ finally:
 <p align="center"><i>Figura 1. Reposo </i></p>
 </div>
 
+
 </div>
 <p align="center">
 <image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a10b2bdd-cbd5-4002-89ba-cd5b53c9c624">
 <p align="center"><i>Figura 2. Aguantando la respiración </i></p>
 </div>
 
+
 </div>
 <p align="center">
 <image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6e5df31b-8cba-492f-ae49-a66916712afc">
 <p align="center"><i>Figura 3. Haciendo el ejercicio </i></p>
 </div>
-![EJERCICIO]()
+
 
 </div>
 <p align="center">
@@ -141,17 +143,20 @@ finally:
 <p align="center"><i>Figura 7. Reposo 1 </i></p>
 </div>
 
+
 </div>
 <p align="center">
 <image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5c8dc14c-3e7a-4896-becb-bd0ef46c50a4">
 <p align="center"><i>Figura 8. Abriendo y cerrando los ojos </i></p>
 </div>
 
+
 </div>
 <p align="center">
 <image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d0967a14-1ad5-42b9-8386-cd8dccd329f8">
 <p align="center"><i>Figura 9. Reposo 2 </i></p>
 </div>
+
 
 </div>
 <p align="center">
