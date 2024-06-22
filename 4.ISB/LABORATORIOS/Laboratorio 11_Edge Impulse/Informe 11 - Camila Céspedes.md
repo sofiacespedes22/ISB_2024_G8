@@ -95,13 +95,15 @@ finally:
 
 </div>
 <p align="center">
-<image width="500" height="250"src="">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/ecg_reposo.jpg
+">
 <p align="center"><i>Figura 1. Reposo </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="250"src="">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/ecg_salto.jpg
+">
 <p align="center"><i>Figura 2. Salto </i></p>
 </div>
 
@@ -109,13 +111,15 @@ finally:
 
 </div>
 <p align="center">
-<image width="500" height="250"src="">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/emg_pulgar.jpg
+">
 <p align="center"><i>Figura 3. Pulgar </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="250"src="">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/emg_biceps.jpg
+">
 <p align="center"><i>Figura 4. Bíceps </i></p>
 </div>
 
@@ -123,12 +127,13 @@ finally:
 
 </div>
 <p align="center">
-<image width="500" height="250"src="">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/eeg_reposo.jpg
+">
 <p align="center"><i>Figura 5. Ojos cerrados </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="250"src="">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/eeg_preguntas.jpg">
 <p align="center"><i>Figura 6. Preguntas </i></p>
 </div>
