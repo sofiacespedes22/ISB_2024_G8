@@ -85,9 +85,9 @@ finally:
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
-1. [IMMPULSE EDGE - EMG](https://studio.edgeimpulse.com/public/431209/live)</p>
-2. [IMMPULSE EDGE - ECG](https://studio.edgeimpulse.com/public/431174/live)</p>
-3. [IMMPULSE EDGE - EEG](https://studio.edgeimpulse.com/public/431211/live)</p>
+1. [EDGE IMPULSE - EMG](https://studio.edgeimpulse.com/public/431209/live)</p>
+2. [EDGE IMPULSE - ECG](https://studio.edgeimpulse.com/public/431174/live)</p>
+3. [EDGE IMPULSE - EEG](https://studio.edgeimpulse.com/public/431211/live)</p>
 
 <h2 style = "text-align: center;">Imagenes</h2>
 
@@ -95,15 +95,13 @@ finally:
 
 </div>
 <p align="center">
-<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/ecg_reposo.jpg
-">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/ecg_reposo.jpg">
 <p align="center"><i>Figura 1. Reposo </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/ecg_salto.jpg
-">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/ecg_salto.jpg">
 <p align="center"><i>Figura 2. Salto </i></p>
 </div>
 
@@ -111,15 +109,13 @@ finally:
 
 </div>
 <p align="center">
-<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/emg_pulgar.jpg
-">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/emg_pulgar.jpg">
 <p align="center"><i>Figura 3. Pulgar </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/emg_biceps.jpg
-">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/emg_biceps.jpg">
 <p align="center"><i>Figura 4. Bíceps </i></p>
 </div>
 
@@ -127,8 +123,7 @@ finally:
 
 </div>
 <p align="center">
-<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/eeg_reposo.jpg
-">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/ba146ac4da32ccc0808653be024dbc1ad94f2464/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Imagenes%20Camila/eeg_reposo.jpg">
 <p align="center"><i>Figura 5. Ojos cerrados </i></p>
 </div>
 
