@@ -16,40 +16,67 @@ import requests
 import os
 import csv
 
-def txt_to_csv_first_window(txt_file_path, base_csv_file_path):
-    with open(txt_file_path, 'r') as txt_file:
+def txt_to_csv(txt_file_path, csv_file_path):
+    with open(txt_file_path, 'r') as txt_file, open(csv_file_path, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+        
+        # Escribir los encabezados
+        csv_writer.writerow(['timestamp', 'ecg'])
+        
         # Saltar las líneas de encabezado
         for line in txt_file:
             if line.startswith('#'):
                 continue
             break  # La primera línea después del encabezado ya está leída
         
-        window_data = []
         timestamp = 0  # Inicializa el timestamp en 0
-        window_count = 0  # Contador de ventanas
         
+        # Escribir el resto de las líneas procesadas
         for line in txt_file:
             columns = line.strip().split('\t')  # Asumiendo que los valores están separados por tabulaciones
             if len(columns) >= 6:
-                window_data.append([timestamp, columns[5]])  # Añadir el timestamp y el valor de ECG
+                # Escribir el timestamp y la sexta columna (ECG)
+                csv_writer.writerow([timestamp, columns[5]])
                 timestamp += 1  # Incrementar el timestamp por 1 ms
-                if len(window_data) == 750:
-                    # Crear el archivo CSV para la ventana actual de datos
-                    csv_file_path = f"{base_csv_file_path}window{window_count}.csv"
-                    with open(csv_file_path, 'w', newline='') as csv_file:
-                        csv_writer = csv.writer(csv_file)
-                        csv_writer.writerow(['timestamp', 'ecg'])  # Escribir los encabezados
-                        csv_writer.writerows(window_data)  # Escribir las filas de datos
-                    window_count += 1
-                    window_data = []  # Reiniciar los datos de la ventana
 
-        # Si hay datos restantes en la última ventana incompleta, escribirlos también
-        if window_data:
-            csv_file_path = f"{base_csv_file_path}window{window_count}.csv"
-            with open(csv_file_path, 'w', newline='') as csv_file:
-                csv_writer = csv.writer(csv_file)
-                csv_writer.writerow(['timestamp', 'ecg'])  # Escribir los encabezados
-                csv_writer.writerows(window_data)  # Escribir las filas de datos
+# Ejemplo de uso
+txt_file_path = 'ECG_Reposo1.txt'
+csv_file_path = 'ECG_Reposo1.csv'
+txt_to_csv(txt_file_path, csv_file_path)
+
+api_key = 'ei_9fd00242dc38a411c3e476920d7355b834d92106ed48ffacbd46ed10769bd1e0'
+
+# Agrega los archivos .csv que deseas subir a Edge Impulse
+files = [
+    'ECG_Reposo1.csv',
+]
+
+# Reemplaza la etiqueta con la tuya propia.
+label = 'car'
+
+# Prepara los archivos para la solicitud
+prepared_files = []
+for file in files:
+    prepared_files.append(('data', (os.path.basename(file), open(file, 'rb'), 'text/csv')))
+
+# Sube el archivo a Edge Impulse usando la API y imprime la respuesta.
+try:
+    res = requests.post(url='https://ingestion.edgeimpulse.com/api/training/files',
+                        headers={
+                            'x-label': label,
+                            'x-api-key': api_key,
+                        },
+                        files=prepared_files)
+
+    if res.status_code == 200:
+        print('Uploaded file(s) to Edge Impulse\n', res.status_code, res.content)
+    else:
+        print('Failed to upload file(s) to Edge Impulse\n', res.status_code, res.content)
+finally:
+    # Asegúrate de cerrar los archivos después de la solicitud
+    for _, (filename, fileobj, _) in prepared_files:
+        fileobj.close()
+
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
