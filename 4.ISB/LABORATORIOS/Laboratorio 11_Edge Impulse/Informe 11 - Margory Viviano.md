@@ -97,64 +97,64 @@ finally:
 ### ECG
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/db8a6aed-9f4c-40b8-a0c0-65852cdea8a3">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/db8a6aed-9f4c-40b8-a0c0-65852cdea8a3">
 <p align="center"><i>Figura 1. Reposo </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a10b2bdd-cbd5-4002-89ba-cd5b53c9c624">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/a10b2bdd-cbd5-4002-89ba-cd5b53c9c624">
 <p align="center"><i>Figura 2. Aguantando la respiración </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6e5df31b-8cba-492f-ae49-a66916712afc">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/6e5df31b-8cba-492f-ae49-a66916712afc">
 <p align="center"><i>Figura 3. Haciendo el ejercicio </i></p>
 </div>
 ![EJERCICIO]()
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5be3f095-d6b1-40b3-8d02-eda65195d029">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5be3f095-d6b1-40b3-8d02-eda65195d029">
 <p align="center"><i>Figura 4. Exhalación </i></p>
 </div>
 
 ### EEG
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/232a444b-094c-4694-acf3-ebd96d5635ba">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/232a444b-094c-4694-acf3-ebd96d5635ba">
 <p align="center"><i>Figura 5. Pulgar </i></p>
 </div>
 
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/08a23fd1-5960-4021-a19c-a4aee6b6ad83">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/08a23fd1-5960-4021-a19c-a4aee6b6ad83">
 <p align="center"><i>Figura 6. Biceps </i></p>
 </div>
     
 ### EMG
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cbf592b0-c528-4d5f-9f07-a1837d072349">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/cbf592b0-c528-4d5f-9f07-a1837d072349">
 <p align="center"><i>Figura 7. Reposo 1 </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5c8dc14c-3e7a-4896-becb-bd0ef46c50a4">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/5c8dc14c-3e7a-4896-becb-bd0ef46c50a4">
 <p align="center"><i>Figura 8. Abriendo y cerrando los ojos </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d0967a14-1ad5-42b9-8386-cd8dccd329f8">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/d0967a14-1ad5-42b9-8386-cd8dccd329f8">
 <p align="center"><i>Figura 9. Reposo 2 </i></p>
 </div>
 
 </div>
 <p align="center">
-<image width="500" height="300"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4cf7de3a-b665-4919-9bb6-75b270de5b2c">
+<image width="500" height="250"src="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/4cf7de3a-b665-4919-9bb6-75b270de5b2c">
 <p align="center"><i>Figura 10. Ronda de preguntas </i></p>
 </div>
