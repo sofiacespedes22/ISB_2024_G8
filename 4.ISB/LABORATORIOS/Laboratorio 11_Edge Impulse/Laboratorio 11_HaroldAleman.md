@@ -192,35 +192,35 @@ upload_to_edge_impulse(base_csv_file_path, api_key, label)
 ### ECG
  </p>
 <p align="center">
- <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/asistolia.png">
+ <img width="250" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/ImagenesHarold/ECG_Reposo.png">
 <h5 align="center">
-  <i>Figura 1. Señal de ECG de un paciente con asistolia </i></div>
+  <i>Figura 1. Señal de ECG de un paciente en reposo (Con una ventana de 1s)</i></div>
 <br /> </p>
 </h5>
 
 
 </p>
 <p align="center">
- <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/ECG_REPOSO.png">
+ <img width="250" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/ImagenesHarold/ECG_paro1.png">
 <h5 align="center">
-  <i>Figura 3. Señal de ECG en un paciente en respoo</i></div>
+  <i>Figura 3. Señal de ECG para la primera etapa de un paro cardiaco (Con una ventana de 1s)</i></div>
 <br /> </p>
 </h5>
 
 ### EEG
 </p>
 <p align="center">
- <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/ej%20mate.png">
+ <img width="250" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/ImagenesHarold/EEG_Mate.png">
 <h5 align="center">
-  <i>Figura 4. Señal de EEG tras realizar un ejercicio matemático </i></div>
+  <i>Figura 4. Señal de EEG tras realizar un ejercicio matemático (Con una ventana de 2s)</i></div>
 <br /> </p>
 </h5>
 
 </p>
 <p align="center">
- <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/EEG_REPOSO.png">
+ <img width="250" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/ImagenesHarold/EEG_Reposo.png">
 <h5 align="center">
-  <i>Figura 5. Señal de EEG en reposo </i></div>
+  <i>Figura 5. Señal de EEG en reposo (Con una ventana de 2s)</i></div>
 <br /> </p>
 </h5>
     
@@ -228,17 +228,17 @@ upload_to_edge_impulse(base_csv_file_path, api_key, label)
 
 </p>
 <p align="center">
- <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/oposicion.png">
+ <img width="250" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/ImagenesHarold/EMGPulg.png">
 <h5 align="center">
-  <i>Figura 6. Señal EMG en haciendo oposición </i></div>
+  <i>Figura 6. Señal EMG en haciendo movimiento del pulgar </i></div>
 <br /> </p>
 </h5>
 
 </p>
 <p align="center">
- <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/EMG_REPOSO.png">
+ <img width="250" height="150" src="https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/ImagenesHarold/EMG_Bicep.png">
 <h5 align="center">
-  <i>Figura 7. Señal ENG en reposo </i></div>
+  <i>Figura 7. Señal EMG haciendo movimiento del biceps </i></div>
 <br /> </p>
 </h5>
 <h2 style = "text-align: center;">Links de proyecto</h2>
