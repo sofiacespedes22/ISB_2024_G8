@@ -12,9 +12,9 @@ Integrante:
 
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
-1. [IMMPULSE EDGE - EMG]()</p>
-2. [IMMPULSE EDGE - ECG]()</p>
-3. [IMMPULSE EDGE - EEG]()</p>
+1. [IMMPULSE EDGE - EMG](https://studio.edgeimpulse.com/public/431212/live)</p>
+2. [IMMPULSE EDGE - ECG](https://studio.edgeimpulse.com/public/431207/live)</p>
+3. [IMMPULSE EDGE - EEG](https://studio.edgeimpulse.com/public/431213/live)</p>
 
 <h2 style = "text-align: center;">Imagenes</h2>
 
