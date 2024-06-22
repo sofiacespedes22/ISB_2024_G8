@@ -10,9 +10,11 @@ Integrante:
 
 <h2 style = "text-align: center;">Código en python</h2>
 1. Codigo de python: 
-a. [EMG]()</p>
-b. [ECG]()</p>
-c. [EEG]()</p>
+
+
+a. [EMG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/a831ccc509dd4bf71fdfe4905482f315d5469a03/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%2IImpulse/Codigos/emg.py)</p>
+b. [ECG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/a831ccc509dd4bf71fdfe4905482f315d5469a03/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Codigos/ecg.py)</p>
+c. [EEG](https://github.com/sofiacespedes22/ISB_2024_G8/blob/a831ccc509dd4bf71fdfe4905482f315d5469a03/4.ISB/LABORATORIOS/Laboratorio%2011_Edge%20Impulse/Codigos/eeg.py)</p>
 
 ``` python
 import requests
