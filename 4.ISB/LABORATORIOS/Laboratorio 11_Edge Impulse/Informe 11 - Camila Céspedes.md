@@ -61,7 +61,42 @@ def txt_to_csv_first_window(txt_file_path, base_csv_file_path):
 
 ### ECG
 
+</div>
+<p align="center">
+<image width="500" height="250"src="">
+<p align="center"><i>Figura 1. Reposo </i></p>
+</div>
+
+</div>
+<p align="center">
+<image width="500" height="250"src="">
+<p align="center"><i>Figura 2. Salto </i></p>
+</div>
 
 ### EEG
 
+</div>
+<p align="center">
+<image width="500" height="250"src="">
+<p align="center"><i>Figura 3. Pulgar </i></p>
+</div>
+
+</div>
+<p align="center">
+<image width="500" height="250"src="">
+<p align="center"><i>Figura 4. Bíceps </i></p>
+</div>
+
 ### EMG
+
+</div>
+<p align="center">
+<image width="500" height="250"src="">
+<p align="center"><i>Figura 5. Ojos cerrados </i></p>
+</div>
+
+</div>
+<p align="center">
+<image width="500" height="250"src="">
+<p align="center"><i>Figura 6. Preguntas </i></p>
+</div>
