@@ -12,7 +12,6 @@ Integrante:
 1. Codigo de python: 
 
 ``` python
-```python
 import requests
 import os
 import csv
