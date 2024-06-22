@@ -53,9 +53,9 @@ def txt_to_csv_first_window(txt_file_path, base_csv_file_path):
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
-1. [IMMPULSE EDGE - EMG]()</p>
-2. [IMMPULSE EDGE - ECG]()</p>
-3. [IMMPULSE EDGE - EEG]()</p>
+1. [IMMPULSE EDGE - EMG](https://studio.edgeimpulse.com/public/431209/live)</p>
+2. [IMMPULSE EDGE - ECG](https://studio.edgeimpulse.com/public/431174/live)</p>
+3. [IMMPULSE EDGE - EEG](https://studio.edgeimpulse.com/public/431211/live)</p>
 
 <h2 style = "text-align: center;">Imagenes</h2>
 
