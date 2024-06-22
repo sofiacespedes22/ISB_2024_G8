@@ -10,6 +10,9 @@ Integrante:
 
 <h2 style = "text-align: center;">Código en python</h2>
 1. Codigo de python: 
+a. [EMG]()</p>
+b. [ECG]()</p>
+c. [EEG]()</p>
 
 ``` python
 import requests
