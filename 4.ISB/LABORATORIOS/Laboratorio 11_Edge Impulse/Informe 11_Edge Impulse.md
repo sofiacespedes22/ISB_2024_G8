@@ -1,5 +1,5 @@
 <h1 style="text-align: center;">Laboratorio 11: Edge impulse (EI)</h1>
-Integrante: 
+Integrante:
 
 - 
 <a id = "Informe edge impulse" style></a>
