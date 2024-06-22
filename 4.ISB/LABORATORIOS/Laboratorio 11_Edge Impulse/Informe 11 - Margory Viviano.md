@@ -9,6 +9,7 @@ Integrante:
 
 <h2 style = "text-align: center;">Código en python</h2>
 1. Codigo de python: 
+
 ```python
 import requests
 import os
