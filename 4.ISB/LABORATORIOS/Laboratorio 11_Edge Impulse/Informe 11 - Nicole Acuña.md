@@ -92,12 +92,3 @@ finally:
 1. [IMMPULSE EDGE - EMG](https://studio.edgeimpulse.com/public/431205/live)</p>
 2. [IMMPULSE EDGE - ECG](https://studio.edgeimpulse.com/public/431177/live)</p>
 3. [IMMPULSE EDGE - EEG](https://studio.edgeimpulse.com/public/431208/live)</p>
-
-<h2 style = "text-align: center;">Imagenes</h2>
-
-### ECG
-
-
-### EEG
-
-### EMG
