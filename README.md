@@ -3,7 +3,7 @@ _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, per
 
 [VIDEO DE PRESENTACIÓN DE PROYECTO-ENTREGABLE 2] (https://drive.google.com/file/d/17dZ4Mwn9M4dnpwxiMMzACiq5peL5-b6z/view?usp=sharing)
 
-# **PROYECTO: Desarrollo de un algoritmo para la detección de arritmias en adultos mayores a partir de la comparación de 2 clasificadores usando señales ECG**
+# **PROYECTO: MibHolter: real-time Holter monitor for arrythmia classification using HL7 communication**
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
 
 <p align="center">  
