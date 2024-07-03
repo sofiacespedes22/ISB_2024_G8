@@ -20,16 +20,21 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 <a name="intro"></a>
 ## Resumen
-
+Este proyecto presenta MibHolter, un monitor Holter de ECG de bajo coste y en tiempo real diseñado para clasificar las arritmias utilizando el estándar HL7 para mejorar la integración de datos con los sistemas sanitarios electrónicos. Los monitores Holter tradicionales se enfrentan a problemas de integración de datos, lo que provoca errores y retrasos en la interpretación médica. La solución que proponemos consiste en utilizar el kit BITalino para la adquisición de señales de ECG, aplicar técnicas de preprocesamiento como el filtrado FIR y Notch, y extraer características para identificar las características significativas del ECG. El sistema emplea el algoritmo K-Nearest Neighbors (kNN) para la clasificación de arritmias y garantiza la visualización y transmisión de datos sin fisuras a través de HL7. Los resultados iniciales demuestran la eficacia de este enfoque, con una elevada precisión de clasificación y un sólido rendimiento a la hora de distinguir las arritmias de los ritmos cardíacos normales. Aprovechando HL7, este proyecto pretende mejorar la monitorización cardiaca en tiempo real y, con ello, la atención al paciente y la eficacia diagnóstica.
 <a name="problematica"></a>
+
 ## Motivación
+El monitoreo cardíaco remoto es una tecnología avanzada que permite la vigilancia continua de la actividad cardíaca de un paciente sin necesidad de su presencia en un entorno clínico. Utilizando dispositivos portátiles o implantables, se recopilan datos cardíacos para su posterior interpretación, lo que mejora el diagnóstico de ciertas patologías. Uno de los dispositivos más utilizados en este ámbito es el monitor Holter, que registra la actividad eléctrica del corazón de forma continua durante 24 a 48 horas <sup>[1](https://www.ncbi.nlm.nih.gov/books/NBK538203/)</sup> , proporcionando datos primarios como el complejo QRS y el intervalo RR. El uso del monitor Holter ha aumentado significativamente con el tiempo, convirtiéndose en una herramienta crucial para los profesionales de la salud en la detección temprana y manejo de arritmias y otras patologías cardíacas. 
+Sin embargo, una de las principales limitaciones de los dispositivos Holter tradicionales es la integración de los datos recolectados con los sistemas de información de salud  electrónicos. Los datos de estos dispositivos a menudo requieren procesos manuales de transferencia y conversión, lo que puede llevar a errores y retrasos en la interpretación médica. Esta falta de integración eficaz impide una atención 
+médica oportuna y coordinada, afectando negativamente el manejo de los pacientes. <sup>[2](https://digital.ahrq.gov/sites/default/files/docs/citation/pghd-practical-guide.pdf)</sup>
+Es por ello, que la motivación principal para desarrollar el proyecto MibHolter surge de la necesidad crítica de mejorar la integración y eficiencia de los datos cardíacos en el monitoreo remoto. A pesar de que los dispositivos Holter tradicionales son esenciales para la detección y manejo de arritmias, enfrentan desafíos significativos en la transmisión y almacenamiento de datos, lo que puede llevar a errores y retrasos en la interpretación médica. Encuestas realizadas a profesionales de la salud revelaron que el 50 % se mostró insatisfecho con los problemas relacionados con la gestión de los dispositivos de monitoreo remoto, señalando la mala conectividad, los problemas de personal y el gran volumen de alertas como principales inconvenientes <sup>[3](https://www.sciencedirect.com/science/article/pii/S2666501821002804)</sup> . La implementación del estándar HL7 se presenta como una solución prometedora para superar estas limitaciones, facilitando la interoperabilidad entre los dispositivos de monitoreo y los sistemas de información de salud electrónicos. Al adoptar HL7, se espera que MibHolter proporcione una transmisión y almacenamiento de datos más eficientes y seguros, permitiendo una atención médica más oportuna y coordinada. Además, este proyecto busca ofrecer una solución rentable y accesible utilizando componentes asequibles como el kit BITalino, haciendo que el monitoreo cardíaco avanzado sea más accesible para una población de pacientes más amplia. En resumen, la integración exitosa de HL7 en MibHolter tiene el potencial de revolucionar el monitoreo cardíaco remoto, mejorando la calidad de la atención médica y optimizando la gestión de datos cardíacos en tiempo real.
 
 <a name="estado"></a>
 ## Principales hallazgos
 
 
 <a name="analisis"></a>
-## Integrantes
+## Sobre nosotros
 
 
 
@@ -57,3 +62,8 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 
 <a name="referencias"></a>
 ## Referencias
+[1] A. Mubarik and A. M. Iqbal, Holter Monitor. StatPearls Publishing,2022.
+
+[2] “Integrating Patient-Generated Health Data into Electronic Health.Records in Ambulatory Care Settings: A Practical Guide,” Ahrq.gov,Dec-2021. [Online]. Available:https://digital.ahrq.gov/sites/default/files/docs/citation/pghd-practicalguide.pdf. [Accessed: 03-Jul-2024].
+
+[3] M. Harvey and A. Seiler, “Challenges in managing a remote monitoring device clinic,” Heart Rhythm O2, vol. 3, no. 1, pp. 3–7, 2022
