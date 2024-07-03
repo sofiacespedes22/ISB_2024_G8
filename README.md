@@ -1,7 +1,6 @@
 ## *Bienvenidos al repositorio del Grupo 8 en el curso “Introducción a Señales Biomédicas”*
 _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, pertenecientes a la Pontificia Universidad Católica del Perú (PUCP) y la Universidad Peruana Cayetano Heredia (UPCH), en el semestre 2024-1_
 
-[VIDEO DE PRESENTACIÓN DE PROYECTO-ENTREGABLE 2] (https://drive.google.com/file/d/17dZ4Mwn9M4dnpwxiMMzACiq5peL5-b6z/view?usp=sharing)
 
 # **PROYECTO: MibHolter: real-time Holter monitor for arrythmia classification using HL7 communication**
 Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
@@ -11,55 +10,30 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 </p>
 <p align="center"><i>Figura 1. Electrocardiograma</i></p>
 
-[VIDEO DE PRESENTACIÓN DE PROYECTO] (https://drive.google.com/drive/folders/1FEm2Pc4ruVGaKf2r64uYcRyfktOaxjX2?usp=sharing)
-
-
 ## Tabla de contenidos
-1. [Introducción](#intro)
-2. [Problemática](#problematica)
-3. [Estado del arte](#estado)
-4. [Objetivos](#objetivos)
-5. [Materiales](#materiales)
-6. [Metodología](#metodologia)
-7. [Resultados](#resultados)
-8. [Análisis de resultados](#analisis)
-9. [Conclusiones](#conclusiones)
-10. [Integrantes](#integrantes)
-11. [Docentes del curso](#docentes)
-    - [Profesores](#profesores)
-    - [Jefes de práctica](#jp)
-13. [Referencias](#referencias)
+1. [Resumen](#intro)
+2. [Motivación](#problematica)
+3. [Principales Hallazgos](#estado)
+4. [Sobre Nosotros](#analisis)
+5. [Docentes](#docentes)
+   5.1. [Profesores](#profesores)
+   5.2. [JP](#jp)
+6. [Referencias](#referencias)
 
 <a name="intro"></a>
-## Introducción
+## Resumen
 
 <a name="problematica"></a>
-## Problemática
+## Motivación
 
 <a name="estado"></a>
-## Estado del arte
+## Principales hallazgos
 
-<a name="objetivos"></a>
-## Objetivos
-
-<a name="materiales"></a>
-## Materiales
-
-<a name="metodologia"></a>
-## Metodología
-
-<a name="resultados"></a>
-## Resultados
 
 <a name="analisis"></a>
-## Análisis de resultados
-
-<a name="conclusiones"></a>
-## Conclusiones
-
-<a name="integrantes"></a>
 ## Integrantes
-<p align="center">
+
+
 
 |**CAMILA CESPEDES TRECE SOFIA**|**CHRIS MARGORY VIVIANO SALVATIERRA**|**NICOLE STEFANY ACUÑA MALPARTIDA**|**HAROLD ALONSO ALEMÁN RAMIREZ**|
 |:-----------------------------:|:-----------------------------------:|:---------------------------------:|:------------------------------:|
@@ -78,11 +52,9 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 - Moisés Stevend Meza Rodriguez [moises.meza@upch.pe]
 
 <a name="jp"></a>
-
 ### Jefes de Prácticas
 - Julissa Elvira Venancio Huerta [julissa.venancio@upch.pe]
 - Jose Alonso Cáceres del Aguila [jose.caceres.d@upch.com]
-
 
 
 <a name="referencias"></a>
