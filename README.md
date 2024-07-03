@@ -31,12 +31,14 @@ Es por ello, que la motivación principal para desarrollar el proyecto MibHolter
 
 <a name="estado"></a>
 ## Principales hallazgos
+MibHolter ha demostrado una eficiencia notable en la obtención de mediciones de señales ECG, así como de la clasificación en el tipo de arritmias. Los principales hallazgos del proyecto incluyen la efectividad del filtrado utilizado, pues se logró una significativa mejor en la claridad de las arritmias. Asimismo, el análisis en tiempo real de las características extraídas resaltó la robustez del sistema al evidenciar parámetros como minRR, maxRR, avgRR y rmsSD. El modelo de clasificación utilizado, kNN, alcanzó una precisión del 97.3% en la clasificación de arritmias, con una baja tasa de error del 2.7% como se observó en la matriz de confusión. Un hallazago fundamente fue la la integración del estándar HL7 en la interfaz de visualización y transmisión de datos, pues asegura una gestion eficiente y segura de los datos del paciente, permitiendo una atención oportuna y coordinada para permitir el telemonitoreo. Estos hallazgos resaltan la capacidad del MibHolter de ser una solución rentable y accesible para la monitorización cardíaca avanzada, promoviendo innovación y mejorando la atención cardíaca mediante la integración de tecnologías de monitoreo remoto. 
 
 
 <a name="analisis"></a>
 ## Sobre nosotros
 
-
+### Referencia al entregable 1:
+[Entregable 1](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/1.MIEMBROS%20DEL%20EQUIPO/Grupo8.md)
 
 |**CAMILA CESPEDES TRECE SOFIA**|**CHRIS MARGORY VIVIANO SALVATIERRA**|**NICOLE STEFANY ACUÑA MALPARTIDA**|**HAROLD ALONSO ALEMÁN RAMIREZ**|
 |:-----------------------------:|:-----------------------------------:|:---------------------------------:|:------------------------------:|
