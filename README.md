@@ -16,8 +16,6 @@ Se buscará desarrollar un sistema que permita la adquisición y procesamiento d
 3. [Principales Hallazgos](#estado)
 4. [Sobre Nosotros](#analisis)
 5. [Docentes](#docentes)
-   5.1. [Profesores](#profesores)
-   5.2. [JP](#jp)
 6. [Referencias](#referencias)
 
 <a name="intro"></a>
