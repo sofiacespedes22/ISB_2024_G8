@@ -3,7 +3,7 @@ _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, per
 
 
 # **PROYECTO: MibHolter: real-time Holter monitor for arrythmia classification using HL7 communication**
-Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos a partir de clasificadores (CNN y SVM).
+Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos mediante el uso del clasificador K-Nearest Neighbors (KNN).
 
 <p align="center">  
 <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b127d17a-f956-476d-9281-47ab93999567"> 
