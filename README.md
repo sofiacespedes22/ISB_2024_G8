@@ -24,18 +24,7 @@ Este proyecto presenta MibHolter, un monitor Holter de ECG de bajo coste y en ti
 <a name="problematica"></a>
 
 ## Motivación
-El monitoreo cardíaco remoto es una tecnología avanzada que permite la vigilancia continua de la actividad cardíaca de un paciente sin necesidad de su presencia en un entorno clínico. Utilizando dispositivos portátiles o implantables, se recopilan datos cardíacos para su posterior interpretación, lo que mejora el diagnóstico de ciertas patologías.
-
-### Importancia del Monitor Holter
-Uno de los dispositivos más utilizados en este ámbito es el monitor Holter, que registra la actividad eléctrica del corazón de forma continua durante 24 a 48 horas <sup>[1](https://www.ncbi.nlm.nih.gov/books/NBK538203/)</sup> , proporcionando datos primarios como el complejo QRS y el intervalo RR. El uso del monitor Holter ha aumentado significativamente con el tiempo, convirtiéndose en una herramienta crucial para los profesionales de la salud en la detección temprana y manejo de arritmias y otras patologías cardíacas.
-
-### Limitaciones de los Dispositivos Holter Tradicionales
-Sin embargo, una de las principales limitaciones de los dispositivos Holter tradicionales es la integración de los datos recolectados con los sistemas de información de salud electrónicos. Los datos de estos dispositivos a menudo requieren procesos manuales de transferencia y conversión, lo que puede llevar a errores y retrasos en la interpretación médica. <sup>[2](https://digital.ahrq.gov/sites/default/files/docs/citation/pghd-practical-guide.pdf)</sup> Esta falta de integración eficaz impide una atención médica oportuna y coordinada, afectando negativamente el manejo de los pacientes.
-
-### Necesidad de Mejora: Proyecto MibHolter
-Es por ello que la motivación principal para desarrollar el proyecto MibHolter surge de la necesidad crítica de mejorar la integración y eficiencia de los datos cardíacos en el monitoreo remoto. A pesar de que los dispositivos Holter tradicionales son esenciales para la detección y manejo de arritmias, enfrentan desafíos significativos en la transmisión y almacenamiento de datos, lo que puede llevar a errores y retrasos en la interpretación médica.
-
-Encuestas realizadas a profesionales de la salud revelaron que el 50 % se mostró insatisfecho con los problemas relacionados con la gestión de los dispositivos de monitoreo remoto, señalando la mala conectividad, los problemas de personal y el gran volumen de alertas como principales inconvenientes. <sup>[3](https://www.sciencedirect.com/science/article/pii/S2666501821002804)</sup>
+En un contexto donde las enfermedades cardiovasculares (ECV) representan la principal causa de muerte a nivel global, con un alarmante 31% de los decesos atribuidos a ellas según la Organización Mundial de la Salud <sup>[1](https://www.who.int/news-room/factsheets/detail/cardiovascular-diseases-(cvds))</sup> , las arritmias cardíacas emergen como trastornos críticos que afectan la frecuencia y el ritmo cardíaco. En Perú, estas arritmias muestran una prevalencia significativa entre adultos mayores de 60 años, con un riesgo del 50.8% <sup>[2](https://www.gob.pe/institucion/minsa/noticias/655525-el-50-8-de-personas-de-60-anos-a-mas-tienen-muy-alto-riesgo-de-padecer-de-enfermedades-cardiovasculares.)</sup>. La detección temprana de estas irregularidades cardiacas es crucial, siendo el monitor Holter la herramienta más utilizada para el monitoreo continuo de la actividad eléctrica del corazón durante 24 a 48 horas mediante señales electrocardiográficas (ECG), destacando el análisis de parámetros como el complejo QRS y el intervalo RR. Sin embargo, la escasez de especialistas médicos, especialmente cardiólogos, plantea desafíos significativos para un diagnóstico oportuno y tratamiento efectivo <sup>[3](http://bvs.minsa.gob.pe/local/minsa/3107-2.pdf)</sup>. Además, la falta de métodos automatizados precisos para la clasificación de arritmias y la interoperabilidad limitada entre sistemas de salud y dispositivos de monitoreo ECG subrayan la necesidad urgente de estandarización en la estructura y formato de los datos generados por los Holter, garantizando así una interpretación consistente y decisiones clínicas precisas <sup>[4](10.1016/j.jelectrocard.2018.07.028)</sup> <sup>[5](https://www.iosrjournals.org/iosr-jmca/papers/Vol2-issue2/D0221925.pdf)</sup>.
 
 <a name="estado"></a>
 ## Principales hallazgos
@@ -72,8 +61,13 @@ MibHolter ha demostrado una eficiencia notable en la obtención de mediciones de
 
 <a name="referencias"></a>
 ## Referencias
-[1] A. Mubarik and A. M. Iqbal, Holter Monitor. StatPearls Publishing,2022.
+[1]	“Cardiovascular diseases (CVDs).” https://www.who.int/news-room/factsheets/detail/cardiovascular-diseases-(cvds)
 
-[2] “Integrating Patient-Generated Health Data into Electronic Health.Records in Ambulatory Care Settings: A Practical Guide,” Ahrq.gov,Dec-2021. [Online]. Available:https://digital.ahrq.gov/sites/default/files/docs/citation/pghd-practicalguide.pdf. [Accessed: 03-Jul-2024].
+[2]	Ministerio de Salud (MINSA), "El 50.8 % de personas de 60 años a más tienen muy alto riesgo de padecer de enfermedades cardiovasculares" [En línea]. Disponible en: https://www.gob.pe/institucion/minsa/noticias/655525-el-50-8-de-personas-de-60-anos-a-mas-tienen-muy-alto-riesgo-de-padecer-de-enfermedades-cardiovasculares. 
 
-[3] M. Harvey and A. Seiler, “Challenges in managing a remote monitoring device clinic,” Heart Rhythm O2, vol. 3, no. 1, pp. 3–7, 2022
+[3](N.d.). Gob.Pe. Retrieved July 5, 2024, from http://bvs.minsa.gob.pe/local/minsa/3107-2.pdf
+
+[4]Badilini F., Young B., Brown B., Vaglio M. Archiving and exchange of digital ECGs: A review of existing data formats. J. Electrocardiol. 2018;51:S113–S115. doi: 10.1016/j.jelectrocard.2018.07.028.
+
+[5]Olamidipupo S.A., Danas K. Review of interoperability techniques in data acquisition of wireless ECG devices. IOSR J. Mob. Comput. Appl. 2015;2:19–25.
+
