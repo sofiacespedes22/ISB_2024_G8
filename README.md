@@ -3,7 +3,7 @@ _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, per
 
 
 # **PROYECTO: Cardiac arrhythmia classification using deep learning algorithm integrated with HL7 protocol**
-Se buscará desarrollar un sistema avanzado para la detección y clasificación automatizada de arritmias cardíacas. Nuestro enfoque integrará el clasificador K-Nearest Neighbors (KNN) con el protocolo HL7, garantizando así la interoperabilidad y el intercambio eficiente de datos entre dispositivos de monitoreo y sistemas de salud.  
+La propuesta del proyecto consiste en el desarrollo de un algoritmo de deep learning que permita el análisis de señales ECG obtenidas de monitores Holter para la posterior clasificación de arritmias. Asímismo, diseñamos una interfaz en la cual se podrán visualizar tanto las señales ECG como las clasificaciones arrojadas por nuestro algortimo y utiliza el estándar HL7 para garantizar una monitorización del estado del paciente, para garantizar una integración fluida y eficiente con los diferentes sitemas de información existentes en las instituciones de salud.
 
 <p align="center">  
 <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b127d17a-f956-476d-9281-47ab93999567"> 
