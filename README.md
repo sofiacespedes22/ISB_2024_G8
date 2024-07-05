@@ -2,8 +2,8 @@
 _Proyecto realizado por estudiantes de la carrera de Ingeniería Biomédica, pertenecientes a la Pontificia Universidad Católica del Perú (PUCP) y la Universidad Peruana Cayetano Heredia (UPCH), en el semestre 2024-1_
 
 
-# **PROYECTO: MibHolter: real-time Holter monitor for arrythmia classification using HL7 communication**
-Se buscará desarrollar un sistema que permita la adquisición y procesamiento de señales de un electrocardiograma (ECG) para la detección del tipo de arritmia en pacientes adultos mediante el uso del clasificador K-Nearest Neighbors (KNN).
+# **PROYECTO: Cardiac arrhythmia classification using deep learning algorithm integrated with HL7 protocol**
+Se buscará desarrollar un sistema avanzado para la detección y clasificación automatizada de arritmias cardíacas. Nuestro enfoque integrará el clasificador K-Nearest Neighbors (KNN) con el protocolo HL7, garantizando así la interoperabilidad y el intercambio eficiente de datos entre dispositivos de monitoreo y sistemas de salud.  
 
 <p align="center">  
 <image src ="https://github.com/sofiacespedes22/ISB_2024_G8/assets/164541825/b127d17a-f956-476d-9281-47ab93999567"> 
